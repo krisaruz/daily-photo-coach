@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Photo Coach · 摄影学习日志</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { serif: ['"Noto Serif SC"', 'Georgia', 'serif'], sans: ['Inter', 'system-ui', 'sans-serif'] },
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: #faf9f7;
+            -webkit-font-smoothing: antialiased;
+        }
+        .font-serif { font-family: 'Noto Serif SC', Georgia, serif; }
+        body::before {
+            content: ''; position: fixed; inset: 0; z-index: -1;
+            background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.015) 1px, transparent 0);
+            background-size: 32px 32px;
+        }
+        .day-card {
+            transition: all 0.25s cubic-bezier(0.4,0,0.2,1);
+        }
+        .day-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06), 0 16px 40px rgba(0,0,0,0.06);
+        }
+        .day-card:hover .arrow { transform: translateX(4px); }
+        .arrow { transition: transform 0.25s ease; }
+    </style>
+</head>
+<body class="text-slate-700 min-h-screen">
+
+    <!-- Hero 区域 -->
+    <header class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
+        <div class="absolute inset-0 opacity-[0.03]"
+             style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2260%22 height=%2260%22><rect width=%2260%22 height=%2260%22 fill=%22none%22/><path d=%22M0 30h60M30 0v60%22 stroke=%22white%22 stroke-width=%220.5%22/></svg>')">
+        </div>
+        <div class="relative max-w-[900px] mx-auto px-6 py-20 text-center">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 backdrop-blur rounded-full text-white/60 text-xs font-medium mb-6 border border-white/10">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                每日自动更新
+            </div>
+            <h1 class="font-serif text-4xl md:text-5xl font-black text-white tracking-tight leading-tight">
+                Daily Photo Coach
+            </h1>
+            <p class="text-lg text-white/50 mt-4 font-light max-w-md mx-auto leading-relaxed">
+                从优秀摄影作品中学习拍摄技巧<br>
+                曝光 · 构图 · 光线 · 色彩 · 后期
+            </p>
+            <div class="mt-8 flex items-center justify-center gap-6 text-sm">
+                <div class="text-white/70">
+                    <span class="text-2xl font-bold text-white tabular-nums">{{ days | length }}</span>
+                    <span class="ml-1">天学习</span>
+                </div>
+                <div class="w-px h-8 bg-white/15"></div>
+                <div class="text-white/70">
+                    <span class="text-2xl font-bold text-white tabular-nums">{{ total_photos }}</span>
+                    <span class="ml-1">张分析</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 日期列表 -->
+    <main class="max-w-[900px] mx-auto px-6 py-12">
+        {% if days %}
+        <div class="space-y-4">
+            {% for day in days %}
+            <a href="{{ day.date }}/index.html"
+               class="day-card block bg-white rounded-2xl border border-stone-200/70 p-6 shadow-[0_1px_3px_rgba(0,0,0,0.03)]">
+                <div class="flex items-center justify-between gap-4">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-3">
+                            <div class="font-serif text-xl font-bold text-slate-900 tabular-nums">
+                                {{ day.date }}
+                            </div>
+                            <span class="text-sm text-slate-400 font-medium">{{ day.photo_count }} 张</span>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 mt-3">
+                            {% for label in day.style_labels %}
+                            <span class="inline-block px-2.5 py-0.5 bg-slate-50 text-slate-500 text-xs font-medium rounded-md border border-slate-200/80">
+                                {{ label }}
+                            </span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="arrow flex-shrink-0 text-slate-300">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="text-center py-24">
+            <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-slate-100 text-3xl mb-6">📷</div>
+            <h2 class="font-serif text-xl font-bold text-slate-900">还没有学习记录</h2>
+            <p class="text-slate-500 mt-3 max-w-sm mx-auto leading-relaxed">
+                运行以下命令开始第一天的摄影学习
+            </p>
+            <div class="mt-5 inline-block bg-slate-900 text-emerald-400 px-5 py-3 rounded-xl text-sm font-mono">
+                python src/main.py
+            </div>
+        </div>
+        {% endif %}
+    </main>
+
+    <footer class="py-14 text-center border-t border-stone-200/60">
+        <div class="font-serif text-base font-bold text-slate-300 tracking-wide">Daily Photo Coach</div>
+        <div class="text-xs text-slate-400 mt-1.5">让每一天都有新的摄影灵感</div>
+    </footer>
+</body>
+</html>
