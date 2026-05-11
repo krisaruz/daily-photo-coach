@@ -97,6 +97,7 @@ def daily_run(
     target_date: str,
     skip_fetch: bool = False,
     skip_analysis: bool = False,
+    force_analysis: bool = False,
     per_style: int | None = None,
     style_filter: list[str] | None = None,
 ):
@@ -147,7 +148,7 @@ def daily_run(
         for label, photos in grouped_photos.items():
             for photo in photos:
                 done += 1
-                if photo.get("analysis") and skip_fetch:
+                if photo.get("analysis") and skip_fetch and not force_analysis:
                     logger.info("[%d/%d] 已有分析，跳过: %s", done, total, photo["id"])
                     continue
                 logger.info("[%d/%d] [%s] 分析中: %s", done, total, label, photo["id"])
@@ -173,6 +174,7 @@ def main():
     parser.add_argument("--date", type=str, default=None, help="指定日期 (YYYY-MM-DD)")
     parser.add_argument("--skip-fetch", action="store_true", help="跳过抓取，使用已有照片")
     parser.add_argument("--skip-analysis", action="store_true", help="跳过 LLM 分析（仅抓图+渲染）")
+    parser.add_argument("--force-analysis", action="store_true", help="强制重新分析（忽略已有结果）")
     parser.add_argument("--per-style", type=int, default=None, help="每种风格的照片数")
     parser.add_argument("--styles", nargs="+", default=None, help="只跑指定风格（关键词匹配）")
     args = parser.parse_args()
@@ -188,6 +190,7 @@ def main():
         target_date,
         skip_fetch=args.skip_fetch,
         skip_analysis=args.skip_analysis,
+        force_analysis=args.force_analysis,
         per_style=args.per_style,
         style_filter=args.styles,
     )
