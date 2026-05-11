@@ -96,6 +96,7 @@ def daily_run(
     config: dict,
     target_date: str,
     skip_fetch: bool = False,
+    skip_analysis: bool = False,
     per_style: int | None = None,
     style_filter: list[str] | None = None,
 ):
@@ -137,17 +138,20 @@ def daily_run(
         logger.info("成功抓取 %d 张照片（%d 种风格）", actual, len(grouped_photos))
 
     # --- Phase 2: LLM 分析 ---
-    logger.info("=== Phase 2: 摄影教学分析 ===")
-    total = sum(len(v) for v in grouped_photos.values())
-    done = 0
-    for label, photos in grouped_photos.items():
-        for photo in photos:
-            done += 1
-            if photo.get("analysis") and skip_fetch:
-                logger.info("[%d/%d] 已有分析，跳过: %s", done, total, photo["id"])
-                continue
-            logger.info("[%d/%d] [%s] 分析中: %s", done, total, label, photo["id"])
-            photo["analysis"] = analyzer.analyze_photo(photo, llm_config)
+    if skip_analysis:
+        logger.info("=== Phase 2: 跳过 LLM 分析（--skip-analysis）===")
+    else:
+        logger.info("=== Phase 2: 摄影教学分析 ===")
+        total = sum(len(v) for v in grouped_photos.values())
+        done = 0
+        for label, photos in grouped_photos.items():
+            for photo in photos:
+                done += 1
+                if photo.get("analysis") and skip_fetch:
+                    logger.info("[%d/%d] 已有分析，跳过: %s", done, total, photo["id"])
+                    continue
+                logger.info("[%d/%d] [%s] 分析中: %s", done, total, label, photo["id"])
+                photo["analysis"] = analyzer.analyze_photo(photo, llm_config)
 
     # --- Phase 3: 生成输出 ---
     logger.info("=== Phase 3: 生成输出 ===")
@@ -168,6 +172,7 @@ def main():
     parser.add_argument("--config", type=str, default=str(DEFAULT_CONFIG), help="配置文件路径")
     parser.add_argument("--date", type=str, default=None, help="指定日期 (YYYY-MM-DD)")
     parser.add_argument("--skip-fetch", action="store_true", help="跳过抓取，使用已有照片")
+    parser.add_argument("--skip-analysis", action="store_true", help="跳过 LLM 分析（仅抓图+渲染）")
     parser.add_argument("--per-style", type=int, default=None, help="每种风格的照片数")
     parser.add_argument("--styles", nargs="+", default=None, help="只跑指定风格（关键词匹配）")
     args = parser.parse_args()
@@ -182,6 +187,7 @@ def main():
         config,
         target_date,
         skip_fetch=args.skip_fetch,
+        skip_analysis=args.skip_analysis,
         per_style=args.per_style,
         style_filter=args.styles,
     )

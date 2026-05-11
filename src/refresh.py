@@ -44,8 +44,9 @@ def refresh_style(
     config: dict,
     style_keyword: str,
     target_date: str,
+    skip_analysis: bool = False,
 ):
-    """刷新指定风格的照片：重新抓取 + 分析，合并到当天归档并重新渲染。"""
+    """刷新指定风格的照片：重新抓取 + 可选分析，合并到当天归档并重新渲染。"""
     output_dir = str(PROJECT_ROOT / config["output"]["dir"])
     llm_config = config["llm"]
     photos_per_style = config["daily"]["photos_per_style"]
@@ -82,10 +83,13 @@ def refresh_style(
         sys.exit(1)
     logger.info("抓取到 %d 张新照片", len(new_photos))
 
-    logger.info("=== 分析照片 ===")
-    for i, photo in enumerate(new_photos, 1):
-        logger.info("[%d/%d] 分析中: %s", i, len(new_photos), photo["id"])
-        photo["analysis"] = analyzer.analyze_photo(photo, llm_config)
+    if skip_analysis:
+        logger.info("=== 跳过 LLM 分析 ===")
+    else:
+        logger.info("=== 分析照片 ===")
+        for i, photo in enumerate(new_photos, 1):
+            logger.info("[%d/%d] 分析中: %s", i, len(new_photos), photo["id"])
+            photo["analysis"] = analyzer.analyze_photo(photo, llm_config)
 
     grouped_photos[target_style["label"]] = new_photos
 
@@ -103,6 +107,7 @@ def main():
     parser.add_argument("--style", type=str, required=True, help="要刷新的风格关键词（如：人像、街头）")
     parser.add_argument("--config", type=str, default=str(DEFAULT_CONFIG), help="配置文件路径")
     parser.add_argument("--date", type=str, default=None, help="指定日期 (YYYY-MM-DD)")
+    parser.add_argument("--skip-analysis", action="store_true", help="跳过 LLM 分析")
     args = parser.parse_args()
 
     config = load_config(Path(args.config))
@@ -112,7 +117,7 @@ def main():
     logger.info("  风格关键词: %s", args.style)
     logger.info("  日期: %s", target_date)
 
-    refresh_style(config, args.style, target_date)
+    refresh_style(config, args.style, target_date, skip_analysis=args.skip_analysis)
 
 
 if __name__ == "__main__":

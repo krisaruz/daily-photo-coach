@@ -12,7 +12,7 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       pages: write
       id-token: write
     environment:
@@ -28,24 +28,24 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Restore previous output
-        uses: actions/cache@v4
-        with:
-          path: output
-          key: photo-coach-output-${{ github.run_number }}
-          restore-keys: photo-coach-output-
+      - name: Pull latest output from repo
+        run: |
+          git fetch origin
+          git checkout origin/master -- output/ 2>/dev/null || true
 
-      - name: Refresh specific style
+      - name: Refresh specific style (skip LLM)
         env:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-          LLM_URL: ${{ secrets.LLM_URL }}
-          LLM_MODEL: ${{ secrets.LLM_MODEL }}
-          LLM_AUTH: ${{ secrets.LLM_AUTH }}
-          LLM_GATEWAY_UID: ${{ secrets.LLM_GATEWAY_UID }}
-          LLM_GATEWAY_PRODUCT: ${{ secrets.LLM_GATEWAY_PRODUCT }}
-          LLM_GATEWAY_INTENTION: ${{ secrets.LLM_GATEWAY_INTENTION }}
           PYTHONPATH: src
-        run: python src/refresh.py --style "${{ inputs.style }}"
+        run: python src/refresh.py --style "${{ inputs.style }}" --skip-analysis
+
+      - name: Commit output to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/ -f
+          git diff --cached --quiet || git commit -m "refresh: ${{ inputs.style }} photos for $(date -u +%Y-%m-%d)"
+          git push origin HEAD:master
 
       - name: Ensure .nojekyll
         run: touch output/.nojekyll
