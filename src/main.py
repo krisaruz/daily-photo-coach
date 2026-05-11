@@ -134,7 +134,8 @@ def daily_run(
             sys.exit(1)
 
         logger.info("=== Phase 1: 抓取照片 ===")
-        grouped_photos = fetcher.fetch_daily(access_key, styles, photos_per_style)
+        global_seen = fetcher.load_historical_ids(output_dir)
+        grouped_photos = fetcher.fetch_daily(access_key, styles, photos_per_style, global_seen=global_seen)
         actual = sum(len(v) for v in grouped_photos.values())
         logger.info("成功抓取 %d 张照片（%d 种风格）", actual, len(grouped_photos))
 

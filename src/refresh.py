@@ -77,7 +77,8 @@ def refresh_style(
         sys.exit(1)
 
     logger.info("=== 抓取新照片 ===")
-    new_photos = fetcher.fetch_photos_for_style(access_key, target_style, count=photos_per_style)
+    global_seen = fetcher.load_historical_ids(output_dir)
+    new_photos = fetcher.fetch_photos_for_style(access_key, target_style, count=photos_per_style, global_seen=global_seen)
     if not new_photos:
         logger.error("抓取失败，无新照片")
         sys.exit(1)
