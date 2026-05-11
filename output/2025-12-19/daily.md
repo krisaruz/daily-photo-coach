@@ -1,0 +1,168 @@
+# 每日摄影教练 — 2025-12-19
+
+
+---
+
+# 微距/特写
+
+
+## #1 微距/特写
+
+**摄影师**: [Mario Verduzco](https://unsplash.com/@mario)
+ | **来源**: [Unsplash](https://unsplash.com/photos/a-close-up-of-a-pine-cone-e9fkNN3jYkA)
+
+![a close up of a pine cone](https://images.unsplash.com/photo-1668216338624-70dcd8252bf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ0MDB8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: 📷 Canon  EOS 6D Mark II | f/8.0 | 0.4s | 100.0mm | ISO 125
+
+
+## 直觉
+这张松果特写最迷人的是“枯萎纹理”的层次感，像一座微型雕塑。暖色主体配合浅色背景，让画面有安静、干燥的秋冬气息。
+
+## 技法拆解
+- 100mm 微距视角很好，把松果鳞片压缩成密集纹理，细节有冲击力。  
+- f/8 在微距下景深仍然很浅，前后虚化明显，焦点选择决定成败。  
+- 0.4s 快门说明是静物慢拍，必须依赖三脚架或稳定支撑。  
+- 背景偏亮且简洁，能衬托主体，但高光区域可再压一点避免抢眼。  
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**：微距核心是控制景深，先定光圈更稳。推荐 **f/8-f/11，ISO 100-400，评价测光或点测光，单次 AF，单点/小区域对焦**；若上三脚架可接受 1/10s 以下，手持则尽量提高到 **1/160s 以上**。镜头建议 **RF 100mm F2.8L Macro**，或轻便用 **RF-S 18-150mm 长焦端近摄**。现场先让松果靠近窗边侧逆光，背景离远；对焦在最有纹理的鳞片边缘；轻微移动机位找高光穿透缝隙的瞬间再拍。
+
+## 后期思路
+整体往暖棕、低饱和的自然质感走。适当提升纹理、清晰度和局部对比，压低高光、提一点阴影；用径向或画笔加强焦点区域，让视线集中在松果内部结构。
+
+
+## #2 微距/特写
+
+**摄影师**: [Fatih Berat Örer](https://unsplash.com/@beratorer)
+ | **来源**: [Unsplash](https://unsplash.com/photos/small-bird-nest-on-a-green-branch-I2qCYrkv97s)
+
+![Small bird nest on a green branch](https://images.unsplash.com/photo-1755118357468-e55317ed1b28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ0MDN8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: 📷 SONY ILCE-7M4 | f/4.5 | 1/400s | 28.0mm | ISO 800
+
+
+## 直觉
+这张最打动人的是“小生命藏在暗绿森林里”的感觉，蝴蝶眼斑很亮，像画面里的秘密焦点。大面积虚化背景让主体显得安静、神秘。
+
+## 技法拆解
+- EXIF 为 f/4.5、1/400s、ISO800，快门足够稳住昆虫和手持抖动，适合微距特写。
+- 28mm 焦段拍微距会有明显环境感，背景被拉进来，氛围强但主体占比偏小。
+- 主体位于画面中下部，顶部留出大量暗绿虚化，形成纵深和呼吸感。
+- 光线是斑驳自然光，亮点集中在蝴蝶和枝叶上，暗部包围增强戏剧性。
+- 景深很浅，焦点落在蝴蝶眼斑附近是关键，否则画面会散。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**，因为微距/特写最先要控制景深和背景虚化。推荐 **f/4-f/5.6，1/320s 以上，ISO 自动上限 1600，评价测光，伺服 AF 或单次 AF，单点/小区域对焦**；若昆虫不动，用单次 AF 更稳。镜头建议用 **RF-S 18-150mm 的长焦端近摄**，或更理想的 **RF 85mm F2 Macro IS STM**。现场先压低机位，让背景离主体更远；等一束侧光或逆光落到蝴蝶身上；半按对准眼部/头部，身体前后微调到最清晰时连拍。
+
+## 后期思路
+后期可走低调森林感：压低曝光和高光，适当提主体局部亮度。加强绿色与青色的层次，降低杂色饱和度，避免背景抢戏。用径向滤镜或蒙版提亮蝴蝶眼斑与枝尖，暗角轻微即可。
+
+
+## #3 微距/特写
+
+**摄影师**: [Kristiyan Todorov](https://unsplash.com/@theak853)
+ | **来源**: [Unsplash](https://unsplash.com/photos/a-mushroom-growing-from-a-weathered-tree-stump-GqXKiFkg9Lw)
+
+![A Gymnopilus junonius mushroom growing from the hollow of an old tree stump, perfectly shaped by the wood cavity in a natural sculptural form.](https://images.unsplash.com/photo-1761842400345-2bdc89d38fd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ0MDZ8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: 📷 Apple iPhone 17 | f/1.6 | 1/2000s | 6.0mm | ISO 40
+
+
+## 直觉
+这张特写最吸引人的是蘑菇被树洞“模具”塑形后的雕塑感，像自然长出的器物。木纹的粗糙与菌盖的柔软形成了很好的质感对比。
+
+## 技法拆解
+- 近距离拍摄让主体占满画面，强化了“从树洞中挤出”的视觉张力。  
+- iPhone 参数为 f/1.6、1/2000s、ISO 40，光线充足且快门很快，细节稳定清晰。  
+- 侧向硬光突出木纹沟壑，但也让菌盖高光略亮，后期可适当压高光。  
+- 构图基本居中，适合表现天然形状；若稍微降低机位，会更有“从洞中生长”的立体感。  
+
+## 实拍操作（佳能 R10）
+模式拨盘建议用 **Av 光圈优先**，因为这类微距/特写最重要的是控制景深，同时让相机自动匹配快门。推荐参数：光圈 f/5.6-f/8，快门保持 1/250s 以上，ISO 自动或 ISO 400 起，评价测光，单次自动对焦 One-Shot，单点 AF 或小区域 AF，对准蘑菇前缘。镜头建议用 **RF-S 18-150mm** 的长焦端近拍，或 **RF 85mm F2 Macro IS STM** 获得更好的微距质感。现场先贴近树桩，镜头与菌盖尽量平行；等待斜侧光扫过木纹；按快门前检查高光，必要时曝光补偿 -0.3EV。
+
+## 后期思路
+后期重点保留木头的粗粝感和蘑菇的温润感。可压低高光、提升纹理与清晰度，蘑菇区域稍加暖色，木头阴影略提亮。整体色彩不宜过饱和，走自然、标本式的质感路线。
+
+
+---
+
+# 黑白/光影
+
+
+## #4 黑白/光影
+
+**摄影师**: [Byeong woo Kang](https://unsplash.com/@bottlecow)
+ | **来源**: [Unsplash](https://unsplash.com/photos/grayscale-photo-of-leaves-during-daytime-P7umT7qvhHw)
+
+![grayscale photo of leaves during daytime](https://images.unsplash.com/photo-1624680799574-8ff5b3f7c20e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ0MDh8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: 📷 NIKON CORPORATION NIKON D7200 | f/2.8 | 1/1000s | 35.0mm | ISO 320
+
+
+## 直觉
+这张照片最动人的是“留白”和叶片剪影的安静感，像是在阴天抬头看到的一瞬间。黑白处理让注意力集中到形状、层次和虚实关系上。
+
+## 技法拆解
+- f/2.8 带来浅景深，前后叶片一实一虚，形成柔和的空间层次。  
+- 1/1000s 快门很稳，能冻结树叶轻微晃动，避免风造成的拖影。  
+- ISO 320 合理，保证快门速度的同时，黑白画面噪点不会太明显。  
+- 构图上把主体叶片放在画面上方偏中，左侧大面积灰白留白，画面有呼吸感。  
+- 曝光略偏保守，叶片压成深色剪影，强化了黑白光影的图形感。  
+
+## 实拍操作（佳能 R10）
+模式拨盘建议选 **Av 光圈优先**，因为这类照片核心是控制虚实和背景柔化。参数可设 **f/2.8-f/4、快门不低于 1/500s、ISO Auto 上限 1600、评价测光或点测光、One Shot AF、单点/小区域对焦**。镜头可用 **RF 35mm F1.8 Macro IS STM**，在 R10 上等效约 56mm，适合拍局部叶片；若用套机头 RF-S 18-150mm，可拉到 50-80mm 端压缩背景。现场先站在树下仰拍，找一簇轮廓清楚的叶子；让天空或亮墙做干净背景；半按对焦在最清晰的叶片边缘，等风停的瞬间连拍 2-3 张。
+
+## 后期思路
+后期重点是把彩色转黑白后强化“剪影与灰阶”。降低高光避免天空死白，适当加对比、黑色色阶和清晰度，让叶片边缘更利落；同时可用渐变或局部蒙版压暗右上角，使视线更集中在中间那簇叶子。
+
+
+## #5 黑白/光影
+
+**摄影师**: [Elodie AGODOR](https://unsplash.com/@hellodlux)
+ | **来源**: [Unsplash](https://unsplash.com/photos/grayscale-photo-of-man-in-camouflage-uniform-1a66sKlrhAE)
+
+![grayscale photo of man in camouflage uniform](https://images.unsplash.com/photo-1612128655212-6fb1fb15dd95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ0MDl8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: 📷 Panasonic DMC-G7 | f/1.7 | 1/200s | 25.0mm | ISO 200
+
+
+## 直觉
+最打动人的是背影被斑驳硬光切开，人物像从黑暗森林里“浮”出来。黑白处理强化了压迫感，衣服背后的图像也增加了神秘叙事。
+
+## 技法拆解
+- EXIF 为 f/1.7、1/200s、ISO 200，大光圈让背景迅速沉入黑暗，主体更突出。  
+- 画面采用居中背影构图，稳定、直接，适合表现孤独和未知感。  
+- 高反差光影是核心：亮部集中在肩背，暗部大面积压黑，形成戏剧性。  
+- 黑白去掉了迷彩颜色干扰，让纹理、褶皱和光斑成为视觉重点。  
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**，因为这类照片关键是控制景深和进光量，让相机自动匹配快门更高效。推荐参数：光圈 f/1.8-f/2.8，快门至少 1/200s，ISO 100-400，评价测光或点测光测人物亮部，对焦用 **单次 AF + 单点/小区域 AF** 对在背部图案或衣领。镜头可用 **RF 35mm F1.8**，在 R10 上约等效 56mm，接近原片视角；也可用 RF 50mm F1.8 拍更压缩的背影。现场先让人物站在树荫通道中，寻找一束侧逆光或顶光落在背部；你稍微欠曝 1-2 档保护高光；等光斑落到肩背和头发时再按快门。
+
+## 后期思路
+后期走高反差黑白方向：降低曝光或黑位，拉高对比和清晰度，让背景更沉。重点用曲线压暗阴影、保护背部高光，再用局部加深/减淡强化衣服纹理和光斑层次。
+
+
+## #6 黑白/光影
+
+**摄影师**: [Llyfrgell Genedlaethol Cymru / The National Library of Wales](https://unsplash.com/@gofyn)
+ | **来源**: [Unsplash](https://unsplash.com/photos/a-group-of-people-standing-around-a-pile-of-wool-IXxVSagRpkY)
+
+![The Royal Welsh Show 1963, Llanelwedd Teitl Cymraeg/Welsh title: Y Sioe Frenhinol Cymru 1963, Llanelwedd Ffotograffydd/Photographer: Geoff Charles (1909-2002) Dyddiad/Date: August 3, 1963. Cyfrwng/Medium: Negydd ffilm / Film negative Cyfeiriad/Reference: (gch32500) Rhif cofnod / Record no.: 3471695](https://images.unsplash.com/photo-1679835825080-f53d235bfde8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ0MTF8&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+## 直觉
+这张照片最有力量的是“低机位贴近劳动现场”，观众、棚架和剪羊毛动作共同形成一种纪实张力。黑白影调让注意力集中在姿态、线条和时代气息上。
+
+## 技法拆解
+- 低角度拍摄让前景羊毛和人物身体动作被放大，现场感很强。  
+- 棚顶横梁形成连续透视线，把视线自然引向画面深处。  
+- 黑白处理中灰层次丰富，没有刻意追求高反差，更接近胶片纪实质感。  
+- 主体略偏左，右侧观众形成环境交代，信息量大但不杂乱。  
+- 快门需要足够稳住弯腰剪毛的动作，同时保留一点真实的动态感。
+
+## 实拍操作（佳能 R10）
+模式拨盘建议用 **Tv 快门优先**，因为这种纪实场景里人物动作持续变化，先保证动作不糊最重要。推荐 **1/250s，F4-F5.6，ISO 800-1600，评价测光，Servo AF，区域自动对焦或灵活区域 AF**；若光线稳定，也可用 M 档固定曝光。镜头建议用 **RF-S 18-45mm** 的 18-24mm，或 **RF-S 18-150mm** 的广角端，利用广角制造近距离透视和空间纵深。现场先蹲低或坐到地面高度，靠近前景羊毛但别干扰工作；等待人物弯腰、手部动作最明确的一瞬间；按快门时让棚架线条从画面两侧向远处收束，右侧观众保留一部分作为故事背景。
+
+## 后期思路
+后期可走“纪实胶片黑白”方向，降低饱和后转黑白，适度提升对比和清晰度，但保留中灰。重点压住棚顶高光、提一点人物和羊毛暗部，用曲线做柔和反差，再加少量颗粒强化年代感。
