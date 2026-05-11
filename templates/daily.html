@@ -157,12 +157,19 @@
         <section class="panel {{ 'active' if loop.first }}" id="panel-{{ tab.slug }}">
 
             <!-- 风格标题 -->
-            <div class="mb-8 flex items-center gap-3">
-                <span class="text-3xl">{{ tab.icon }}</span>
-                <div>
-                    <h2 class="font-serif text-2xl font-bold text-ink">{{ tab.label }}</h2>
-                    <p class="text-sm text-muted mt-0.5">{{ tab.photos | length }} 张精选作品 · 深度拍摄教学</p>
+            <div class="mb-8 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <span class="text-3xl">{{ tab.icon }}</span>
+                    <div>
+                        <h2 class="font-serif text-2xl font-bold text-ink">{{ tab.label }}</h2>
+                        <p class="text-sm text-muted mt-0.5">{{ tab.photos | length }} 张精选作品 · 摄影点评</p>
+                    </div>
                 </div>
+                <button onclick="refreshStyle('{{ tab.label }}')"
+                        class="refresh-btn inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-slate-500 border border-slate-200 hover:border-slate-300 hover:text-slate-700 hover:bg-slate-50 transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                    换一批
+                </button>
             </div>
 
             <div class="space-y-14">
@@ -288,6 +295,44 @@
         if (e.key === 'ArrowRight' && idx < tabs.length - 1) tabs[idx + 1].click();
         if (e.key === 'ArrowLeft' && idx > 0) tabs[idx - 1].click();
     });
+
+    const GITHUB_REPO = 'krisaruz/daily-photo-coach';
+    const REFRESH_PAT = localStorage.getItem('photo_coach_pat') || '';
+
+    async function refreshStyle(style) {
+        if (!REFRESH_PAT) {
+            const pat = prompt('首次使用需配置 GitHub PAT（仅需 Actions write 权限）：');
+            if (!pat) return;
+            localStorage.setItem('photo_coach_pat', pat);
+            location.reload();
+            return;
+        }
+        const ok = confirm(`确认刷新「${style}」的照片？\n将触发后台重新抓取，约需 2-3 分钟。`);
+        if (!ok) return;
+        try {
+            const resp = await fetch(
+                `https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/refresh.yml/dispatches`,
+                {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `token ${REFRESH_PAT}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    },
+                    body: JSON.stringify({ ref: 'main', inputs: { style } })
+                }
+            );
+            if (resp.status === 204) {
+                alert('已触发刷新！约 2-3 分钟后刷新页面即可看到新照片。');
+            } else if (resp.status === 401 || resp.status === 403) {
+                localStorage.removeItem('photo_coach_pat');
+                alert('PAT 无效或已过期，请重新配置。');
+            } else {
+                alert(`触发失败 (HTTP ${resp.status})，请检查配置。`);
+            }
+        } catch (e) {
+            alert('网络错误: ' + e.message);
+        }
+    }
     </script>
 </body>
 </html>

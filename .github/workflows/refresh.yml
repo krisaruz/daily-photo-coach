@@ -1,0 +1,60 @@
+name: Refresh Style
+
+on:
+  workflow_dispatch:
+    inputs:
+      style:
+        description: '要刷新的风格关键词（如：人像、街头、风光）'
+        required: true
+        type: string
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore previous output
+        uses: actions/cache@v4
+        with:
+          path: output
+          key: photo-coach-output-${{ github.run_number }}
+          restore-keys: photo-coach-output-
+
+      - name: Refresh specific style
+        env:
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          LLM_URL: ${{ secrets.LLM_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          LLM_AUTH: ${{ secrets.LLM_AUTH }}
+          LLM_GATEWAY_UID: ${{ secrets.LLM_GATEWAY_UID }}
+          LLM_GATEWAY_PRODUCT: ${{ secrets.LLM_GATEWAY_PRODUCT }}
+          LLM_GATEWAY_INTENTION: ${{ secrets.LLM_GATEWAY_INTENTION }}
+          PYTHONPATH: src
+        run: python src/refresh.py --style "${{ inputs.style }}"
+
+      - name: Ensure .nojekyll
+        run: touch output/.nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

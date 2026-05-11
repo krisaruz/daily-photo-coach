@@ -34,8 +34,62 @@ logger = logging.getLogger(__name__)
 
 
 def load_config(config_path: Path) -> dict:
-    with open(config_path, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+    """加载配置：优先读 config.yaml，不存在时从环境变量构建。"""
+    if config_path.exists():
+        with open(config_path, "r", encoding="utf-8") as f:
+            return yaml.safe_load(f)
+
+    return _config_from_env()
+
+
+def _config_from_env() -> dict:
+    """从环境变量构建完整配置（用于 CI/GitHub Actions）。"""
+    import os
+
+    access_key = os.environ.get("UNSPLASH_ACCESS_KEY", "")
+    llm_url = os.environ.get("LLM_URL", "")
+    llm_model = os.environ.get("LLM_MODEL", "gpt-4o")
+    llm_auth = os.environ.get("LLM_AUTH", "")
+
+    headers: dict[str, str] = {}
+    if llm_auth:
+        headers["Authorization"] = llm_auth
+    gateway_uid = os.environ.get("LLM_GATEWAY_UID", "")
+    gateway_product = os.environ.get("LLM_GATEWAY_PRODUCT", "")
+    gateway_intention = os.environ.get("LLM_GATEWAY_INTENTION", "")
+    if gateway_uid:
+        headers["AI-Gateway-Uid"] = gateway_uid
+    if gateway_product:
+        headers["AI-Gateway-Product-Name"] = gateway_product
+    if gateway_intention:
+        headers["AI-Gateway-Intention-Code"] = gateway_intention
+
+    photos_per_style = int(os.environ.get("PHOTOS_PER_STYLE", "3"))
+
+    styles = [
+        {"query": "landscape nature mountain", "label": "风光/自然", "color": "#16a34a", "icon": "🏔️"},
+        {"query": "portrait photography", "label": "人像/肖像", "color": "#dc2626", "icon": "👤"},
+        {"query": "street photography documentary", "label": "街头/人文", "color": "#ea580c", "icon": "🚶"},
+        {"query": "minimal architecture geometry", "label": "极简/建筑", "color": "#2563eb", "icon": "🏛️"},
+        {"query": "food photography styling", "label": "美食/静物", "color": "#d97706", "icon": "🍽️"},
+        {"query": "night photography city lights", "label": "夜景/城市", "color": "#7c3aed", "icon": "🌃"},
+        {"query": "macro photography close up", "label": "微距/特写", "color": "#0d9488", "icon": "🔍"},
+        {"query": "black and white photography", "label": "黑白/光影", "color": "#475569", "icon": "⬛"},
+    ]
+
+    logger.info("从环境变量加载配置（CI 模式）")
+    return {
+        "unsplash": {"access_key": access_key},
+        "llm": {
+            "url": llm_url,
+            "model": llm_model,
+            "headers": headers,
+            "timeout": int(os.environ.get("LLM_TIMEOUT", "300")),
+            "max_retries": int(os.environ.get("LLM_MAX_RETRIES", "3")),
+        },
+        "daily": {"photos_per_style": photos_per_style, "styles": styles},
+        "output": {"dir": os.environ.get("OUTPUT_DIR", "output")},
+    }
 
 
 def daily_run(
