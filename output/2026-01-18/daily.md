@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-01-18
+# 每日摄影教练 - 2026-01-18
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![Aerial view of a city at night with illuminated bridge.](https://images.unsplash.com/photo-1776590435971-56c21f5511e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE2MDJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 90D | f/1.8 | 1/125s | 50.0mm | ISO 3200
+> EXIF: Camera Canon  EOS 90D | f/1.8 | 1/125s | 50.0mm | ISO 3200
 
 
 ## 直觉
@@ -39,7 +39,7 @@
 
 ![View of the bridge, illuminated by streetlights, in the night city, with high-rise buildings in the background, seen from behind the bushes.](https://images.unsplash.com/photo-1749833106808-fd38f4f4abeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE2MDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCA-77M2 | f/4 | 1/25s | 105.0mm | ISO 800
+> EXIF: Camera SONY ILCA-77M2 | f/4 | 1/25s | 105.0mm | ISO 800
 
 
 ## 直觉
@@ -95,7 +95,7 @@
 
 ![a small purple flower with a white center](https://images.unsplash.com/photo-1705562706602-9c9eb009070e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE2MTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY DSC-RX100M3 | f/1.8 | 1/125s | 8.8mm | ISO 250
+> EXIF: Camera SONY DSC-RX100M3 | f/1.8 | 1/125s | 8.8mm | ISO 250
 
 
 ## 直觉
@@ -145,7 +145,7 @@
 
 ![... another shape](https://images.unsplash.com/photo-1767127848755-6e2c3b01c9e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE2MTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 16 | f/2.2 | 1/99s | 2.2mm | ISO 250
+> EXIF: Camera Apple iPhone 16 | f/2.2 | 1/99s | 2.2mm | ISO 250
 
 
 ## 直觉
@@ -176,7 +176,7 @@
 
 ![lonely tree.](https://images.unsplash.com/photo-1612787733353-dd9ead94246d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE2MjF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6000 | f/8 | 1/1600s | 50.0mm | ISO 3200
+> EXIF: Camera SONY ILCE-6000 | f/8 | 1/1600s | 50.0mm | ISO 3200
 
 
 ## 直觉
@@ -203,7 +203,7 @@
 
 ![a person with the hand on the face](https://images.unsplash.com/photo-1657310762695-f450bf9e3798?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE2MjV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS RP | 1/60s | ISO 200
+> EXIF: Camera Canon  EOS RP | 1/60s | ISO 200
 
 
 ## 直觉

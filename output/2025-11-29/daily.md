@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2025-11-29
+# 每日摄影教练 - 2025-11-29
 
 
 ---
@@ -14,7 +14,7 @@
 ![— Hello! My name is Soheil, I'm a Graphic Designer and  photo/videographer, I like to create creative moments. If you like my photos, give me a follow at Instagram; @Soheil.kmp
 ](https://images.unsplash.com/photo-1641735563670-3621a6005088?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4MDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/1.8 | 1/1600s | 50.0mm | ISO 125
+> EXIF: Camera SONY ILCE-6400 | f/1.8 | 1/1600s | 50.0mm | ISO 125
 
 
 ## 直觉
@@ -43,7 +43,7 @@
 
 ![woman in brown hat and black shirt](https://images.unsplash.com/photo-1605949257507-142fa54cfb61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4MDJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM4 | f/2.8 | 1/100s | 90.0mm | ISO 160
+> EXIF: Camera SONY ILCE-7RM4 | f/2.8 | 1/100s | 90.0mm | ISO 160
 
 
 ## 直觉
@@ -75,7 +75,7 @@
 
 ![Two sisters.](https://images.unsplash.com/photo-1617552341852-1e52cc8ab56a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4MDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5500 | f/5.6 | 1/160s | 55.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D5500 | f/5.6 | 1/160s | 55.0mm | ISO 100
 
 
 ## 直觉
@@ -102,7 +102,7 @@
 
 ![a group of people standing around a building](https://images.unsplash.com/photo-1677061856552-c1b3201da73c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4MDl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/2.8 | 1/1000s | 23.0mm | ISO 160
+> EXIF: Camera FUJIFILM X-Pro3 | f/2.8 | 1/1000s | 23.0mm | ISO 160
 
 
 ## 直觉
@@ -131,7 +131,7 @@
 Photo by Eyoel Abraham Kahssay 
 ](https://images.unsplash.com/photo-1598456448049-1c68e921e8ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4MTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 5D Mark III | f/4 | 1/800s | 50.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 5D Mark III | f/4 | 1/800s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -163,7 +163,7 @@ Photo by Eyoel Abraham Kahssay
 
 ![blue and white concrete building](https://images.unsplash.com/photo-1603043859230-2e9915023bf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4MTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro1 | 1/500s | 200.0mm | ISO 800
+> EXIF: Camera FUJIFILM X-Pro1 | 1/500s | 200.0mm | ISO 800
 
 
 ## 直觉
@@ -190,7 +190,7 @@ Photo by Eyoel Abraham Kahssay
 
 ![a close up of a staircase made out of red blocks](https://images.unsplash.com/photo-1705648265844-289eeb49d1f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4MTR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D Mark II | f/8.0 | 1/125s | 70.0mm | ISO 500
+> EXIF: Camera Canon  EOS 6D Mark II | f/8.0 | 1/125s | 70.0mm | ISO 500
 
 
 ## 直觉
@@ -217,7 +217,7 @@ Photo by Eyoel Abraham Kahssay
 
 ![a black and white photo of a building](https://images.unsplash.com/photo-1639864177537-9c0d28bb3ebf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4MTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 600D | f/7.1 | 1/50s | 45.0mm | ISO 200
+> EXIF: Camera Canon  EOS 600D | f/7.1 | 1/50s | 45.0mm | ISO 200
 
 
 ## 直觉
@@ -248,7 +248,7 @@ Photo by Eyoel Abraham Kahssay
 
 ![a plate of toast and two cherries on a table](https://images.unsplash.com/photo-1690963498604-b00cd76f3bf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4MTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 850D | f/1.8 | 1/800s | 50.0mm | ISO 3200
+> EXIF: Camera Canon  EOS 850D | f/1.8 | 1/800s | 50.0mm | ISO 3200
 
 
 ## 直觉
@@ -275,7 +275,7 @@ Photo by Eyoel Abraham Kahssay
 
 ![A selection of mini bundt cakes, focusing on details of texture, icing and garnishes. Yep those are freeze dried raspberries on-top.](https://images.unsplash.com/photo-1542691505-a180be9d7652?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4MTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 5D Mark III | f/3.2 | 1/500s | 85.0mm | ISO 200
+> EXIF: Camera Canon Canon EOS 5D Mark III | f/3.2 | 1/500s | 85.0mm | ISO 200
 
 
 ## 直觉
@@ -302,7 +302,7 @@ Photo by Eyoel Abraham Kahssay
 
 ![instgram: @amin.rmzni youtube: @aminrmzni](https://images.unsplash.com/photo-1670508142255-f119391c4213?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4Mjd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5200 | f/6.3 | 1/25s | 24.0mm | ISO 320
+> EXIF: Camera NIKON CORPORATION NIKON D5200 | f/6.3 | 1/25s | 24.0mm | ISO 320
 
 
 ## 直觉
@@ -334,7 +334,7 @@ Photo by Eyoel Abraham Kahssay
 
 ![Christmas decorations on the square in Trnava.](https://images.unsplash.com/photo-1638172357904-62a4a4a44da8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4Mjl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R6 | f/20.0 | 30s | 44.0mm | ISO 100
+> EXIF: Camera Canon  EOS R6 | f/20.0 | 30s | 44.0mm | ISO 100
 
 
 ## 直觉
@@ -360,7 +360,7 @@ Photo by Eyoel Abraham Kahssay
 
 ![Cityscape with illuminated buildings and boat at night.](https://images.unsplash.com/photo-1767893163854-3395ace81c88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4MzF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS RP | f/4.0 | 1/20s | 45.0mm | ISO 400
+> EXIF: Camera Canon  EOS RP | f/4.0 | 1/20s | 45.0mm | ISO 400
 
 
 ## 直觉
@@ -389,7 +389,7 @@ Photo by Eyoel Abraham Kahssay
 
 ![City street at night with wet reflections](https://images.unsplash.com/photo-1766548491842-6f4d49932574?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4MzN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R | f/13.0 | 3.8s | 27.0mm | ISO 50
+> EXIF: Camera Canon  EOS R | f/13.0 | 3.8s | 27.0mm | ISO 50
 
 
 ## 直觉
@@ -421,7 +421,7 @@ Photo by Eyoel Abraham Kahssay
 
 ![a close up of a spider on a web](https://images.unsplash.com/photo-1690297646020-7b3c758597ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4MzZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Xiaomi M2101K6P | f/1.8 | 1/25s | 4.7mm | ISO 395
+> EXIF: Camera Xiaomi M2101K6P | f/1.8 | 1/25s | 4.7mm | ISO 395
 
 
 ## 直觉
@@ -448,7 +448,7 @@ Photo by Eyoel Abraham Kahssay
 
 ![A fly hopping on a sandy stone, highlighted by sunrise](https://images.unsplash.com/photo-1761875207650-ea67398e1c03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4Mzd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6000 | f/6.3 | 1/60s | 210.0mm | ISO 1000
+> EXIF: Camera SONY ILCE-6000 | f/6.3 | 1/60s | 210.0mm | ISO 1000
 
 
 ## 直觉
@@ -474,7 +474,7 @@ Photo by Eyoel Abraham Kahssay
 
 ![ultraraw](https://images.unsplash.com/photo-1775390721976-22934d2ce793?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4Mzh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Xiaomi  14/23127PN0CC | f/2.0 | 1/470s | 9.0mm | ISO 50
+> EXIF: Camera Xiaomi  14/23127PN0CC | f/2.0 | 1/470s | 9.0mm | ISO 50
 
 
 ## 直觉
@@ -530,7 +530,7 @@ Photo by Eyoel Abraham Kahssay
 
 ![Portrait 2](https://images.unsplash.com/photo-1611831308092-a7cdafdd34fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDA4NTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 30D | f/16.0 | 1/200s | 47.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 30D | f/16.0 | 1/200s | 47.0mm | ISO 100
 
 
 ## 直觉

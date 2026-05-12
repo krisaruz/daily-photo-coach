@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-01-04
+# 每日摄影教练 - 2026-01-04
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![Mountains tower above lush, green hills.](https://images.unsplash.com/photo-1749667526469-93ec20b782b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwMDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON 1 J4 | f/3.8 | 1/250s | 30.0mm | ISO 400
+> EXIF: Camera NIKON CORPORATION NIKON 1 J4 | f/3.8 | 1/250s | 30.0mm | ISO 400
 
 
 ## 直觉
@@ -40,7 +40,7 @@
 
 ![a house with a grass roof in a field with mountains in the background](https://images.unsplash.com/photo-1692070428642-eaeab4a34213?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwMDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T3 | f/6.4 | 1/1000s | 18.0mm | ISO 320
+> EXIF: Camera FUJIFILM X-T3 | f/6.4 | 1/1000s | 18.0mm | ISO 320
 
 
 ## 直觉
@@ -67,7 +67,7 @@
 
 ![Snow-capped mountains overlook a dense evergreen forest.](https://images.unsplash.com/photo-1759851772833-046ed089a18e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwMTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 DJI FC3170 | f/2.8 | 1/50s | 4.5mm | ISO 100
+> EXIF: Camera DJI FC3170 | f/2.8 | 1/50s | 4.5mm | ISO 100
 
 
 ## 直觉
@@ -99,7 +99,7 @@
 ![— Hello! My name is Soheil, I'm a Graphic Designer and  photo/videographer, I like to create creative moments. If you like my photos, give me a follow at Instagram; @Soheil.kmp
 ](https://images.unsplash.com/photo-1641893870292-25930e560ed5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwMTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/1.4 | 1/1600s | ISO 125
+> EXIF: Camera SONY ILCE-6400 | f/1.4 | 1/1600s | ISO 125
 
 
 ## 直觉
@@ -126,7 +126,7 @@
 ![— Hello! My name is Soheil, I'm a Graphic Designer and  photo/videographer, I like to create creative moments. If you like my photos, give me a follow at Instagram; @Soheil.kmp
 ](https://images.unsplash.com/photo-1640257845885-286fa5a5cc08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwMjd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D | f/1.8 | 1/800s | 50.0mm | ISO 250
+> EXIF: Camera Canon  EOS 5D | f/1.8 | 1/800s | 50.0mm | ISO 250
 
 
 ## 直觉
@@ -153,7 +153,7 @@
 
 ![a woman in a red sweater leaning against a fence](https://images.unsplash.com/photo-1638204957796-4ad60705aa17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwMzR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D610 | f/1.4 | 1/2500s | 35.0mm | ISO 125
+> EXIF: Camera NIKON CORPORATION NIKON D610 | f/1.4 | 1/2500s | 35.0mm | ISO 125
 
 
 ## 直觉
@@ -188,7 +188,7 @@
 
 ![a couple of men sitting on top of a stone wall](https://images.unsplash.com/photo-1677061857329-3b35a928fd39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwMzd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/6.4 | 1/160s | 23.0mm | ISO 160
+> EXIF: Camera FUJIFILM X-Pro3 | f/6.4 | 1/160s | 23.0mm | ISO 160
 
 
 ## 直觉
@@ -215,7 +215,7 @@
 
 ![a store with a variety of items](https://images.unsplash.com/photo-1661261062117-9490f40eebcd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwMzl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DC-GH5 | f/4.0 | 1/125s | 15.0mm | ISO 200
+> EXIF: Camera Panasonic DC-GH5 | f/4.0 | 1/125s | 15.0mm | ISO 200
 
 
 ## 直觉
@@ -242,7 +242,7 @@
 
 ![a woman sitting on a bench on a city street](https://images.unsplash.com/photo-1635614224949-5597210a3bf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwNDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7S | f/2.2 | 1/2000s | 50.0mm | ISO 250
+> EXIF: Camera SONY ILCE-7S | f/2.2 | 1/2000s | 50.0mm | ISO 250
 
 
 ## 直觉
@@ -274,7 +274,7 @@
 
 ![a white building with four windows and a sky background](https://images.unsplash.com/photo-1644168215541-da083455a9b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwNDd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D7100 | f/5.6 | 1/2000s | 170.0mm | ISO 250
+> EXIF: Camera NIKON CORPORATION NIKON D7100 | f/5.6 | 1/2000s | 170.0mm | ISO 250
 
 
 ## 直觉
@@ -324,7 +324,7 @@
 
 ![Architectural detail with a repeating triangular pattern.](https://images.unsplash.com/photo-1749543612025-602d42894554?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwNTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM2 | f/3.2 | 1/4000s | 50.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7RM2 | f/3.2 | 1/4000s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -356,7 +356,7 @@
 
 ![Beautiful product photos for a coffee company called Otis. ](https://images.unsplash.com/photo-1622655534288-a123395be44e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwNjF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS REBEL T5 | f/5.6 | 1/40s | 50.0mm | ISO 400
+> EXIF: Camera Canon Canon EOS REBEL T5 | f/5.6 | 1/40s | 50.0mm | ISO 400
 
 
 ## 直觉
@@ -383,7 +383,7 @@
 
 ![Blueberry Bread!](https://images.unsplash.com/photo-1624744969854-b53445f2e3f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwNjV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6500 | f/2.0 | 1/800s | 35.0mm | ISO 400
+> EXIF: Camera SONY ILCE-6500 | f/2.0 | 1/800s | 35.0mm | ISO 400
 
 
 ## 直觉
@@ -410,7 +410,7 @@
 
 ![Traditional Food](https://images.unsplash.com/photo-1651398611699-698e51b7c5b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwNjd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 HMD Global Nokia 6.1 Plus | f/2.0 | 1/15s | 3.6mm | ISO 100
+> EXIF: Camera HMD Global Nokia 6.1 Plus | f/2.0 | 1/15s | 3.6mm | ISO 100
 
 
 ## 直觉
@@ -441,7 +441,7 @@
 
 ![City skyline illuminated at night with water reflections](https://images.unsplash.com/photo-1760534745629-cdc84407498f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwNzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS M3 | f/22.0 | 30s | 30.0mm | ISO 400
+> EXIF: Camera Canon  EOS M3 | f/22.0 | 30s | 30.0mm | ISO 400
 
 
 ## 直觉
@@ -468,7 +468,7 @@
 
 ![a car driving down a city street at night](https://images.unsplash.com/photo-1644325778449-9bcd520ec4fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwNzh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM2 | f/2.0 | 1/60s | 38.0mm | ISO 2000
+> EXIF: Camera SONY ILCE-7RM2 | f/2.0 | 1/60s | 38.0mm | ISO 2000
 
 
 ## 直觉
@@ -495,7 +495,7 @@
 
 ![Woman in black dress touches reflection in glass](https://images.unsplash.com/photo-1767560695642-ba32452e6476?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwODN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark II | f/1.8 | 1/125s | 85.0mm | ISO 640
+> EXIF: Camera Canon  EOS 5D Mark II | f/1.8 | 1/125s | 85.0mm | ISO 640
 
 
 ## 直觉
@@ -527,7 +527,7 @@
 
 ![brown grass illustration](https://images.unsplash.com/photo-1541681204098-e2c313a76381?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwODZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 1100D | 1/25s | 50.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 1100D | 1/25s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -554,7 +554,7 @@
 
 ![A close-up of a large, brown spider on gravel.](https://images.unsplash.com/photo-1774128514645-f15e103928d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwOTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R | f/7.1 | 1/200s | 100.0mm | ISO 500
+> EXIF: Camera Canon  EOS R | f/7.1 | 1/200s | 100.0mm | ISO 500
 
 
 ## 直觉
@@ -581,7 +581,7 @@
 
 ![a close up of a dandelion on a black background](https://images.unsplash.com/photo-1714224613462-202595a76843?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwOTR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 RICOH IMAGING COMPANY, LTD. PENTAX K-3 | f/11.0 | 1/160s | 50.0mm | ISO 1600
+> EXIF: Camera RICOH IMAGING COMPANY, LTD. PENTAX K-3 | f/11.0 | 1/160s | 50.0mm | ISO 1600
 
 
 ## 直觉
@@ -613,7 +613,7 @@
 
 ![a black and white photo of a cactus](https://images.unsplash.com/photo-1632838959894-5ae58e4b52ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgwOTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 LEICA CAMERA AG LEICA SL2 | f/4.5 | 1/500s | 135.0mm | ISO 500
+> EXIF: Camera LEICA CAMERA AG LEICA SL2 | f/4.5 | 1/500s | 135.0mm | ISO 500
 
 
 ## 直觉
@@ -640,7 +640,7 @@
 
 ![Daily dose of sunshine](https://images.unsplash.com/photo-1613156639447-6dc4978950f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgxMDJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5300 | f/16 | 1/4000s | 50.0mm | ISO 6400
+> EXIF: Camera NIKON CORPORATION NIKON D5300 | f/16 | 1/4000s | 50.0mm | ISO 6400
 
 
 ## 直觉
@@ -667,7 +667,7 @@
 
 ![woman in quarantie](https://images.unsplash.com/photo-1619992823071-3870ef4ee135?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDgxMDV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 70D
+> EXIF: Camera Canon Canon EOS 70D
 
 
 ## 直觉

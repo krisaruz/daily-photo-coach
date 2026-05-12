@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-04-27
+# 每日摄影教练 - 2026-04-27
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![gray and white mountain under white clouds](https://images.unsplash.com/photo-1630224688815-a4cede76f29b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAyMTR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7C | f/6.3 | 1/250s | 37.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7C | f/6.3 | 1/250s | 37.0mm | ISO 100
 
 
 ## 直觉
@@ -40,7 +40,7 @@
 
 ![a view of a river running through a valley](https://images.unsplash.com/photo-1652692120674-c4486830f59f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAyMjZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D | f/8.0 | 1/320s | 85.0mm | ISO 100
+> EXIF: Camera Canon  EOS 6D | f/8.0 | 1/320s | 85.0mm | ISO 100
 
 
 ## 直觉
@@ -67,7 +67,7 @@
 
 ![green trees and brown field under white clouds and blue sky during daytime](https://images.unsplash.com/photo-1609939538585-1a9dff21d850?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAyMzB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 samsung SM-G975F | f/2.4 | 1/730s | 6.0mm | ISO 50
+> EXIF: Camera samsung SM-G975F | f/2.4 | 1/730s | 6.0mm | ISO 50
 
 
 ## 直觉
@@ -99,7 +99,7 @@
 
 ![green plant on brown sand during daytime](https://images.unsplash.com/photo-1608882121975-3c4a3b47eae2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAyMzZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-A7 | 1/4000s | 50.0mm | ISO 200
+> EXIF: Camera FUJIFILM X-A7 | 1/4000s | 50.0mm | ISO 200
 
 
 ## 直觉
@@ -126,7 +126,7 @@
 
 ![Sara](https://images.unsplash.com/photo-1614425640886-5fe51c397c98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAyMzl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 80D | f/1.8 | 1/125s | 50.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 80D | f/1.8 | 1/125s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -152,7 +152,7 @@
 
 ![a man wearing sunglasses and a beanie](https://images.unsplash.com/photo-1645800061571-6e24774a5cba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAyNTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 4000D | f/2.0 | 1/400s | 50.0mm | ISO 100
+> EXIF: Camera Canon  EOS 4000D | f/2.0 | 1/400s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -184,7 +184,7 @@
 
 ![a large orange gate with a sky background](https://images.unsplash.com/photo-1686560662792-3b236a1fe271?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAyNjJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/6.4 | 1/400s | 23.0mm | ISO 160
+> EXIF: Camera FUJIFILM X-Pro3 | f/6.4 | 1/400s | 23.0mm | ISO 160
 
 
 ## 直觉
@@ -211,7 +211,7 @@
 
 ![man wearing white and red plaid polo shirt](https://images.unsplash.com/photo-1563440473806-a2abe721077c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAyNjl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5300 | f/1.8 | 1/2500s | 50.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D5300 | f/1.8 | 1/2500s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -290,7 +290,7 @@
 
 ![Four Pattern](https://images.unsplash.com/photo-1549621910-0063f240d913?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAyODd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 7D | f/13.0 | 1/100s | 45.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 7D | f/13.0 | 1/100s | 45.0mm | ISO 100
 
 
 ## 直觉
@@ -370,7 +370,7 @@
 
 ![Funny Scones!](https://images.unsplash.com/photo-1630940083223-0e18f416670c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAyOTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6500 | f/4 | 1/30s | 35.0mm | ISO 100
+> EXIF: Camera SONY ILCE-6500 | f/4 | 1/30s | 35.0mm | ISO 100
 
 
 ## 直觉
@@ -397,7 +397,7 @@
 
 ![white flatlay](https://images.unsplash.com/photo-1766233420708-7aa2907e5e28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAyOTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY DSC-H10 | f/3.5 | 1/40s | 6.3mm | ISO 160
+> EXIF: Camera SONY DSC-H10 | f/3.5 | 1/40s | 6.3mm | ISO 160
 
 
 ## 直觉
@@ -429,7 +429,7 @@
 
 ![The night sky of Hong Kong's skyline](https://images.unsplash.com/photo-1597763594938-fa022d4846a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAzMDN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6100 | f/22.0 | 25s | 37.0mm | ISO 100
+> EXIF: Camera SONY ILCE-6100 | f/22.0 | 25s | 37.0mm | ISO 100
 
 
 ## 直觉
@@ -456,7 +456,7 @@
 
 ![a man sitting on a bench in a city at night](https://images.unsplash.com/photo-1645438716899-188cff591995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAzMDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7C | f/1.8 | 1/40s | 85.0mm | ISO 1250
+> EXIF: Camera SONY ILCE-7C | f/1.8 | 1/40s | 85.0mm | ISO 1250
 
 
 ## 直觉
@@ -485,7 +485,7 @@
 
 ![Rolleiflex T, Cinestill 800T](https://images.unsplash.com/photo-1777209492484-f24e86084057?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAzMTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NORITSU KOKI QSS-32_33
+> EXIF: Camera NORITSU KOKI QSS-32_33
 
 
 ## 直觉
@@ -516,7 +516,7 @@
 
 ![A pair of black earphones sitting on top of a wooden table](https://images.unsplash.com/photo-1733641839407-b703ece14e5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAzMjJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7C | f/2.8 | 1/1000s | 90.0mm | ISO 400
+> EXIF: Camera SONY ILCE-7C | f/2.8 | 1/1000s | 90.0mm | ISO 400
 
 
 ## 直觉
@@ -543,7 +543,7 @@
 
 ![close up of a mashroom](https://images.unsplash.com/photo-1729848073701-3d7a929624b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAzMzB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 OM Digital Solutions OM-1 | f/11.0 | 1/100s | 90.0mm | ISO 200
+> EXIF: Camera OM Digital Solutions OM-1 | f/11.0 | 1/100s | 90.0mm | ISO 200
 
 
 ## 直觉
@@ -569,7 +569,7 @@
 
 ![A close-up of a vibrant orange gecko with water droplets.](https://images.unsplash.com/photo-1777458207938-3c2e0f5a4cc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAzMzN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 700D | f/4.5 | 1/20s | 70.0mm | ISO 800
+> EXIF: Camera Canon  EOS 700D | f/4.5 | 1/20s | 70.0mm | ISO 800
 
 
 ## 直觉
@@ -628,7 +628,7 @@
 
 ![grayscale photo of people walking on the street](https://images.unsplash.com/photo-1629055747366-e09158ba874c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzAzMzl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 OnePlus HD1911 | f/1.7 | 1/25s | 4.8mm | ISO 800
+> EXIF: Camera OnePlus HD1911 | f/1.7 | 1/25s | 4.8mm | ISO 800
 
 
 ## 直觉

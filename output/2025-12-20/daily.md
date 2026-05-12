@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2025-12-20
+# 每日摄影教练 - 2025-12-20
 
 
 ---
@@ -37,7 +37,7 @@
 
 ![Mount Kazbek at Dawn](https://images.unsplash.com/photo-1760464864365-2188cd2afcde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ1NDN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D Mark II | f/9.0 | 1/15s | 105.0mm | ISO 200
+> EXIF: Camera Canon  EOS 6D Mark II | f/9.0 | 1/15s | 105.0mm | ISO 200
 
 
 ## 直觉
@@ -65,7 +65,7 @@ R10 是 APS-C，想接近全画幅 105mm 视角，可用 **RF-S 18-150mm 调到 
 
 ![Windy](https://images.unsplash.com/photo-1564661392417-bb629e9c6519?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ1NDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Google Pixel XL | f/2.0 | 1/2800s | 4.7mm | ISO 50
+> EXIF: Camera Google Pixel XL | f/2.0 | 1/2800s | 4.7mm | ISO 50
 
 
 ## 直觉
@@ -96,7 +96,7 @@ R10 是 APS-C，想接近全画幅 105mm 视角，可用 **RF-S 18-150mm 调到 
 
 ![Portrait photography](https://images.unsplash.com/photo-1646388827828-4974fbc3d676?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ1NDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark IV | f/2.8 | 1/80s | 70.0mm | ISO 640
+> EXIF: Camera Canon  EOS 5D Mark IV | f/2.8 | 1/80s | 70.0mm | ISO 640
 
 
 ## 直觉
@@ -123,7 +123,7 @@ R10 是 APS-C，想接近全画幅 105mm 视角，可用 **RF-S 18-150mm 调到 
 
 ![woman in blue denim jacket with white flower on ear](https://images.unsplash.com/photo-1611771707777-b18858881e77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ1NTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 700D | f/1.8 | 1/640s | 50.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 700D | f/1.8 | 1/640s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -150,7 +150,7 @@ R10 是 APS-C，想接近全画幅 105mm 视角，可用 **RF-S 18-150mm 调到 
 
 ![Fashion portrait.](https://images.unsplash.com/photo-1718964312487-d5e3d56fd2ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ1NTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark II | f/2.0 | 1/1600s | 35.0mm | ISO 100
+> EXIF: Camera Canon  EOS 5D Mark II | f/2.0 | 1/1600s | 35.0mm | ISO 100
 
 
 ## 直觉
@@ -181,7 +181,7 @@ R10 是 APS-C，想接近全画幅 105mm 视角，可用 **RF-S 18-150mm 调到 
 
 ![Building smiles.](https://images.unsplash.com/photo-1617552316356-222484b69098?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ1NTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5500 | f/7.1 | 1/200s | 38.0mm | ISO 400
+> EXIF: Camera NIKON CORPORATION NIKON D5500 | f/7.1 | 1/200s | 38.0mm | ISO 400
 
 
 ## 直觉
@@ -208,7 +208,7 @@ R10 是 APS-C，想接近全画幅 105mm 视角，可用 **RF-S 18-150mm 调到 
 
 ![A ginger cat stretches gracefully through a balcony railing, bathed in soft sunlight. A playful and candid urban moment of feline curiosity.](https://images.unsplash.com/photo-1757415603638-3c64ee6215a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ1NTR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-S20 | f/4.0 | 1/250s | 80.0mm | ISO 640
+> EXIF: Camera FUJIFILM X-S20 | f/4.0 | 1/250s | 80.0mm | ISO 640
 
 
 ## 直觉
@@ -234,7 +234,7 @@ R10 是 APS-C，想接近全画幅 105mm 视角，可用 **RF-S 18-150mm 调到 
 
 ![Each of Jadi's photos carries his desire and pursuit of truth. He records those ordinary and real moments with his camera, trying to find the meaning of life in the film. It is these moments that allow him to find his own answer between memories and reality.](https://images.unsplash.com/photo-1734345963727-cec49473c3d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ1NTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Leica MA
+> EXIF: Camera Leica MA
 
 
 ## 直觉
@@ -290,7 +290,7 @@ R10 是 APS-C，想接近全画幅 105mm 视角，可用 **RF-S 18-150mm 调到 
 
 ![glass high-rise building](https://images.unsplash.com/photo-1551766472-62096056b476?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ1NTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 7D | f/13.0 | 1/125s | 24.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 7D | f/13.0 | 1/125s | 24.0mm | ISO 100
 
 
 ## 直觉
@@ -346,7 +346,7 @@ R10 是 APS-C，想接近全画幅 105mm 视角，可用 **RF-S 18-150mm 调到 
 
 ![Strawberry basket and honey food styling photography](https://images.unsplash.com/photo-1618862310317-3981e2ec1016?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ1NjJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 5D Mark III | f/2.5 | 1/160s | 50.0mm | ISO 50
+> EXIF: Camera Canon Canon EOS 5D Mark III | f/2.5 | 1/160s | 50.0mm | ISO 50
 
 
 ## 直觉
@@ -373,7 +373,7 @@ R10 是 APS-C，想接近全画幅 105mm 视角，可用 **RF-S 18-150mm 调到 
 
 ![a bowl of soup with a spoon](https://images.unsplash.com/photo-1667892465351-4c999c5a8c4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ1Njh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 80D | f/4.0 | 1/80s | 50.0mm | ISO 500
+> EXIF: Camera Canon  EOS 80D | f/4.0 | 1/80s | 50.0mm | ISO 500
 
 
 ## 直觉
@@ -455,7 +455,7 @@ R10 是 APS-C，想接近全画幅 105mm 视角，可用 **RF-S 18-150mm 调到 
 
 ![a car driving down a city street at night](https://images.unsplash.com/photo-1653841619727-9286911cb88c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ1NzN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM4A | f/1.2 | 1/125s | 50.0mm | ISO 800
+> EXIF: Camera SONY ILCE-7RM4A | f/1.2 | 1/125s | 50.0mm | ISO 800
 
 
 ## 直觉
@@ -484,7 +484,7 @@ R10 是 APS-C，想接近全画幅 105mm 视角，可用 **RF-S 18-150mm 调到 
 
 ![Amsterdam Lookout tower](https://images.unsplash.com/photo-1703410436582-816c1906f2cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ1OTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Fairphone FP5 | f/1.9 | 1/30s | 5.6mm | ISO 570
+> EXIF: Camera Fairphone FP5 | f/1.9 | 1/30s | 5.6mm | ISO 570
 
 
 ## 直觉
@@ -515,7 +515,7 @@ R10 是 APS-C，想接近全画幅 105mm 视角，可用 **RF-S 18-150mm 调到 
 
 ![Macro close-up of colorful flowers and buds with soft dark background.](https://images.unsplash.com/photo-1768173670881-76d60a27c26f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ1OTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM4A | 1/320s | ISO 250
+> EXIF: Camera SONY ILCE-7RM4A | 1/320s | ISO 250
 
 
 ## 直觉
@@ -541,7 +541,7 @@ R10 是 APS-C，想接近全画幅 105mm 视角，可用 **RF-S 18-150mm 调到 
 
 ![A close up of a camera with a lens](https://images.unsplash.com/photo-1724011015432-07d4056b9b18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ1OTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 60D | f/5.0 | 1/80s | 46.0mm | ISO 100
+> EXIF: Camera Canon  EOS 60D | f/5.0 | 1/80s | 46.0mm | ISO 100
 
 
 ## 直觉
@@ -598,7 +598,7 @@ R10 是 APS-C，想接近全画幅 105mm 视角，可用 **RF-S 18-150mm 调到 
 
 ![grayscale photo of trees and mountains](https://images.unsplash.com/photo-1621750124542-0642f46d413b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ2MDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 90D | f/8.0 | 1/160s | 15.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 90D | f/8.0 | 1/160s | 15.0mm | ISO 100
 
 
 ## 直觉

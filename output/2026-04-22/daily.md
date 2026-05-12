@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-04-22
+# 每日摄影教练 - 2026-04-22
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![A man standing on top of a lush green hillside](https://images.unsplash.com/photo-1725120238686-ec5d89bf8e9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODc0MDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R8 | f/10.0 | 1/320s | 63.0mm | ISO 100
+> EXIF: Camera Canon  EOS R8 | f/10.0 | 1/320s | 63.0mm | ISO 100
 
 
 ## 直觉
@@ -40,7 +40,7 @@
 
 ![Mountain peak](https://images.unsplash.com/photo-1701561951328-e74b7688f84e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODc0MDl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/2.8 | 1/800s | 75.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7M3 | f/2.8 | 1/800s | 75.0mm | ISO 100
 
 
 ## 直觉

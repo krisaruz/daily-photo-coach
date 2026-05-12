@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-01-20
+# 每日摄影教练 - 2026-01-20
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![a view of a mountain range with trees in the foreground](https://images.unsplash.com/photo-1708005103625-8c5b688a5499?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTI1NjN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/8.0 | 1/125s | 85.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7M3 | f/8.0 | 1/125s | 85.0mm | ISO 100
 
 
 ## 直觉
@@ -64,7 +64,7 @@
 
 ![The Village of Munsiyari on the New Year Morning.](https://images.unsplash.com/photo-1683700912945-1cc17effa0bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTI1Njl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6100 | f/11 | 1/500s | 18.0mm | ISO 400
+> EXIF: Camera SONY ILCE-6100 | f/11 | 1/500s | 18.0mm | ISO 400
 
 
 ## 直觉
@@ -96,7 +96,7 @@
 
 ![A woman standing in the woods with her hand on her chest](https://images.unsplash.com/photo-1727188149972-ea9e1888a7d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTI1NzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D750 | f/1.8 | 1/800s | 85.0mm | ISO 320
+> EXIF: Camera NIKON CORPORATION NIKON D750 | f/1.8 | 1/800s | 85.0mm | ISO 320
 
 
 ## 直觉
@@ -205,7 +205,7 @@
 
 ![Man with camera on tripod at night](https://images.unsplash.com/photo-1775259331727-f8bbe598fd8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTI1OTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS REBEL T5i | f/5.0 | 1/40s | 18.0mm | ISO 3200
+> EXIF: Camera Canon  EOS REBEL T5i | f/5.0 | 1/40s | 18.0mm | ISO 3200
 
 
 ## 直觉

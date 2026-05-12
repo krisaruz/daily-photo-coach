@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-04-28
+# 每日摄影教练 - 2026-04-28
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![a large body of water surrounded by mountains](https://images.unsplash.com/photo-1649743823325-b77ee27d9ffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5MDd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D90 | f/1.8 | 1/4000s | 35.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D90 | f/1.8 | 1/4000s | 35.0mm | ISO 100
 
 
 ## 直觉
@@ -39,7 +39,7 @@
 
 ![a hill with a tower on top of it](https://images.unsplash.com/photo-1687794462528-e32374b2fdfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5MTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6300 | f/8.0 | 1/160s | 70.0mm | ISO 100
+> EXIF: Camera SONY ILCE-6300 | f/8.0 | 1/160s | 70.0mm | ISO 100
 
 
 ## 直觉
@@ -66,7 +66,7 @@
 
 ![a mountain with snow](https://images.unsplash.com/photo-1660621975884-7d01e606bc5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5MTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D7200 | f/11.0 | 1/60s | 200.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D7200 | f/11.0 | 1/60s | 200.0mm | ISO 100
 
 
 ## 直觉
@@ -98,7 +98,7 @@
 
 ![Child photographer using a canon camera amongst pigeons](https://images.unsplash.com/photo-1636581563669-574d8a22ae4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5MTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 1200D | f/6.3 | 1/800s | 209.0mm | ISO 400
+> EXIF: Camera Canon  EOS 1200D | f/6.3 | 1/800s | 209.0mm | ISO 400
 
 
 ## 直觉
@@ -125,7 +125,7 @@
 
 ![Library portrait photography](https://images.unsplash.com/photo-1718120361146-1055b0ee2abc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5MjB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark III | f/2.8 | 1/80s | 70.0mm | ISO 125
+> EXIF: Camera Canon  EOS 5D Mark III | f/2.8 | 1/80s | 70.0mm | ISO 125
 
 
 ## 直觉
@@ -151,7 +151,7 @@
 
 ![HUSTLING IN STREETS ](https://images.unsplash.com/photo-1661112952418-84a766daacf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5MjV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 CANON  CANON 1500D | f/1.8 | 1/800s | 50.0mm | ISO 100
+> EXIF: Camera CANON  CANON 1500D | f/1.8 | 1/800s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -186,7 +186,7 @@
 
 ![Clearing experiences of ages.](https://images.unsplash.com/photo-1618679577058-fbe95f946a83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5Mjd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5500 | f/6.3 | 1/160s | 55.0mm | ISO 400
+> EXIF: Camera NIKON CORPORATION NIKON D5500 | f/6.3 | 1/160s | 55.0mm | ISO 400
 
 
 ## 直觉
@@ -213,7 +213,7 @@
 
 ![a path through a bamboo forest with lots of tall trees](https://images.unsplash.com/photo-1686560663895-34def14ccfe8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5MzB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/2.0 | 1/125s | 23.0mm | ISO 2000
+> EXIF: Camera FUJIFILM X-Pro3 | f/2.0 | 1/125s | 23.0mm | ISO 2000
 
 
 ## 直觉
@@ -239,7 +239,7 @@
 
 ![a couple of people sitting in chairs on a sidewalk](https://images.unsplash.com/photo-1716487734699-a6fc64daec0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5MzZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS Rebel T7 | f/5.0 | 1/125s | 140.0mm | ISO 100
+> EXIF: Camera Canon  EOS Rebel T7 | f/5.0 | 1/125s | 140.0mm | ISO 100
 
 
 ## 直觉
@@ -271,7 +271,7 @@
 
 ![white and black concrete building](https://images.unsplash.com/photo-1606690593139-394c7a68b0c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5NDF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple Iphone 5s
+> EXIF: Camera Apple Iphone 5s
 
 
 ## 直觉
@@ -323,7 +323,7 @@
 
 ![Tired](https://images.unsplash.com/photo-1706476307562-b117a0d7cb55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5NDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R7 | f/8.0 | 1/1600s | 210.0mm | ISO 100
+> EXIF: Camera Canon  EOS R7 | f/8.0 | 1/1600s | 210.0mm | ISO 100
 
 
 ## 直觉
@@ -359,7 +359,7 @@
 
 ![Designed for Delight - Honey, Granola & Greek Yogurt](https://images.unsplash.com/photo-1763686483398-730a9555b3f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5NTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5300 | f/9.0 | 1/200s | 40.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D5300 | f/9.0 | 1/200s | 40.0mm | ISO 100
 
 
 ## 直觉
@@ -385,7 +385,7 @@
 
 ![Dutch baby with sauteed apples next to a bowl of sliced apples and a skillet with wooden server.](https://images.unsplash.com/photo-1757450395707-fa831be8f86a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5NjB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 14 Pro | 0.0mm | ISO 64
+> EXIF: Camera Apple iPhone 14 Pro | 0.0mm | ISO 64
 
 
 ## 直觉
@@ -412,7 +412,7 @@
 
 ![a bowl of cereal and a cup of coffee on a table](https://images.unsplash.com/photo-1644561153640-032b5e671ebb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5ODV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 800D | f/5.6 | 1/100s | 55.0mm | ISO 800
+> EXIF: Camera Canon  EOS 800D | f/5.6 | 1/100s | 55.0mm | ISO 800
 
 
 ## 直觉
@@ -443,7 +443,7 @@
 
 ![City skyline illuminated at night with distant lights.](https://images.unsplash.com/photo-1777912055231-f87c962d6f56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5ODl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 750D | f/6.3 | 1/80s | 55.0mm | ISO 12800
+> EXIF: Camera Canon  EOS 750D | f/6.3 | 1/80s | 55.0mm | ISO 12800
 
 
 ## 直觉
@@ -469,7 +469,7 @@
 
 ![Night photos cannot do without long exposure. It's always worth having a street in the frame to capture the lights of the cars - they create fantastic patterns and lines that attract attention.](https://images.unsplash.com/photo-1604395241702-1c1a533b6d57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjU5OTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM2 | f/16.0 | 5s | 33.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7RM2 | f/16.0 | 5s | 33.0mm | ISO 100
 
 
 ## 直觉
@@ -496,7 +496,7 @@
 
 ![Blurry blue and white lights at night](https://images.unsplash.com/photo-1759701059272-d83175fff799?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjYwMDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 RICOH IMAGING COMPANY, LTD. RICOH GR IIIx | f/2.8 | 1/25s | 26.0mm | ISO 100
+> EXIF: Camera RICOH IMAGING COMPANY, LTD. RICOH GR IIIx | f/2.8 | 1/25s | 26.0mm | ISO 100
 
 
 ## 直觉
@@ -527,7 +527,7 @@
 
 ![purple flower in tilt shift lens](https://images.unsplash.com/photo-1611605723894-a039386a1507?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjYwMDN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5600 | f/1.8 | 1/4000s | 35.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D5600 | f/1.8 | 1/4000s | 35.0mm | ISO 100
 
 
 ## 直觉
@@ -553,7 +553,7 @@
 
 ![A Cananga odorata flower, or Bunga Kenanga, the scented flower from South East Asia.](https://images.unsplash.com/photo-1710260715197-d43a51dbd2fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjYwMDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 1300D | f/4.0 | 1/60s | 50.0mm
+> EXIF: Camera Canon  EOS 1300D | f/4.0 | 1/60s | 50.0mm
 
 
 ## 直觉
@@ -580,7 +580,7 @@
 
 ![Orange Big Leaf Beetle Close Shot](https://images.unsplash.com/photo-1691818113122-e9104e72e2f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjYwMTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS M50m2 | f/16.0 | 1/160s | 100.0mm | ISO 100
+> EXIF: Camera Canon  EOS M50m2 | f/16.0 | 1/160s | 100.0mm | ISO 100
 
 
 ## 直觉
@@ -612,7 +612,7 @@
 
 ![a couple of people sitting on a stone wall overlooking the ocean](https://images.unsplash.com/photo-1660311470254-436a26d01e89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjYwMTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 100D | f/7.1 | 1/400s | 55.0mm
+> EXIF: Camera Canon  EOS 100D | f/7.1 | 1/400s | 55.0mm
 
 
 ## 直觉
@@ -638,7 +638,7 @@
 
 ![a black and white photo of a woman smiling](https://images.unsplash.com/photo-1645025157967-cba191b331ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjYwMTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 850D | f/11.0 | 1/8s | 38.0mm | ISO 100
+> EXIF: Camera Canon  EOS 850D | f/11.0 | 1/8s | 38.0mm | ISO 100
 
 
 ## 直觉

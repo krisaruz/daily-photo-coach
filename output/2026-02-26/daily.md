@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-02-26
+# 每日摄影教练 - 2026-02-26
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![green mountains under white clouds during daytime](https://images.unsplash.com/photo-1611567890572-01a5b42d0e2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkxOTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 DJI FC7203 | f/2.8 | 1/2000s | 4.5mm | ISO 100
+> EXIF: Camera DJI FC7203 | f/2.8 | 1/2000s | 4.5mm | ISO 100
 
 
 ## 直觉
@@ -41,7 +41,7 @@
 -
 @Samuele Pieretti, 2022](https://images.unsplash.com/photo-1643033763297-4486d647d19c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkxOTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/8 | 1/320s | 120.0mm | ISO 50
+> EXIF: Camera SONY ILCE-7M3 | f/8 | 1/320s | 120.0mm | ISO 50
 
 
 ## 直觉
@@ -68,7 +68,7 @@
 
 ![Dreamy autumn drive](https://images.unsplash.com/photo-1759579059828-10720b98eb66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkxOTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 13 Pro | f/1.5 | 1/4444s | 5.7mm | ISO 50
+> EXIF: Camera Apple iPhone 13 Pro | f/1.5 | 1/4444s | 5.7mm | ISO 50
 
 
 ## 直觉
@@ -99,7 +99,7 @@
 
 ![Sandra is cycling through the Tirol Alps an taking some photos](https://images.unsplash.com/photo-1600366249664-acd65e33e5d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkyMDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5600 | f/6 | 1/1000s | 135.0mm | ISO 800
+> EXIF: Camera NIKON CORPORATION NIKON D5600 | f/6 | 1/1000s | 135.0mm | ISO 800
 
 
 ## 直觉
@@ -150,7 +150,7 @@
 
 ![Any.](https://images.unsplash.com/photo-1728463087100-5620f18d1e70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkyMDN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/3.5 | 1/80s | 85.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7M3 | f/3.5 | 1/80s | 85.0mm | ISO 100
 
 
 ## 直觉
@@ -182,7 +182,7 @@
 
 ![a black and white photo of a person in a room](https://images.unsplash.com/photo-1672104164398-7ffbf57e9e09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkyMDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-E3 | 1/170s | 35.0mm | ISO 800
+> EXIF: Camera FUJIFILM X-E3 | 1/170s | 35.0mm | ISO 800
 
 
 ## 直觉
@@ -209,7 +209,7 @@
 
 ![For information & collaboration take a look at my website 🙂 https://emilianovittoriosi.info or follow me on instagram https://www.instagram.com/emilianovittoriosi/](https://images.unsplash.com/photo-1649325886054-4d6cc40af36c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkyMDV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 1300D | f/2.8 | 1/100s | 17.0mm | ISO 1600
+> EXIF: Camera Canon  EOS 1300D | f/2.8 | 1/100s | 17.0mm | ISO 1600
 
 
 ## 直觉
@@ -235,7 +235,7 @@
 
 ![a black and white photo of a person standing at the top of a flight of](https://images.unsplash.com/photo-1584460274067-25595b25a0e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkyMDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 1000D | f/3.5 | 1/2000s | 20.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 1000D | f/3.5 | 1/2000s | 20.0mm | ISO 100
 
 
 ## 直觉
@@ -266,7 +266,7 @@
 
 ![a man riding a snowboard down a snow covered slope](https://images.unsplash.com/photo-1644168289615-bd21504412c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkyMDd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D7100 | f/6.3 | 1/1600s | 120.0mm | ISO 250
+> EXIF: Camera NIKON CORPORATION NIKON D7100 | f/6.3 | 1/1600s | 120.0mm | ISO 250
 
 
 ## 直觉
@@ -293,7 +293,7 @@
 
 ![A snowy seaside pavilion with strong shadows and geometric lines. The blue sea and sky contrast beautifully with the winter scene.](https://images.unsplash.com/photo-1745396141099-b831b2233d3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkyMjR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7C | f/8.0 | 1/320s | 60.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7C | f/8.0 | 1/320s | 60.0mm | ISO 100
 
 
 ## 直觉
@@ -320,7 +320,7 @@
 
 ![a very tall building with a sky background](https://images.unsplash.com/photo-1572504010792-65e139fe53ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkyMjV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone X | f/1.8 | 1/1656s | 4.0mm | ISO 20
+> EXIF: Camera Apple iPhone X | f/1.8 | 1/1656s | 4.0mm | ISO 20
 
 
 ## 直觉
@@ -352,7 +352,7 @@
 
 ![Artichoke food photography](https://images.unsplash.com/photo-1612544409323-e338bc00bcfa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkyMjl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 5D Mark III | f/4 | 1/80s | 96.0mm | ISO 640
+> EXIF: Camera Canon Canon EOS 5D Mark III | f/4 | 1/80s | 96.0mm | ISO 640
 
 
 ## 直觉
@@ -379,7 +379,7 @@
 
 ![Delicious Pav bhaji](https://images.unsplash.com/photo-1619193099710-e54f2e2f1b28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkyMzF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5600 | f/1.8 | 1/160s | 50.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D5600 | f/1.8 | 1/160s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -435,7 +435,7 @@
 
 ![Person standing on a bridge with city skyline at night](https://images.unsplash.com/photo-1761064958157-8d45a7b0e812?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkyNDF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS RP | f/6.3 | 1/4s | 16.0mm | ISO 1600
+> EXIF: Camera Canon  EOS RP | f/6.3 | 1/4s | 16.0mm | ISO 1600
 
 
 ## 直觉
@@ -461,7 +461,7 @@
 
 ![a fire truck with lights on driving down a street](https://images.unsplash.com/photo-1638562455798-1848f041d76a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkyNDJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/1.4 | 1/100s | 85.0mm | ISO 1000
+> EXIF: Camera SONY ILCE-6400 | f/1.4 | 1/100s | 85.0mm | ISO 1000
 
 
 ## 直觉
@@ -488,7 +488,7 @@
 
 ![a view of the seattle skyline at night](https://images.unsplash.com/photo-1688048481392-c425462ac4f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkyNDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D | f/1.8 | 1/250s | 50.0mm | ISO 1000
+> EXIF: Camera Canon  EOS 6D | f/1.8 | 1/250s | 50.0mm | ISO 1000
 
 
 ## 直觉
@@ -519,7 +519,7 @@
 
 ![a close up of a pine cone](https://images.unsplash.com/photo-1668216338435-a3fb6d87c478?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkyNDV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D Mark II | f/8.0 | 1/4s | 100.0mm | ISO 125
+> EXIF: Camera Canon  EOS 6D Mark II | f/8.0 | 1/4s | 100.0mm | ISO 125
 
 
 ## 直觉
@@ -546,7 +546,7 @@
 
 ![Pink Lys](https://images.unsplash.com/photo-1772796029322-74d838c736d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTkyNDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM3 | 1/1250s | ISO 640
+> EXIF: Camera SONY ILCE-7RM3 | 1/1250s | ISO 640
 
 
 ## 直觉

@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2025-09-05
+# 每日摄影教练 - 2025-09-05
 
 
 ---
@@ -38,7 +38,7 @@
 
 ![snow covered mountain under blue sky during daytime](https://images.unsplash.com/photo-1621690901086-60a21b5ab457?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjkzOTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 1300D | f/11.0 | 1/800s | 180.0mm | ISO 200
+> EXIF: Camera Canon Canon EOS 1300D | f/11.0 | 1/800s | 180.0mm | ISO 200
 
 
 ## 直觉
@@ -65,7 +65,7 @@
 
 ![Snowy mountain peaks above a dark forest](https://images.unsplash.com/photo-1769539786222-eea8b312468c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjkzOTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D3200 | f/4.8 | 1/2500s | 122.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D3200 | f/4.8 | 1/2500s | 122.0mm | ISO 100
 
 
 ## 直觉
@@ -97,7 +97,7 @@
 
 ![a woman with long black hair sitting in a field](https://images.unsplash.com/photo-1633926930654-d23af560c25a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjkzOTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 70D | f/4.0 | 1/250s | 70.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 70D | f/4.0 | 1/250s | 70.0mm | ISO 100
 
 
 ## 直觉
@@ -123,7 +123,7 @@
 
 ![woman in blue and white long sleeve shirt covering her face with black knit cap](https://images.unsplash.com/photo-1613224630301-cf82ccee18b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjkzOTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM4 | f/1.4 | 1/400s | 85.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7RM4 | f/1.4 | 1/400s | 85.0mm | ISO 100
 
 
 ## 直觉
@@ -150,7 +150,7 @@
 ![For more pictures: instagram.com/_blrguillaume
 contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516-6df3db2bc84f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0MDF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 700D | f/1.8 | 1/1250s | 50.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 700D | f/1.8 | 1/1250s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -181,7 +181,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![two people sitting on a bench in a park](https://images.unsplash.com/photo-1677061857699-55d08fdf415d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0MDN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/2.8 | 1/3200s | 23.0mm | ISO 160
+> EXIF: Camera FUJIFILM X-Pro3 | f/2.8 | 1/3200s | 23.0mm | ISO 160
 
 
 ## 直觉
@@ -208,7 +208,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![man standing near orange railings](https://images.unsplash.com/photo-1563440475347-371ee16430f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0MDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5300 | f/1.8 | 1/800s | 50.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D5300 | f/1.8 | 1/800s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -235,7 +235,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![A large brick house with a gray roof and trees.](https://images.unsplash.com/photo-1768700519387-e7723997cdd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0MDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY DSC-RX100M2 | f/4.5 | 1/250s | 13.6mm | ISO 400
+> EXIF: Camera SONY DSC-RX100M2 | f/4.5 | 1/250s | 13.6mm | ISO 400
 
 
 ## 直觉
@@ -290,7 +290,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![brown concrete building during daytime](https://images.unsplash.com/photo-1586178132225-99f5d5277f1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0MTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Sony A7RIII | f/3.5 | 1/160s | 55.0mm | ISO 100
+> EXIF: Camera Sony A7RIII | f/3.5 | 1/160s | 55.0mm | ISO 100
 
 
 ## 直觉
@@ -316,7 +316,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![Round Windows](https://images.unsplash.com/photo-1507027763150-61c1c9f7307e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0MTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 7D | f/14.0 | 1/200s | 36.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 7D | f/14.0 | 1/200s | 36.0mm | ISO 100
 
 
 ## 直觉
@@ -347,7 +347,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![A hearty meal with fries, salad, and a sandwich.](https://images.unsplash.com/photo-1762631884797-a7717a086781?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0MTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D | f/4.5 | 1/125s | 50.0mm | ISO 320
+> EXIF: Camera Canon  EOS 6D | f/4.5 | 1/125s | 50.0mm | ISO 320
 
 
 ## 直觉
@@ -374,7 +374,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![a close up of a plate of food with a knife](https://images.unsplash.com/photo-1696721496919-4914b45bce94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0MjB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark IV | f/4.5 | 1/250s | 100.0mm | ISO 4000
+> EXIF: Camera Canon  EOS 5D Mark IV | f/4.5 | 1/250s | 100.0mm | ISO 4000
 
 
 ## 直觉
@@ -401,7 +401,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![bread with cheese on white ceramic plate](https://images.unsplash.com/photo-1617146712058-246d624afe39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0MjN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 5D Mark III | f/2.8 | 1/160s | 50.0mm | ISO 1000
+> EXIF: Camera Canon Canon EOS 5D Mark III | f/2.8 | 1/160s | 50.0mm | ISO 1000
 
 
 ## 直觉
@@ -436,7 +436,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![Amsterdam at night, street photography](https://images.unsplash.com/photo-1698264163543-a057a1f754ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0MjV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM GFX50S II | 1/42s | 0.0mm | ISO 2000
+> EXIF: Camera FUJIFILM GFX50S II | 1/42s | 0.0mm | ISO 2000
 
 
 ## 直觉
@@ -487,7 +487,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![Evening lights of big city](https://images.unsplash.com/photo-1624537354079-5cea130cf69b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0MzB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 6D Mark II | f/22 | 0.3s | 24.0mm | ISO 320
+> EXIF: Camera Canon Canon EOS 6D Mark II | f/22 | 0.3s | 24.0mm | ISO 320
 
 
 ## 直觉
@@ -518,7 +518,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![selective focus photography of green plant](https://images.unsplash.com/photo-1573229664268-3ab315835c57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0MzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 1300D | f/2.8 | 1/125s | 100.0mm | ISO 1000
+> EXIF: Camera Canon Canon EOS 1300D | f/2.8 | 1/125s | 100.0mm | ISO 1000
 
 
 ## 直觉
@@ -544,7 +544,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![Water droplets on a green leaf surface.](https://images.unsplash.com/photo-1770392170571-96a0aef2df24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0MzV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R50 | f/2.8 | 1/640s | 105.0mm | ISO 250
+> EXIF: Camera Canon  EOS R50 | f/2.8 | 1/640s | 105.0mm | ISO 250
 
 
 ## 直觉
@@ -570,7 +570,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![цветы муравей природа nature flowers ant](https://images.unsplash.com/photo-1766227550107-a92ddc94835d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0Mzd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY DSC-H10 | f/8.0 | 1/100s | 10.1mm | ISO 125
+> EXIF: Camera SONY DSC-H10 | f/8.0 | 1/100s | 10.1mm | ISO 125
 
 
 ## 直觉
@@ -602,7 +602,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![silhouette of 2 people on water during daytime](https://images.unsplash.com/photo-1618687972339-9564171731d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0NDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 5D | f/5.6 | 1/125s | 149.0mm | ISO 1000
+> EXIF: Camera Canon Canon EOS 5D | f/5.6 | 1/125s | 149.0mm | ISO 1000
 
 
 ## 直觉
@@ -629,7 +629,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![grayscale photo of concrete building](https://images.unsplash.com/photo-1629223486621-56c80cded8b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0NDJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DMC-G7 | f/3.5 | 1/320s | 14.0mm | ISO 100
+> EXIF: Camera Panasonic DMC-G7 | f/3.5 | 1/320s | 14.0mm | ISO 100
 
 
 ## 直觉
@@ -655,7 +655,7 @@ contact: bleyerguillaume@gmail.com](https://images.unsplash.com/photo-1556541516
 
 ![a black and white photo of a camera](https://images.unsplash.com/photo-1648272628666-e91dff627131?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk0NDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 LGE LM-Q730 | f/1.8 | 1/4s | 3.6mm | ISO 219
+> EXIF: Camera LGE LM-Q730 | f/1.8 | 1/4s | 3.6mm | ISO 219
 
 
 ## 直觉

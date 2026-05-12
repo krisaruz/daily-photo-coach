@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-03-06
+# 每日摄影教练 - 2026-03-06
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![mountain under white sky](https://images.unsplash.com/photo-1555894348-3321073000e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQyNzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M2 | f/2.8 | 1/2500s | 28.0mm | ISO 160
+> EXIF: Camera SONY ILCE-7M2 | f/2.8 | 1/2500s | 28.0mm | ISO 160
 
 
 ## 直觉
@@ -39,7 +39,7 @@
 
 ![a wooden bench sitting in a grass covered field](https://images.unsplash.com/photo-1692070913976-326494000b17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQyNzR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T3 | f/5.6 | 1/1250s | 23.3mm | ISO 320
+> EXIF: Camera FUJIFILM X-T3 | f/5.6 | 1/1250s | 23.3mm | ISO 320
 
 
 ## 直觉
@@ -66,7 +66,7 @@
 
 ![Serró de la cruz ubicado en el municipio de Rosales, Chihuahua. 🎞️](https://images.unsplash.com/photo-1776048613315-91bc48d24147?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQyNzV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R100 | f/18.0 | 1/60s | 45.0mm | ISO 320
+> EXIF: Camera Canon  EOS R100 | f/18.0 | 1/60s | 45.0mm | ISO 320
 
 
 ## 直觉
@@ -98,7 +98,7 @@
 
 ![a woman with her hair in the wind](https://images.unsplash.com/photo-1646772282353-b27ed5ed02fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQyNzd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 80D | f/2.2 | 1/2000s | 50.0mm | ISO 100
+> EXIF: Camera Canon  EOS 80D | f/2.2 | 1/2000s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -125,7 +125,7 @@
 
 ![kamand](https://images.unsplash.com/photo-1635853670663-12e40fcb0462?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQyNzh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM2 | f/4.0 | 1/100s | 85.0mm | ISO 50
+> EXIF: Camera SONY ILCE-7RM2 | f/4.0 | 1/100s | 85.0mm | ISO 50
 
 
 ## 直觉
@@ -151,7 +151,7 @@
 
 ![Any.](https://images.unsplash.com/photo-1728463087166-eb456bbde541?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQyODB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/2.8 | 1/125s | 85.0mm | ISO 500
+> EXIF: Camera SONY ILCE-7M3 | f/2.8 | 1/125s | 85.0mm | ISO 500
 
 
 ## 直觉
@@ -183,7 +183,7 @@
 
 ![a small store with a red roof](https://images.unsplash.com/photo-1661260731867-0331868d14a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQyODF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DC-GH5 | 1/125s | ISO 2500
+> EXIF: Camera Panasonic DC-GH5 | 1/125s | ISO 2500
 
 
 ## 直觉
@@ -210,7 +210,7 @@
 
 ![For information & collaboration take a look at my website 🙂 https://emilianovittoriosi.info or follow me on instagram https://www.instagram.com/emilianovittoriosi/](https://images.unsplash.com/photo-1649325898354-fcae26b749fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQyODN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D90 | 1/2000s | ISO 640
+> EXIF: Camera NIKON CORPORATION NIKON D90 | 1/2000s | ISO 640
 
 
 ## 直觉
@@ -237,7 +237,7 @@
 
 ![Driver.](https://images.unsplash.com/photo-1720389772499-e6c90d1687eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQyODR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/2.5 | 1/1250s | 35.0mm | ISO 50
+> EXIF: Camera SONY ILCE-7M3 | f/2.5 | 1/1250s | 35.0mm | ISO 50
 
 
 ## 直觉
@@ -268,7 +268,7 @@
 
 ![Champalimaud foundation](https://images.unsplash.com/photo-1773229323015-2dcf5be73dc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQyODZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Xiaomi  14T Pro/2407FPN8EG | f/2.0 | 1/640s | 8.8mm | ISO 77
+> EXIF: Camera Xiaomi  14T Pro/2407FPN8EG | f/2.0 | 1/640s | 8.8mm | ISO 77
 
 
 ## 直觉
@@ -295,7 +295,7 @@
 
 ![gray concrete building under clear blue sky](https://images.unsplash.com/photo-1563258633-558dec1f915a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQyODd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 7D | f/13.0 | 1/125s | 60.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 7D | f/13.0 | 1/125s | 60.0mm | ISO 100
 
 
 ## 直觉
@@ -322,7 +322,7 @@
 
 ![WALL](https://images.unsplash.com/photo-1522743358649-311c79004e9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQyODl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 7D | f/11.0 | 1/100s | 18.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 7D | f/11.0 | 1/100s | 18.0mm | ISO 100
 
 
 ## 直觉
@@ -354,7 +354,7 @@
 
 ![a wooden cutting board topped with a pizza next to a sliced loaf of bread](https://images.unsplash.com/photo-1695457205928-6cc9ef726af0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQyOTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/5.0 | 1/400s | 56.0mm | ISO 400
+> EXIF: Camera SONY ILCE-6400 | f/5.0 | 1/400s | 56.0mm | ISO 400
 
 
 ## 直觉
@@ -381,7 +381,7 @@
 
 ![a woman is pouring mustard on a sandwich](https://images.unsplash.com/photo-1708968975013-a52613c6bbea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQyOTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R6 | f/7.1 | 1/160s | 70.0mm | ISO 320
+> EXIF: Camera Canon  EOS R6 | f/7.1 | 1/160s | 70.0mm | ISO 320
 
 
 ## 直觉
@@ -407,7 +407,7 @@
 
 ![a group of fruits on a table](https://images.unsplash.com/photo-1667986967072-514da163d0b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQyOTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D750 | f/22.0 | 1.6s | 90.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D750 | f/22.0 | 1.6s | 90.0mm | ISO 100
 
 
 ## 直觉
@@ -439,7 +439,7 @@
 
 ![a building with a tower](https://images.unsplash.com/photo-1667738969726-ebce677c3db5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQzMDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T20 | f/8 | 0.4s | 18.0mm | ISO 400
+> EXIF: Camera FUJIFILM X-T20 | f/8 | 0.4s | 18.0mm | ISO 400
 
 
 ## 直觉
@@ -465,7 +465,7 @@
 
 ![red and white led signage](https://images.unsplash.com/photo-1580747182953-c3b5301389fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQzMDF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6500 | f/1.8 | 1/200s | 35.0mm | ISO 400
+> EXIF: Camera SONY ILCE-6500 | f/1.8 | 1/200s | 35.0mm | ISO 400
 
 
 ## 直觉
@@ -522,7 +522,7 @@
 
 ![Dragonfly perched on a thin branch with blurred background](https://images.unsplash.com/photo-1762329361642-8fc17d555dda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQzMDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/5.6 | 1/80s | 50.0mm | ISO 100
+> EXIF: Camera SONY ILCE-6400 | f/5.6 | 1/80s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -548,7 +548,7 @@
 
 ![A close-up shot of a single leaf from a hart's-tongue fern. The leaf’s unique patterns, with dark brown stripes against a vibrant green, stand out beautifully. The soft-focus background in dark green hues enhances the leaf's details and texture.](https://images.unsplash.com/photo-1721638547256-1ac8aade54e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQzMDd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON Z 5 | f/4.0 | 1/200s | 120.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON Z 5 | f/4.0 | 1/200s | 120.0mm | ISO 100
 
 
 ## 直觉
@@ -575,7 +575,7 @@
 
 ![Vibrant Butterfly Hovering Over Wild Plants](https://images.unsplash.com/photo-1740379042083-c6763ab856ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQzMDl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7CR | f/6.3 | 1/500s | 400.0mm | ISO 800
+> EXIF: Camera SONY ILCE-7CR | f/6.3 | 1/500s | 400.0mm | ISO 800
 
 
 ## 直觉
@@ -606,7 +606,7 @@
 
 ![I met this dog in Mexico City walking with my camera.](https://images.unsplash.com/photo-1523572989266-8239d24ebb68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQzMTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X100F | f/2.0 | 1/200s | 23.0mm | ISO 3200
+> EXIF: Camera FUJIFILM X100F | f/2.0 | 1/200s | 23.0mm | ISO 3200
 
 
 ## 直觉
@@ -633,7 +633,7 @@
 
 ![woman in black and white hat holding black and white stick](https://images.unsplash.com/photo-1597871040916-4b4c20ba08dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQzMTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D3300 | f/2.2 | 1/80s | 50.0mm | ISO 800
+> EXIF: Camera NIKON CORPORATION NIKON D3300 | f/2.2 | 1/80s | 50.0mm | ISO 800
 
 
 ## 直觉

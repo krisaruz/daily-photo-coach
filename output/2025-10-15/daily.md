@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2025-10-15
+# 每日摄影教练 - 2025-10-15
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![Zlatoust City](https://images.unsplash.com/photo-1637073665858-44e5f12d3917?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTQyNTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D610 | f/9.0 | 1/500s | 120.0mm | ISO 50
+> EXIF: Camera NIKON CORPORATION NIKON D610 | f/9.0 | 1/500s | 120.0mm | ISO 50
 
 
 ## 直觉
@@ -40,7 +40,7 @@
 
 ![Mountain in France during golden hour.](https://images.unsplash.com/photo-1628346401800-095ba2a97cb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTQyNTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X100V | f/2.8 | 1/8000s | 23.0mm | ISO 500
+> EXIF: Camera FUJIFILM X100V | f/2.8 | 1/8000s | 23.0mm | ISO 500
 
 
 ## 直觉
@@ -67,7 +67,7 @@
 
 ![Green mountain range with rocky foreground under a cloudy sky](https://images.unsplash.com/photo-1767461085794-072b1b3ab236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTQyNTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6300 | f/11.0 | 1/100s | 23.0mm | ISO 100
+> EXIF: Camera SONY ILCE-6300 | f/11.0 | 1/100s | 23.0mm | ISO 100
 
 
 ## 直觉
@@ -99,7 +99,7 @@
 
 ![a woman with long hair](https://images.unsplash.com/photo-1658525914952-c02cbe697dc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTQyNjB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS RP | 1/100s | 0.0mm | ISO 100
+> EXIF: Camera Canon  EOS RP | 1/100s | 0.0mm | ISO 100
 
 
 ## 直觉
@@ -125,7 +125,7 @@
 
 ![A fancy hat calls for a fancy photo (IG: @clay.banks)](https://images.unsplash.com/photo-1571659272955-04f5f54642dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTQyNjF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Sony a7iii | 35.0mm
+> EXIF: Camera Sony a7iii | 35.0mm
 
 
 ## 直觉

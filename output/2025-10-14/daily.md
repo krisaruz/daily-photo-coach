@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2025-10-14
+# 每日摄影教练 - 2025-10-14
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![brown wooden house near lake during daytime](https://images.unsplash.com/photo-1595885914073-3af381bbee7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5MDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5100 | f/8 | 1/250s | 18.0mm | ISO 160
+> EXIF: Camera NIKON CORPORATION NIKON D5100 | f/8 | 1/250s | 18.0mm | ISO 160
 
 
 ## 直觉
@@ -63,7 +63,7 @@
 
 ![a dirt path leading to a snow covered mountain](https://images.unsplash.com/photo-1706299237838-f9ea290483d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5MDl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 7 | f/1.8 | 1/1842s | 4.0mm | ISO 20
+> EXIF: Camera Apple iPhone 7 | f/1.8 | 1/1842s | 4.0mm | ISO 20
 
 
 ## 直觉
@@ -119,7 +119,7 @@
 
 ![mozhi](https://images.unsplash.com/photo-1637271200729-0f5e266a3062?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5MTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D | f/2.0 | 1/160s | 135.0mm | ISO 640
+> EXIF: Camera Canon  EOS 6D | f/2.0 | 1/160s | 135.0mm | ISO 640
 
 
 ## 直觉
@@ -175,7 +175,7 @@
 
 ![a man riding a motorcycle down a street next to a traffic light](https://images.unsplash.com/photo-1677061855242-bb3d63661930?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5MTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/5.6 | 1/320s | 50.0mm | ISO 640
+> EXIF: Camera FUJIFILM X-Pro3 | f/5.6 | 1/320s | 50.0mm | ISO 640
 
 
 ## 直觉
@@ -202,7 +202,7 @@
 
 !["Whispers of the Eternal City: Life along the ancient ghats of Varanasi." Moments capturing the spiritual essence and daily rhythms of Banaras. From the quiet morning routines to the candid interactions on the stone steps, these images explore the intersection of tradition, motion, and stillness in India’s holiest city.](https://images.unsplash.com/photo-1774682748714-5c9e50162efa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5MTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 realme  12 Pro+ 5G | f/2.6 | 1/268s | 13.3mm | ISO 50
+> EXIF: Camera realme  12 Pro+ 5G | f/2.6 | 1/268s | 13.3mm | ISO 50
 
 
 ## 直觉
@@ -228,7 +228,7 @@
 
 ![a man riding a bike down a street](https://images.unsplash.com/photo-1675875509512-873c32ab7874?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5MTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D3000 | f/22.0 | 1/6s | 19.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D3000 | f/22.0 | 1/6s | 19.0mm | ISO 100
 
 
 ## 直觉
@@ -284,7 +284,7 @@
 
 ![brown and white concrete building during daytime](https://images.unsplash.com/photo-1615125864118-f58bd38af40b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5MjF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Xiaomi Redmi Note 8 Pro | f/1.9 | 1/900s | 5.4mm | ISO 100
+> EXIF: Camera Xiaomi Redmi Note 8 Pro | f/1.9 | 1/900s | 5.4mm | ISO 100
 
 
 ## 直觉
@@ -310,7 +310,7 @@
 
 ![a tall building with a clear sky](https://images.unsplash.com/photo-1651756076091-38fe92dd436a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5MjJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R6 | f/5.6 | 1/160s | 105.0mm | ISO 200
+> EXIF: Camera Canon  EOS R6 | f/5.6 | 1/160s | 105.0mm | ISO 200
 
 
 ## 直觉
@@ -342,7 +342,7 @@
 
 ![a sandwich with meat and vegetables on a plate](https://images.unsplash.com/photo-1696721497627-3627b9c160cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5MjR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark IV | f/3.5 | 1/125s | 100.0mm | ISO 1600
+> EXIF: Camera Canon  EOS 5D Mark IV | f/3.5 | 1/125s | 100.0mm | ISO 1600
 
 
 ## 直觉
@@ -369,7 +369,7 @@
 
 ![Lemon ginger snack cake on a ceramic plate next to a ribbed metal board and striped linen napkin.](https://images.unsplash.com/photo-1757450296755-f875c2dc80bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5MjV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 14 Pro | f/1.8 | 1/120s | 6.9mm | ISO 125
+> EXIF: Camera Apple iPhone 14 Pro | f/1.8 | 1/120s | 6.9mm | ISO 125
 
 
 ## 直觉
@@ -451,7 +451,7 @@
 
 ![a bus driving down a city street at night](https://images.unsplash.com/photo-1638562447986-1fd76a9c67d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5MzB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/1.4 | 1/200s | 85.0mm | ISO 1000
+> EXIF: Camera SONY ILCE-6400 | f/1.4 | 1/200s | 85.0mm | ISO 1000
 
 
 ## 直觉
@@ -478,7 +478,7 @@
 
 ![a street at night](https://images.unsplash.com/photo-1669340869847-e18db089482c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5MzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/2.8 | 1/50s | 24.0mm | ISO 12800
+> EXIF: Camera SONY ILCE-7M3 | f/2.8 | 1/50s | 24.0mm | ISO 12800
 
 
 ## 直觉
@@ -533,7 +533,7 @@
 
 ![Dahlia 🌼](https://images.unsplash.com/photo-1701498208166-8f9d3b1533e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5MzR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R5 | f/8.0 | 1/125s | 100.0mm | ISO 640
+> EXIF: Camera Canon  EOS R5 | f/8.0 | 1/125s | 100.0mm | ISO 640
 
 
 ## 直觉
@@ -560,7 +560,7 @@
 
 ![Wild Rose Flower Close-Up With Delicate White Petals And Yellow Stamens In Green Garden](https://images.unsplash.com/photo-1774540880330-2652bb300930?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5MzZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T2 | f/8.0 | 1/500s | 400.0mm | ISO 320
+> EXIF: Camera FUJIFILM X-T2 | f/8.0 | 1/500s | 400.0mm | ISO 320
 
 
 ## 直觉
@@ -592,7 +592,7 @@
 
 ![Portrait of a charismatic cowboy](https://images.unsplash.com/photo-1622039403326-4022722b3170?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5Mzd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 5D Mark II | f/7.1 | 1/30s | 50.0mm | ISO 400
+> EXIF: Camera Canon Canon EOS 5D Mark II | f/7.1 | 1/30s | 50.0mm | ISO 400
 
 
 ## 直觉
@@ -618,7 +618,7 @@
 
 ![a woman with long hair](https://images.unsplash.com/photo-1657310771828-ec5bbc25df98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM5Mzl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS RP | 1/60s | ISO 200
+> EXIF: Camera Canon  EOS RP | 1/60s | ISO 200
 
 
 ## 直觉

@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-04-29
+# 每日摄影教练 - 2026-04-29
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![A 360 panorama of the view from the top of a mountain. Unfortunately, it was fairly hazy.](https://images.unsplash.com/photo-1649623333593-b83c24a55993?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUyNDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Google Pixel 6
+> EXIF: Camera Google Pixel 6
 
 
 ## 直觉
@@ -40,7 +40,7 @@
 
 ![a group of people walking up a hill](https://images.unsplash.com/photo-1661087687037-1e1b507c7b6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUyNDl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T3 | f/5.0 | 1/2500s | 90.0mm | ISO 640
+> EXIF: Camera FUJIFILM X-T3 | f/5.0 | 1/2500s | 90.0mm | ISO 640
 
 
 ## 直觉
@@ -66,7 +66,7 @@
 
 ![Mountain - Tignes, France](https://images.unsplash.com/photo-1568359718425-24985c3bb27e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUyNTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 7 | f/1.8 | 1/3195s | 4.0mm | ISO 20
+> EXIF: Camera Apple iPhone 7 | f/1.8 | 1/3195s | 4.0mm | ISO 20
 
 
 ## 直觉
@@ -99,7 +99,7 @@
 ![— Hello! My name is Soheil, I'm a Graphic Designer and  photo/videographer, I like to create creative moments. If you like my photos, give me a follow at Instagram; @Soheil.kmp
 ](https://images.unsplash.com/photo-1641893870203-7038ee41d161?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUyNTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/1.4 | 1/1250s | 30.0mm | ISO 125
+> EXIF: Camera SONY ILCE-6400 | f/1.4 | 1/1250s | 30.0mm | ISO 125
 
 
 ## 直觉
@@ -126,7 +126,7 @@
 
 ![Creative color filtered portrait](https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUyNjB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM2 | 1/125s | ISO 100
+> EXIF: Camera SONY ILCE-7RM2 | 1/125s | ISO 100
 
 
 ## 直觉
@@ -183,7 +183,7 @@
 
 ![a building with a lot of people standing on top of it](https://images.unsplash.com/photo-1686560663293-4cfb90088a43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUyNjZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/10.0 | 1/125s | 23.0mm | ISO 160
+> EXIF: Camera FUJIFILM X-Pro3 | f/10.0 | 1/125s | 23.0mm | ISO 160
 
 
 ## 直觉
@@ -210,7 +210,7 @@
 
 ![a man sitting on a bench in front of a city skyline](https://images.unsplash.com/photo-1677061855354-ccdb8cead991?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUyNjl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/3.2 | 1/500s | 54.1mm | ISO 800
+> EXIF: Camera FUJIFILM X-Pro3 | f/3.2 | 1/500s | 54.1mm | ISO 800
 
 
 ## 直觉
@@ -237,7 +237,7 @@
 
 ![A large brick house with a gray roof and trees.](https://images.unsplash.com/photo-1768700519387-e7723997cdd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUyNzF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY DSC-RX100M2 | f/4.5 | 1/250s | 13.6mm | ISO 400
+> EXIF: Camera SONY DSC-RX100M2 | f/4.5 | 1/250s | 13.6mm | ISO 400
 
 
 ## 直觉
@@ -269,7 +269,7 @@
 
 ![a tall white building with a blue sky in the background](https://images.unsplash.com/photo-1647715360138-33fb6fe68539?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUyNzd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM2 | f/14.0 | 1/160s | 40.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7RM2 | f/14.0 | 1/160s | 40.0mm | ISO 100
 
 
 ## 直觉
@@ -295,7 +295,7 @@
 
 ![On Point](https://images.unsplash.com/photo-1542871307-52aab5e79317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUyODB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 7D | f/13.0 | 1/100s | 31.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 7D | f/13.0 | 1/100s | 31.0mm | ISO 100
 
 
 ## 直觉
@@ -322,7 +322,7 @@
 
 ![Green Roof](https://images.unsplash.com/photo-1512977851705-67ee4bf294f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUyODV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 7D | f/13.0 | 1/160s | 135.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 7D | f/13.0 | 1/160s | 135.0mm | ISO 100
 
 
 ## 直觉
@@ -355,7 +355,7 @@
 
 ![Spicy glazed food with peppers and onions](https://images.unsplash.com/photo-1757445060133-e1a82dfaba22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUyODh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M4 | f/10 | 1/40s | 38.7mm | ISO 100
+> EXIF: Camera SONY ILCE-7M4 | f/10 | 1/40s | 38.7mm | ISO 100
 
 
 ## 直觉
@@ -382,7 +382,7 @@
 
 ![Dumplings Photography](https://images.unsplash.com/photo-1670300522639-ce378e5d23a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUyOTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/2.8 | 1/125s | 90.0mm | ISO 250
+> EXIF: Camera SONY ILCE-7M3 | f/2.8 | 1/125s | 90.0mm | ISO 250
 
 
 ## 直觉
@@ -409,7 +409,7 @@
 
 ![a plate of french fries and a baguette on a table](https://images.unsplash.com/photo-1703695423541-f8fab0c5e01f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUyOTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS M10 | f/2.8 | 1/80s | 50.0mm | ISO 400
+> EXIF: Camera Canon  EOS M10 | f/2.8 | 1/80s | 50.0mm | ISO 400
 
 
 ## 直觉
@@ -441,7 +441,7 @@
 
 ![아름다운 부산시의 야경을 드론으로 촬영한 장면입니다](https://images.unsplash.com/photo-1764588760357-a5b0efd3513b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUyOTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 DJI FC9113 | f/1.8 | 1/50s | 8.7mm | ISO 400
+> EXIF: Camera DJI FC9113 | f/1.8 | 1/50s | 8.7mm | ISO 400
 
 
 ## 直觉
@@ -468,7 +468,7 @@
 
 ![Lisbon Nightscapes: Vibrant Neons and Glass Reflections Amidst City Lights - Captured amidst the enchanting nocturnal ambiance of Lisbon, this photograph unveils a mesmerizing interplay of vibrant neons, gleaming glass reflections, and the twinkling allure of city lights. Against the backdrop of the urban skyline, neon signs cast their luminous hues, painting the atmosphere with an electrifying vibrancy. The glass facades of buildings mirror the luminosity, creating a kaleidoscopic spectacle that dances with the rhythm of the night. Illuminating the streets below, the city lights add depth and](https://images.unsplash.com/photo-1709672327803-858225a6d614?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUzMDF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 LEICA CAMERA AG LEICA CL | 1/500s | 0.0mm | ISO 1600
+> EXIF: Camera LEICA CAMERA AG LEICA CL | 1/500s | 0.0mm | ISO 1600
 
 
 ## 直觉
@@ -495,7 +495,7 @@
 
 ![City skyline at sunset with orange sky.](https://images.unsplash.com/photo-1765570710917-83e88b52c855?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUzMDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 17 Pro Max | f/2.8 | 1/322s | 16.9mm | ISO 50
+> EXIF: Camera Apple iPhone 17 Pro Max | f/2.8 | 1/322s | 16.9mm | ISO 50
 
 
 ## 直觉
@@ -551,7 +551,7 @@
 
 ![In the Hourglass](https://images.unsplash.com/photo-1660728684136-0cdf1a0c2e02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUzMTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M4 | 1/80s | ISO 2000
+> EXIF: Camera SONY ILCE-7M4 | 1/80s | ISO 2000
 
 
 ## 直觉
@@ -577,7 +577,7 @@
 
 ![Ladybug on Thistle](https://images.unsplash.com/photo-1777386214373-2bcfc3182d56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUzMTR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M4 | f/4.5 | 1/160s | 105.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7M4 | f/4.5 | 1/160s | 105.0mm | ISO 100
 
 
 ## 直觉
@@ -609,7 +609,7 @@
 
 ![a man and a woman walking in a tunnel](https://images.unsplash.com/photo-1656657822902-f73c68499d3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUzMTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS M3 | f/5 | 1/40s | 37.0mm | ISO 4000
+> EXIF: Camera Canon  EOS M3 | f/5 | 1/40s | 37.0mm | ISO 4000
 
 
 ## 直觉
@@ -636,7 +636,7 @@
 
 ![man sitting on bench](https://images.unsplash.com/photo-1566839191486-6e869379fe04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUzMjF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM2 | f/7.1 | 1/160s | 55.0mm | ISO 800
+> EXIF: Camera SONY ILCE-7RM2 | f/7.1 | 1/160s | 55.0mm | ISO 800
 
 
 ## 直觉
@@ -664,7 +664,7 @@
 ![Minolta Autocord
 Foma Pan 400](https://images.unsplash.com/photo-1630215149925-4be4d6851923?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjUzMjR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NORITSU KOKI EZ Controller
+> EXIF: Camera NORITSU KOKI EZ Controller
 
 
 ## 直觉

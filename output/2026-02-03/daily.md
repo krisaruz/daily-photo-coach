@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-02-03
+# 每日摄影教练 - 2026-02-03
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![green grass field covered with fog](https://images.unsplash.com/photo-1612289013110-e027f83b5b04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU1NTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/8.0 | 1/200s | 55.0mm | ISO 125
+> EXIF: Camera SONY ILCE-7M3 | f/8.0 | 1/200s | 55.0mm | ISO 125
 
 
 ## 直觉
@@ -39,7 +39,7 @@
 
 ![A mountain with trees on the side of it](https://images.unsplash.com/photo-1725120238143-184990f4ed9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU1Nzl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R8 | f/7.1 | 1/80s | 65.0mm | ISO 100
+> EXIF: Camera Canon  EOS R8 | f/7.1 | 1/80s | 65.0mm | ISO 100
 
 
 ## 直觉
@@ -65,7 +65,7 @@
 
 ![Vast blue lake with distant mountains under sky.](https://images.unsplash.com/photo-1762245304143-ec1906a45112?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU1ODF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Xiaomi Mi 9T | f/1.8 | 1/1000s | 4.8mm | ISO 112
+> EXIF: Camera Xiaomi Mi 9T | f/1.8 | 1/1000s | 4.8mm | ISO 112
 
 
 ## 直觉
@@ -96,7 +96,7 @@
 
 ![woman in black v neck shirt](https://images.unsplash.com/photo-1616046946364-09c69529378f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU1ODJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/6.3 | 1/640s | 56.0mm | ISO 1250
+> EXIF: Camera SONY ILCE-6400 | f/6.3 | 1/640s | 56.0mm | ISO 1250
 
 
 ## 直觉
@@ -123,7 +123,7 @@
 
 ![Still looking at me?](https://images.unsplash.com/photo-1688817832234-e25707055aa4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU1ODR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D3400 | f/6.3 | 1/80s | 300.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D3400 | f/6.3 | 1/80s | 300.0mm | ISO 100
 
 
 ## 直觉
@@ -153,7 +153,7 @@
 
 ![a bus parked in a parking lot](https://images.unsplash.com/photo-1648540389265-156b2928f8a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU1ODV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D7000 | f/3.5 | 1/250s | 50.0mm | ISO 125
+> EXIF: Camera NIKON CORPORATION NIKON D7000 | f/3.5 | 1/250s | 50.0mm | ISO 125
 
 
 ## 直觉
@@ -185,7 +185,7 @@
 
 ![a couple of people that are standing in front of a wall](https://images.unsplash.com/photo-1677061857066-aa8ffccd6052?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU1ODd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-H1 | f/4.0 | 1/400s | 140.0mm | ISO 400
+> EXIF: Camera FUJIFILM X-H1 | f/4.0 | 1/400s | 140.0mm | ISO 400
 
 
 ## 直觉
@@ -212,7 +212,7 @@
 
 ![man standing near orange railings](https://images.unsplash.com/photo-1563440475347-371ee16430f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU1ODl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5300 | f/1.8 | 1/800s | 50.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D5300 | f/1.8 | 1/800s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -239,7 +239,7 @@
 
 ![Canon R5 Mark ii & 24-70 2.8 2025 by me.](https://images.unsplash.com/photo-1739890806122-be413b4b57fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU2MDd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R6m2 | f/7.1 | 1/500s | 70.0mm | ISO 200
+> EXIF: Camera Canon  EOS R6m2 | f/7.1 | 1/500s | 70.0mm | ISO 200
 
 
 ## 直觉
@@ -295,7 +295,7 @@
 
 ![minimal architecture shot on iphone](https://images.unsplash.com/photo-1763251177167-85a9ca1966a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU2MTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 15 Pro | f/1.8 | 1/590s | 6.8mm | ISO 64
+> EXIF: Camera Apple iPhone 15 Pro | f/1.8 | 1/590s | 6.8mm | ISO 64
 
 
 ## 直觉
@@ -322,7 +322,7 @@
 
 ![Modern architectural structure with geometric shapes and lines](https://images.unsplash.com/photo-1776320207001-e31195433019?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU2MTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM5 | f/5.6 | 1/640s | 28.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7RM5 | f/5.6 | 1/640s | 28.0mm | ISO 100
 
 
 ## 直觉
@@ -354,7 +354,7 @@
 
 ![Hand holding food](https://images.unsplash.com/photo-1692973834963-39ae19d41cbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU2MjJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 850D | f/2.2 | 1/1250s | 50.0mm | ISO 3200
+> EXIF: Camera Canon  EOS 850D | f/2.2 | 1/1250s | 50.0mm | ISO 3200
 
 
 ## 直觉
@@ -460,7 +460,7 @@ From series Taste for Adventure](https://images.unsplash.com/photo-1639209896393
 
 ![a man walking down a sidewalk next to a tall building](https://images.unsplash.com/photo-1637497520435-cb436ebddc8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU2NDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM2 | f/2.8 | 1/80s | 28.0mm | ISO 2000
+> EXIF: Camera SONY ILCE-7RM2 | f/2.8 | 1/80s | 28.0mm | ISO 2000
 
 
 ## 直觉
@@ -486,7 +486,7 @@ From series Taste for Adventure](https://images.unsplash.com/photo-1639209896393
 
 ![city skyline during night time](https://images.unsplash.com/photo-1626345351790-ae4b41a8981c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU2NDV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5300 | f/22 | 8s | 48.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D5300 | f/22 | 8s | 48.0mm | ISO 100
 
 
 ## 直觉
@@ -545,7 +545,7 @@ From series Taste for Adventure](https://images.unsplash.com/photo-1639209896393
 
 ![Passion of Fire within Flower](https://images.unsplash.com/photo-1752416136782-1a16d1ea3fcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU2NDl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5300 | f/5.6 | 1/800s | 55.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D5300 | f/5.6 | 1/800s | 55.0mm | ISO 100
 
 
 ## 直觉
@@ -571,7 +571,7 @@ From series Taste for Adventure](https://images.unsplash.com/photo-1639209896393
 
 ![Red berries covered in snow on a branch](https://images.unsplash.com/photo-1764835670490-8d200105f44c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU2NTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 250D | f/1.4 | 1/40s | 50.0mm | ISO 6400
+> EXIF: Camera Canon  EOS 250D | f/1.4 | 1/40s | 50.0mm | ISO 6400
 
 
 ## 直觉
@@ -602,7 +602,7 @@ From series Taste for Adventure](https://images.unsplash.com/photo-1639209896393
 
 ![a woman with long hair](https://images.unsplash.com/photo-1659821574826-5ff5c5e7d2e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU2NTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS RP | 1/80s | 0.0mm | ISO 100
+> EXIF: Camera Canon  EOS RP | 1/80s | 0.0mm | ISO 100
 
 
 ## 直觉
@@ -628,7 +628,7 @@ From series Taste for Adventure](https://images.unsplash.com/photo-1639209896393
 
 ![New York Street Life](https://images.unsplash.com/photo-1602866846830-cdd275073c0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTU2NTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M2 | f/6.3 | 1/80s | 38.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7M2 | f/6.3 | 1/80s | 38.0mm | ISO 100
 
 
 ## 直觉

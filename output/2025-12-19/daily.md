@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2025-12-19
+# 每日摄影教练 - 2025-12-19
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![a close up of a pine cone](https://images.unsplash.com/photo-1668216338624-70dcd8252bf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ0MDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D Mark II | f/8.0 | 0.4s | 100.0mm | ISO 125
+> EXIF: Camera Canon  EOS 6D Mark II | f/8.0 | 0.4s | 100.0mm | ISO 125
 
 
 ## 直觉
@@ -39,7 +39,7 @@
 
 ![Small bird nest on a green branch](https://images.unsplash.com/photo-1755118357468-e55317ed1b28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ0MDN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M4 | f/4.5 | 1/400s | 28.0mm | ISO 800
+> EXIF: Camera SONY ILCE-7M4 | f/4.5 | 1/400s | 28.0mm | ISO 800
 
 
 ## 直觉
@@ -66,7 +66,7 @@
 
 ![A Gymnopilus junonius mushroom growing from the hollow of an old tree stump, perfectly shaped by the wood cavity in a natural sculptural form.](https://images.unsplash.com/photo-1761842400345-2bdc89d38fd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ0MDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 17 | f/1.6 | 1/2000s | 6.0mm | ISO 40
+> EXIF: Camera Apple iPhone 17 | f/1.6 | 1/2000s | 6.0mm | ISO 40
 
 
 ## 直觉
@@ -97,7 +97,7 @@
 
 ![grayscale photo of leaves during daytime](https://images.unsplash.com/photo-1624680799574-8ff5b3f7c20e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ0MDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D7200 | f/2.8 | 1/1000s | 35.0mm | ISO 320
+> EXIF: Camera NIKON CORPORATION NIKON D7200 | f/2.8 | 1/1000s | 35.0mm | ISO 320
 
 
 ## 直觉
@@ -124,7 +124,7 @@
 
 ![grayscale photo of man in camouflage uniform](https://images.unsplash.com/photo-1612128655212-6fb1fb15dd95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDQ0MDl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DMC-G7 | f/1.7 | 1/200s | 25.0mm | ISO 200
+> EXIF: Camera Panasonic DMC-G7 | f/1.7 | 1/200s | 25.0mm | ISO 200
 
 
 ## 直觉

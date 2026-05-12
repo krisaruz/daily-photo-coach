@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-01-05
+# 每日摄影教练 - 2026-01-05
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![Sunset over the Ria de Vigo, Vigo city and the surrounding mountains with Cies islands, Redondela, Galicia, Spain, December 2018](https://images.unsplash.com/photo-1683041132892-0fe990b3afc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg2OTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone SE | f/2.2 | 1/2747s | 4.2mm | ISO 25
+> EXIF: Camera Apple iPhone SE | f/2.2 | 1/2747s | 4.2mm | ISO 25
 
 
 ## 直觉
@@ -65,7 +65,7 @@
 
 ![Snow-covered mountain peaks with evergreen trees and clouds](https://images.unsplash.com/photo-1770052702415-84dba2282de2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg3MDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Fujifilm X-T20 | f/0.0 | 0.0mm
+> EXIF: Camera Fujifilm X-T20 | f/0.0 | 0.0mm
 
 
 ## 直觉
@@ -97,7 +97,7 @@
 
 ![a man with a black shirt and a black and white photo](https://images.unsplash.com/photo-1649613577740-b41b0f285acb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg3MTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 760D | f/2.2 | 1/640s | 50.0mm | ISO 100
+> EXIF: Camera Canon  EOS 760D | f/2.2 | 1/640s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -151,7 +151,7 @@
 
 ![a man wearing a hat and sunglasses](https://images.unsplash.com/photo-1645800061645-0147df910d61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg3MjB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 4000D | f/2.0 | 1/1250s | 50.0mm | ISO 100
+> EXIF: Camera Canon  EOS 4000D | f/2.0 | 1/1250s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -182,7 +182,7 @@
 
 ![an aerial view of a city at night](https://images.unsplash.com/photo-1677061855354-3cf2dc3a2530?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg3MjF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/18.0 | 5s | 140.0mm | ISO 160
+> EXIF: Camera FUJIFILM X-Pro3 | f/18.0 | 5s | 140.0mm | ISO 160
 
 
 ## 直觉
@@ -236,7 +236,7 @@
 
 ![Woman rides a bicycle on a cobblestone street.](https://images.unsplash.com/photo-1753877018573-bf094fbfb7f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg3Mjh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7C | f/1.8 | 1/1250s | 35.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7C | f/1.8 | 1/1250s | 35.0mm | ISO 100
 
 
 ## 直觉
@@ -291,7 +291,7 @@
 
 ![high rise building](https://images.unsplash.com/photo-1561620777-41d73987913f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg3Mzd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 7D | f/13.0 | 1/125s | 31.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 7D | f/13.0 | 1/125s | 31.0mm | ISO 100
 
 
 ## 直觉
@@ -317,7 +317,7 @@
 
 ![gray spiral staircase under cloudy sky during daytime](https://images.unsplash.com/photo-1586927247280-68c8a7ef2a2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg3NDJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T3 | f/4.0 | 1/2000s | 26.5mm | ISO 320
+> EXIF: Camera FUJIFILM X-T3 | f/4.0 | 1/2000s | 26.5mm | ISO 320
 
 
 ## 直觉
@@ -349,7 +349,7 @@
 
 ![Celery on plate and dark background](https://images.unsplash.com/photo-1708436476462-199020e0180f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg3NTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 7D Mark II | f/6.3 | 1/4s | 50.0mm | ISO 250
+> EXIF: Camera Canon  EOS 7D Mark II | f/6.3 | 1/4s | 50.0mm | ISO 250
 
 
 ## 直觉
@@ -376,7 +376,7 @@
 
 ![My beetroot spread with ricotta cheese](https://images.unsplash.com/photo-1549032404-01ded1c8821b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg3NjB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 6D | f/2.8 | 1/125s | 100.0mm | ISO 2500
+> EXIF: Camera Canon Canon EOS 6D | f/2.8 | 1/125s | 100.0mm | ISO 2500
 
 
 ## 直觉
@@ -402,7 +402,7 @@
 
 ![a hand holding a piece of food](https://images.unsplash.com/photo-1647264067640-7d0a7e898f7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg3ODB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark II | f/10.0 | 1/125s | 50.0mm | ISO 50
+> EXIF: Camera Canon  EOS 5D Mark II | f/10.0 | 1/125s | 50.0mm | ISO 50
 
 
 ## 直觉
@@ -434,7 +434,7 @@
 
 ![City skyline illuminated at night with full moon.](https://images.unsplash.com/photo-1765345904278-f08ac65e0737?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg3ODR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 PENTAX  K-30 | f/4.0 | 4s | 58.0mm | ISO 200
+> EXIF: Camera PENTAX  K-30 | f/4.0 | 4s | 58.0mm | ISO 200
 
 
 ## 直觉
@@ -460,7 +460,7 @@
 
 ![a person walking in front of a building with a sign on it](https://images.unsplash.com/photo-1659530472054-e6c345c09499?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg3ODZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D Mark II | f/1.4 | 1/160s | 85.0mm | ISO 1000
+> EXIF: Camera Canon  EOS 6D Mark II | f/1.4 | 1/160s | 85.0mm | ISO 1000
 
 
 ## 直觉
@@ -489,7 +489,7 @@
 
 ![a group of people walking down a street at night](https://images.unsplash.com/photo-1687585612450-9c0a49849ef2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg3ODl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS M3 | f/4.0 | 1/60s | 22.0mm | ISO 10000
+> EXIF: Camera Canon  EOS M3 | f/4.0 | 1/60s | 22.0mm | ISO 10000
 
 
 ## 直觉
@@ -521,7 +521,7 @@
 
 ![a close up of a shell with a blue background](https://images.unsplash.com/photo-1695142263619-95a4133a4ff1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg4MzN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/2.8 | 1/200s | 70.0mm | ISO 100
+> EXIF: Camera SONY ILCE-6400 | f/2.8 | 1/200s | 70.0mm | ISO 100
 
 
 ## 直觉
@@ -548,7 +548,7 @@
 
 ![a mouse in close-up. macro photo of a mouse.](https://images.unsplash.com/photo-1705854879769-b46ce9510194?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDg4NTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D3200 | f/5.6 | 1/60s | 55.0mm | ISO 12800
+> EXIF: Camera NIKON CORPORATION NIKON D3200 | f/5.6 | 1/60s | 55.0mm | ISO 12800
 
 
 ## 直觉

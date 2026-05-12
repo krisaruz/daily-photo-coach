@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-02-04
+# 每日摄影教练 - 2026-02-04
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![a view of a mountain range](https://images.unsplash.com/photo-1658127371435-f9069aa2bd51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTYyNTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D750 | f/7.1 | 1/1600s | 300.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D750 | f/7.1 | 1/1600s | 300.0mm | ISO 100
 
 
 ## 直觉
@@ -40,7 +40,7 @@
 
 ![A man standing on top of a lush green hillside](https://images.unsplash.com/photo-1725120238678-bdffb82223c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTYyNTR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R8 | f/5.6 | 1/1000s | 44.0mm | ISO 100
+> EXIF: Camera Canon  EOS R8 | f/5.6 | 1/1000s | 44.0mm | ISO 100
 
 
 ## 直觉
@@ -67,7 +67,7 @@
 
 ![A dance of the elements. Snow covered cold stone, a nimbus visiting — and in-between some light. (A snow-covered mountain peak visited from swirling clouds, creating a dramatic and majestic scene.)](https://images.unsplash.com/photo-1740479570650-f93be95a76c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTYyNTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 OLYMPUS CORPORATION E-M1MarkII | f/5.6 | 1/640s | 40.0mm | ISO 200
+> EXIF: Camera OLYMPUS CORPORATION E-M1MarkII | f/5.6 | 1/640s | 40.0mm | ISO 200
 
 
 ## 直觉
@@ -99,7 +99,7 @@
 
 ![a couple of teddy bears sitting at a table](https://images.unsplash.com/photo-1704745493853-074676f17b01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTYyNTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON COOLPIX S2900 | f/6.5 | 1/320s | 23.0mm | ISO 80
+> EXIF: Camera NIKON COOLPIX S2900 | f/6.5 | 1/320s | 23.0mm | ISO 80
 
 
 ## 直觉
@@ -126,7 +126,7 @@
 
 ![woman in blue and white stripe button up shirt](https://images.unsplash.com/photo-1606122017369-d782bbb78f32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTYyNTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM4 | f/2.8 | 1/100s | 90.0mm | ISO 250
+> EXIF: Camera SONY ILCE-7RM4 | f/2.8 | 1/100s | 90.0mm | ISO 250
 
 
 ## 直觉
@@ -183,7 +183,7 @@
 
 ![a person walking up a set of stairs](https://images.unsplash.com/photo-1677061856475-be85ed72dd16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTYyNjN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/4.5 | 1/160s | 23.0mm | ISO 160
+> EXIF: Camera FUJIFILM X-Pro3 | f/4.5 | 1/160s | 23.0mm | ISO 160
 
 
 ## 直觉
@@ -213,7 +213,7 @@
 
 ![a black and white photo of a building](https://images.unsplash.com/photo-1700955123108-e9eb59b38c79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTYyNjV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T5 | f/1.4 | 1/160s | 23.0mm | ISO 400
+> EXIF: Camera FUJIFILM X-T5 | f/1.4 | 1/160s | 23.0mm | ISO 400
 
 
 ## 直觉
@@ -242,7 +242,7 @@
 
 ![man in black jacket walking in the hallway](https://images.unsplash.com/photo-1615692260700-ef74a2cf74f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTYyNzV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-S10 | f/2.0 | 1/250s | 23.0mm | ISO 1250
+> EXIF: Camera FUJIFILM X-S10 | f/2.0 | 1/250s | 23.0mm | ISO 1250
 
 
 ## 直觉
@@ -274,7 +274,7 @@
 
 ![Woman with hand on chin looking away](https://images.unsplash.com/photo-1776797419770-6484f139396e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTYyNzZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-S20 | f/4.0 | 1/13s | 10.0mm | ISO 640
+> EXIF: Camera FUJIFILM X-S20 | f/4.0 | 1/13s | 10.0mm | ISO 640
 
 
 ## 直觉

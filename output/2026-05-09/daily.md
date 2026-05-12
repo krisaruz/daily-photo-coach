@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-05-09
+# 每日摄影教练 - 2026-05-09
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![a view of a mountain with trees in the foreground](https://images.unsplash.com/photo-1638911628393-a929c707fd8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzNjd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 750D | f/5.0 | 1/500s | 28.0mm | ISO 100
+> EXIF: Camera Canon  EOS 750D | f/5.0 | 1/500s | 28.0mm | ISO 100
 
 
 ## 1. 第一印象
@@ -454,7 +454,7 @@ HSL 可尝试：
 
 ![a winding road in the middle of a mountain](https://images.unsplash.com/photo-1645861219578-44b8c0f08ca9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzNjh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone XS | f/2.4 | 1/440s | 6.0mm | ISO 16
+> EXIF: Camera Apple iPhone XS | f/2.4 | 1/440s | 6.0mm | ISO 16
 
 
 ## 1. 第一印象
@@ -3015,7 +3015,7 @@ ISO：根据光线提高到 400-800
 
 ![a group of people walking down a street](https://images.unsplash.com/photo-1671586087827-f25106618eeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzNzV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/2.8 | 1/20s | 75.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7M3 | f/2.8 | 1/20s | 75.0mm | ISO 100
 
 
 ## 1. 第一印象
@@ -3505,7 +3505,7 @@ ISO 100 带来的结果是：
 
 ![SF Streetcars](https://images.unsplash.com/photo-1600048837842-c175e44ad621?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzNzZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 6D | f/8.0 | 1/200s | 50.0mm | ISO 160
+> EXIF: Camera Canon Canon EOS 6D | f/8.0 | 1/200s | 50.0mm | ISO 160
 
 
 ## 1. 第一印象
@@ -3991,7 +3991,7 @@ ISO 160 的选择有几个好处：
 
 ![grayscale photo of man riding bicycle on road](https://images.unsplash.com/photo-1617384390955-ff5313d5753e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzNzh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon PowerShot G1 X Mark III | f/5.0 | 1/30s | 28.6mm | ISO 2000
+> EXIF: Camera Canon Canon PowerShot G1 X Mark III | f/5.0 | 1/30s | 28.6mm | ISO 2000
 
 
 ## 1. 第一印象
@@ -5214,7 +5214,7 @@ Snapseed 简单流程：
 
 ![high rise building under white clouds](https://images.unsplash.com/photo-1547206704-8a34f84836f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzODB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 7D | f/16.0 | 1/125s | 33.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 7D | f/16.0 | 1/125s | 33.0mm | ISO 100
 
 
 ## 1. 第一印象
@@ -5714,7 +5714,7 @@ ISO 100 最大限度保证了画质、动态范围和色彩干净度。对于这
 
 ![a black and white photo of an airplane flying over a building](https://images.unsplash.com/photo-1639863299690-4c67018cd012?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzODF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 600D | f/7.1 | 1/60s | 50.0mm | ISO 100
+> EXIF: Camera Canon  EOS 600D | f/7.1 | 1/60s | 50.0mm | ISO 100
 
 
 ## 1. 第一印象
@@ -6539,7 +6539,7 @@ f/7.1 是一个很合理的建筑拍摄光圈：
 
 ![I stumbled upon these gold macarons and had to photograph them. Glam food at its finest! Also playing with monochromatic colours.](https://images.unsplash.com/photo-1542691246-88d7c605ce87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzODV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 5D Mark III | f/2.5 | 1/640s | 85.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 5D Mark III | f/2.5 | 1/640s | 85.0mm | ISO 100
 
 
 ## 1. 第一印象
@@ -7045,7 +7045,7 @@ f/2.5 加 85mm，在近距离拍摄时景深很浅。稍微对错一点，夹心
 
 ![food](https://images.unsplash.com/photo-1737989444908-cfb2adb726fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzODZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-H2 | f/1.6 | 1/350s | 50.0mm | ISO 200
+> EXIF: Camera FUJIFILM X-H2 | f/1.6 | 1/350s | 50.0mm | ISO 200
 
 
 ## 1. 第一印象
@@ -7558,7 +7558,7 @@ f/1.6 很漂亮，但非常挑剔。
 
 ![Under the spotlight(s)](https://images.unsplash.com/photo-1771330935762-76f037290c44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzODd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DC-S5D | f/5.6 | 1/60s | 18.0mm | ISO 5000
+> EXIF: Camera Panasonic DC-S5D | f/5.6 | 1/60s | 18.0mm | ISO 5000
 
 
 ## 1. 第一印象
@@ -8074,7 +8074,7 @@ ISO 5000 让画面整体可见度提高，但你可以看到暗部区域，例�
 
 ![a red bus driving down a street next to a tall building](https://images.unsplash.com/photo-1644868731762-e9a9443667a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzODh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM2 | f/2.5 | 1/80s | 72.0mm | ISO 2500
+> EXIF: Camera SONY ILCE-7RM2 | f/2.5 | 1/80s | 72.0mm | ISO 2500
 
 
 ## 1. 第一印象
@@ -8635,7 +8635,7 @@ Lightroom 可参考：
 
 ![a blurry photo of a city street at night](https://images.unsplash.com/photo-1636814281352-cdfa309425b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzODl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 800D | f/8.0 | 3.2s | 50.0mm | ISO 200
+> EXIF: Camera Canon  EOS 800D | f/8.0 | 3.2s | 50.0mm | ISO 200
 
 
 ## 1. 第一印象
@@ -9143,7 +9143,7 @@ Lightroom 可参考：
 
 ![a close up of a flower on a plant](https://images.unsplash.com/photo-1705562706276-def5a99d6211?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzOTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY DSC-RX100M3 | f/1.8 | 1/125s | 8.8mm | ISO 250
+> EXIF: Camera SONY DSC-RX100M3 | f/1.8 | 1/125s | 8.8mm | ISO 250
 
 
 ## 1. 第一印象
@@ -9541,7 +9541,7 @@ Lightroom 可参考：
 
 ![A bright yellow flower stands out against the dark.](https://images.unsplash.com/photo-1744636093761-60ae229a4276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzOTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS RP | f/5.6 | 1/125s | 85.0mm | ISO 200
+> EXIF: Camera Canon  EOS RP | f/5.6 | 1/125s | 85.0mm | ISO 200
 
 
 ## 1. 第一印象
@@ -10035,7 +10035,7 @@ ISO 200 很干净，暗部噪点控制较好。
 
 ![Immerse yourself in the intricate world of nature with this ultra-high-resolution image of a fly. The stunning clarity captures every detail, from the complex eye structure to the delicate body hairs, showcasing the marvel of natural engineering.](https://images.unsplash.com/photo-1696335395691-d144e2d30953?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzOTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | 1/200s | 0.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7M3 | 1/200s | 0.0mm | ISO 100
 
 
 ## 1. 第一印象
@@ -10649,7 +10649,7 @@ ISO 100 的好处：
 
 ![water droplets on spider web in grayscale photography](https://images.unsplash.com/photo-1618164859035-724dbd957b30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzOTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY NEX-5 | f/1.0 | 1/400s | ISO 800
+> EXIF: Camera SONY NEX-5 | f/1.0 | 1/400s | ISO 800
 
 
 ## 1. 第一印象
@@ -11238,7 +11238,7 @@ f/1.0 或近距离拍摄时，景深可能只有几毫米。
 
 ![Bridge (). ](https://images.unsplash.com/photo-1584554180896-ac04f2537005?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjgzOTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 700D | f/6.3 | 1/125s | 55.0mm | ISO 200
+> EXIF: Camera Canon Canon EOS 700D | f/6.3 | 1/125s | 55.0mm | ISO 200
 
 
 ## 1. 第一印象

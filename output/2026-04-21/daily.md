@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-04-21
+# 每日摄影教练 - 2026-04-21
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![a view of a mountain range with a few clouds in the sky](https://images.unsplash.com/photo-1633947663405-8bbf79f0cd74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5Mzh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DMC-G7 | f/7.1 | 1/800s | 20.0mm | ISO 200
+> EXIF: Camera Panasonic DMC-G7 | f/7.1 | 1/800s | 20.0mm | ISO 200
 
 
 ## 直觉
@@ -40,7 +40,7 @@
 
 ![a mountain with clouds](https://images.unsplash.com/photo-1667204240643-ecffecb7fd24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 80D | f/7.1 | 1/500s | 178.0mm | ISO 100
+> EXIF: Camera Canon  EOS 80D | f/7.1 | 1/500s | 178.0mm | ISO 100
 
 
 ## 直觉
@@ -67,7 +67,7 @@
 
 ![photo took during an adventure to Sorapis lake, in Italian Dolomiti mountains.](https://images.unsplash.com/photo-1566744883357-b6516f0a49eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NDJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6300 | f/3.5 | 1/1600s | 30.0mm | ISO 100
+> EXIF: Camera SONY ILCE-6300 | f/3.5 | 1/1600s | 30.0mm | ISO 100
 
 
 ## 直觉
@@ -148,7 +148,7 @@ Link: https://www.instagram.com/linda_photos_/](https://images.unsplash.com/phot
 
 ![http://behrouzsasani.com/](https://images.unsplash.com/photo-1618028653180-105fec1dfcce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NDd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 12 Pro Max | f/2.2 | 1/1085s | 7.5mm | ISO 20
+> EXIF: Camera Apple iPhone 12 Pro Max | f/2.2 | 1/1085s | 7.5mm | ISO 20
 
 
 ## 直觉
@@ -180,7 +180,7 @@ Link: https://www.instagram.com/linda_photos_/](https://images.unsplash.com/phot
 
 ![a man wearing a face mask and a tie](https://images.unsplash.com/photo-1677061856704-f8adb2b5ec5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NDl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/5.6 | 1/250s | 23.0mm | ISO 160
+> EXIF: Camera FUJIFILM X-Pro3 | f/5.6 | 1/250s | 23.0mm | ISO 160
 
 
 ## 直觉
@@ -207,7 +207,7 @@ Link: https://www.instagram.com/linda_photos_/](https://images.unsplash.com/phot
 
 ![For information & collaboration take a look at my website 🙂 https://emilianovittoriosi.info or follow me on instagram https://www.instagram.com/emilianovittoriosi/](https://images.unsplash.com/photo-1649325885686-4c06cfd88d04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 1300D | f/2.8 | 1/125s | 50.0mm | ISO 1600
+> EXIF: Camera Canon  EOS 1300D | f/2.8 | 1/125s | 50.0mm | ISO 1600
 
 
 ## 直觉
@@ -234,7 +234,7 @@ Link: https://www.instagram.com/linda_photos_/](https://images.unsplash.com/phot
 
 ![grayscale photo of man in black jacket and pants standing on wooden plank](https://images.unsplash.com/photo-1617707627661-bd73438bfeeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 70D | f/2.2 | 1/400s | 50.0mm | ISO 200
+> EXIF: Camera Canon Canon EOS 70D | f/2.2 | 1/400s | 50.0mm | ISO 200
 
 
 ## 直觉
@@ -266,7 +266,7 @@ Link: https://www.instagram.com/linda_photos_/](https://images.unsplash.com/phot
 
 ![a street light next to a building with an orange facade](https://images.unsplash.com/photo-1765814734994-396d38ae6aae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NTR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DC-G9 | f/8.0 | 1/500s | 60.0mm | ISO 100
+> EXIF: Camera Panasonic DC-G9 | f/8.0 | 1/500s | 60.0mm | ISO 100
 
 
 ## 直觉
@@ -293,7 +293,7 @@ Link: https://www.instagram.com/linda_photos_/](https://images.unsplash.com/phot
 
 ![a black and white photo of an airplane in the sky](https://images.unsplash.com/photo-1644167607999-7d7efe4dd396?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D | f/11.0 | 1/160s | 50.0mm | ISO 100
+> EXIF: Camera Canon  EOS 6D | f/11.0 | 1/160s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -319,7 +319,7 @@ Link: https://www.instagram.com/linda_photos_/](https://images.unsplash.com/phot
 
 ![a large metal structure](https://images.unsplash.com/photo-1654820002482-03a99281c5fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 13 mini | f/1.6 | 1/6173s | 5.1mm | ISO 50
+> EXIF: Camera Apple iPhone 13 mini | f/1.6 | 1/6173s | 5.1mm | ISO 50
 
 
 ## 直觉
@@ -350,7 +350,7 @@ Link: https://www.instagram.com/linda_photos_/](https://images.unsplash.com/phot
 
 ![Mini Pizza Meal Box](https://images.unsplash.com/photo-1585995207653-dc16855299da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 550D | f/16 | 1s | 50.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 550D | f/16 | 1s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -377,7 +377,7 @@ Link: https://www.instagram.com/linda_photos_/](https://images.unsplash.com/phot
 
 ![a sandwich cut in half sitting on top of a white plate](https://images.unsplash.com/photo-1696721497514-3d54ba442f92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NjF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark IV | f/4.0 | 1/250s | 85.0mm | ISO 4000
+> EXIF: Camera Canon  EOS 5D Mark IV | f/4.0 | 1/250s | 85.0mm | ISO 4000
 
 
 ## 直觉
@@ -404,7 +404,7 @@ Link: https://www.instagram.com/linda_photos_/](https://images.unsplash.com/phot
 
 ![Brunch Plateau ](https://images.unsplash.com/photo-1584981284257-92faeda8a09c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NjN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T2 | f/5 | 1/60s | 19.6mm | ISO 6400
+> EXIF: Camera FUJIFILM X-T2 | f/5 | 1/60s | 19.6mm | ISO 6400
 
 
 ## 直觉
@@ -436,7 +436,7 @@ Link: https://www.instagram.com/linda_photos_/](https://images.unsplash.com/phot
 
 ![a blurry photo of a street with traffic lights](https://images.unsplash.com/photo-1563741590158-c8da606c7e43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NjR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 750D | f/2.8 | 1/200s | 54.0mm | ISO 1600
+> EXIF: Camera Canon Canon EOS 750D | f/2.8 | 1/200s | 54.0mm | ISO 1600
 
 
 ## 直觉
@@ -463,7 +463,7 @@ Link: https://www.instagram.com/linda_photos_/](https://images.unsplash.com/phot
 
 ![Lisbon Nightscapes: Vibrant Neons and Glass Reflections Amidst City Lights - Captured amidst the enchanting nocturnal ambiance of Lisbon, this photograph unveils a mesmerizing interplay of vibrant neons, gleaming glass reflections, and the twinkling allure of city lights. Against the backdrop of the urban skyline, neon signs cast their luminous hues, painting the atmosphere with an electrifying vibrancy. The glass facades of buildings mirror the luminosity, creating a kaleidoscopic spectacle that dances with the rhythm of the night. Illuminating the streets below, the city lights add depth and](https://images.unsplash.com/photo-1709672327955-5cfbd0bd0700?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NjZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 LEICA CAMERA AG LEICA CL | 1/500s | 0.0mm | ISO 1600
+> EXIF: Camera LEICA CAMERA AG LEICA CL | 1/500s | 0.0mm | ISO 1600
 
 
 ## 直觉
@@ -518,7 +518,7 @@ Link: https://www.instagram.com/linda_photos_/](https://images.unsplash.com/phot
 
 ![A close up of a green flower with a blurry background](https://images.unsplash.com/photo-1723049055982-4d76bf16a353?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5Njl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS Rebel T6 | 1/320s | 50.0mm | ISO 800
+> EXIF: Camera Canon  EOS Rebel T6 | 1/320s | 50.0mm | ISO 800
 
 
 ## 直觉
@@ -545,7 +545,7 @@ Link: https://www.instagram.com/linda_photos_/](https://images.unsplash.com/phot
 
 ![brown and black tree trunk](https://images.unsplash.com/photo-1616967691065-8ee8a9e992f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D7000 | f/5.6 | 1/200s | 100.0mm | ISO 125
+> EXIF: Camera NIKON CORPORATION NIKON D7000 | f/5.6 | 1/200s | 100.0mm | ISO 125
 
 
 ## 直觉
@@ -572,7 +572,7 @@ Link: https://www.instagram.com/linda_photos_/](https://images.unsplash.com/phot
 
 ![Oldwife Underwing (Catocala paleogama) Ice Age National Scientific Reserve Unit, Baraboo, WI, USA taken: 8/19/2019, image no: _F2A0988aaaMar62026](https://images.unsplash.com/photo-1773677297388-f830fa6da1f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5NzN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 7D Mark II | f/16.0 | 1/250s | 180.0mm | ISO 100
+> EXIF: Camera Canon  EOS 7D Mark II | f/16.0 | 1/250s | 180.0mm | ISO 100
 
 
 ## 直觉
@@ -656,7 +656,7 @@ Ilford Hp5 400](https://images.unsplash.com/photo-1632810757536-51354332bae9?cro
 
 ![a black and white photo of a tree in the fog](https://images.unsplash.com/photo-1642627050784-3dd237638dc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODY5Nzh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON Z fc | f/14.0 | 1/125s | 16.0mm | ISO 400
+> EXIF: Camera NIKON CORPORATION NIKON Z fc | f/14.0 | 1/125s | 16.0mm | ISO 400
 
 
 ## 直觉

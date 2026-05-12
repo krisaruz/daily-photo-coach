@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-05-04
+# 每日摄影教练 - 2026-05-04
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![A view of a mountain range with trees in the foreground](https://images.unsplash.com/photo-1725120238263-8a068dddd71d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQyNjJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R8 | f/5.0 | 1/80s | 50.0mm | ISO 100
+> EXIF: Camera Canon  EOS R8 | f/5.0 | 1/80s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -40,7 +40,7 @@
 
 ![Shot during my flight From Rome to Belgium](https://images.unsplash.com/photo-1515266591878-f93e32bc5937?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQyNjV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SAMSUNG NX3000 | f/6.3 | 1/250s | 28.0mm | ISO 100
+> EXIF: Camera SAMSUNG NX3000 | f/6.3 | 1/250s | 28.0mm | ISO 100
 
 
 ## 直觉
@@ -70,7 +70,7 @@
 
 ![Snow-capped mountain peak above misty lake and bridge.](https://images.unsplash.com/photo-1767127961785-a324466f8039?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQyNjd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X100V | f/16.0 | 1/140s | 23.0mm | ISO 250
+> EXIF: Camera FUJIFILM X100V | f/16.0 | 1/140s | 23.0mm | ISO 250
 
 
 ## 直觉
@@ -126,7 +126,7 @@
 
 ![woman in blue denim button up jacket](https://images.unsplash.com/photo-1611456531646-2a68d6df2723?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQyNzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS REBEL T3i | f/1.8 | 1/640s | 50.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS REBEL T3i | f/1.8 | 1/640s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -185,7 +185,7 @@
 
 ![a man walking down a flight of stairs](https://images.unsplash.com/photo-1677061856430-8b5b34d32a2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQyNzd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/4.0 | 1/160s | 23.0mm | ISO 400
+> EXIF: Camera FUJIFILM X-Pro3 | f/4.0 | 1/160s | 23.0mm | ISO 400
 
 
 ## 直觉
@@ -212,7 +212,7 @@
 
 ![Experimental Photography](https://images.unsplash.com/photo-1769167484323-a78917defcb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQyNzl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM GFX100 II | f/2.8 | 1/1600s | 55.0mm | ISO 200
+> EXIF: Camera FUJIFILM GFX100 II | f/2.8 | 1/1600s | 55.0mm | ISO 200
 
 
 ## 直觉
@@ -238,7 +238,7 @@
 
 ![man in black jacket sitting on bench](https://images.unsplash.com/photo-1615143502446-1c43868d1d26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQyODJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 LEICA CAMERA AG LEICA Q2 MONO | f/11.0 | 1/1000s | 28.0mm | ISO 1600
+> EXIF: Camera LEICA CAMERA AG LEICA Q2 MONO | f/11.0 | 1/1000s | 28.0mm | ISO 1600
 
 
 ## 直觉
@@ -270,7 +270,7 @@
 
 ![Minimal Modern Building. Urban symmetry. Gray lines](https://images.unsplash.com/photo-1566738743256-30f362f594fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQyODR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 OLYMPUS CORPORATION E-M10MarkII | f/8 | 1/400s | 40.0mm | ISO 200
+> EXIF: Camera OLYMPUS CORPORATION E-M10MarkII | f/8 | 1/400s | 40.0mm | ISO 200
 
 
 ## 直觉
@@ -297,7 +297,7 @@
 
 ![Modern white hotel building with teal windows—ÓLEO Resort.](https://images.unsplash.com/photo-1585551897231-77fe523c288a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQyODd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM3 | f/11 | 1/160s | 70.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7RM3 | f/11 | 1/160s | 70.0mm | ISO 100
 
 
 ## 直觉
@@ -324,7 +324,7 @@
 
 ![Living Facade](https://images.unsplash.com/photo-1507965372885-836c3142ea17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQyODl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 7D | f/10.0 | 1/100s | 35.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 7D | f/10.0 | 1/100s | 35.0mm | ISO 100
 
 
 ## 直觉
@@ -356,7 +356,7 @@
 
 ![Sweet potato and kale bowl](https://images.unsplash.com/photo-1543352634-a1c51d9f1fa7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQyOTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 6D Mark II | f/8.0 | 1/20s | 90.0mm | ISO 160
+> EXIF: Camera Canon Canon EOS 6D Mark II | f/8.0 | 1/20s | 90.0mm | ISO 160
 
 
 ## 直觉
@@ -383,7 +383,7 @@
 
 ![Chicken Biryani](https://images.unsplash.com/photo-1719239885399-f87d992e0f18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQyOTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/4.0 | 1/250s | 59.2mm | ISO 160
+> EXIF: Camera SONY ILCE-7M3 | f/4.0 | 1/250s | 59.2mm | ISO 160
 
 
 ## 直觉
@@ -440,7 +440,7 @@
 
 ![a city at night with a lot of traffic](https://images.unsplash.com/photo-1670702389707-e20984fab9f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQzMDF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T3 | f/2.8 | 1/100s | 16.0mm | ISO 1250
+> EXIF: Camera FUJIFILM X-T3 | f/2.8 | 1/100s | 16.0mm | ISO 1250
 
 
 ## 直觉
@@ -469,7 +469,7 @@
 
 ![Lisbon Nightscapes: Vibrant Neons and Glass Reflections Amidst City Lights - Captured amidst the enchanting nocturnal ambiance of Lisbon, this photograph unveils a mesmerizing interplay of vibrant neons, gleaming glass reflections, and the twinkling allure of city lights. Against the backdrop of the urban skyline, neon signs cast their luminous hues, painting the atmosphere with an electrifying vibrancy. The glass facades of buildings mirror the luminosity, creating a kaleidoscopic spectacle that dances with the rhythm of the night. Illuminating the streets below, the city lights add depth and](https://images.unsplash.com/photo-1709672327581-f9e2277fa556?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQzMDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 LEICA CAMERA AG LEICA CL | 1/2500s | 0.0mm | ISO 1600
+> EXIF: Camera LEICA CAMERA AG LEICA CL | 1/2500s | 0.0mm | ISO 1600
 
 
 ## 直觉
@@ -495,7 +495,7 @@
 
 ![Night view of Singapore busy city.](https://images.unsplash.com/photo-1608605367854-46e69ec00a15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQzMDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/4.0 | 1/15s | 55.0mm | ISO 6400
+> EXIF: Camera SONY ILCE-7M3 | f/4.0 | 1/15s | 55.0mm | ISO 6400
 
 
 ## 直觉
@@ -526,7 +526,7 @@
 
 ![A damselfly rests on a thin stalk.](https://images.unsplash.com/photo-1766861808548-98d37b20d0a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQzMDl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R | f/16.0 | 1/640s | 400.0mm | ISO 1250
+> EXIF: Camera Canon  EOS R | f/16.0 | 1/640s | 400.0mm | ISO 1250
 
 
 ## 直觉
@@ -555,7 +555,7 @@
 
 ![Close-up of a pile of rough-cut logs with textured, weathered bark, stacked in an outdoor setting with lush green foliage in the background. Rustic stack of cut tree trunks showing intricate details and patterns in the bark, set against a natural, forested backdrop.](https://images.unsplash.com/photo-1716298044347-552ed74ca4f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQzMTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7C | f/2.8 | 1/1000s | 42.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7C | f/2.8 | 1/1000s | 42.0mm | ISO 100
 
 
 ## 直觉
@@ -581,7 +581,7 @@
 
 ![Delicate pink flowers with yellow stamens bloom.](https://images.unsplash.com/photo-1774128288344-50254e06c270?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQzMTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 RICOH IMAGING COMPANY, LTD. RICOH GR III HDF | f/2.8 | 1/500s | 18.3mm | ISO 100
+> EXIF: Camera RICOH IMAGING COMPANY, LTD. RICOH GR III HDF | f/2.8 | 1/500s | 18.3mm | ISO 100
 
 
 ## 直觉
@@ -612,7 +612,7 @@
 
 ![a black and white photo of a cat sleeping](https://images.unsplash.com/photo-1636368646019-7428706d8e79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQzMTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 2000D | f/6.3 | 1/1000s | 55.0mm | ISO 400
+> EXIF: Camera Canon  EOS 2000D | f/6.3 | 1/1000s | 55.0mm | ISO 400
 
 
 ## 直觉
@@ -639,7 +639,7 @@
 
 ![grayscale photography of woman looking upward near window](https://images.unsplash.com/photo-1542976187-da56c95669aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQzMTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D90 | f/4.5 | 1/320s | 150.0mm | ISO 1600
+> EXIF: Camera NIKON CORPORATION NIKON D90 | f/4.5 | 1/320s | 150.0mm | ISO 1600
 
 
 ## 直觉
@@ -666,7 +666,7 @@
 
 ![a black and white photo of a foggy lake](https://images.unsplash.com/photo-1643063738809-9dcb0ba64f26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDQzMjF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON Z fc | f/11.0 | 1/125s | 50.0mm | ISO 160
+> EXIF: Camera NIKON CORPORATION NIKON Z fc | f/11.0 | 1/125s | 50.0mm | ISO 160
 
 
 ## 直觉

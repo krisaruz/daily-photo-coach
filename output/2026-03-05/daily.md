@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-03-05
+# 每日摄影教练 - 2026-03-05
 
 
 ---
@@ -38,7 +38,7 @@
 
 ![green and brown mountains under blue sky and white clouds during daytime](https://images.unsplash.com/photo-1629048831871-08b401a1dc2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM3Njl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5300 | f/9.0 | 1/800s | 18.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D5300 | f/9.0 | 1/800s | 18.0mm | ISO 100
 
 
 ## 直觉
@@ -143,7 +143,7 @@
 
 ![sinking in vain thoughts](https://images.unsplash.com/photo-1636282187266-c37b0c70c073?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM3ODB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T10 | f/3.5 | 1/40s | 16.0mm | ISO 800
+> EXIF: Camera FUJIFILM X-T10 | f/3.5 | 1/40s | 16.0mm | ISO 800
 
 
 ## 直觉
@@ -175,7 +175,7 @@
 
 ![a person standing in a kitchen preparing food](https://images.unsplash.com/photo-1677061856931-45438e986705?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM3ODJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/2.5 | 1/200s | 23.0mm | ISO 500
+> EXIF: Camera FUJIFILM X-Pro3 | f/2.5 | 1/200s | 23.0mm | ISO 500
 
 
 ## 直觉
@@ -202,7 +202,7 @@
 
 ![A person in white clothing walks on a cobblestone street.](https://images.unsplash.com/photo-1775819699696-c66212ad74b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM3ODN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 RICOH IMAGING COMPANY, LTD. RICOH GR IIIx | f/2.8 | 1/50s | 26.0mm | ISO 100
+> EXIF: Camera RICOH IMAGING COMPANY, LTD. RICOH GR IIIx | f/2.8 | 1/50s | 26.0mm | ISO 100
 
 
 ## 直觉
@@ -229,7 +229,7 @@
 
 ![a black and white photo of a person on a bike](https://images.unsplash.com/photo-1701680472723-c4111b616db9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM3ODl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Minolta Autocord | 75.0mm | ISO 400
+> EXIF: Camera Minolta Autocord | 75.0mm | ISO 400
 
 
 ## 直觉
@@ -263,7 +263,7 @@
 
 ![Champalimaud foundation](https://images.unsplash.com/photo-1773229323015-2dcf5be73dc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM3OTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Xiaomi  14T Pro/2407FPN8EG | f/2.0 | 1/640s | 8.8mm | ISO 77
+> EXIF: Camera Xiaomi  14T Pro/2407FPN8EG | f/2.0 | 1/640s | 8.8mm | ISO 77
 
 
 ## 直觉
@@ -315,7 +315,7 @@
 
 ![gray concrete building](https://images.unsplash.com/photo-1555103067-ff09c48881ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM3OTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 6D | f/9 | 1/400s | 180.0mm | ISO 200
+> EXIF: Camera Canon Canon EOS 6D | f/9 | 1/400s | 180.0mm | ISO 200
 
 
 ## 直觉
@@ -347,7 +347,7 @@
 
 ![Simple breakfasts... Baked grapefruit.](https://images.unsplash.com/photo-1555918001-e20d10c2bc1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM3OTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 5D Mark III | f/2.8 | 1/60s | 70.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 5D Mark III | f/2.8 | 1/60s | 70.0mm | ISO 100
 
 
 ## 直觉
@@ -373,7 +373,7 @@
 
 ![a plate of food with a bowl of fruit](https://images.unsplash.com/photo-1696721496874-5a3e99258117?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM3OTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark IV | f/3.5 | 1/125s | 85.0mm | ISO 800
+> EXIF: Camera Canon  EOS 5D Mark IV | f/3.5 | 1/125s | 85.0mm | ISO 800
 
 
 ## 直觉
@@ -400,7 +400,7 @@
 
 ![Fruit Still Life](https://images.unsplash.com/photo-1581985538710-cc2cc0b06f8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM4MDd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 70D | f/13.0 | 1/100s | 30.0mm | ISO 160
+> EXIF: Camera Canon Canon EOS 70D | f/13.0 | 1/100s | 30.0mm | ISO 160
 
 
 ## 直觉
@@ -432,7 +432,7 @@
 
 ![Blurred colorful lights at night](https://images.unsplash.com/photo-1762029630159-caab2ddf0357?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM4MDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | 1/125s | ISO 6400
+> EXIF: Camera SONY ILCE-7M3 | 1/125s | ISO 6400
 
 
 ## 直觉
@@ -459,7 +459,7 @@
 
 ![Blurred city lights reflected on a wet surface at night.](https://images.unsplash.com/photo-1771366650947-8a4dd789627b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM4MTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M4 | f/1.8 | 1/100s | 85.0mm | ISO 500
+> EXIF: Camera SONY ILCE-7M4 | f/1.8 | 1/100s | 85.0mm | ISO 500
 
 
 ## 直觉
@@ -488,7 +488,7 @@
 
 ![Overpass at night after the rain near Robinsons Antipolo.](https://images.unsplash.com/photo-1722920949063-73408a1fdf2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM4MjJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 INFINIX MOBILITY LIMITED Infinix X690B | f/1.8 | 1/13s | 4.7mm | ISO 3197
+> EXIF: Camera INFINIX MOBILITY LIMITED Infinix X690B | f/1.8 | 1/13s | 4.7mm | ISO 3197
 
 
 ## 直觉
@@ -520,7 +520,7 @@
 
 ![purple flower in macro shot](https://images.unsplash.com/photo-1617954096023-ac43a5b513ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM4MjN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 6D | f/2.8 | 1/250s | 100.0mm | ISO 400
+> EXIF: Camera Canon Canon EOS 6D | f/2.8 | 1/250s | 100.0mm | ISO 400
 
 
 ## 直觉
@@ -546,7 +546,7 @@
 
 ![Close-up view of a decorative lightbulb's filament.](https://images.unsplash.com/photo-1752625471709-a274803b96a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM4MjV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DC-G9 | f/2.8 | 1/125s | 45.0mm | ISO 400
+> EXIF: Camera Panasonic DC-G9 | f/2.8 | 1/125s | 45.0mm | ISO 400
 
 
 ## 直觉
@@ -573,7 +573,7 @@
 
 ![Close-Up of a Brown Lizard Resting on Green Grass](https://images.unsplash.com/photo-1762461431968-3762e2333423?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM4Mjh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Google Pixel 4a | f/1.7 | 1/50s | 4.4mm | ISO 80
+> EXIF: Camera Google Pixel 4a | f/1.7 | 1/50s | 4.4mm | ISO 80
 
 
 ## 直觉
@@ -629,7 +629,7 @@
 
 ![Woman in city, social distancing](https://images.unsplash.com/photo-1429292394373-ddbcc6bb7468?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODM4MzF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6000 | f/4 | 1/100s | 35.0mm | ISO 100
+> EXIF: Camera SONY ILCE-6000 | f/4 | 1/100s | 35.0mm | ISO 100
 
 
 ## 直觉

@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-04-30
+# 每日摄影教练 - 2026-04-30
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![green-leafed plant](https://images.unsplash.com/photo-1564004608950-0007a105fe9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTczNzl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 HUAWEI LYA-L09 | f/2.2 | 1/1285s | 2.4mm | ISO 50
+> EXIF: Camera HUAWEI LYA-L09 | f/2.2 | 1/1285s | 2.4mm | ISO 50
 
 
 ## 直觉
@@ -40,7 +40,7 @@
 
 ![Close up view of mountains; Foreground mountains are still green, while the ones in the background are covered with fog and snow. Picture taken from Cleveland Dam. BC, Canada, Mar/21.](https://images.unsplash.com/photo-1711625192909-2ee8a2fbde68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTczODJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5300 | f/8.0 | 1/640s | 260.0mm | ISO 320
+> EXIF: Camera NIKON CORPORATION NIKON D5300 | f/8.0 | 1/640s | 260.0mm | ISO 320
 
 
 ## 直觉
@@ -67,7 +67,7 @@
 
 ![a large fallen tree sitting in the middle of a forest](https://images.unsplash.com/photo-1718137918441-b3c52bbeaf3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTczODV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 DJI PP-101 | f/2.0 | 1/2500s | 6.5mm | ISO 50
+> EXIF: Camera DJI PP-101 | f/2.0 | 1/2500s | 6.5mm | ISO 50
 
 
 ## 直觉
@@ -98,7 +98,7 @@
 
 ![Portrait Series - Street Life Photography](https://images.unsplash.com/photo-1621749921438-1793f0d6ade9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTczOTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 700D | f/9.0 | 1/60s | 194.0mm | ISO 200
+> EXIF: Camera Canon Canon EOS 700D | f/9.0 | 1/60s | 194.0mm | ISO 200
 
 
 ## 直觉
@@ -151,7 +151,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![two women are walking in the sand with a scarf](https://images.unsplash.com/photo-1636617713776-b83de6a49c53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTczOTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS M6 Mark II | f/5.6 | 1/320s | 48.0mm | ISO 100
+> EXIF: Camera Canon  EOS M6 Mark II | f/5.6 | 1/320s | 48.0mm | ISO 100
 
 
 ## 直觉
@@ -183,7 +183,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![a person sitting on a bench in a room](https://images.unsplash.com/photo-1677061857234-7f5074fb07ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTc0MDV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/2.8 | 1/320s | 23.0mm | ISO 160
+> EXIF: Camera FUJIFILM X-Pro3 | f/2.8 | 1/320s | 23.0mm | ISO 160
 
 
 ## 直觉
@@ -213,7 +213,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![Amsterdam in the rain: vintage cars, blurred boats, hidden figures under umbrellas, and the quiet poetry of wet streets. A series about movement, stillness, and the city’s melancholic beauty.](https://images.unsplash.com/photo-1746109151336-932a53d9339a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTc0MDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T5 | f/5.6 | 1/800s | 23.0mm | ISO 3200
+> EXIF: Camera FUJIFILM X-T5 | f/5.6 | 1/800s | 23.0mm | ISO 3200
 
 
 ## 直觉
@@ -239,7 +239,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![Man with guitar and microphone on street](https://images.unsplash.com/photo-1769788234025-76547451f2bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTc0MTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5300 | f/4.0 | 1/100s | 18.0mm | ISO 250
+> EXIF: Camera NIKON CORPORATION NIKON D5300 | f/4.0 | 1/100s | 18.0mm | ISO 250
 
 
 ## 直觉
@@ -271,7 +271,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![Modern Lookup](https://images.unsplash.com/photo-1549621910-f128ded8c9c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTc0MTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 7D | f/11.0 | 1/80s | 18.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 7D | f/11.0 | 1/80s | 18.0mm | ISO 100
 
 
 ## 直觉
@@ -298,7 +298,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![Modern World](https://images.unsplash.com/photo-1541838800-348fc85e5f3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTc0MTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 7D | f/13.0 | 1/100s | 18.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 7D | f/13.0 | 1/100s | 18.0mm | ISO 100
 
 
 ## 直觉
@@ -355,7 +355,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![A group of four different colored desserts on a table](https://images.unsplash.com/photo-1727233429287-096a34836edc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTc0MjJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M2 | f/8.0 | 1/200s | 28.0mm | ISO 500
+> EXIF: Camera SONY ILCE-7M2 | f/8.0 | 1/200s | 28.0mm | ISO 500
 
 
 ## 直觉
@@ -382,7 +382,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![a table topped with three cakes covered in frosting](https://images.unsplash.com/photo-1696721497670-d57754966c1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTc0MjR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark IV | f/5.6 | 1/250s | 85.0mm | ISO 6400
+> EXIF: Camera Canon  EOS 5D Mark IV | f/5.6 | 1/250s | 85.0mm | ISO 6400
 
 
 ## 直觉
@@ -409,7 +409,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![poultry eggs](https://images.unsplash.com/photo-1572268734246-906d0acbf427?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTc0Mjd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DMC-GF7 | f/5.6 | 1/60s | 14.0mm | ISO 500
+> EXIF: Camera Panasonic DMC-GF7 | f/5.6 | 1/60s | 14.0mm | ISO 500
 
 
 ## 直觉
@@ -441,7 +441,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![Blurred city lights at night with building in background](https://images.unsplash.com/photo-1772761841336-f1e8e3f32023?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTc0MzB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 LEICA CAMERA AG LEICA SL2-S | f/2.0 | 1/60s | 35.0mm | ISO 3200
+> EXIF: Camera LEICA CAMERA AG LEICA SL2-S | f/2.0 | 1/60s | 35.0mm | ISO 3200
 
 
 ## 直觉
@@ -467,7 +467,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![a city street at night with a neon sign on the building](https://images.unsplash.com/photo-1674510891276-bd1fc1a13889?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTc0MzN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D3100 | f/6.3 | 1/160s | 200.0mm | ISO 200
+> EXIF: Camera NIKON CORPORATION NIKON D3100 | f/6.3 | 1/160s | 200.0mm | ISO 200
 
 
 ## 直觉
@@ -494,7 +494,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![a blurry image of a road at night](https://images.unsplash.com/photo-1668532063682-fc91c6c63db4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTc0MzV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DC-S5 | f/2.8 | 0.6s | 24.0mm | ISO 125
+> EXIF: Camera Panasonic DC-S5 | f/2.8 | 0.6s | 24.0mm | ISO 125
 
 
 ## 直觉
@@ -525,7 +525,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![a close up of a green mossy surface](https://images.unsplash.com/photo-1710148563187-9bebaac0ba4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NTc0Mzh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6100 | f/5.0 | 1/160s | 31.0mm | ISO 2000
+> EXIF: Camera SONY ILCE-6100 | f/5.0 | 1/160s | 31.0mm | ISO 2000
 
 
 ## 直觉
@@ -551,7 +551,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![A butterfly with white wings hovering in the air in close up.](https://images.unsplash.com/photo-1724747910773-a6d9f41e0d56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjExMDJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCA-77M2 | f/7.1 | 1/2500s | 50.0mm | ISO 500
+> EXIF: Camera SONY ILCA-77M2 | f/7.1 | 1/2500s | 50.0mm | ISO 500
 
 
 ## 直觉
@@ -607,7 +607,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![two children are playing games.](https://images.unsplash.com/photo-1568390522637-a1e5a9686bc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjExMTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM3 | f/1.8 | 1/250s | 55.0mm | ISO 80
+> EXIF: Camera SONY ILCE-7RM3 | f/1.8 | 1/250s | 55.0mm | ISO 80
 
 
 ## 直觉
@@ -657,7 +657,7 @@ https://www.loc.gov/item/2010647151/](https://images.unsplash.com/photo-15801303
 
 ![Credit: Always take a horse you can drive with one hand, 1901, B Singley. Fine-Art Photographers' Publishing Co, UK. Te Papa (O.004074) https://collections.tepapa.govt.nz/object/241630](https://images.unsplash.com/photo-1707392310683-f8711451f871?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NjExMjB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Phase One iXG 100MP
+> EXIF: Camera Phase One iXG 100MP
 
 
 ## 直觉

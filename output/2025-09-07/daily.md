@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2025-09-07
+# 每日摄影教练 - 2025-09-07
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![aerial view photography of mountains under cloudy sky](https://images.unsplash.com/photo-1546984359-015e85c8afa6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAxOTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 ASUS Z00AD | f/2.0 | 1/5000s | 3.8mm | ISO 50
+> EXIF: Camera ASUS Z00AD | f/2.0 | 1/5000s | 3.8mm | ISO 50
 
 
 ## 直觉
@@ -39,7 +39,7 @@
 
 ![a view of a mountain range from above](https://images.unsplash.com/photo-1657455386437-ec42f56c1ef7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAxOTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 samsung SM-A736B | f/1.8 | 1/850s | 5.1mm | ISO 25
+> EXIF: Camera samsung SM-A736B | f/1.8 | 1/850s | 5.1mm | ISO 25
 
 
 ## 直觉
@@ -65,7 +65,7 @@
 
 ![a black and white photo of a foggy mountain](https://images.unsplash.com/photo-1640195343477-f0fa61123652?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAxOTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D7200 | f/11.0 | 1/500s | 175.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D7200 | f/11.0 | 1/500s | 175.0mm | ISO 100
 
 
 ## 直觉
@@ -97,7 +97,7 @@
 
 ![a close up of a person talking on a cell phone](https://images.unsplash.com/photo-1672445462922-04d37a8e6cc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyMDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS Rebel T8i | f/5.6 | 1/60s | 55.0mm | ISO 25600
+> EXIF: Camera Canon  EOS Rebel T8i | f/5.6 | 1/60s | 55.0mm | ISO 25600
 
 
 ## 直觉
@@ -148,7 +148,7 @@
 
 ![Like what you see? Follow me @thatcameraguymc](https://images.unsplash.com/photo-1766036387924-0b06968704fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyMDV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M4 | f/5.0 | 1/6s | 35.0mm | ISO 400
+> EXIF: Camera SONY ILCE-7M4 | f/5.0 | 1/6s | 35.0mm | ISO 400
 
 
 ## 直觉
@@ -179,7 +179,7 @@
 
 ![a city street at night with traffic lights](https://images.unsplash.com/photo-1677061855570-94a3bf514e1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyMDd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/14.0 | 25s | 23.0mm | ISO 160
+> EXIF: Camera FUJIFILM X-Pro3 | f/14.0 | 25s | 23.0mm | ISO 160
 
 
 ## 直觉
@@ -206,7 +206,7 @@
 
 ![a group of people walking down a street](https://images.unsplash.com/photo-1656985611572-24dac345e8ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyMTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/1.8 | 1/400s | 50.0mm | ISO 100
+> EXIF: Camera SONY ILCE-6400 | f/1.8 | 1/400s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -232,7 +232,7 @@
 
 ![Man with crutches walking down a street.](https://images.unsplash.com/photo-1766959701561-40a7b9c0117f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyMTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M2 | f/8.0 | 1/500s | 70.0mm | ISO 200
+> EXIF: Camera SONY ILCE-7M2 | f/8.0 | 1/500s | 70.0mm | ISO 200
 
 
 ## 直觉
@@ -264,7 +264,7 @@
 
 ![The Getty Center, in Los Angeles, California, is a campus of the Getty Museum and other programs of the Getty Trust. The $1.3 billion center opened to the public on December 16, 1997, and is well known for its architecture, gardens, and views overlooking Los Angeles.](https://images.unsplash.com/photo-1722030007014-dde8c2705e08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyMTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 15 Pro | f/1.8 | 1/7937s | 6.8mm | ISO 80
+> EXIF: Camera Apple iPhone 15 Pro | f/1.8 | 1/7937s | 6.8mm | ISO 80
 
 
 ## 直觉
@@ -291,7 +291,7 @@
 
 ![a close up of a staircase made out of red blocks](https://images.unsplash.com/photo-1705648265844-289eeb49d1f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyMTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D Mark II | f/8.0 | 1/125s | 70.0mm | ISO 500
+> EXIF: Camera Canon  EOS 6D Mark II | f/8.0 | 1/125s | 70.0mm | ISO 500
 
 
 ## 直觉
@@ -318,7 +318,7 @@
 
 ![low angle photography of building](https://images.unsplash.com/photo-1540639807388-788090425fec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyMjB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 8 | f/1.8 | 1/738s | 4.0mm | ISO 20
+> EXIF: Camera Apple iPhone 8 | f/1.8 | 1/738s | 4.0mm | ISO 20
 
 
 ## 直觉
@@ -350,7 +350,7 @@
 
 ![Hearty meal with fries, salad, and a camera](https://images.unsplash.com/photo-1762631884816-b6fbde576790?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyMjN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D | f/4.5 | 1/125s | 50.0mm | ISO 320
+> EXIF: Camera Canon  EOS 6D | f/4.5 | 1/125s | 50.0mm | ISO 320
 
 
 ## 直觉
@@ -377,7 +377,7 @@
 
 ![Food Photography](https://images.unsplash.com/photo-1685600048609-6b8f3717006b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyMjV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark IV | f/2.8 | 1/320s | 70.0mm | ISO 640
+> EXIF: Camera Canon  EOS 5D Mark IV | f/2.8 | 1/320s | 70.0mm | ISO 640
 
 
 ## 直觉
@@ -404,7 +404,7 @@
 
 ![two people taking pictures of pastries on their cell phones](https://images.unsplash.com/photo-1694612896095-7dfc4a6b2cc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyMzB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 RICOH IMAGING COMPANY, LTD. PENTAX K-3 | f/8.0 | 1/60s | 24.4mm | ISO 800
+> EXIF: Camera RICOH IMAGING COMPANY, LTD. PENTAX K-3 | f/8.0 | 1/60s | 24.4mm | ISO 800
 
 
 ## 直觉
@@ -436,7 +436,7 @@
 
 ![A pier with lights at night](https://images.unsplash.com/photo-1760765413021-5a5a434f11a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyMzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS M50m2 | f/8.0 | 30s | 56.0mm | ISO 100
+> EXIF: Camera Canon  EOS M50m2 | f/8.0 | 30s | 56.0mm | ISO 100
 
 
 ## 直觉
@@ -463,7 +463,7 @@
 
 ![a city at night with a lot of lights reflecting in the water](https://images.unsplash.com/photo-1644325781022-3e1177d11bfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyNDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM2 | f/1.4 | 1/250s | 35.0mm | ISO 1000
+> EXIF: Camera SONY ILCE-7RM2 | f/1.4 | 1/250s | 35.0mm | ISO 1000
 
 
 ## 直觉
@@ -490,7 +490,7 @@
 
 ![Person walks across a street at night.](https://images.unsplash.com/photo-1757970767761-6099b0fe65f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyNDJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/4.0 | 1/15s | 19.0mm | ISO 125
+> EXIF: Camera SONY ILCE-7M3 | f/4.0 | 1/15s | 19.0mm | ISO 125
 
 
 ## 直觉
@@ -521,7 +521,7 @@
 
 ![Close up of the heart of a rose, surrounded by deep red petals](https://images.unsplash.com/photo-1610905924234-ef3dfdc4c87f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyNDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6000 | f/2.8 | 1/90s | 56.0mm | ISO 1250
+> EXIF: Camera SONY ILCE-6000 | f/2.8 | 1/90s | 56.0mm | ISO 1250
 
 
 ## 直觉
@@ -547,7 +547,7 @@
 
 ![a bunch of flowers that are in a vase](https://images.unsplash.com/photo-1684595539763-fd5d16147f59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzAyNDd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D7200 | f/6.3 | 1/320s | 40.0mm | ISO 200
+> EXIF: Camera NIKON CORPORATION NIKON D7200 | f/6.3 | 1/320s | 40.0mm | ISO 200
 
 
 ## 直觉
@@ -603,7 +603,7 @@
 
 ![A winter day under the bridge.](https://images.unsplash.com/photo-1707836420979-916ddbaceacd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzM5MTR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS RP | f/1.8 | 1/250s | 35.0mm | ISO 125
+> EXIF: Camera Canon  EOS RP | f/1.8 | 1/250s | 35.0mm | ISO 125
 
 
 ## 直觉
@@ -655,7 +655,7 @@ what you feel??](https://images.unsplash.com/photo-1619266401494-e1529bf0d062?cr
 
 ![black and white photo of a river in the fog](https://images.unsplash.com/photo-1643063738958-4bdabd4f83b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzM5MTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON Z fc | f/10.0 | 1/125s | 22.5mm | ISO 160
+> EXIF: Camera NIKON CORPORATION NIKON Z fc | f/10.0 | 1/125s | 22.5mm | ISO 160
 
 
 ## 直觉

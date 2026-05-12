@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-05-03
+# 每日摄影教练 - 2026-05-03
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![a view of a valley with mountains in the background](https://images.unsplash.com/photo-1673882661017-b6fcbf20bc0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDgzNDV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 1100D | f/8.0 | 1/200s | 18.0mm | ISO 100
+> EXIF: Camera Canon  EOS 1100D | f/8.0 | 1/200s | 18.0mm | ISO 100
 
 
 ## 直觉
@@ -40,7 +40,7 @@
 
 ![Pink hues seep through the foggy mountain-side](https://images.unsplash.com/photo-1654688143488-7d2a861b95eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDgzNDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS RP | f/4.0 | 1/80s | 126.0mm | ISO 800
+> EXIF: Camera Canon  EOS RP | f/4.0 | 1/80s | 126.0mm | ISO 800
 
 
 ## 直觉
@@ -67,7 +67,7 @@
 
 ![Above the Pyrénées mountain](https://images.unsplash.com/photo-1600873153374-54b2555ebf3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDgzNTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY DSC-RX100M3 | f/7.1 | 1/200s | 11.4mm | ISO 125
+> EXIF: Camera SONY DSC-RX100M3 | f/7.1 | 1/200s | 11.4mm | ISO 125
 
 
 ## 直觉
@@ -102,7 +102,7 @@
 
 ![Another picture of being sad,Hope you will like it](https://images.unsplash.com/photo-1608230951221-f88ddbcfebb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDgzNTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 250D | f/1.8 | 1/80s | 50.0mm | ISO 5000
+> EXIF: Camera Canon Canon EOS 250D | f/1.8 | 1/80s | 50.0mm | ISO 5000
 
 
 ## 直觉
@@ -153,7 +153,7 @@
 
 ![Ajodhya Hills, Purulia, India.](https://images.unsplash.com/photo-1629264903759-2b7454882272?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDgzNTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 3000D | f/4.5 | 1/1000s | 35.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 3000D | f/4.5 | 1/1000s | 35.0mm | ISO 100
 
 
 ## 直觉
@@ -185,7 +185,7 @@
 
 ![a couple of men on a moped](https://images.unsplash.com/photo-1657650438866-8c57071226cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDgzNjJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DC-S5 | 1/100s | 60.0mm | ISO 200
+> EXIF: Camera Panasonic DC-S5 | 1/100s | 60.0mm | ISO 200
 
 
 ## 直觉
@@ -235,7 +235,7 @@
 
 ![a woman carrying a basket on her head](https://images.unsplash.com/photo-1653717859994-f4069d579c42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDgzNjl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T20 | f/2.0 | 1/160s | 35.0mm | ISO 640
+> EXIF: Camera FUJIFILM X-T20 | f/2.0 | 1/160s | 35.0mm | ISO 640
 
 
 ## 直觉
@@ -267,7 +267,7 @@
 
 ![A black and white photo of a tall building](https://images.unsplash.com/photo-1730871675443-71a912ea5f9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDgzNzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T10 | f/3.6 | 1/70s | 32.9mm | ISO 320
+> EXIF: Camera FUJIFILM X-T10 | f/3.6 | 1/70s | 32.9mm | ISO 320
 
 
 ## 直觉
@@ -317,7 +317,7 @@
 
 ![gray concrete building during daytime](https://images.unsplash.com/photo-1580679226887-adc446a6c912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDgzODJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 6D | f/8.0 | 4s | 17.0mm | ISO 200
+> EXIF: Camera Canon Canon EOS 6D | f/8.0 | 4s | 17.0mm | ISO 200
 
 
 ## 直觉
@@ -349,7 +349,7 @@
 
 ![Raw Oatmeal Balls](https://images.unsplash.com/photo-1680902005821-5f86f9d08018?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDgzODZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark III | f/2.8 | 1/200s | 50.0mm | ISO 500
+> EXIF: Camera Canon  EOS 5D Mark III | f/2.8 | 1/200s | 50.0mm | ISO 500
 
 
 ## 直觉
@@ -376,7 +376,7 @@
 
 ![Dutch baby pancake](https://images.unsplash.com/photo-1501262139015-998ac3d1e0be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDgzOTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5300 | f/7.1 | 1/80s | 50.0mm | ISO 560
+> EXIF: Camera NIKON CORPORATION NIKON D5300 | f/7.1 | 1/80s | 50.0mm | ISO 560
 
 
 ## 直觉
@@ -403,7 +403,7 @@
 
 ![a chocolate chip cookie sitting on top of a wooden table](https://images.unsplash.com/photo-1635076750450-0a104fad497a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDgzOTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D810 | f/3.5 | 1/200s | 105.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D810 | f/3.5 | 1/200s | 105.0mm | ISO 100
 
 
 ## 直觉
@@ -435,7 +435,7 @@
 
 ![Yokohama traffic lights](https://images.unsplash.com/photo-1724810119670-9a454b04185d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDgzOTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 RICOH IMAGING COMPANY, LTD. RICOH GR III | f/2.8 | 1/6s | 18.3mm | ISO 160
+> EXIF: Camera RICOH IMAGING COMPANY, LTD. RICOH GR III | f/2.8 | 1/6s | 18.3mm | ISO 160
 
 
 ## 直觉
@@ -461,7 +461,7 @@
 
 ![China town ](https://images.unsplash.com/photo-1629644775182-0e726363e6d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDg0MDF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/5.6 | 1/25s | 61.0mm | ISO 1000
+> EXIF: Camera SONY ILCE-7M3 | f/5.6 | 1/25s | 61.0mm | ISO 1000
 
 
 ## 直觉
@@ -492,7 +492,7 @@ HSL 中适当提升红色饱和与明度，青蓝色往冷调推；用局部蒙�
 
 ![Blurred lights traffic night](https://images.unsplash.com/photo-1491642273511-91b7769b169e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDg0MDN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DMC-LX5 | f/2.0 | 1/13s | 5.1mm | ISO 200
+> EXIF: Camera Panasonic DMC-LX5 | f/2.0 | 1/13s | 5.1mm | ISO 200
 
 
 ## 直觉
@@ -523,7 +523,7 @@ HSL 中适当提升红色饱和与明度，青蓝色往冷调推；用局部蒙�
 
 ![A dark dragonfly rests on a blade of grass.](https://images.unsplash.com/photo-1761852281991-a39221531bef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDg0MDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R10 | f/8.0 | 1/500s | 400.0mm | ISO 1250
+> EXIF: Camera Canon  EOS R10 | f/8.0 | 1/500s | 400.0mm | ISO 1250
 
 
 ## 直觉
@@ -550,7 +550,7 @@ HSL 中适当提升红色饱和与明度，青蓝色往冷调推；用局部蒙�
 
 ![Leaf macro](https://images.unsplash.com/photo-1650970594928-034a01eed606?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDg0MTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 11 Pro Max | f/1.8 | 1/74s | 4.2mm | ISO 125
+> EXIF: Camera Apple iPhone 11 Pro Max | f/1.8 | 1/74s | 4.2mm | ISO 125
 
 
 ## 直觉
@@ -576,7 +576,7 @@ HSL 中适当提升红色饱和与明度，青蓝色往冷调推；用局部蒙�
 
 ![Cloudless sulphur (Phoebis sennae)](https://images.unsplash.com/photo-1776550349451-281701da7f97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDg0MTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6100 | f/6.3 | 1/4000s | 200.0mm | ISO 2500
+> EXIF: Camera SONY ILCE-6100 | f/6.3 | 1/4000s | 200.0mm | ISO 2500
 
 
 ## 直觉
@@ -607,7 +607,7 @@ HSL 中适当提升红色饱和与明度，青蓝色往冷调推；用局部蒙�
 
 ![a black and white photo of a beach with palm trees](https://images.unsplash.com/photo-1635674656830-1509d8226bab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDg0MjV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DC-GH5S | f/3.2 | 1/60s | 25.0mm | ISO 250
+> EXIF: Camera Panasonic DC-GH5S | f/3.2 | 1/60s | 25.0mm | ISO 250
 
 
 ## 直觉
@@ -633,7 +633,7 @@ HSL 中适当提升红色饱和与明度，青蓝色往冷调推；用局部蒙�
 
 ![grayscale photo of tree on rocky mountain](https://images.unsplash.com/photo-1631238488869-611c0660b773?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDg0Mjd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D80 | f/5.0 | 1/320s | 50.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D80 | f/5.0 | 1/320s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -660,7 +660,7 @@ HSL 中适当提升红色饱和与明度，青蓝色往冷调推；用局部蒙�
 
 ![grayscale photo of high rise building](https://images.unsplash.com/photo-1624691470912-d22bfb1e4b8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDg0MzF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 6 | f/2.2 | 1/824s | 4.2mm | ISO 32
+> EXIF: Camera Apple iPhone 6 | f/2.2 | 1/824s | 4.2mm | ISO 32
 
 
 ## 直觉

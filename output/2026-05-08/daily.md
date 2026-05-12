@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-05-08
+# 每日摄影教练 - 2026-05-08
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![A field beyond Ba Den the mountain...](https://images.unsplash.com/photo-1600570146487-34b4e0c4080a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjQyNTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS M100 | f/5.6 | 1/100s | 40.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS M100 | f/5.6 | 1/100s | 40.0mm | ISO 100
 
 
 ## 直觉
@@ -39,7 +39,7 @@
 
 ![Highest Mountain Range of Keonjhar](https://images.unsplash.com/photo-1612871859558-1be5cf19f93d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjQyNjB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D3400 | f/5 | 1/160s | 36.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D3400 | f/5 | 1/160s | 36.0mm | ISO 100
 
 
 ## 直觉
@@ -66,7 +66,7 @@
 
 ![White trees](https://images.unsplash.com/photo-1578750120916-a69a88bcf673?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjQyNjJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM4 | f/16 | 1/200s | 200.0mm | ISO 250
+> EXIF: Camera SONY ILCE-7RM4 | f/16 | 1/200s | 200.0mm | ISO 250
 
 
 ## 直觉
@@ -122,7 +122,7 @@
 
 ![a woman with blue eyes and a white top](https://images.unsplash.com/photo-1563170446-9c3c0622d8a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjQyNjd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM3 | f/1.8 | 1/320s | 50.0mm | ISO 400
+> EXIF: Camera SONY ILCE-7RM3 | f/1.8 | 1/320s | 50.0mm | ISO 400
 
 
 ## 直觉
@@ -152,7 +152,7 @@
 
 ![woman in white long sleeve shirt standing beside green leaves](https://images.unsplash.com/photo-1597096793378-0639088483e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjQyNzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJI PHOTO FILM CO., LTD. Rolleiflex 3.5
+> EXIF: Camera FUJI PHOTO FILM CO., LTD. Rolleiflex 3.5
 
 
 ## 直觉
@@ -184,7 +184,7 @@
 
 ![a man and a woman standing in front of a food stand](https://images.unsplash.com/photo-1661260731099-3730fbfa6cb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjQyNzR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DC-GH5 | 1/125s | ISO 250
+> EXIF: Camera Panasonic DC-GH5 | 1/125s | ISO 250
 
 
 ## 直觉
@@ -210,7 +210,7 @@
 
 ![Busy street with blurred pedestrians and colorful buildings.](https://images.unsplash.com/photo-1766678527847-2a947ceb308d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjQyNzd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Xiaomi  13 Pro | f/1.9 | 2s | 7.8mm | ISO 50
+> EXIF: Camera Xiaomi  13 Pro | f/1.9 | 2s | 7.8mm | ISO 50
 
 
 ## 直觉
@@ -236,7 +236,7 @@
 
 ![Your shots, antica fattoria paterno, Firenze.](https://images.unsplash.com/photo-1495580621852-5de0cc907d2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjQyNzl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 6D | f/2.0 | 1/1000s | 50.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 6D | f/2.0 | 1/1000s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -267,7 +267,7 @@
 
 ![Modern concrete hallway with benches and sunlight patterns](https://images.unsplash.com/photo-1772223480849-11c5ec6d78ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjQyODJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/5.0 | 1/250s | 35.0mm | ISO 250
+> EXIF: Camera FUJIFILM X-Pro3 | f/5.0 | 1/250s | 35.0mm | ISO 250
 
 
 ## 直觉
@@ -321,7 +321,7 @@
 ![New modern architecture of Karlin district, Prague. After the devastating flood in 2002, several administrative buildings were built in this part of Prague. The “Keystone office” building is one of them.
 Architectonically unique Object “Keystone”, which is a modern interpretation of Czech Cubism. The project bears the unmistakable manuscript of Swiss architects Mathias Müller and Daniela Niggli from the world renowned Swiss architectural office EM2N.](https://images.unsplash.com/photo-1531626155160-d56b8230eba7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjQyODl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/9.0 | 1/1000s | 35.0mm | ISO 200
+> EXIF: Camera SONY ILCE-7M3 | f/9.0 | 1/1000s | 35.0mm | ISO 200
 
 
 ## 直觉
@@ -379,7 +379,7 @@ Architectonically unique Object “Keystone”, which is a modern interpretation
 
 ![Cake](https://images.unsplash.com/photo-1718459724370-5f0f0365d2fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjQyOTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/3.2 | 1/160s | 85.0mm | ISO 160
+> EXIF: Camera SONY ILCE-7M3 | f/3.2 | 1/160s | 85.0mm | ISO 160
 
 
 ## 直觉
@@ -406,7 +406,7 @@ Architectonically unique Object “Keystone”, which is a modern interpretation
 
 ![a plate of food and a glass of beer on a table](https://images.unsplash.com/photo-1665483268394-2f05e5f23d39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjQyOTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/2.8 | 1/160s | 70.0mm | ISO 50
+> EXIF: Camera SONY ILCE-7M3 | f/2.8 | 1/160s | 70.0mm | ISO 50
 
 
 ## 直觉
@@ -438,7 +438,7 @@ Architectonically unique Object “Keystone”, which is a modern interpretation
 
 ![Nighttime cityscape with neon lights and shadows.](https://images.unsplash.com/photo-1748737349771-e2b6605e5961?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjQzMDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ZV-E10 | f/1.8 | 1/50s | 50.0mm | ISO 50
+> EXIF: Camera SONY ZV-E10 | f/1.8 | 1/50s | 50.0mm | ISO 50
 
 
 ## 直觉
@@ -465,7 +465,7 @@ Architectonically unique Object “Keystone”, which is a modern interpretation
 
 ![a train traveling down train tracks near a city at night](https://images.unsplash.com/photo-1650030264715-79e3f0a511b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjQzMDV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM4A | f/1.6 | 1/160s | 85.0mm | ISO 800
+> EXIF: Camera SONY ILCE-7RM4A | f/1.6 | 1/160s | 85.0mm | ISO 800
 
 
 ## 直觉
@@ -492,7 +492,7 @@ Architectonically unique Object “Keystone”, which is a modern interpretation
 
 ![YouTube.com/@DreySantesson -- London Night View](https://images.unsplash.com/photo-1670629388927-9a071bf70da4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjQzMDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M4 | f/2.8 | 1/50s | 75.0mm | ISO 1600
+> EXIF: Camera SONY ILCE-7M4 | f/2.8 | 1/50s | 75.0mm | ISO 1600
 
 
 ## 直觉
@@ -524,7 +524,7 @@ Architectonically unique Object “Keystone”, which is a modern interpretation
 
 ![a close up of a bird on a bunch of flowers](https://images.unsplash.com/photo-1672317747812-fe3a266a3686?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjc5NzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D7100 | f/9.0 | 1/250s | 300.0mm | ISO 200
+> EXIF: Camera NIKON CORPORATION NIKON D7100 | f/9.0 | 1/250s | 300.0mm | ISO 200
 
 
 ## 直觉
@@ -551,7 +551,7 @@ Architectonically unique Object “Keystone”, which is a modern interpretation
 
 ![A close-up shot of a black camera.](https://images.unsplash.com/photo-1754006705299-40b297ea600c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjc5ODF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DC-G9 | f/2.8 | 1/125s | 45.0mm | ISO 100
+> EXIF: Camera Panasonic DC-G9 | f/2.8 | 1/125s | 45.0mm | ISO 100
 
 
 ## 直觉
@@ -578,7 +578,7 @@ Architectonically unique Object “Keystone”, which is a modern interpretation
 
 ![A close-up shot of a green leaf covered in water droplets against a dark background.](https://images.unsplash.com/photo-1765893576661-18fa6164026b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjc5ODR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R100 | f/11.0 | 1/13s | 45.0mm | ISO 500
+> EXIF: Camera Canon  EOS R100 | f/11.0 | 1/13s | 45.0mm | ISO 500
 
 
 ## 直觉
@@ -610,7 +610,7 @@ Architectonically unique Object “Keystone”, which is a modern interpretation
 
 ![shut my girlfriend in Tainan art museum](https://images.unsplash.com/photo-1642863809536-0cd794a07ab4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjc5OTR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Nikon F4s | f/2 | 50.0mm | ISO 400
+> EXIF: Camera Nikon F4s | f/2 | 50.0mm | ISO 400
 
 
 ## 直觉
@@ -639,7 +639,7 @@ Architectonically unique Object “Keystone”, which is a modern interpretation
 
 ![Black and white girls wearing sunnies](https://images.unsplash.com/photo-1644785961469-299bc273ca52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjc5OTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 samsung SM-G970F | f/1.5 | 1/385s | 4.3mm | ISO 50
+> EXIF: Camera samsung SM-G970F | f/1.5 | 1/385s | 4.3mm | ISO 50
 
 
 ## 直觉
@@ -665,7 +665,7 @@ Architectonically unique Object “Keystone”, which is a modern interpretation
 
 ![black and white wall mounted frame](https://images.unsplash.com/photo-1619295958612-8ff47fb3bfa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MjgwMDF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X100F | f/7.1 | 1/320s | 23.0mm | ISO 800
+> EXIF: Camera FUJIFILM X100F | f/7.1 | 1/320s | 23.0mm | ISO 800
 
 
 ## 直觉

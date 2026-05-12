@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2025-11-10
+# 每日摄影教练 - 2025-11-10
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![a black and white photo of a mountain](https://images.unsplash.com/photo-1636749281035-76e2621bbe9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc1OTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 OLYMPUS IMAGING CORP. E-420 | f/5.0 | 1/3200s | 30.0mm | ISO 400
+> EXIF: Camera OLYMPUS IMAGING CORP. E-420 | f/5.0 | 1/3200s | 30.0mm | ISO 400
 
 
 ## 直觉
@@ -39,7 +39,7 @@
 
 ![a grassy field with trees and mountains in the background](https://images.unsplash.com/photo-1566484386949-9bda9489d832?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc1OTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone X | f/1.8 | 1/1200s | 4.0mm | ISO 20
+> EXIF: Camera Apple iPhone X | f/1.8 | 1/1200s | 4.0mm | ISO 20
 
 
 ## 直觉
@@ -66,7 +66,7 @@
 
 ![Rolling green mountains under a clear blue sky](https://images.unsplash.com/photo-1767461085799-71338865ca53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc1OTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6300 | f/8.0 | 1/125s | 64.0mm | ISO 100
+> EXIF: Camera SONY ILCE-6300 | f/8.0 | 1/125s | 64.0mm | ISO 100
 
 
 ## 直觉
@@ -98,7 +98,7 @@
 
 ![Portrait photography](https://images.unsplash.com/photo-1646388816515-e3ee8f3f02e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc1OTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 RICOH IMAGING COMPANY, LTD. GR II | f/2.8 | 1/1500s | 13.7mm | ISO 100
+> EXIF: Camera RICOH IMAGING COMPANY, LTD. GR II | f/2.8 | 1/1500s | 13.7mm | ISO 100
 
 
 ## 直觉
@@ -150,7 +150,7 @@
 
 ![MaHsA](https://images.unsplash.com/photo-1625474407059-8c543b6d1fc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc2MDF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 6D | f/13.0 | 1/100s | 97.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 6D | f/13.0 | 1/100s | 97.0mm | ISO 100
 
 
 ## 直觉
@@ -181,7 +181,7 @@
 
 ![a statue of a man sitting on top of a stone structure](https://images.unsplash.com/photo-1677061856491-2955496a8813?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc2MDJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/4.0 | 1/160s | 23.0mm | ISO 160
+> EXIF: Camera FUJIFILM X-Pro3 | f/4.0 | 1/160s | 23.0mm | ISO 160
 
 
 ## 直觉
@@ -208,7 +208,7 @@
 
 ![a group of people outside a building](https://images.unsplash.com/photo-1657650312893-6984c782b128?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc2MDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DC-S5 | f/11 | 1/200s | 60.0mm | ISO 640
+> EXIF: Camera Panasonic DC-S5 | f/11 | 1/200s | 60.0mm | ISO 640
 
 
 ## 直觉
@@ -235,7 +235,7 @@
 
 ![man in white crew neck t-shirt covering his face with his hand](https://images.unsplash.com/photo-1604506522096-a72ec299dea7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc2MDV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5200 | f/1.8 | 1/1000s | 35.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D5200 | f/1.8 | 1/1000s | 35.0mm | ISO 100
 
 
 ## 直觉
@@ -266,7 +266,7 @@
 
 ![Soviet Modernism](https://images.unsplash.com/photo-1583185578811-baf25a0586d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc2MDd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 60D | f/7.1 | 1/250s | 105.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 60D | f/7.1 | 1/250s | 105.0mm | ISO 100
 
 
 ## 直觉
@@ -318,7 +318,7 @@
 
 ![Glass wall of Oslo’s Opera house ](https://images.unsplash.com/photo-1646731460609-71ce2a16c511?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc2MTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 OLYMPUS CORPORATION E-M10 Mark III | f/13.0 | 1/200s | 22.0mm | ISO 200
+> EXIF: Camera OLYMPUS CORPORATION E-M10 Mark III | f/13.0 | 1/200s | 22.0mm | ISO 200
 
 
 ## 直觉
@@ -350,7 +350,7 @@
 
 ![a table topped with lots of cupcakes covered in frosting](https://images.unsplash.com/photo-1697320813760-ecea59a6ef32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc2MTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D Mark II | f/4.5 | 1/100s | 43.0mm | ISO 640
+> EXIF: Camera Canon  EOS 6D Mark II | f/4.5 | 1/100s | 43.0mm | ISO 640
 
 
 ## 直觉
@@ -377,7 +377,7 @@
 
 ![Pears](https://images.unsplash.com/photo-1647024204308-a7be8c884c23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc2MTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON Z 7 | f/3.5 | 1/160s | 85.0mm | ISO 500
+> EXIF: Camera NIKON CORPORATION NIKON Z 7 | f/3.5 | 1/160s | 85.0mm | ISO 500
 
 
 ## 直觉
@@ -403,7 +403,7 @@
 
 ![white flatlay](https://images.unsplash.com/photo-1766233420855-2f8fe3ebda4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc2MTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY DSC-H10 | f/3.5 | 1/60s | 6.3mm | ISO 125
+> EXIF: Camera SONY DSC-H10 | f/3.5 | 1/60s | 6.3mm | ISO 125
 
 
 ## 直觉
@@ -434,7 +434,7 @@
 
 ![Highway light trails](https://images.unsplash.com/photo-1472507231216-a012cb1cf8f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc2MjF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 50D | f/7.1 | 10s | 11.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 50D | f/7.1 | 10s | 11.0mm | ISO 100
 
 
 ## 直觉
@@ -461,7 +461,7 @@
 
 ![a very tall building lit up at night](https://images.unsplash.com/photo-1631889503095-e26ce0357ff2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc2MjJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/2.8 | 1/100s | 28.0mm | ISO 400
+> EXIF: Camera SONY ILCE-7M3 | f/2.8 | 1/100s | 28.0mm | ISO 400
 
 
 ## 直觉
@@ -524,7 +524,7 @@
 
 ![Christmas Light Bulb](https://images.unsplash.com/photo-1605465980838-3df0717b2c09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc2Mjd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D750 | 1/80s | ISO 4000
+> EXIF: Camera NIKON CORPORATION NIKON D750 | 1/80s | ISO 4000
 
 
 ## 直觉
@@ -551,7 +551,7 @@
 
 ![white snow on black and white textile](https://images.unsplash.com/photo-1610994194998-c7cef210e861?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc2Mjh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 7 | f/1.8 | 1/17s | 4.0mm | ISO 64
+> EXIF: Camera Apple iPhone 7 | f/1.8 | 1/17s | 4.0mm | ISO 64
 
 
 ## 直觉
@@ -606,7 +606,7 @@
 
 ![grayscale photo of trees covered with fog](https://images.unsplash.com/photo-1610303871783-491dc6d0a165?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTc2MzN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5600 | f/10.0 | 1/200s | 70.0mm | ISO 400
+> EXIF: Camera NIKON CORPORATION NIKON D5600 | f/10.0 | 1/200s | 70.0mm | ISO 400
 
 
 ## 直觉

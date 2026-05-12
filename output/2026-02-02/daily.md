@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-02-02
+# 每日摄影教练 - 2026-02-02
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![a plate of food with a fork and knife](https://images.unsplash.com/photo-1693296303883-3e3c189d9d61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTUyMDF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 850D | f/4.0 | 1/1000s | 50.0mm | ISO 3200
+> EXIF: Camera Canon  EOS 850D | f/4.0 | 1/1000s | 50.0mm | ISO 3200
 
 
 ## 直觉
@@ -40,7 +40,7 @@
 
 ![Butternut squash salad with dates walnuts feta and arugula in a ceramic bowl next to ceramic serving spoons and a linen napkin](https://images.unsplash.com/photo-1757449723357-4fa03553b8a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTUyMDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 14 Pro | f/1.8 | 1/160s | 6.9mm | ISO 64
+> EXIF: Camera Apple iPhone 14 Pro | f/1.8 | 1/160s | 6.9mm | ISO 64
 
 
 ## 直觉
@@ -67,7 +67,7 @@
 
 ![bowl of blueberries and chocolate](https://images.unsplash.com/photo-1586882279663-6ef1ee3a7190?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTUyMDV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 750D | f/2.8 | 1/90s | 50.0mm | ISO 400
+> EXIF: Camera Canon Canon EOS 750D | f/2.8 | 1/90s | 50.0mm | ISO 400
 
 
 ## 直觉
@@ -99,7 +99,7 @@
 
 ![City buildings and industrial towers at night](https://images.unsplash.com/photo-1764538092762-34d5a69adee3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTUyMDd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILME-FX30 | f/4.0 | 1/13s | 36.0mm | ISO 1600
+> EXIF: Camera SONY ILME-FX30 | f/4.0 | 1/13s | 36.0mm | ISO 1600
 
 
 ## 直觉
@@ -126,7 +126,7 @@
 
 ![Train traveling through a brightly lit, bustling tokyo street.](https://images.unsplash.com/photo-1748737349845-ad06f733c798?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTUyMDl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ZV-E10 | f/1.8 | 1/50s | 50.0mm | ISO 50
+> EXIF: Camera SONY ZV-E10 | f/1.8 | 1/50s | 50.0mm | ISO 50
 
 
 ## 直觉
@@ -152,7 +152,7 @@
 
 ![Wet streetlights reflect on a dark, rainy night.](https://images.unsplash.com/photo-1765110850859-b1ef39dc89a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTUyMTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R50 | f/4.0 | 0.5s | 19.0mm | ISO 100
+> EXIF: Camera Canon  EOS R50 | f/4.0 | 0.5s | 19.0mm | ISO 100
 
 
 ## 直觉
@@ -233,7 +233,7 @@
 
 ![close up of a conifer](https://images.unsplash.com/photo-1734532542260-3ff60ea63d29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTUyMTR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-H2 | f/1.4 | 1/1400s | 23.0mm | ISO 160
+> EXIF: Camera FUJIFILM X-H2 | f/1.4 | 1/1400s | 23.0mm | ISO 160
 
 
 ## 直觉
@@ -288,7 +288,7 @@
 
 ![a very tall building with lots of windows](https://images.unsplash.com/photo-1675694045939-d96170a3a1dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTUyMTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 samsung SM-A415F | f/1.8 | 1/100s | 4.7mm | ISO 100
+> EXIF: Camera samsung SM-A415F | f/1.8 | 1/100s | 4.7mm | ISO 100
 
 
 ## 直觉

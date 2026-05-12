@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-04-26
+# 每日摄影教练 - 2026-04-26
 
 
 ---
@@ -37,7 +37,7 @@
 
 ![A view of a valley with a few hills in the distance](https://images.unsplash.com/photo-1725120238681-a495ce831f34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzA4NjJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R8 | f/7.1 | 1/200s | 105.0mm | ISO 100
+> EXIF: Camera Canon  EOS R8 | f/7.1 | 1/200s | 105.0mm | ISO 100
 
 
 ## 直觉
@@ -64,7 +64,7 @@
 
 ![A view of a mountain covered in clouds](https://images.unsplash.com/photo-1724060972935-af5974af0c47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzA4NjV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 samsung SM-A515F | f/2.0 | 1/50s | 4.6mm | ISO 64
+> EXIF: Camera samsung SM-A515F | f/2.0 | 1/50s | 4.6mm | ISO 64
 
 
 ## 直觉
@@ -95,7 +95,7 @@
 
 ![Meditating ](https://images.unsplash.com/photo-1614722283146-30b68ded0a6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzA4Njh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 6D | f/1.8 | 1/200s | 50.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 6D | f/1.8 | 1/200s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -122,7 +122,7 @@
 
 ![Am Jonath Jose and this is my life](https://images.unsplash.com/photo-1622615875737-0d959726e947?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzA4NzF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 600D | f/5.6 | 1/250s | 187.0mm | ISO 1600
+> EXIF: Camera Canon Canon EOS 600D | f/5.6 | 1/250s | 187.0mm | ISO 1600
 
 
 ## 直觉
@@ -170,7 +170,7 @@
 
 ![a man sitting at a table with a painting in front of him](https://images.unsplash.com/photo-1677061856611-51cb2fc07961?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzA4Nzl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/2.8 | 1/200s | 23.0mm | ISO 160
+> EXIF: Camera FUJIFILM X-Pro3 | f/2.8 | 1/200s | 23.0mm | ISO 160
 
 
 ## 直觉
@@ -196,7 +196,7 @@
 
 ![Outdoor seating area with chairs and tables.](https://images.unsplash.com/photo-1768321611458-c0c5b55b92ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzA4ODZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM5 | f/5.6 | 1/125s | 10.0mm | ISO 200
+> EXIF: Camera SONY ILCE-7RM5 | f/5.6 | 1/125s | 10.0mm | ISO 200
 
 
 ## 直觉
@@ -222,7 +222,7 @@
 
 ![people shopping](https://images.unsplash.com/photo-1736630092412-ba9a3051f2a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzA4ODl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM GFX100 II | f/2.0 | 1/110s | 110.0mm | ISO 200
+> EXIF: Camera FUJIFILM GFX100 II | f/2.0 | 1/110s | 110.0mm | ISO 200
 
 
 ## 直觉
@@ -253,7 +253,7 @@
 
 ![Escaping From The Sun](https://images.unsplash.com/photo-1542613741-0bc8abb1fd74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzA4OTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 7D | f/14.0 | 1/160s | 26.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 7D | f/14.0 | 1/160s | 26.0mm | ISO 100
 
 
 ## 直觉
@@ -280,7 +280,7 @@
 
 ![white and blue concrete building during daytime](https://images.unsplash.com/photo-1550070881-a5d71eda5800?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzA4OTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 7D | f/13.0 | 1/160s | 19.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 7D | f/13.0 | 1/160s | 19.0mm | ISO 100
 
 
 ## 直觉
@@ -336,7 +336,7 @@
 
 ![a close up of a tray of food with a can of soda](https://images.unsplash.com/photo-1643224203866-fb1cabe600c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzQ1NjR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D3300 | f/4.5 | 1/200s | 35.0mm | ISO 200
+> EXIF: Camera NIKON CORPORATION NIKON D3300 | f/4.5 | 1/200s | 35.0mm | ISO 200
 
 
 ## 直觉
@@ -363,7 +363,7 @@
 
 ![Peach galette topped with scoops of vanilla ice cream sitting on a parchment lined wooden board with a slice of galette on a ceramic plate next to a linen napkin.](https://images.unsplash.com/photo-1757449946157-e51d1166c3d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzQ1NjZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 14 Pro | 0.0mm | ISO 80
+> EXIF: Camera Apple iPhone 14 Pro | 0.0mm | ISO 80
 
 
 ## 直觉
@@ -390,7 +390,7 @@
 
 ![Jovan Vasiljević Photography | Fotografija Jovan Vasiljević || A lovely table set up | Nostalgic, vintage vibes | Valentines Day surpirse |](https://images.unsplash.com/photo-1674740360525-f464e7698ab0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzQ1Njl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D Mark II | f/4.5 | 1/160s | 70.0mm | ISO 1600
+> EXIF: Camera Canon  EOS 6D Mark II | f/4.5 | 1/160s | 70.0mm | ISO 1600
 
 
 ## 直觉
@@ -422,7 +422,7 @@
 
 ![a double decker bus on the street](https://images.unsplash.com/photo-1663481086453-9eadebf1956c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzQ1NzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 90D | f/4.0 | 1/13s | 24.0mm | ISO 4000
+> EXIF: Camera Canon  EOS 90D | f/4.0 | 1/13s | 24.0mm | ISO 4000
 
 
 ## 直觉
@@ -451,7 +451,7 @@
 
 ![a very tall building lit up at night](https://images.unsplash.com/photo-1638562473259-f28f69968e63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzQ1NzV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/1.4 | 1/200s | 85.0mm | ISO 1000
+> EXIF: Camera SONY ILCE-6400 | f/1.4 | 1/200s | 85.0mm | ISO 1000
 
 
 ## 直觉
@@ -477,7 +477,7 @@
 
 ![an aerial view of a city at night](https://images.unsplash.com/photo-1706875181763-e3608ad52a1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzQ1Nzd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 DJI FC7303 | f/2.8 | 1/60s | 4.5mm | ISO 1600
+> EXIF: Camera DJI FC7303 | f/2.8 | 1/60s | 4.5mm | ISO 1600
 
 
 ## 直觉
@@ -508,7 +508,7 @@
 
 ![Oecophylla smaragdina, commonly known as the Asian weaver ant, green tree ant or orange gaster, is a species of arboreal ant found in tropical Asia and Australia. These ants form colonies with multiple nests in trees, each nest being made of leaves stitched together using the silk produced by the ant larvae: hence the name 'oecophylla' [Greek for 'leaf-house']. Workers are 5–7 millimetres long, looking after larvae and farming scale bugs for honeydew. Major workers are 8–10 millimetres with long strong legs and large mandibles. They forage, assemble and expand the nest.](https://images.unsplash.com/photo-1769869516350-359acaad58bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzQ1ODB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R10 | f/8.0 | 1/1250s | 400.0mm | ISO 1600
+> EXIF: Camera Canon  EOS R10 | f/8.0 | 1/1250s | 400.0mm | ISO 1600
 
 
 ## 直觉
@@ -537,7 +537,7 @@
 
 ![A close up of a camera on a table](https://images.unsplash.com/photo-1724011015356-f65e60cc4448?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzQ1ODN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 60D | f/6.3 | 1/60s | 75.0mm | ISO 125
+> EXIF: Camera Canon  EOS 60D | f/6.3 | 1/60s | 75.0mm | ISO 125
 
 
 ## 直觉
@@ -563,7 +563,7 @@
 
 ![Hickory Hairstreak (Satyrium caryaevorus) Ice Age National Scientific Reserve Unit, Baraboo, WI, USA taken: 7/6/2018, image no: 044aaaJan72026](https://images.unsplash.com/photo-1767886851329-66682246e1e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzQ1ODV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 7D Mark II | f/9.0 | 1/250s | 180.0mm | ISO 125
+> EXIF: Camera Canon  EOS 7D Mark II | f/9.0 | 1/250s | 180.0mm | ISO 125
 
 
 ## 直觉
@@ -595,7 +595,7 @@
 
 ![a black and white photo of a wind farm](https://images.unsplash.com/photo-1641337901307-a450c7d1463a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzQ1OTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 -- None | 1s | ISO 3200
+> EXIF: Camera -- None | 1s | ISO 3200
 
 
 ## 直觉
@@ -622,7 +622,7 @@
 
 ![Black and white flowers 🌹](https://images.unsplash.com/photo-1715957906976-e86a4820e745?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NzQ1OTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Google Pixel 8 Pro | f/1.7 | 1/315s | 6.9mm | ISO 152
+> EXIF: Camera Google Pixel 8 Pro | f/1.7 | 1/315s | 6.9mm | ISO 152
 
 
 ## 直觉

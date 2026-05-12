@@ -210,6 +210,11 @@ def render_web(
     env = Environment(loader=FileSystemLoader(str(TEMPLATES_DIR)), autoescape=False)
     template = env.get_template("daily.html")
 
+    # Filter out failed analysis photos
+    def _is_analysis_failed(photo: dict) -> bool:
+        analysis = photo.get("analysis", "")
+        return analysis == "（分析失败，请稍后重试）"
+
     tabs = []
     for style in styles:
         label = style["label"]
@@ -217,8 +222,13 @@ def render_web(
         if not photos:
             continue
 
+        # Filter out failed photos
+        valid_photos = [p for p in photos if not _is_analysis_failed(p)]
+        if not valid_photos:
+            continue
+
         rendered = []
-        for photo in photos:
+        for photo in valid_photos:
             item = {**photo}
             item["analysis_html"] = _markdown_to_html(photo.get("analysis", ""))
             item["analysis_excerpt"] = _extract_excerpt(photo.get("analysis", ""))
@@ -276,11 +286,21 @@ def render_markdown(
     """Render the daily Markdown archive."""
     parts = [f"# 每日摄影教练 - {date}\n"]
 
+    # Filter out failed analysis photos
+    def _is_analysis_failed(photo: dict) -> bool:
+        analysis = photo.get("analysis", "")
+        return analysis == "（分析失败，请稍后重试）"
+
     photo_idx = 0
     for label, photos in grouped_photos.items():
+        # Filter out failed photos
+        valid_photos = [p for p in photos if not _is_analysis_failed(p)]
+        if not valid_photos:
+            continue
+
         parts.append(f"\n---\n\n# {label}\n")
 
-        for photo in photos:
+        for photo in valid_photos:
             photo_idx += 1
             parts.append(f"\n## #{photo_idx} {label}\n")
             parts.append(f"**摄影师**: [{photo['photographer']}]({photo.get('photographer_url', '')})")
@@ -335,6 +355,11 @@ def update_index(output_dir: str) -> Path:
     total_photos = 0
     style_totals: dict[str, dict[str, Any]] = {}
 
+    # Filter out failed analysis photos
+    def _is_analysis_failed(photo: dict) -> bool:
+        analysis = photo.get("analysis", "")
+        return analysis == "（分析失败，请稍后重试）"
+
     for day_dir in sorted(output_path.iterdir(), reverse=True):
         if not day_dir.is_dir() or not re.match(r"\d{4}-\d{2}-\d{2}", day_dir.name):
             continue
@@ -345,8 +370,19 @@ def update_index(output_dir: str) -> Path:
 
         try:
             data = json.loads(json_file.read_text(encoding="utf-8"))
-            flat_photos = _iter_photos(data)
-            style_counts = _build_style_counts(data)
+            # Filter out failed photos
+            filtered_data = {}
+            for label, photos in data.items():
+                if isinstance(photos, list):
+                    filtered_photos = [p for p in photos if not _is_analysis_failed(p)]
+                    if filtered_photos:
+                        filtered_data[label] = filtered_photos
+
+            if not filtered_data:
+                continue
+
+            flat_photos = _iter_photos(filtered_data)
+            style_counts = _build_style_counts(filtered_data)
             photo_count = len(flat_photos)
             if not photo_count:
                 continue
@@ -373,7 +409,7 @@ def update_index(output_dir: str) -> Path:
                     "style_labels": [item["label"] for item in style_counts],
                     "style_counts": style_counts,
                     "primary_style": primary_style,
-                    "preview_images": _pick_preview_images(data),
+                    "preview_images": _pick_preview_images(filtered_data),
                     "summary": _extract_excerpt(lead_photo.get("analysis", ""), 150),
                     "lead_description": _clean_description(lead_photo.get("description", ""), 90),
                     "lead_photographer": lead_photo.get("photographer", "Unknown"),

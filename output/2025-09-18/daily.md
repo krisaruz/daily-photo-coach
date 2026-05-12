@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2025-09-18
+# 每日摄影教练 - 2025-09-18
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![high angle photo of mountain](https://images.unsplash.com/photo-1531495391938-686271f6f496?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA4NjZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon PowerShot G5 X | f/6.3 | 1/800s | 36.8mm | ISO 640
+> EXIF: Camera Canon Canon PowerShot G5 X | f/6.3 | 1/800s | 36.8mm | ISO 640
 
 
 ## 直觉

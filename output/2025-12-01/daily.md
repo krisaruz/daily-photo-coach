@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2025-12-01
+# 每日摄影教练 - 2025-12-01
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![a mountain with a blue sky](https://images.unsplash.com/photo-1660644894002-631d17fddbc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDE4NDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 250D | f/5.6 | 1/1000s | 50.0mm | ISO 100
+> EXIF: Camera Canon  EOS 250D | f/5.6 | 1/1000s | 50.0mm | ISO 100
 
 
 ## 直觉

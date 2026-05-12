@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-01-19
+# 每日摄影教练 - 2026-01-19
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![a mountain range with a few trees on the side of it](https://images.unsplash.com/photo-1639059781283-8872cc81554d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4NTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/18.0 | 1/40s | 30.0mm | ISO 50
+> EXIF: Camera SONY ILCE-7M3 | f/18.0 | 1/40s | 30.0mm | ISO 50
 
 
 ## 直觉
@@ -40,7 +40,7 @@
 
 ![A dirt road in the middle of a forest](https://images.unsplash.com/photo-1725120238214-f88a11b61392?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4NTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R8 | f/7.1 | 1/500s | 35.0mm | ISO 100
+> EXIF: Camera Canon  EOS R8 | f/7.1 | 1/500s | 35.0mm | ISO 100
 
 
 ## 直觉
@@ -67,7 +67,7 @@
 
 ![Autumn trees cover a rugged mountain slope.](https://images.unsplash.com/photo-1761159077081-a975f47247d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4NTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM5 | f/3.2 | 1/800s | 34.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7RM5 | f/3.2 | 1/800s | 34.0mm | ISO 100
 
 
 ## 直觉
@@ -98,7 +98,7 @@
 
 ![A coffee with my friend](https://images.unsplash.com/photo-1624211843806-1fa36778c9cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4NTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS RP | f/2.0 | 1/125s | 50.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS RP | f/2.0 | 1/125s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -125,7 +125,7 @@
 
 ![A woman posing for a picture with her hand on her head](https://images.unsplash.com/photo-1727341557531-343cd4364501?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4NTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/13.0 | 1/125s | 24.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7M3 | f/13.0 | 1/125s | 24.0mm | ISO 100
 
 
 ## 直觉
@@ -151,7 +151,7 @@
 
 ![a man wearing sunglasses and a hat](https://images.unsplash.com/photo-1645800062129-398269b1a7af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4NjR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 4000D | f/2.8 | 1/2000s | 50.0mm | ISO 400
+> EXIF: Camera Canon  EOS 4000D | f/2.8 | 1/2000s | 50.0mm | ISO 400
 
 
 ## 直觉
@@ -183,7 +183,7 @@
 
 ![a vending machine sitting inside of a building](https://images.unsplash.com/photo-1677061856188-5e61567dc868?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4Njd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/2.0 | 1/250s | 23.0mm | ISO 400
+> EXIF: Camera FUJIFILM X-Pro3 | f/2.0 | 1/250s | 23.0mm | ISO 400
 
 
 ## 直觉
@@ -209,7 +209,7 @@
 
 ![Man with camera and backpack on city street](https://images.unsplash.com/photo-1760726347898-cd3daa2d5bd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4Njl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/22.0 | 1/100s | 53.0mm | ISO 500
+> EXIF: Camera SONY ILCE-6400 | f/22.0 | 1/100s | 53.0mm | ISO 500
 
 
 ## 直觉
@@ -236,7 +236,7 @@
 
 ![The article "The Unfathomable City: Seven Years of Silver Salt in the Shutter" describes the author's practice of "shutter literature," blending photography and writing to capture fleeting urban moments and preserve overlooked human stories. Over seven years, silver salt negatives are stored at low temperatures to eternalize these instances. Despite setbacks like camera damage, the author reaffirms the purpose: to resist time's erosion and safeguard city memories. Through contrasts with characters holding different views, the work highlights using lens and text to collect urban fragments, prot](https://images.unsplash.com/photo-1772880888149-4b2533fdb140?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4NzR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Leica MA
+> EXIF: Camera Leica MA
 
 
 ## 直觉
@@ -268,7 +268,7 @@
 
 ![The Getty Center, in Los Angeles, California, is a campus of the Getty Museum and other programs of the Getty Trust. The $1.3 billion center opened to the public on December 16, 1997, and is well known for its architecture, gardens, and views overlooking Los Angeles.](https://images.unsplash.com/photo-1722030007030-48fc8a5cbc6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4Nzh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 15 Pro | f/1.8 | 1/120s | 6.8mm | ISO 160
+> EXIF: Camera Apple iPhone 15 Pro | f/1.8 | 1/120s | 6.8mm | ISO 160
 
 
 ## 直觉
@@ -294,7 +294,7 @@
 
 ![Academic Minimalism](https://images.unsplash.com/photo-1545950302-7816befdc20a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4ODV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6000 | f/11.0 | 1/200s | 30.0mm | ISO 100
+> EXIF: Camera SONY ILCE-6000 | f/11.0 | 1/200s | 30.0mm | ISO 100
 
 
 ## 直觉
@@ -321,7 +321,7 @@
 
 ![50 Shades of Concrete 🩶 The Kaleidoscopic black and white photography series continues with another addition from Sheffield. The original image was a shot of the top corner of a multi-purpose building on Millennium Square / St Paul's Place. It houses various businesses and restaurants, including the rather popular Italian, Piccolino. Following the process of reflecting the image both horizontally and vertically, it appears to have turned into some sort of intergalactic space station 🪐](https://images.unsplash.com/photo-1753368812740-ed862baec54c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4ODZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Google Pixel 9 Pro XL | f/1.7 | 1/438s | 6.9mm | ISO 21
+> EXIF: Camera Google Pixel 9 Pro XL | f/1.7 | 1/438s | 6.9mm | ISO 21
 
 
 ## 直觉
@@ -352,7 +352,7 @@
 
 ![A pile of dried dates in various shades of brown.](https://images.unsplash.com/photo-1771231591559-d19c89ad118a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4ODl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 1300D | f/5.6 | 1/125s | 88.0mm | ISO 250
+> EXIF: Camera Canon  EOS 1300D | f/5.6 | 1/125s | 88.0mm | ISO 250
 
 
 ## 直觉
@@ -379,7 +379,7 @@
 
 ![a wooden table topped with blueberries and lemons](https://images.unsplash.com/photo-1690233317025-3507ac883c17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4OTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ZV-E10 | f/6.3 | 1/125s | 50.0mm | ISO 100
+> EXIF: Camera SONY ZV-E10 | f/6.3 | 1/125s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -436,7 +436,7 @@
 
 ![Edit with my presets: https://bodega.supply/collection/photo-presets](https://images.unsplash.com/photo-1709672327452-1e7d38440bf9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4OTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 LEICA CAMERA AG LEICA CL | 1/500s | 0.0mm | ISO 200
+> EXIF: Camera LEICA CAMERA AG LEICA CL | 1/500s | 0.0mm | ISO 200
 
 
 ## 直觉
@@ -486,7 +486,7 @@
 
 ![Rolleiflex T, Cinestill 800T](https://images.unsplash.com/photo-1777209307688-c6edf4f959d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE4OTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Rolleiflex T | f/22.0 | 1/2s | 75.0mm | ISO 800
+> EXIF: Camera Rolleiflex T | f/22.0 | 1/2s | 75.0mm | ISO 800
 
 
 ## 直觉
@@ -518,7 +518,7 @@
 
 ![Dragonfly perched on a thin stalk with dark background](https://images.unsplash.com/photo-1758406632720-9ea123626f0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE5MDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D3200 | f/10.0 | 1/125s | 125.0mm | ISO 400
+> EXIF: Camera NIKON CORPORATION NIKON D3200 | f/10.0 | 1/125s | 125.0mm | ISO 400
 
 
 ## 直觉
@@ -545,7 +545,7 @@
 
 ![A single flower of the plant Choisya Ternata, also known as Mexican Orange Blossom.](https://images.unsplash.com/photo-1770648705485-4388114c6d75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE5MTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Nikon D5300 | 1/2000s | 40.0mm
+> EXIF: Camera Nikon D5300 | 1/2000s | 40.0mm
 
 
 ## 直觉
@@ -603,7 +603,7 @@
 
 ![several boats are parked in the water](https://images.unsplash.com/photo-1661020596896-08e7b1beba6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE5MTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY DSLR-A550 | f/9.0 | 1/400s | 55.0mm | ISO 200
+> EXIF: Camera SONY DSLR-A550 | f/9.0 | 1/400s | 55.0mm | ISO 200
 
 
 ## 直觉
@@ -630,7 +630,7 @@
 
 ![a black and white photo of a flower](https://images.unsplash.com/photo-1647534735977-308c33e42bb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTE5MjB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5600 | f/5.6 | 1/60s | 55.0mm | ISO 720
+> EXIF: Camera NIKON CORPORATION NIKON D5600 | f/5.6 | 1/60s | 55.0mm | ISO 720
 
 
 ## 直觉

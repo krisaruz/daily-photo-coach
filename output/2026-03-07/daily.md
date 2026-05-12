@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-03-07
+# 每日摄影教练 - 2026-03-07
 
 
 ---
@@ -37,7 +37,7 @@
 
 ![a landscape with trees and mountains in the background](https://images.unsplash.com/photo-1657455386351-e8534806f9a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODQ3NzZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 samsung SM-A736B | f/1.8 | 1/50s | 5.1mm | ISO 64
+> EXIF: Camera samsung SM-A736B | f/1.8 | 1/50s | 5.1mm | ISO 64
 
 
 ## 直觉

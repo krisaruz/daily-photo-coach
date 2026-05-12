@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2025-10-13
+# 每日摄影教练 - 2025-10-13
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![yslla](https://images.unsplash.com/photo-1526560244950-1a3c1ace48f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM2MDF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 6D | f/7.1 | 1/160s | 50.0mm | ISO 200
+> EXIF: Camera Canon Canon EOS 6D | f/7.1 | 1/160s | 50.0mm | ISO 200
 
 
 ## 直觉
@@ -45,7 +45,7 @@
 
 ![a person wearing a red hat and gloves](https://images.unsplash.com/photo-1677061857718-9233101475e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM2MDN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/2.0 | 1/1250s | 23.0mm | ISO 800
+> EXIF: Camera FUJIFILM X-Pro3 | f/2.0 | 1/1250s | 23.0mm | ISO 800
 
 
 ## 直觉
@@ -72,7 +72,7 @@
 
 ![A candid street portrait of an elderly man with a white beard, dressed in a green patterned shirt, seated among colorful rickshaws in a busy urban setting. His steady gaze and weathered face reflect resilience, wisdom, and the quiet strength of everyday life in the city. This photo captures both cultural vibrancy and human authenticity.](https://images.unsplash.com/photo-1758726949080-d8b1e8acac63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM2MDV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/2 | 1/200s | 50.0mm | ISO 125
+> EXIF: Camera SONY ILCE-6400 | f/2 | 1/200s | 50.0mm | ISO 125
 
 
 ## 直觉
@@ -128,7 +128,7 @@
 
 ![Modern apartment buildings with balconies against blue sky](https://images.unsplash.com/photo-1774211653802-5e75d6646403?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM2MTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D3100 | f/7.1 | 1/400s | 98.0mm | ISO 1600
+> EXIF: Camera NIKON CORPORATION NIKON D3100 | f/7.1 | 1/400s | 98.0mm | ISO 1600
 
 
 ## 直觉
@@ -179,7 +179,7 @@
 
 ![a black and white photo of a balcony](https://images.unsplash.com/photo-1671536861320-55999cbc41dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM2MTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DC-S5 | f/11.0 | 1/640s | 60.0mm | ISO 400
+> EXIF: Camera Panasonic DC-S5 | f/11.0 | 1/640s | 60.0mm | ISO 400
 
 
 ## 直觉
@@ -211,7 +211,7 @@
 
 ![a table topped with plates of sandwiches and croissants](https://images.unsplash.com/photo-1696721497700-e22ce217cd15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM2MTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark IV | f/13.0 | 1/125s | 50.0mm | ISO 10000
+> EXIF: Camera Canon  EOS 5D Mark IV | f/13.0 | 1/125s | 50.0mm | ISO 10000
 
 
 ## 直觉
@@ -238,7 +238,7 @@
 
 ![a close up of a cake on a table](https://images.unsplash.com/photo-1696721496937-7367efc26dc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM2MjF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark IV | f/3.5 | 1/125s | 100.0mm | ISO 1600
+> EXIF: Camera Canon  EOS 5D Mark IV | f/3.5 | 1/125s | 100.0mm | ISO 1600
 
 
 ## 直觉
@@ -296,7 +296,7 @@ From the series Taster For Adventure](https://images.unsplash.com/photo-16399297
 
 ![Illuminated bridge at night with city lights behind.](https://images.unsplash.com/photo-1765773686746-998448a34536?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM2MjR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 600D | f/18.0 | 10s | 18.0mm | ISO 100
+> EXIF: Camera Canon  EOS 600D | f/18.0 | 10s | 18.0mm | ISO 100
 
 
 ## 直觉
@@ -323,7 +323,7 @@ From the series Taster For Adventure](https://images.unsplash.com/photo-16399297
 
 ![a building with a sign that says university of petroleum](https://images.unsplash.com/photo-1638562481763-dd5955873a9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM2MjZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/1.4 | 1/200s | 85.0mm | ISO 1000
+> EXIF: Camera SONY ILCE-6400 | f/1.4 | 1/200s | 85.0mm | ISO 1000
 
 
 ## 直觉
@@ -379,7 +379,7 @@ From the series Taster For Adventure](https://images.unsplash.com/photo-16399297
 
 ![A close-up macro shot capturing delicate water droplets on blades of grass. The golden tones and intricate reflections create a mesmerizing, abstract nature scene.](https://images.unsplash.com/photo-1738417702912-54ac915f64d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM2MzF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 samsung SM-G986B taken with 100mm macro lens | f/1.8 | 1/310s | 5.4mm | ISO 50
+> EXIF: Camera samsung SM-G986B taken with 100mm macro lens | f/1.8 | 1/310s | 5.4mm | ISO 50
 
 
 ## 直觉
@@ -406,7 +406,7 @@ From the series Taster For Adventure](https://images.unsplash.com/photo-16399297
 
 ![a close up of a red flower in a pot](https://images.unsplash.com/photo-1676700162873-4f97185c6e56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM2MzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5600 | f/2.8 | 1/500s | 50.0mm | ISO 200
+> EXIF: Camera NIKON CORPORATION NIKON D5600 | f/2.8 | 1/500s | 50.0mm | ISO 200
 
 
 ## 直觉
@@ -436,7 +436,7 @@ From the series Taster For Adventure](https://images.unsplash.com/photo-16399297
 
 ![A single yellow mushroom with gills in green grass](https://images.unsplash.com/photo-1773366873416-a2c9fd518b15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM2MzV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone X | f/1.8 | 1/500s | 4.0mm | ISO 20
+> EXIF: Camera Apple iPhone X | f/1.8 | 1/500s | 4.0mm | ISO 20
 
 
 ## 直觉
@@ -467,7 +467,7 @@ From the series Taster For Adventure](https://images.unsplash.com/photo-16399297
 
 ![a group of flowers](https://images.unsplash.com/photo-1659564131634-32ca6b67fa47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM2MzZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS REBEL T5 | f/5.6 | 1/200s | 37.0mm | ISO 100
+> EXIF: Camera Canon  EOS REBEL T5 | f/5.6 | 1/200s | 37.0mm | ISO 100
 
 
 ## 直觉
@@ -494,7 +494,7 @@ From the series Taster For Adventure](https://images.unsplash.com/photo-16399297
 
 ![woman standing in front of fence](https://images.unsplash.com/photo-1561291386-a94b935c9bde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTM2Mzh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 70D | f/14.0 | 1/25s | 135.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 70D | f/14.0 | 1/25s | 135.0mm | ISO 100
 
 
 ## 直觉

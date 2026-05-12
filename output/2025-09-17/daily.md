@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2025-09-17
+# 每日摄影教练 - 2025-09-17
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![green mountain under white clouds during daytime](https://images.unsplash.com/photo-1611163597915-84d2e7a2916e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0MTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 600D | f/6.3 | 1/200s | 116.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 600D | f/6.3 | 1/200s | 116.0mm | ISO 100
 
 
 ## 直觉
@@ -39,7 +39,7 @@
 
 ![green and brown mountains under white sky during daytime](https://images.unsplash.com/photo-1611999635016-b0aec0001c9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0MjB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/5.6 | 1/640s | 70.0mm | ISO 640
+> EXIF: Camera SONY ILCE-7M3 | f/5.6 | 1/640s | 70.0mm | ISO 640
 
 
 ## 直觉
@@ -68,7 +68,7 @@
 on a winter day —
 Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf8319e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0MjF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 OLYMPUS CORPORATION E-M1MarkII | f/6.3 | 1/250s | 25.0mm | ISO 200
+> EXIF: Camera OLYMPUS CORPORATION E-M1MarkII | f/6.3 | 1/250s | 25.0mm | ISO 200
 
 
 ## 直觉
@@ -103,7 +103,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![a woman in a bra top is holding her hair](https://images.unsplash.com/photo-1711251727166-f1b0ce1a020a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0MjN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS RP | 1/100s | ISO 100
+> EXIF: Camera Canon  EOS RP | 1/100s | ISO 100
 
 
 ## 直觉
@@ -130,7 +130,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![A woman wearing glasses and a scarf](https://images.unsplash.com/photo-1721907100591-32c3d7a84968?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0MjV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 1200D | 1/100s | 50.0mm | ISO 1600
+> EXIF: Camera Canon  EOS 1200D | 1/100s | 50.0mm | ISO 1600
 
 
 ## 直觉
@@ -159,7 +159,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![man's face](https://images.unsplash.com/photo-1552158732-06dc1d835de0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0MjZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 80D | f/1.4 | 1/200s | 30.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 80D | f/1.4 | 1/200s | 30.0mm | ISO 100
 
 
 ## 直觉
@@ -190,7 +190,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![A man and a child stand near a shop.](https://images.unsplash.com/photo-1746676387920-1758aad345fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0Mjd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X100VI | f/5.0 | 1/220s | 23.0mm | ISO 1600
+> EXIF: Camera FUJIFILM X100VI | f/5.0 | 1/220s | 23.0mm | ISO 1600
 
 
 ## 直觉
@@ -217,7 +217,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![Old photograph of a european street scene](https://images.unsplash.com/photo-1776182869760-9678345997e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0Mjh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D810 | f/2.8 | 1/800s | 50.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D810 | f/2.8 | 1/800s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -244,7 +244,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![Man standing on street at night with blurred lights](https://images.unsplash.com/photo-1757970767191-78e6d629e7af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0MzB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/4.0 | 0.3s | 20.0mm | ISO 125
+> EXIF: Camera SONY ILCE-7M3 | f/4.0 | 0.3s | 20.0mm | ISO 125
 
 
 ## 直觉
@@ -301,7 +301,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![Abstract architectural forms with trees and sky](https://images.unsplash.com/photo-1768353157413-6a6e79ae89ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0MzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 100D | f/5.0 | 1/1600s | 50.0mm | ISO 100
+> EXIF: Camera Canon  EOS 100D | f/5.0 | 1/1600s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -332,7 +332,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![white and black concrete building under blue sky during daytime](https://images.unsplash.com/photo-1484668989720-de7929fc7596?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0MzR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 5s | f/2.2 | 1/838s | 4.2mm | ISO 32
+> EXIF: Camera Apple iPhone 5s | f/2.2 | 1/838s | 4.2mm | ISO 32
 
 
 ## 直觉
@@ -364,7 +364,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![a black plate topped with a pile of food](https://images.unsplash.com/photo-1693296304190-d578b9e5c03b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0MzV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 850D | f/5.0 | 1/500s | 50.0mm | ISO 3200
+> EXIF: Camera Canon  EOS 850D | f/5.0 | 1/500s | 50.0mm | ISO 3200
 
 
 ## 直觉
@@ -391,7 +391,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![a bowl of soup with a leaf on top of it](https://images.unsplash.com/photo-1696721497505-f1fdb13925ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0MzZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark IV | f/4.0 | 1/250s | 100.0mm | ISO 3200
+> EXIF: Camera Canon  EOS 5D Mark IV | f/4.0 | 1/250s | 100.0mm | ISO 3200
 
 
 ## 直觉
@@ -418,7 +418,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![Every Sunday morning, I end up with a mad craving for waffles. On this particular morning, all we had in the house were old bananas and a bunch of berries. And so, banana berry waffles happened. And they were pure yes.](https://images.unsplash.com/photo-1481931715705-36f5f79f1f3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0Mzh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 5D Mark III | f/5.0 | 1/100s | 20.0mm | ISO 800
+> EXIF: Camera Canon Canon EOS 5D Mark III | f/5.0 | 1/100s | 20.0mm | ISO 800
 
 
 ## 直觉
@@ -449,7 +449,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![idk bro pls download and support me :)](https://images.unsplash.com/photo-1609124014963-7ea47a571f7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0Mzl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon M50
+> EXIF: Camera Canon Canon M50
 
 
 ## 直觉
@@ -475,7 +475,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![Nighttime view of a bustling city street.](https://images.unsplash.com/photo-1748738293316-740e2f1c7f76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0NDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ZV-E10 | f/4.5 | 1/5s | 16.0mm | ISO 100
+> EXIF: Camera SONY ZV-E10 | f/4.5 | 1/5s | 16.0mm | ISO 100
 
 
 ## 直觉
@@ -532,7 +532,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![Cicada up close](https://images.unsplash.com/photo-1776444195238-6e7456c6e935?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0NDN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON Z 7 | f/0.0 | 1/250s | 0.0mm | ISO 250
+> EXIF: Camera NIKON CORPORATION NIKON Z 7 | f/0.0 | 1/250s | 0.0mm | ISO 250
 
 
 ## 直觉
@@ -558,7 +558,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![A bright green caterpillar peeking from behind a leaf.](https://images.unsplash.com/photo-1769603779939-a960fb17a3d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0NDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 OnePlus  13R | f/2.0 | 1/200s | 7.1mm | ISO 64
+> EXIF: Camera OnePlus  13R | f/2.0 | 1/200s | 7.1mm | ISO 64
 
 
 ## 直觉
@@ -584,7 +584,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![A vibrant pink hibiscus flower with water droplets.](https://images.unsplash.com/photo-1768981205599-f28ad938b187?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0NDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D3100 | f/1.8 | 1/100s | 50.0mm | ISO 400
+> EXIF: Camera NIKON CORPORATION NIKON D3100 | f/1.8 | 1/100s | 50.0mm | ISO 400
 
 
 ## 直觉
@@ -615,7 +615,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![a person lying on the ground](https://images.unsplash.com/photo-1665021371104-cb7344322f32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0NDd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D | f/2.5 | 1/350s | 50.0mm | ISO 320
+> EXIF: Camera Canon  EOS 6D | f/2.5 | 1/350s | 50.0mm | ISO 320
 
 
 ## 直觉
@@ -642,7 +642,7 @@ Sun is a delectation.](https://images.unsplash.com/photo-1485541653056-e688bdf83
 
 ![A foggy beach walk](https://images.unsplash.com/photo-1619016984602-646eaec32cde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0OTA0NDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/1.8 | 1/500s | 55.0mm | ISO 1000
+> EXIF: Camera SONY ILCE-7M3 | f/1.8 | 1/500s | 55.0mm | ISO 1000
 
 
 ## 直觉

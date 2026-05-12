@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-05-07
+# 每日摄影教练 - 2026-05-07
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![aerial view photography of mountains under cloudy sky](https://images.unsplash.com/photo-1546984359-015e85c8afa6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU2Nzl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 ASUS Z00AD | f/2.0 | 1/5000s | 3.8mm | ISO 50
+> EXIF: Camera ASUS Z00AD | f/2.0 | 1/5000s | 3.8mm | ISO 50
 
 
 ## 直觉
@@ -39,7 +39,7 @@
 
 ![M.te Paterno | Dolomites Italy](https://images.unsplash.com/photo-1597434429739-2574d7e06807?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU2ODF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS-R | f/9 | 1/200s | 35.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS-R | f/9 | 1/200s | 35.0mm | ISO 100
 
 
 ## 直觉
@@ -66,7 +66,7 @@
 
 ![Awesome sunrise on Sinai mount](https://images.unsplash.com/photo-1572422071265-8e53a20366da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU2ODR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D300 | f/8 | 1/400s | 28.0mm | ISO 200
+> EXIF: Camera NIKON CORPORATION NIKON D300 | f/8 | 1/400s | 28.0mm | ISO 200
 
 
 ## 直觉
@@ -98,7 +98,7 @@
 
 ![a woman standing on a dirt road holding a cell phone](https://images.unsplash.com/photo-1682180609182-36623dc318dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU2ODl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark IV | f/2.2 | 1/2000s | 35.0mm | ISO 100
+> EXIF: Camera Canon  EOS 5D Mark IV | f/2.2 | 1/2000s | 35.0mm | ISO 100
 
 
 ## 直觉
@@ -124,7 +124,7 @@
 
 ![Look](https://images.unsplash.com/photo-1639470552436-27aa138a3902?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU2OTR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D | f/5.6 | 1/160s | 135.0mm | ISO 160
+> EXIF: Camera Canon  EOS 6D | f/5.6 | 1/160s | 135.0mm | ISO 160
 
 
 ## 直觉
@@ -181,7 +181,7 @@
 
 ![a man standing next to another man in a store](https://images.unsplash.com/photo-1677061856997-24ff121b1f98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU2OTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/2.0 | 1/125s | 23.0mm | ISO 500
+> EXIF: Camera FUJIFILM X-Pro3 | f/2.0 | 1/125s | 23.0mm | ISO 500
 
 
 ## 直觉
@@ -208,7 +208,7 @@
 
 ![Person photographing modern building with camera](https://images.unsplash.com/photo-1775737403058-291c3e641325?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU3MDF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M4 | f/4.5 | 1/80s | 18.0mm | ISO 50
+> EXIF: Camera SONY ILCE-7M4 | f/4.5 | 1/80s | 18.0mm | ISO 50
 
 
 ## 直觉
@@ -235,7 +235,7 @@
 
 ![Person walks across a street at night.](https://images.unsplash.com/photo-1757970767761-6099b0fe65f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU3MDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/4.0 | 1/15s | 19.0mm | ISO 125
+> EXIF: Camera SONY ILCE-7M3 | f/4.0 | 1/15s | 19.0mm | ISO 125
 
 
 ## 直觉
@@ -291,7 +291,7 @@
 
 ![white and clear curtain wall building during daytime](https://images.unsplash.com/photo-1546860100-13d7d6216a12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU3MDl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6000 | f/11.0 | 1/160s | 50.0mm | ISO 100
+> EXIF: Camera SONY ILCE-6000 | f/11.0 | 1/160s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -318,7 +318,7 @@
 
 ![A black and white photo of a building and a plane](https://images.unsplash.com/photo-1736247150675-7fb1daccc9b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU3MTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 6 | f/2.2 | 1/4405s | 4.2mm | ISO 32
+> EXIF: Camera Apple iPhone 6 | f/2.2 | 1/4405s | 4.2mm | ISO 32
 
 
 ## 直觉
@@ -375,7 +375,7 @@
 
 ![a plate of food on a table with a bowl of fruit](https://images.unsplash.com/photo-1696721496878-22adc746fc3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU3MTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark IV | f/3.5 | 1/125s | 85.0mm | ISO 400
+> EXIF: Camera Canon  EOS 5D Mark IV | f/3.5 | 1/125s | 85.0mm | ISO 400
 
 
 ## 直觉
@@ -402,7 +402,7 @@
 
 ![Cashew nuts serve with cold coffee](https://images.unsplash.com/photo-1580294236073-82242f7f217c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU3MTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM2 | f/1.8 | 1/320s | 85.0mm | ISO 640
+> EXIF: Camera SONY ILCE-7RM2 | f/1.8 | 1/320s | 85.0mm | ISO 640
 
 
 ## 直觉
@@ -434,7 +434,7 @@
 
 ![A vibrant night in Sydney, Australia, as people gather along the harborfront with glowing skyscrapers towering above](https://images.unsplash.com/photo-1752561781327-97d693fbdbdd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU3MjF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M4 | f/4.0 | 1/50s | 38.0mm | ISO 12800
+> EXIF: Camera SONY ILCE-7M4 | f/4.0 | 1/50s | 38.0mm | ISO 12800
 
 
 ## 直觉
@@ -460,7 +460,7 @@
 
 ![City street at night with light trails and building.](https://images.unsplash.com/photo-1773548491414-da0c48a65115?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU3MjR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D500 | f/40.0 | 30s | 300.0mm | ISO 200
+> EXIF: Camera NIKON CORPORATION NIKON D500 | f/40.0 | 30s | 300.0mm | ISO 200
 
 
 ## 直觉
@@ -487,7 +487,7 @@
 
 ![Illuminated clock tower with american flag at night](https://images.unsplash.com/photo-1768108691559-d502a8bdcd00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU3Mjh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T4 | f/2.8 | 1/125s | 70.0mm | ISO 2000
+> EXIF: Camera FUJIFILM X-T4 | f/2.8 | 1/125s | 70.0mm | ISO 2000
 
 
 ## 直觉
@@ -519,7 +519,7 @@
 
 ![Amphibian minimalism in earthy tones. A camouflaged frog proves that survival depends on the ancient art of completely disappearing.](https://images.unsplash.com/photo-1761627069231-362b9c2f2600?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU3MzF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M4 | f/2.8 | 1/60s | 70.0mm | ISO 12800
+> EXIF: Camera SONY ILCE-7M4 | f/2.8 | 1/60s | 70.0mm | ISO 12800
 
 
 ## 直觉
@@ -545,7 +545,7 @@
 
 ![A close-up of a brown spider with detailed legs.](https://images.unsplash.com/photo-1774982292795-2cdbc6a9207c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU3MzN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS M50 | 1/200s | ISO 100
+> EXIF: Camera Canon  EOS M50 | 1/200s | ISO 100
 
 
 ## 直觉
@@ -572,7 +572,7 @@
 
 ![Close-up of a pine cone bud with vibrant colors](https://images.unsplash.com/photo-1768490825690-7a26a66aa4ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU3MzV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM4A | f/11.0 | 1/80s | 75.0mm | ISO 500
+> EXIF: Camera SONY ILCE-7RM4A | f/11.0 | 1/80s | 75.0mm | ISO 500
 
 
 ## 直觉
@@ -604,7 +604,7 @@
 
 ![a woman with long hair](https://images.unsplash.com/photo-1660310029859-326441ca7e48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU3Mzh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 1300D | f/5.6 | 1/160s | 194.0mm | ISO 400
+> EXIF: Camera Canon  EOS 1300D | f/5.6 | 1/160s | 194.0mm | ISO 400
 
 
 ## 直觉
@@ -631,7 +631,7 @@
 
 ![a man with curly hair standing in the dark](https://images.unsplash.com/photo-1706958907976-b7d39a9196d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU3NDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/4.5 | 1/80s | 50.0mm | ISO 1250
+> EXIF: Camera SONY ILCE-7M3 | f/4.5 | 1/80s | 50.0mm | ISO 1250
 
 
 ## 直觉
@@ -657,7 +657,7 @@
 
 ![a body of water surrounded by trees in a foggy forest](https://images.unsplash.com/photo-1643063738800-f3ed7727cd00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MzU3NDJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON Z fc | f/11.0 | 1/125s | 33.0mm | ISO 400
+> EXIF: Camera NIKON CORPORATION NIKON Z fc | f/11.0 | 1/125s | 33.0mm | ISO 400
 
 
 ## 直觉

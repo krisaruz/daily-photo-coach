@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-02-25
+# 每日摄影教练 - 2026-02-25
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![woman standing on road](https://images.unsplash.com/photo-1555249076-331b1af0cd45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4MDF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T3 | f/7.1 | 1/250s | 39.0mm | ISO 320
+> EXIF: Camera FUJIFILM X-T3 | f/7.1 | 1/250s | 39.0mm | ISO 320
 
 
 ## 直觉
@@ -92,7 +92,7 @@
 
 ![a man standing next to another man in a store](https://images.unsplash.com/photo-1677061856997-24ff121b1f98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4MDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/2.0 | 1/125s | 23.0mm | ISO 500
+> EXIF: Camera FUJIFILM X-Pro3 | f/2.0 | 1/125s | 23.0mm | ISO 500
 
 
 ## 直觉
@@ -119,7 +119,7 @@
 
 ![Man walking down a street with a camera.](https://images.unsplash.com/photo-1761126089659-ddc4b2450e8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4MDd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/1.8 | 1/2000s | 50.0mm | ISO 640
+> EXIF: Camera SONY ILCE-7M3 | f/1.8 | 1/2000s | 50.0mm | ISO 640
 
 
 ## 直觉
@@ -146,7 +146,7 @@
 
 ![girl's face](https://images.unsplash.com/photo-1547481038-f38f75b3244b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4MDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Nikon None
+> EXIF: Camera Nikon None
 
 
 ## 直觉
@@ -178,7 +178,7 @@
 
 ![a black and white photo of a stair case](https://images.unsplash.com/photo-1632905886726-ccc686ae3c9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4MTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-5100 | f/7.1 | 1/320s | 70.0mm | ISO 320
+> EXIF: Camera SONY ILCE-5100 | f/7.1 | 1/320s | 70.0mm | ISO 320
 
 
 ## 直觉
@@ -205,7 +205,7 @@
 
 ![Soft curves and color gradients of an architectural interior with a lone figure peeking. Clean, modern, and mysterious.](https://images.unsplash.com/photo-1748185424856-717a1b1b8a75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4MTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T5 | f/5.6 | 1/40s | 23.0mm | ISO 800
+> EXIF: Camera FUJIFILM X-T5 | f/5.6 | 1/40s | 23.0mm | ISO 800
 
 
 ## 直觉
@@ -231,7 +231,7 @@
 
 ![Round Windows](https://images.unsplash.com/photo-1507027763150-61c1c9f7307e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4MTR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 7D | f/14.0 | 1/200s | 36.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 7D | f/14.0 | 1/200s | 36.0mm | ISO 100
 
 
 ## 直觉
@@ -262,7 +262,7 @@
 
 ![Chesecake decroated with flowers and macarons](https://images.unsplash.com/photo-1757256264384-868e7dca1763?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4MTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D Mark II | f/4.0 | 1/500s | 78.0mm | ISO 500
+> EXIF: Camera Canon  EOS 6D Mark II | f/4.0 | 1/500s | 78.0mm | ISO 500
 
 
 ## 直觉
@@ -288,7 +288,7 @@
 
 ![sliced apple beside black ceramic mug on white wooden table](https://images.unsplash.com/photo-1617253426922-a2996af8c133?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4MTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D3200 | f/5.6 | 1/400s | 50.0mm | ISO 800
+> EXIF: Camera NIKON CORPORATION NIKON D3200 | f/5.6 | 1/400s | 50.0mm | ISO 800
 
 
 ## 直觉
@@ -314,7 +314,7 @@
 
 ![A stack of golden brown bread rolls.](https://images.unsplash.com/photo-1776099536340-780ba11e159d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4MTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON Z fc | f/4.5 | 1/2000s | 85.0mm | ISO 6400
+> EXIF: Camera NIKON CORPORATION NIKON Z fc | f/4.5 | 1/2000s | 85.0mm | ISO 6400
 
 
 ## 直觉
@@ -346,7 +346,7 @@
 
 ![a double decker bus on the street](https://images.unsplash.com/photo-1663481086453-9eadebf1956c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4MjN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 90D | f/4.0 | 1/13s | 24.0mm | ISO 4000
+> EXIF: Camera Canon  EOS 90D | f/4.0 | 1/13s | 24.0mm | ISO 4000
 
 
 ## 直觉
@@ -374,7 +374,7 @@
 
 ![a tall building with many windows lit up at night](https://images.unsplash.com/photo-1638562453602-0024c829bb8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4MjR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/1.4 | 1/100s | 85.0mm | ISO 1000
+> EXIF: Camera SONY ILCE-6400 | f/1.4 | 1/100s | 85.0mm | ISO 1000
 
 
 ## 直觉
@@ -403,7 +403,7 @@
 
 ![Modern skyscrapers with illuminated windows at night](https://images.unsplash.com/photo-1777013488925-d0aebc934aef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4MjV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Hasselblad X2D 100C | f/5.6 | 1/4s | 75.0mm | ISO 3200
+> EXIF: Camera Hasselblad X2D 100C | f/5.6 | 1/4s | 75.0mm | ISO 3200
 
 
 ## 直觉
@@ -465,7 +465,7 @@
 
 ![a close up of a fly on a green leaf](https://images.unsplash.com/photo-1714530809101-677ad6357437?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4Mjh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Xiaomi M2101K6P | f/1.8 | 1/60s | 4.7mm | ISO 53
+> EXIF: Camera Xiaomi M2101K6P | f/1.8 | 1/60s | 4.7mm | ISO 53
 
 
 ## 直觉
@@ -493,7 +493,7 @@
 
 ![A lizard emerges from lush green foliage.](https://images.unsplash.com/photo-1773935110944-cfbb052cc3bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4Mjl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R6m2 | f/5.6 | 1/200s | 300.0mm | ISO 1000
+> EXIF: Camera Canon  EOS R6m2 | f/5.6 | 1/200s | 300.0mm | ISO 1000
 
 
 ## 直觉
@@ -525,7 +525,7 @@
 
 ![Part of Chorlton Park's skatepark](https://images.unsplash.com/photo-1623246112046-0300687cffa1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4MzF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 OLYMPUS IMAGING CORP. E-PL5 | f/5.6 | 1/800s | 20.0mm | ISO 200
+> EXIF: Camera OLYMPUS IMAGING CORP. E-PL5 | f/5.6 | 1/800s | 20.0mm | ISO 200
 
 
 ## 直觉
@@ -552,7 +552,7 @@
 
 ![grayscale photo of analog clock](https://images.unsplash.com/photo-1608675873996-4d5f38b7712e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MTg4MzN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 6D | f/1.8 | 1/2500s | 50.0mm | ISO 100
+> EXIF: Camera Canon Canon EOS 6D | f/1.8 | 1/2500s | 50.0mm | ISO 100
 
 
 ## 直觉

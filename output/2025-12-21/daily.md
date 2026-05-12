@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2025-12-21
+# 每日摄影教练 - 2025-12-21
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![green mountain](https://images.unsplash.com/photo-1558552692-ad9d6a8f81a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDUxMzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS REBEL T5i | f/9.0 | 1/400s | 24.0mm | ISO 200
+> EXIF: Camera Canon Canon EOS REBEL T5i | f/9.0 | 1/400s | 24.0mm | ISO 200
 
 
 ## 直觉
@@ -40,7 +40,7 @@
 
 ![A man riding a horse on top of a mountain](https://images.unsplash.com/photo-1725120238037-f061078206a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDUxMzR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R8 | f/7.1 | 1/640s | 85.0mm | ISO 100
+> EXIF: Camera Canon  EOS R8 | f/7.1 | 1/640s | 85.0mm | ISO 100
 
 
 ## 直觉
@@ -67,7 +67,7 @@
 
 ![a sandy area with a few rocks in the distance](https://images.unsplash.com/photo-1714229720276-81086e070583?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDUxMzV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON Z fc | f/13.0 | 1/200s | 50.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON Z fc | f/13.0 | 1/200s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -103,7 +103,7 @@
 
 ![woman in green jacket holding white round ball](https://images.unsplash.com/photo-1621731446690-91bdf5f9c70f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDUxMzZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 5D Mark III | f/2.8 | 1/200s | 200.0mm | ISO 800
+> EXIF: Camera Canon Canon EOS 5D Mark III | f/2.8 | 1/200s | 200.0mm | ISO 800
 
 
 ## 直觉
@@ -183,7 +183,7 @@
 
 ![a couple of people that are looking at some jewelry](https://images.unsplash.com/photo-1677061856342-cdc741e45197?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDUxNDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/5.6 | 1/100s | 23.0mm | ISO 400
+> EXIF: Camera FUJIFILM X-Pro3 | f/5.6 | 1/100s | 23.0mm | ISO 400
 
 
 ## 直觉
@@ -210,7 +210,7 @@
 
 ![Looking Out Over a Weathered City](https://images.unsplash.com/photo-1766325941906-37298f6180be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDUxNDF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 RICOH IMAGING COMPANY, LTD. RICOH GR IIIx | f/8 | 1/250s | 26.0mm | ISO 800
+> EXIF: Camera RICOH IMAGING COMPANY, LTD. RICOH GR IIIx | f/8 | 1/250s | 26.0mm | ISO 800
 
 
 ## 直觉
@@ -237,7 +237,7 @@
 
 ![man walking on road](https://images.unsplash.com/photo-1561928835-cf16d9e7458c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDUxNDN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T100 | f/3.2 | 1/125s | 16.0mm | ISO 200
+> EXIF: Camera FUJIFILM X-T100 | f/3.2 | 1/125s | 16.0mm | ISO 200
 
 
 ## 直觉
@@ -269,7 +269,7 @@
 
 ![Minimalist skyscraper perspective disappearing into fog. A dramatic architectural perspective looking up between two modern skyscrapers fading into fog. The composition emphasizes symmetry, lines, and minimalist urban geometry.](https://images.unsplash.com/photo-1773338359294-aa6a5a9044f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDUxNDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ZV-E10 | f/5.0 | 1/1250s | 23.0mm | ISO 100
+> EXIF: Camera SONY ZV-E10 | f/5.0 | 1/1250s | 23.0mm | ISO 100
 
 
 ## 直觉
@@ -320,7 +320,7 @@
 
 ![large brown building under blue sky.](https://images.unsplash.com/photo-1617349518836-eaf20235bc17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDUxNDd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T4 | f/11.0 | 1/1000s | 44.4mm | ISO 800
+> EXIF: Camera FUJIFILM X-T4 | f/11.0 | 1/1000s | 44.4mm | ISO 800
 
 
 ## 直觉
@@ -352,7 +352,7 @@
 
 ![a piece of cake with raspberries on top of it](https://images.unsplash.com/photo-1642443802526-1c296b9866a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDUxNDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS REBEL T2i | f/3.5 | 1/800s | 35.0mm | ISO 800
+> EXIF: Camera Canon  EOS REBEL T2i | f/3.5 | 1/800s | 35.0mm | ISO 800
 
 
 ## 直觉
@@ -378,7 +378,7 @@
 
 ![Raw Oatmeal Balls](https://images.unsplash.com/photo-1680902007106-62f92b859d2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDUxNTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark III | f/2.8 | 1/200s | 50.0mm | ISO 500
+> EXIF: Camera Canon  EOS 5D Mark III | f/2.8 | 1/200s | 50.0mm | ISO 500
 
 
 ## 直觉
@@ -405,7 +405,7 @@
 
 ![brown egg on white ceramic plate](https://images.unsplash.com/photo-1615462561629-540e4b92a3e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDUxNTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5600 | f/11.0 | 10s | 50.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D5600 | f/11.0 | 10s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -437,7 +437,7 @@
 
 ![City buildings illuminated at night reflected in water](https://images.unsplash.com/photo-1758485721399-5402682c79fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDUxNTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6300 | f/4.0 | 1/40s | 40.0mm | ISO 6400
+> EXIF: Camera SONY ILCE-6300 | f/4.0 | 1/40s | 40.0mm | ISO 6400
 
 
 ## 直觉
@@ -487,7 +487,7 @@
 
 ![a city street at night with buildings lit up](https://images.unsplash.com/photo-1670935574741-c671910b0b28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDUxNTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6500 | f/1.4 | 1/100s | 30.0mm | ISO 2500
+> EXIF: Camera SONY ILCE-6500 | f/1.4 | 1/100s | 30.0mm | ISO 2500
 
 
 ## 直觉

@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-05-05
+# 每日摄影教练 - 2026-05-05
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![mountain covered with clouds](https://images.unsplash.com/photo-1543168533-91cee44f8870?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4MTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon PowerShot G5 X | f/10.0 | 1/1600s | 36.8mm | ISO 200
+> EXIF: Camera Canon Canon PowerShot G5 X | f/10.0 | 1/1600s | 36.8mm | ISO 200
 
 
 ## 直觉
@@ -39,7 +39,7 @@
 
 ![aerial photography of mountain](https://images.unsplash.com/photo-1548853879-e3135725174c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4MTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon PowerShot G5 X | f/11.0 | 1/2000s | 24.8mm | ISO 400
+> EXIF: Camera Canon Canon PowerShot G5 X | f/11.0 | 1/2000s | 24.8mm | ISO 400
 
 
 ## 直觉
@@ -95,7 +95,7 @@
 
 ![Portrait.](https://images.unsplash.com/photo-1718964313270-d00053a7607b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4MjN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark III | f/1.8 | 1/160s | 50.0mm | ISO 250
+> EXIF: Camera Canon  EOS 5D Mark III | f/1.8 | 1/160s | 50.0mm | ISO 250
 
 
 ## 直觉
@@ -122,7 +122,7 @@
 
 ![a man standing in front of a body of water](https://images.unsplash.com/photo-1673972249408-2cd76cb69831?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4MjZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 6D | f/2.2 | 1/320s | 85.0mm | ISO 100
+> EXIF: Camera Canon  EOS 6D | f/2.2 | 1/320s | 85.0mm | ISO 100
 
 
 ## 直觉
@@ -152,7 +152,7 @@
 
 ![a black and white photo of a man in a car](https://images.unsplash.com/photo-1647598377933-b9017b6a2ce3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4Mjh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5600 | f/6.3 | 1/80s | 150.0mm | ISO 160
+> EXIF: Camera NIKON CORPORATION NIKON D5600 | f/6.3 | 1/80s | 150.0mm | ISO 160
 
 
 ## 直觉
@@ -183,7 +183,7 @@
 
 ![a building that is sitting in the middle of a forest](https://images.unsplash.com/photo-1686560663799-50af980615ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4MzN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-Pro3 | f/10.0 | 1/125s | 23.0mm | ISO 160
+> EXIF: Camera FUJIFILM X-Pro3 | f/10.0 | 1/125s | 23.0mm | ISO 160
 
 
 ## 直觉
@@ -210,7 +210,7 @@
 
 ![A candid street portrait of an elderly man in India, sitting thoughtfully amid the bustle of an urban street. Captured in warm natural light, the image reflects solitude, resilience, and the quiet moments of everyday life in South Asia. A powerful scene of documentary street photography filled with emotion and authenticity.](https://images.unsplash.com/photo-1769803836405-eab099288cc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4MzV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ZV-E10 | f/5.6 | 1/160s | 50.0mm | ISO 100
+> EXIF: Camera SONY ZV-E10 | f/5.6 | 1/160s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -266,7 +266,7 @@
 
 ![a man riding a snowboard down the side of a snow covered slope](https://images.unsplash.com/photo-1644168275621-397895992f05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4NDV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D7100 | f/7.1 | 1/2000s | 120.0mm | ISO 250
+> EXIF: Camera NIKON CORPORATION NIKON D7100 | f/7.1 | 1/2000s | 120.0mm | ISO 250
 
 
 ## 直觉
@@ -352,7 +352,7 @@
 
 ![A wooden table topped with three plates of food](https://images.unsplash.com/photo-1727233432453-6cd6434e6853?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4NTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M2 | f/8.0 | 1/200s | 28.0mm | ISO 500
+> EXIF: Camera SONY ILCE-7M2 | f/8.0 | 1/200s | 28.0mm | ISO 500
 
 
 ## 直觉
@@ -379,7 +379,7 @@
 
 ![A white plate topped with food on top of a wooden table](https://images.unsplash.com/photo-1724154854089-4bbd0e7d09c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4NTZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 650D | f/5.6 | 1/125s | 18.0mm | ISO 800
+> EXIF: Camera Canon  EOS 650D | f/5.6 | 1/125s | 18.0mm | ISO 800
 
 
 ## 直觉
@@ -407,7 +407,7 @@
 ![Avocado Toast
 From series Taste for Adventure](https://images.unsplash.com/photo-1638720772346-b745bcd72f5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4NTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D810 | f/7.1 | 1/100s | 35.0mm | ISO 320
+> EXIF: Camera NIKON CORPORATION NIKON D810 | f/7.1 | 1/100s | 35.0mm | ISO 320
 
 
 ## 直觉
@@ -438,7 +438,7 @@ From series Taste for Adventure](https://images.unsplash.com/photo-1638720772346
 
 ![Mount Zion in Kempton Park, South Africa.](https://images.unsplash.com/photo-1559500785-15520313cfe2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4NjF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D7200 | f/3.2 | 1/60s | 50.0mm | ISO 3200
+> EXIF: Camera NIKON CORPORATION NIKON D7200 | f/3.2 | 1/60s | 50.0mm | ISO 3200
 
 
 ## 直觉
@@ -465,7 +465,7 @@ From series Taste for Adventure](https://images.unsplash.com/photo-1638720772346
 
 ![a city at night with a person on an escalator](https://images.unsplash.com/photo-1644325778552-3ca2b0548fc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4NjN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM2 | f/1.4 | 1/125s | 85.0mm | ISO 1600
+> EXIF: Camera SONY ILCE-7RM2 | f/1.4 | 1/125s | 85.0mm | ISO 1600
 
 
 ## 直觉
@@ -492,7 +492,7 @@ From series Taste for Adventure](https://images.unsplash.com/photo-1638720772346
 
 ![a view of a city at night from the top of a building](https://images.unsplash.com/photo-1633257495511-8a5279e5e9c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4Njh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DMC-G5 | f/4.5 | 1.3s | 15.0mm | ISO 160
+> EXIF: Camera Panasonic DMC-G5 | f/4.5 | 1.3s | 15.0mm | ISO 160
 
 
 ## 直觉
@@ -523,7 +523,7 @@ From series Taste for Adventure](https://images.unsplash.com/photo-1638720772346
 
 ![Spring is back with its colours !](https://images.unsplash.com/photo-1775429928710-ba27a0c19422?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4NzB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon EOS 2000D | f/5.6 | 1/320s | 300.0mm | ISO 100
+> EXIF: Camera Canon EOS 2000D | f/5.6 | 1/320s | 300.0mm | ISO 100
 
 
 ## 直觉
@@ -550,7 +550,7 @@ From series Taste for Adventure](https://images.unsplash.com/photo-1638720772346
 
 ![Detailed macro photo of a water droplet splashing upwards](https://images.unsplash.com/photo-1698920632331-43797a16f4f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4NzV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 80D | f/13.0 | 1/200s | 105.0mm | ISO 640
+> EXIF: Camera Canon  EOS 80D | f/13.0 | 1/200s | 105.0mm | ISO 640
 
 
 ## 直觉
@@ -576,7 +576,7 @@ From series Taste for Adventure](https://images.unsplash.com/photo-1638720772346
 
 ![A close up of a pink flower on a plant](https://images.unsplash.com/photo-1728087029011-56988e68fad9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4Nzd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6700 | f/8.0 | 1/400s | 99.0mm | ISO 100
+> EXIF: Camera SONY ILCE-6700 | f/8.0 | 1/400s | 99.0mm | ISO 100
 
 
 ## 直觉
@@ -608,7 +608,7 @@ From series Taste for Adventure](https://images.unsplash.com/photo-1638720772346
 
 ![a group of people sitting at tables in a restaurant](https://images.unsplash.com/photo-1648774461511-978e842c5cc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4ODB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 OLYMPUS CORPORATION E-M5MarkIII | f/4.0 | 1/60s | 29.0mm | ISO 5000
+> EXIF: Camera OLYMPUS CORPORATION E-M5MarkIII | f/4.0 | 1/60s | 29.0mm | ISO 5000
 
 
 ## 直觉
@@ -634,7 +634,7 @@ From series Taste for Adventure](https://images.unsplash.com/photo-1638720772346
 
 ![a person's foot on a bed](https://images.unsplash.com/photo-1659137424996-dd3101fe338b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1NDM4ODJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS Rebel T6 | f/2.0 | 1/50s | 50.0mm | ISO 400
+> EXIF: Camera Canon  EOS Rebel T6 | f/2.0 | 1/50s | 50.0mm | ISO 400
 
 
 ## 直觉

@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2025-09-06
+# 每日摄影教练 - 2025-09-06
 
 
 ---
@@ -13,7 +13,7 @@
 
 ![a view of a mountain range with trees in the foreground](https://images.unsplash.com/photo-1635351261340-55f437000b21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk3OTJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D3300 | f/8.0 | 1/80s | 102.0mm | ISO 800
+> EXIF: Camera NIKON CORPORATION NIKON D3300 | f/8.0 | 1/80s | 102.0mm | ISO 800
 
 
 ## 直觉
@@ -40,7 +40,7 @@
 
 ![A man standing on top of a lush green hillside](https://images.unsplash.com/photo-1725120238678-bdffb82223c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk3OTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R8 | f/5.6 | 1/1000s | 44.0mm | ISO 100
+> EXIF: Camera Canon  EOS R8 | f/5.6 | 1/1000s | 44.0mm | ISO 100
 
 
 ## 直觉
@@ -66,7 +66,7 @@
 
 ![a statue in front of a lake with mountains in the background](https://images.unsplash.com/photo-1636637899572-a016575423ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk3OTd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 OLYMPUS IMAGING CORP. E-M1 | f/6.3 | 1/40s | 32.0mm | ISO 200
+> EXIF: Camera OLYMPUS IMAGING CORP. E-M1 | f/6.3 | 1/40s | 32.0mm | ISO 200
 
 
 ## 直觉
@@ -97,7 +97,7 @@
 
 ![a person holding a white sheet on a beach](https://images.unsplash.com/photo-1655893228844-74a454a754d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk3OTl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6400 | f/1.4 | 1/1600s | 30.0mm | ISO 125
+> EXIF: Camera SONY ILCE-6400 | f/1.4 | 1/1600s | 30.0mm | ISO 125
 
 
 ## 直觉
@@ -124,7 +124,7 @@
 
 ![woman in white long sleeve shirt and blue denim jeans sitting on road during daytime](https://images.unsplash.com/photo-1622138577730-0f531904d2b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4MDF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7 | f/1.8 | 1/640s | 50.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7 | f/1.8 | 1/640s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -181,7 +181,7 @@
 
 ![a building with a sign on it](https://images.unsplash.com/photo-1661261060410-58ca3a8e3960?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4MDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DC-GH5 | f/1.8 | 1/1300s | 15.0mm | ISO 200
+> EXIF: Camera Panasonic DC-GH5 | f/1.8 | 1/1300s | 15.0mm | ISO 200
 
 
 ## 直觉
@@ -207,7 +207,7 @@
 
 ![a black and white photo of paper lanterns](https://images.unsplash.com/photo-1631973719677-b467640b8d3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4MDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON Z 50 | 1/4000s | ISO 8000
+> EXIF: Camera NIKON CORPORATION NIKON Z 50 | 1/4000s | ISO 8000
 
 
 ## 直觉
@@ -233,7 +233,7 @@
 
 ![a person sitting on a bench on a sidewalk](https://images.unsplash.com/photo-1681148895465-ec087e27d800?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4MTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/1.8 | 1/100s | 55.0mm | ISO 200
+> EXIF: Camera SONY ILCE-7M3 | f/1.8 | 1/100s | 55.0mm | ISO 200
 
 
 ## 直觉
@@ -268,7 +268,7 @@
 
 ![Looking up while strolling through San Francisco downtown](https://images.unsplash.com/photo-1555113834-cc66e254d4b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4MTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 1000D | f/11.0 | 1/200s | 16.0mm | ISO 400
+> EXIF: Camera Canon Canon EOS 1000D | f/11.0 | 1/200s | 16.0mm | ISO 400
 
 
 ## 直觉
@@ -295,7 +295,7 @@
 
 ![white and clear curtain wall building during daytime](https://images.unsplash.com/photo-1546860100-13d7d6216a12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4MTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6000 | f/11.0 | 1/160s | 50.0mm | ISO 100
+> EXIF: Camera SONY ILCE-6000 | f/11.0 | 1/160s | 50.0mm | ISO 100
 
 
 ## 直觉
@@ -352,7 +352,7 @@
 
 ![a plate of food on a wooden table](https://images.unsplash.com/photo-1693296304638-d1b43dfcfc8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4MjJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 850D | f/4.0 | 1/1000s | 50.0mm | ISO 3200
+> EXIF: Camera Canon  EOS 850D | f/4.0 | 1/1000s | 50.0mm | ISO 3200
 
 
 ## 直觉
@@ -379,7 +379,7 @@
 
 ![Lemon ginger snack cake on a ceramic plate next to a ribbed metal board and striped linen napkin.](https://images.unsplash.com/photo-1757450296755-f875c2dc80bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4MjR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 14 Pro | f/1.8 | 1/120s | 6.9mm | ISO 125
+> EXIF: Camera Apple iPhone 14 Pro | f/1.8 | 1/120s | 6.9mm | ISO 125
 
 
 ## 直觉
@@ -405,7 +405,7 @@
 
 ![Chimichurri, Herbs, Chilli, Garlic, Bowl](https://images.unsplash.com/photo-1733176552053-949b0b045a49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4Mjd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS R | f/2.2 | 1/200s | 50.0mm | ISO 160
+> EXIF: Camera Canon  EOS R | f/2.2 | 1/200s | 50.0mm | ISO 160
 
 
 ## 直觉
@@ -461,7 +461,7 @@
 
 ![View of the bridge, illuminated by streetlights, in the night city, with high-rise buildings in the background, seen from behind the bushes.](https://images.unsplash.com/photo-1749833106808-fd38f4f4abeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4MzV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCA-77M2 | f/4 | 1/25s | 105.0mm | ISO 800
+> EXIF: Camera SONY ILCA-77M2 | f/4 | 1/25s | 105.0mm | ISO 800
 
 
 ## 直觉
@@ -517,7 +517,7 @@
 
 ![a group of potted flowers on a porch](https://images.unsplash.com/photo-1655201664153-76efcb6c5acc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4Mzl8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T2 | f/2.8 | 1/1600s | 48.5mm | ISO 400
+> EXIF: Camera FUJIFILM X-T2 | f/2.8 | 1/1600s | 48.5mm | ISO 400
 
 
 ## 直觉
@@ -548,7 +548,7 @@
 
 ![A close-up of a dark, angular object.](https://images.unsplash.com/photo-1754006684695-667a42471b00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4NDJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Panasonic DC-G9 | f/3.5 | 1/50s | 45.0mm | ISO 100
+> EXIF: Camera Panasonic DC-G9 | f/3.5 | 1/50s | 45.0mm | ISO 100
 
 
 ## 直觉
@@ -575,7 +575,7 @@
 
 ![A close up of a blue carpet with a snowflake on it](https://images.unsplash.com/photo-1734114521129-2e9141428da9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4NDR8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 11 | f/1.8 | 1/113s | 4.2mm | ISO 125
+> EXIF: Camera Apple iPhone 11 | f/1.8 | 1/113s | 4.2mm | ISO 125
 
 
 ## 直觉
@@ -606,7 +606,7 @@
 
 ![lonely tree.](https://images.unsplash.com/photo-1612787733353-dd9ead94246d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4NDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-6000 | f/8 | 1/1600s | 50.0mm | ISO 3200
+> EXIF: Camera SONY ILCE-6000 | f/8 | 1/1600s | 50.0mm | ISO 3200
 
 
 ## 直觉
@@ -633,7 +633,7 @@
 
 ![a black and white photo of a woman's face](https://images.unsplash.com/photo-1685702673311-e7c4ce28e561?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4NDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS RP | 1/80s | 0.0mm | ISO 50
+> EXIF: Camera Canon  EOS RP | 1/80s | 0.0mm | ISO 50
 
 
 ## 直觉
@@ -659,7 +659,7 @@
 
 ![a person lying on a bench](https://images.unsplash.com/photo-1655495708469-79ad71e930c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Mjk4NTF8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 600D | f/3.5 | 1/30s | 18.0mm | ISO 100
+> EXIF: Camera Canon  EOS 600D | f/3.5 | 1/30s | 18.0mm | ISO 100
 
 
 ## 直觉
