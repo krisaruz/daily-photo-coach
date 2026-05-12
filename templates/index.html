@@ -3,123 +3,753 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Photo Coach · 摄影学习日志</title>
+    <title>Daily Photo Coach · 摄影学习档案</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    fontFamily: { serif: ['"Noto Serif SC"', 'Georgia', 'serif'], sans: ['Inter', 'system-ui', 'sans-serif'] },
+                    fontFamily: {
+                        display: ['"Cormorant Garamond"', '"Noto Serif SC"', 'serif'],
+                        serif: ['"Noto Serif SC"', '"Source Han Serif SC"', 'serif'],
+                        sans: ['Manrope', '"Noto Sans SC"', 'sans-serif']
+                    }
                 }
             }
         }
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@500;700;900&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --paper: #f4ede3;
+            --paper-soft: #fcf8f2;
+            --paper-strong: #fffdf9;
+            --ink: #211a15;
+            --muted: #6f655c;
+            --line: rgba(55, 42, 32, 0.14);
+            --shadow: 0 20px 50px rgba(70, 53, 38, 0.08);
+            --shadow-soft: 0 12px 30px rgba(70, 53, 38, 0.06);
+            --accent: #b67b3e;
+        }
+
+        * { box-sizing: border-box; }
+
         body {
-            font-family: 'Inter', system-ui, sans-serif;
-            background: #faf9f7;
+            margin: 0;
+            font-family: 'Manrope', 'Noto Sans SC', sans-serif;
+            color: var(--ink);
+            background:
+                linear-gradient(180deg, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0)) 0 0 / 100% 240px no-repeat,
+                linear-gradient(135deg, #efe5d8 0%, #f7f0e6 46%, #f2eadf 100%);
             -webkit-font-smoothing: antialiased;
         }
-        .font-serif { font-family: 'Noto Serif SC', Georgia, serif; }
+
         body::before {
-            content: ''; position: fixed; inset: 0; z-index: -1;
-            background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.015) 1px, transparent 0);
+            content: '';
+            position: fixed;
+            inset: 0;
+            z-index: -2;
+            background-image:
+                linear-gradient(rgba(52, 40, 30, 0.035) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(52, 40, 30, 0.035) 1px, transparent 1px);
             background-size: 32px 32px;
+            opacity: 0.35;
+            pointer-events: none;
         }
-        .day-card {
-            transition: all 0.25s cubic-bezier(0.4,0,0.2,1);
+
+        body::after {
+            content: '';
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            pointer-events: none;
+            background:
+                radial-gradient(circle at top, rgba(255, 255, 255, 0.55), transparent 28%),
+                linear-gradient(180deg, rgba(255, 255, 255, 0.32), transparent 34%);
         }
-        .day-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.06), 0 16px 40px rgba(0,0,0,0.06);
+
+        .page-shell {
+            width: min(1320px, calc(100vw - 32px));
+            margin: 0 auto;
+            padding: 32px 0 48px;
         }
-        .day-card:hover .arrow { transform: translateX(4px); }
-        .arrow { transition: transform 0.25s ease; }
+
+        .panel {
+            border: 1px solid var(--line);
+            background: rgba(255, 253, 249, 0.74);
+            backdrop-filter: blur(14px);
+            box-shadow: var(--shadow-soft);
+        }
+
+        .eyebrow {
+            margin: 0 0 14px;
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: rgba(33, 26, 21, 0.55);
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 12px;
+            margin-top: 28px;
+        }
+
+        .stat-card {
+            padding: 16px 18px;
+            border-radius: 20px;
+            border: 1px solid rgba(55, 42, 32, 0.12);
+            background: rgba(255, 255, 255, 0.48);
+        }
+
+        .stat-card strong {
+            display: block;
+            font-size: clamp(24px, 4vw, 34px);
+            font-weight: 800;
+            color: var(--ink);
+            line-height: 1;
+        }
+
+        .stat-card span {
+            display: block;
+            margin-top: 8px;
+            font-size: 12px;
+            color: var(--muted);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: minmax(0, 1.05fr) minmax(420px, 0.95fr);
+            gap: 28px;
+            align-items: stretch;
+        }
+
+        .hero-copy {
+            padding: 42px 38px 40px;
+            border-radius: 34px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-copy::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(140deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.28)),
+                linear-gradient(125deg, rgba(182, 123, 62, 0.12), rgba(104, 84, 61, 0.02) 58%);
+            pointer-events: none;
+        }
+
+        .hero-copy > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-title {
+            margin: 0;
+            font-family: 'Cormorant Garamond', 'Noto Serif SC', serif;
+            font-size: clamp(54px, 8vw, 92px);
+            line-height: 0.95;
+            font-weight: 600;
+            letter-spacing: 0.01em;
+        }
+
+        .hero-subtitle {
+            margin: 22px 0 0;
+            max-width: 540px;
+            font-size: 17px;
+            line-height: 1.9;
+            color: rgba(33, 26, 21, 0.72);
+        }
+
+        .hero-note {
+            margin-top: 24px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 11px 16px;
+            border-radius: 999px;
+            border: 1px solid rgba(55, 42, 32, 0.12);
+            background: rgba(255, 255, 255, 0.5);
+            color: rgba(33, 26, 21, 0.74);
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .hero-note::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            border-radius: 999px;
+            background: var(--accent);
+            box-shadow: 0 0 0 6px rgba(182, 123, 62, 0.14);
+        }
+
+        .feature-card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            min-height: 100%;
+            padding: 22px;
+            border-radius: 34px;
+            color: white;
+            text-decoration: none;
+            overflow: hidden;
+            background: #1f1a17;
+            box-shadow: var(--shadow);
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(180deg, rgba(21, 17, 13, 0.08), rgba(21, 17, 13, 0.74)),
+                linear-gradient(135deg, rgba(182, 123, 62, 0.3), rgba(27, 21, 17, 0.05) 44%);
+        }
+
+        .feature-card > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .feature-topline {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 18px;
+        }
+
+        .feature-topline span {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid rgba(255, 255, 255, 0.16);
+            font-size: 12px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .feature-topline strong {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.72);
+        }
+
+        .mosaic {
+            display: grid;
+            grid-template-columns: 1.3fr 0.7fr;
+            grid-template-rows: repeat(2, minmax(96px, 1fr));
+            gap: 10px;
+        }
+
+        .mosaic--hero {
+            min-height: 280px;
+        }
+
+        .mosaic--card {
+            min-height: 196px;
+        }
+
+        .mosaic-tile {
+            position: relative;
+            overflow: hidden;
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .mosaic-tile--lead {
+            grid-row: 1 / span 2;
+        }
+
+        .mosaic-tile img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: scale(1.02);
+        }
+
+        .feature-body {
+            margin-top: 18px;
+        }
+
+        .feature-date {
+            margin: 0;
+            font-family: 'Cormorant Garamond', 'Noto Serif SC', serif;
+            font-size: clamp(36px, 5vw, 52px);
+            line-height: 0.98;
+            font-weight: 600;
+        }
+
+        .feature-summary {
+            margin: 14px 0 0;
+            max-width: 520px;
+            color: rgba(255, 255, 255, 0.82);
+            line-height: 1.8;
+            font-size: 15px;
+        }
+
+        .feature-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 18px;
+        }
+
+        .feature-chip,
+        .style-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .feature-chip {
+            background: rgba(255, 255, 255, 0.12);
+            color: rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(255, 255, 255, 0.14);
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1.38fr) minmax(300px, 0.62fr);
+            gap: 28px;
+            margin-top: 28px;
+        }
+
+        .section-block {
+            padding: 28px;
+            border-radius: 28px;
+        }
+
+        .section-head {
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+            gap: 18px;
+            margin-bottom: 22px;
+        }
+
+        .section-head h2 {
+            margin: 0;
+            font-family: 'Cormorant Garamond', 'Noto Serif SC', serif;
+            font-size: clamp(32px, 4vw, 44px);
+            line-height: 0.95;
+            font-weight: 600;
+        }
+
+        .section-head p {
+            margin: 0 0 8px;
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: rgba(33, 26, 21, 0.52);
+        }
+
+        .section-intro {
+            margin: 0;
+            font-size: 14px;
+            color: var(--muted);
+            line-height: 1.8;
+            max-width: 420px;
+        }
+
+        .archive-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 22px;
+        }
+
+        .archive-card {
+            display: block;
+            padding: 18px;
+            border-radius: 26px;
+            text-decoration: none;
+            color: inherit;
+            background: rgba(255, 255, 255, 0.52);
+            border: 1px solid rgba(55, 42, 32, 0.12);
+            transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
+        }
+
+        .archive-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow);
+            border-color: rgba(182, 123, 62, 0.25);
+        }
+
+        .archive-body {
+            margin-top: 16px;
+        }
+
+        .archive-topline {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 14px;
+        }
+
+        .archive-topline h3 {
+            margin: 0;
+            font-size: 22px;
+            font-weight: 800;
+            letter-spacing: 0.01em;
+        }
+
+        .archive-topline span {
+            font-size: 12px;
+            font-weight: 700;
+            color: rgba(33, 26, 21, 0.56);
+        }
+
+        .archive-summary {
+            margin: 12px 0 0;
+            color: rgba(33, 26, 21, 0.74);
+            font-size: 14px;
+            line-height: 1.8;
+            min-height: 52px;
+        }
+
+        .archive-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 16px;
+        }
+
+        .primary-style {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 9px 13px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 800;
+            color: white;
+        }
+
+        .style-chip {
+            border: 1px solid rgba(55, 42, 32, 0.12);
+            background: rgba(255, 255, 255, 0.62);
+            color: rgba(33, 26, 21, 0.72);
+        }
+
+        .stack {
+            display: grid;
+            gap: 22px;
+        }
+
+        .style-library {
+            display: grid;
+            gap: 12px;
+        }
+
+        .style-library-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 14px 16px;
+            border-radius: 18px;
+            border: 1px solid rgba(55, 42, 32, 0.12);
+            background: rgba(255, 255, 255, 0.52);
+        }
+
+        .style-library-item strong {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+        }
+
+        .style-library-item span {
+            font-size: 12px;
+            font-weight: 800;
+            color: rgba(33, 26, 21, 0.6);
+        }
+
+        .method-list {
+            display: grid;
+            gap: 14px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .method-list li {
+            padding: 14px 16px;
+            border-radius: 18px;
+            border: 1px solid rgba(55, 42, 32, 0.12);
+            background: rgba(255, 255, 255, 0.42);
+        }
+
+        .method-list strong {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 13px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: rgba(33, 26, 21, 0.64);
+        }
+
+        .method-list span {
+            font-size: 14px;
+            line-height: 1.75;
+            color: rgba(33, 26, 21, 0.76);
+        }
+
+        .empty-state {
+            padding: 80px 28px;
+            text-align: center;
+        }
+
+        .empty-state h2 {
+            margin: 0;
+            font-family: 'Cormorant Garamond', 'Noto Serif SC', serif;
+            font-size: 42px;
+            font-weight: 600;
+        }
+
+        .empty-state p {
+            margin: 16px auto 0;
+            max-width: 420px;
+            color: var(--muted);
+            line-height: 1.8;
+        }
+
+        .command-chip {
+            display: inline-flex;
+            margin-top: 20px;
+            padding: 12px 16px;
+            border-radius: 16px;
+            border: 1px solid rgba(55, 42, 32, 0.12);
+            background: #201913;
+            color: #f5d8b2;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        footer {
+            padding: 30px 8px 10px;
+            text-align: center;
+            color: rgba(33, 26, 21, 0.48);
+            font-size: 12px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        @media (max-width: 1100px) {
+            .hero-grid,
+            .layout {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 780px) {
+            .page-shell {
+                width: min(100vw - 20px, 1320px);
+                padding-top: 18px;
+            }
+
+            .hero-copy,
+            .section-block {
+                padding: 24px 20px;
+                border-radius: 24px;
+            }
+
+            .feature-card {
+                padding: 16px;
+                border-radius: 24px;
+            }
+
+            .stat-grid,
+            .archive-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .archive-grid {
+                gap: 16px;
+            }
+
+            .feature-date {
+                font-size: 38px;
+            }
+        }
     </style>
 </head>
-<body class="text-slate-700 min-h-screen">
+<body>
+    <div class="page-shell">
+        {% if featured_day %}
+        <header class="hero-grid">
+            <section class="hero-copy panel">
+                <p class="eyebrow">Daily Photo Coach</p>
+                <h1 class="hero-title">Daily Photo<br>Archive</h1>
+                <p class="hero-subtitle">
+                    把每日照片分析做成一座可回看、可比较、也更像作品手账的摄影档案馆。
+                    每次打开，都能从光线、构图、色彩和拍摄决策里重新学到一点东西。
+                </p>
+                <div class="hero-note">Unsplash 图像采集 · 多模态分析 · 静态页面归档</div>
 
-    <!-- Hero 区域 -->
-    <header class="relative overflow-hidden">
-        <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
-        <div class="absolute inset-0 opacity-[0.03]"
-             style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2260%22 height=%2260%22><rect width=%2260%22 height=%2260%22 fill=%22none%22/><path d=%22M0 30h60M30 0v60%22 stroke=%22white%22 stroke-width=%220.5%22/></svg>')">
-        </div>
-        <div class="relative max-w-[900px] mx-auto px-6 py-20 text-center">
-            <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 backdrop-blur rounded-full text-white/60 text-xs font-medium mb-6 border border-white/10">
-                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                每日自动更新
-            </div>
-            <h1 class="font-serif text-4xl md:text-5xl font-black text-white tracking-tight leading-tight">
-                Daily Photo Coach
-            </h1>
-            <p class="text-lg text-white/50 mt-4 font-light max-w-md mx-auto leading-relaxed">
-                从优秀摄影作品中学习拍摄技巧<br>
-                曝光 · 构图 · 光线 · 色彩 · 后期
-            </p>
-            <div class="mt-8 flex items-center justify-center gap-6 text-sm">
-                <div class="text-white/70">
-                    <span class="text-2xl font-bold text-white tabular-nums">{{ days | length }}</span>
-                    <span class="ml-1">天学习</span>
-                </div>
-                <div class="w-px h-8 bg-white/15"></div>
-                <div class="text-white/70">
-                    <span class="text-2xl font-bold text-white tabular-nums">{{ total_photos }}</span>
-                    <span class="ml-1">张分析</span>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- 日期列表 -->
-    <main class="max-w-[900px] mx-auto px-6 py-12">
-        {% if days %}
-        <div class="space-y-4">
-            {% for day in days %}
-            <a href="{{ day.date }}/index.html"
-               class="day-card block bg-white rounded-2xl border border-stone-200/70 p-6 shadow-[0_1px_3px_rgba(0,0,0,0.03)]">
-                <div class="flex items-center justify-between gap-4">
-                    <div class="flex-1 min-w-0">
-                        <div class="flex items-center gap-3">
-                            <div class="font-serif text-xl font-bold text-slate-900 tabular-nums">
-                                {{ day.date }}
-                            </div>
-                            <span class="text-sm text-slate-400 font-medium">{{ day.photo_count }} 张</span>
-                        </div>
-                        <div class="flex flex-wrap gap-1.5 mt-3">
-                            {% for label in day.style_labels %}
-                            <span class="inline-block px-2.5 py-0.5 bg-slate-50 text-slate-500 text-xs font-medium rounded-md border border-slate-200/80">
-                                {{ label }}
-                            </span>
-                            {% endfor %}
-                        </div>
+                <div class="stat-grid">
+                    <div class="stat-card">
+                        <strong>{{ days | length }}</strong>
+                        <span>累计学习天数</span>
                     </div>
-                    <div class="arrow flex-shrink-0 text-slate-300">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                    <div class="stat-card">
+                        <strong>{{ total_photos }}</strong>
+                        <span>累计分析张数</span>
+                    </div>
+                    <div class="stat-card">
+                        <strong>{{ style_totals | length }}</strong>
+                        <span>覆盖风格类型</span>
+                    </div>
+                </div>
+            </section>
+
+            <a href="{{ featured_day.date }}/index.html" class="feature-card">
+                <div class="feature-topline">
+                    <span>Latest Notebook</span>
+                    <strong>{{ featured_day.photo_count }} 张精选</strong>
+                </div>
+                <div class="mosaic mosaic--hero">
+                    {% for preview in featured_day.preview_images[:3] %}
+                    <div class="mosaic-tile {{ 'mosaic-tile--lead' if loop.first else '' }}">
+                        <img src="{{ preview }}" alt="{{ featured_day.date }} preview {{ loop.index }}" loading="lazy">
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="feature-body">
+                    <h2 class="feature-date">{{ featured_day.date }}</h2>
+                    <p class="feature-summary">{{ featured_day.summary }}</p>
+                    <div class="feature-meta">
+                        {% if featured_day.primary_style %}
+                        <span class="feature-chip">
+                            {{ featured_day.primary_style.icon }}
+                            {{ featured_day.primary_style.label }}
+                            {{ featured_day.primary_style.count }} 张
+                        </span>
+                        {% endif %}
+                        <span class="feature-chip">{{ featured_day.lead_photographer }}</span>
+                        <span class="feature-chip">{{ featured_day.lead_description }}</span>
                     </div>
                 </div>
             </a>
-            {% endfor %}
-        </div>
-        {% else %}
-        <div class="text-center py-24">
-            <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-slate-100 text-3xl mb-6">📷</div>
-            <h2 class="font-serif text-xl font-bold text-slate-900">还没有学习记录</h2>
-            <p class="text-slate-500 mt-3 max-w-sm mx-auto leading-relaxed">
-                运行以下命令开始第一天的摄影学习
-            </p>
-            <div class="mt-5 inline-block bg-slate-900 text-emerald-400 px-5 py-3 rounded-xl text-sm font-mono">
-                python src/main.py
-            </div>
-        </div>
-        {% endif %}
-    </main>
+        </header>
 
-    <footer class="py-14 text-center border-t border-stone-200/60">
-        <div class="font-serif text-base font-bold text-slate-300 tracking-wide">Daily Photo Coach</div>
-        <div class="text-xs text-slate-400 mt-1.5">让每一天都有新的摄影灵感</div>
-    </footer>
+        <main class="layout">
+            <section class="section-block panel">
+                <div class="section-head">
+                    <div>
+                        <p>Archive</p>
+                        <h2>Recent Notebooks</h2>
+                    </div>
+                    <p class="section-intro">
+                        每一天都保留自己的封面、风格组合和技术侧重点，回看时更像在翻摄影研究札记。
+                    </p>
+                </div>
+
+                <div class="archive-grid">
+                    {% for day in archive_days %}
+                    <a href="{{ day.date }}/index.html" class="archive-card">
+                        <div class="mosaic mosaic--card">
+                            {% for preview in day.preview_images[:3] %}
+                            <div class="mosaic-tile {{ 'mosaic-tile--lead' if loop.first else '' }}">
+                                <img src="{{ preview }}" alt="{{ day.date }} preview {{ loop.index }}" loading="lazy">
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <div class="archive-body">
+                            <div class="archive-topline">
+                                <h3>{{ day.date }}</h3>
+                                <span>{{ day.photo_count }} 张</span>
+                            </div>
+                            <p class="archive-summary">{{ day.summary }}</p>
+                            <div class="archive-meta">
+                                {% if day.primary_style %}
+                                <span class="primary-style" style="background: {{ day.primary_style.color }};">
+                                    {{ day.primary_style.icon }}
+                                    {{ day.primary_style.label }}
+                                </span>
+                                {% endif %}
+                                {% for style in day.style_counts[:3] %}
+                                <span class="style-chip">{{ style.label }} · {{ style.count }}</span>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <aside class="stack">
+                <section class="section-block panel">
+                    <div class="section-head">
+                        <div>
+                            <p>Palette</p>
+                            <h2>Style Library</h2>
+                        </div>
+                    </div>
+
+                    <div class="style-library">
+                        {% for style in style_totals %}
+                        <div class="style-library-item">
+                            <strong>
+                                <span style="color: {{ style.color }};">{{ style.icon }}</span>
+                                {{ style.label }}
+                            </strong>
+                            <span>{{ style.count }} 张</span>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </section>
+
+                <section class="section-block panel">
+                    <div class="section-head">
+                        <div>
+                            <p>Method</p>
+                            <h2>How It Reads</h2>
+                        </div>
+                    </div>
+
+                    <ul class="method-list">
+                        <li>
+                            <strong>Observe</strong>
+                            <span>先看照片最打动人的地方，再去拆它为什么成立。</span>
+                        </li>
+                        <li>
+                            <strong>Decode</strong>
+                            <span>把 EXIF、构图、光线和风格判断放到一起，减少空泛点评。</span>
+                        </li>
+                        <li>
+                            <strong>Rebuild</strong>
+                            <span>每张图都尽量落回实拍步骤，方便下一次拿起相机时复现。</span>
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+        </main>
+        {% else %}
+        <section class="section-block panel empty-state">
+            <h2>还没有学习记录</h2>
+            <p>运行下面这条命令后，首页会自动生成封面、归档卡片和每日摄影分析。</p>
+            <div class="command-chip">python src/main.py</div>
+        </section>
+        {% endif %}
+
+        <footer>Daily Photo Coach · Learn by looking closely</footer>
+    </div>
 </body>
 </html>
