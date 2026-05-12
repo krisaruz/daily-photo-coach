@@ -16,6 +16,9 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
+import os
+import re
+
 import yaml
 
 import analyzer
@@ -33,11 +36,22 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
+def _expand_env(obj: object) -> object:
+    if isinstance(obj, str):
+        return re.sub(r"\$\{(\w+)\}", lambda m: os.environ.get(m.group(1), m.group(0)), obj)
+    if isinstance(obj, dict):
+        return {k: _expand_env(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_expand_env(v) for v in obj]
+    return obj
+
+
 def load_config(config_path: Path) -> dict:
-    """加载配置：优先读 config.yaml，不存在时从环境变量构建。"""
+    """加载配置：优先读 config.yaml 并展开 ${ENV_VAR}；不存在时从环境变量构建。"""
     if config_path.exists():
         with open(config_path, "r", encoding="utf-8") as f:
-            return yaml.safe_load(f)
+            raw = yaml.safe_load(f)
+        return _expand_env(raw)
 
     return _config_from_env()
 
