@@ -82,7 +82,7 @@ def _config_from_env() -> dict:
 
     styles = [
         {"query": "landscape nature mountain", "label": "风光/自然", "color": "#16a34a", "icon": "🏔️"},
-        {"query": "portrait photography", "label": "人像/肖像", "color": "#dc2626", "icon": "👤"},
+        {"query": ["street portrait photography", "lifestyle portrait candid", "cinematic portrait"], "label": "人像/质感", "color": "#dc2626", "icon": "👤"},
         {"query": "street photography documentary", "label": "街头/人文", "color": "#ea580c", "icon": "🚶"},
         {"query": "minimal architecture geometry", "label": "极简/建筑", "color": "#2563eb", "icon": "🏛️"},
         {"query": "food photography styling", "label": "美食/静物", "color": "#d97706", "icon": "🍽️"},

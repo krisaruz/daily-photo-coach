@@ -2,7 +2,7 @@ name: Daily Photo Coach
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # UTC 01:00 = 北京 09:00
+    - cron: '0 18 * * *'  # UTC 18:00 = 北京 02:00
   workflow_dispatch:
 
 jobs:
@@ -30,7 +30,7 @@ jobs:
           git fetch origin
           git checkout origin/master -- output/ 2>/dev/null || true
 
-      - name: Fetch photos (skip LLM analysis)
+      - name: Fetch photos (LLM analysis runs locally)
         env:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           PYTHONPATH: src

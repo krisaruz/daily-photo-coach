@@ -99,8 +99,9 @@ def fetch_photos_for_style(
     access_key: str, style: dict[str, str], count: int = 3,
     global_seen: set[str] | None = None,
 ) -> list[dict[str, Any]]:
-    """为一种风格抓取多张照片，支持全局去重。"""
+    """为一种风格抓取多张照片，支持全局去重和多搜索词轮换。"""
     orientations = ["landscape", "portrait", "squarish"]
+    queries = style["query"] if isinstance(style["query"], list) else [style["query"]]
     photos = []
     local_seen: set[str] = set()
     max_retries = count * 3
@@ -109,7 +110,8 @@ def fetch_photos_for_style(
     i = 0
     while len(photos) < count and attempts < max_retries:
         orientation = orientations[i % len(orientations)]
-        photo = fetch_photo(access_key, query=style["query"], orientation=orientation)
+        query = queries[i % len(queries)]
+        photo = fetch_photo(access_key, query=query, orientation=orientation)
         attempts += 1
 
         if not photo:
