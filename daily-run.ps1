@@ -1,5 +1,6 @@
 # Daily Photo Coach - 本地每日运行脚本
 # 功能：抓取照片 + LLM 分析 + 推送到 GitHub（自动部署到 Pages）
+# 密钥从 config.yaml 读取（已 gitignore）
 
 $ErrorActionPreference = "Stop"
 $projectDir = "E:\daily-photo-coach"
@@ -13,16 +14,6 @@ function Log($msg) {
 try {
     Log "=== Daily Photo Coach 开始 ==="
     Set-Location $projectDir
-
-    # 检查环境变量
-    if (-not $env:UNSPLASH_ACCESS_KEY) {
-        Log "错误: UNSPLASH_ACCESS_KEY 未设置"
-        exit 1
-    }
-    if (-not $env:LLM_BEARER_TOKEN) {
-        Log "错误: LLM_BEARER_TOKEN 未设置"
-        exit 1
-    }
 
     # 运行主程序（抓图 + LLM 分析）
     Log "运行 main.py ..."

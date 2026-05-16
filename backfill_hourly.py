@@ -38,13 +38,17 @@ BATCH_WAIT = 3660  # 61 分钟
 
 
 def find_days_needing_work(output_dir: str) -> tuple[list[str], list[str]]:
-    """扫描所有天数，返回 (需要补照片的日期, 需要补分析的日期)，按时间倒序。"""
+    """扫描所有天数（只到今天），返回 (需要补照片的日期, 需要补分析的日期)，按时间倒序。"""
     output_path = Path(output_dir)
+    today = datetime.now().strftime("%Y-%m-%d")
     need_photos: list[str] = []
     need_analysis: list[str] = []
 
     for d in sorted(output_path.iterdir(), reverse=True):
         if not d.is_dir() or d.name.startswith("."):
+            continue
+        # 只处理今天及之前的日期，跳过未来日期
+        if d.name > today:
             continue
         try:
             datetime.fromisoformat(d.name)
