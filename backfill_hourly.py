@@ -37,17 +37,20 @@ logger = logging.getLogger(__name__)
 BATCH_WAIT = 3660  # 61 分钟
 
 
-def find_days_needing_work(output_dir: str) -> tuple[list[str], list[str]]:
-    """扫描所有天数（只到今天），返回 (需要补照片的日期, 需要补分析的日期)，按时间倒序。"""
+def find_days_needing_work(output_dir: str, current_styles: list) -> tuple[list[str], list[str]]:
+    """扫描所有天数（只到今天），返回 (需要补照片的日期, 需要补分析的日期)，按时间倒序。
+
+    旧格式（8 类 × 3 张）会被归入 need_photos 重新抓取。
+    """
     output_path = Path(output_dir)
     today = datetime.now().strftime("%Y-%m-%d")
+    current_labels = {s["label"] for s in current_styles}
     need_photos: list[str] = []
     need_analysis: list[str] = []
 
     for d in sorted(output_path.iterdir(), reverse=True):
         if not d.is_dir() or d.name.startswith("."):
             continue
-        # 只处理今天及之前的日期，跳过未来日期
         if d.name > today:
             continue
         try:
@@ -64,6 +67,12 @@ def find_days_needing_work(output_dir: str) -> tuple[list[str], list[str]]:
             data = json.loads(photos_json.read_text("utf-8"))
             total = sum(len(v) for v in data.values())
             if total == 0:
+                need_photos.append(d.name)
+                continue
+            # 旧格式（风格数 != 当前配置）需要重新抓取
+            existing_labels = set(data.keys())
+            if existing_labels != current_labels:
+                logger.info("  %s: 旧格式 (%s), 需重新抓取", d.name, list(existing_labels))
                 need_photos.append(d.name)
                 continue
             analyzed = sum(
@@ -163,7 +172,7 @@ def main():
     output_dir = str(PROJECT_ROOT / config["output"]["dir"])
     styles = config["daily"]["styles"]
 
-    need_photos, need_analysis = find_days_needing_work(output_dir)
+    need_photos, need_analysis = find_days_needing_work(output_dir, styles)
     logger.info("=" * 60)
     logger.info("回填任务启动")
     logger.info("  缺照片: %d 天 (需消耗 Unsplash 额度)", len(need_photos))
