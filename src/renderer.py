@@ -91,6 +91,30 @@ def _clean_text(text: str | None) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def _image_url(photo: dict[str, Any], size: str = "regular", base_prefix: str = "") -> str:
+    """Return a renderable image URL, preferring cached static assets."""
+    local_keys = {
+        "small": ("local_url_small", "local_url_regular", "local_url_full"),
+        "regular": ("local_url_regular", "local_url_full", "local_url_small"),
+        "full": ("local_url_full", "local_url_regular", "local_url_small"),
+    }
+    remote_keys = {
+        "small": ("url_small", "url_regular", "url_full"),
+        "regular": ("url_regular", "url_full", "url_small"),
+        "full": ("url_full", "url_regular", "url_small"),
+    }
+
+    for key in local_keys.get(size, local_keys["regular"]):
+        value = photo.get(key)
+        if value:
+            return base_prefix + str(value).lstrip("/")
+    for key in remote_keys.get(size, remote_keys["regular"]):
+        value = photo.get(key)
+        if value:
+            return str(value)
+    return ""
+
+
 def _strip_trailing_whitespace(text: str) -> str:
     """Remove generated line-end whitespace without changing content."""
     return "\n".join(line.rstrip() for line in text.splitlines())
@@ -155,7 +179,7 @@ def _pick_preview_images(data: Any, limit: int = 3) -> list[str]:
             if not isinstance(group, list):
                 continue
             for photo in group[:1]:
-                url = photo.get("url_small") or photo.get("url_regular")
+                url = _image_url(photo, "small")
                 if url and url not in seen:
                     previews.append(url)
                     seen.add(url)
@@ -163,7 +187,7 @@ def _pick_preview_images(data: Any, limit: int = 3) -> list[str]:
                     return previews
 
     for photo in _iter_photos(data):
-        url = photo.get("url_small") or photo.get("url_regular")
+        url = _image_url(photo, "small")
         if url and url not in seen:
             previews.append(url)
             seen.add(url)
@@ -254,11 +278,19 @@ def render_web(
         rendered = []
         for photo in valid_photos:
             item = {**photo}
+            item["url_small"] = _image_url(photo, "small", "../")
+            item["url_regular"] = _image_url(photo, "regular", "../")
+            item["url_full"] = _image_url(photo, "full", "../")
             item["analysis_html"] = _markdown_to_html(photo.get("analysis", ""))
             item["analysis_excerpt"] = _extract_excerpt(photo.get("analysis", ""))
             item["description_short"] = _clean_description(photo.get("description", ""))
             item["caption_short"] = _truncate(_clean_text(photo.get("caption", "")), 180)
             item["note_title_short"] = _clean_description(photo.get("note_title", ""), 80)
+            if photo.get("note_image_index") and photo.get("note_image_count"):
+                item["note_title_short"] = (
+                    f"{item['note_title_short']} · 组图 "
+                    f"{photo['note_image_index']}/{photo['note_image_count']}"
+                )
             item["source_name"] = (
                 photo.get("source_name")
                 or ("Unsplash" if photo.get("unsplash_url") else "来源")
@@ -345,7 +377,7 @@ def render_markdown(
             parts.append(f"\n## #{photo_idx} {label}\n")
             parts.append(f"**摄影师**: [{photo['photographer']}]({photo.get('photographer_url', '')})")
             parts.append(f" | **来源**: [{source_name}]({source_url})\n")
-            parts.append(f"![{photo.get('description', '')}]({photo['url_regular']})\n")
+            parts.append(f"![{photo.get('description', '')}]({_image_url(photo, 'regular', '../')})\n")
 
             exif = photo.get("exif", {})
             exif_parts = []
@@ -437,14 +469,20 @@ def update_index(output_dir: str) -> Path:
                 source_name = photo.get("source_name") or ("Unsplash" if photo.get("unsplash_url") else "其他")
                 source_totals[source_name] = source_totals.get(source_name, 0) + 1
                 if photo.get("source_platform") == "xhs" or source_name == "小红书":
+                    xhs_title = _clean_description(
+                        photo.get("note_title") or photo.get("description") or "小红书摄影作品",
+                        64,
+                    )
+                    if photo.get("note_image_index") and photo.get("note_image_count"):
+                        xhs_title = (
+                            f"{xhs_title} · 组图 "
+                            f"{photo['note_image_index']}/{photo['note_image_count']}"
+                        )
                     xhs_picks.append(
                         {
                             "date": day_dir.name,
-                            "image": photo.get("url_small") or photo.get("url_regular", ""),
-                            "title": _clean_description(
-                                photo.get("note_title") or photo.get("description") or "小红书摄影作品",
-                                64,
-                            ),
+                            "image": _image_url(photo, "small"),
+                            "title": xhs_title,
                             "caption": _truncate(_clean_text(photo.get("caption", "")), 120),
                             "photographer": photo.get("photographer", "小红书博主"),
                             "source_url": photo.get("source_url") or photo.get("xhs_url") or "",

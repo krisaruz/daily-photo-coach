@@ -251,6 +251,12 @@ def fetch_pool(config: dict[str, Any], args: argparse.Namespace) -> list[dict[st
         cookie=args.cookie or xhs_config.get("cookie", ""),
     )
     pool = _dedupe(pool)
+    output_dir = PROJECT_ROOT / config["output"]["dir"]
+    xhs_fetcher.cache_photo_assets(
+        pool,
+        output_dir,
+        cookie=args.cookie or xhs_config.get("cookie", ""),
+    )
     if not pool:
         logger.error("没有解析到小红书公开照片")
         sys.exit(1)
