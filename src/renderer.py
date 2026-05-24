@@ -432,6 +432,7 @@ def update_index(output_dir: str) -> Path:
     style_totals: dict[str, dict[str, Any]] = {}
     source_totals: dict[str, int] = {}
     xhs_picks: list[dict[str, Any]] = []
+    seen_xhs_notes: set[str] = set()
 
     # Filter out failed analysis photos
     def _is_analysis_failed(photo: dict) -> bool:
@@ -469,6 +470,11 @@ def update_index(output_dir: str) -> Path:
                 source_name = photo.get("source_name") or ("Unsplash" if photo.get("unsplash_url") else "其他")
                 source_totals[source_name] = source_totals.get(source_name, 0) + 1
                 if photo.get("source_platform") == "xhs" or source_name == "小红书":
+                    note_key = str(photo.get("note_id") or photo.get("source_url") or photo.get("id") or "")
+                    if note_key and note_key in seen_xhs_notes:
+                        continue
+                    if note_key:
+                        seen_xhs_notes.add(note_key)
                     xhs_title = _clean_description(
                         photo.get("note_title") or photo.get("description") or "小红书摄影作品",
                         64,

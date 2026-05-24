@@ -31,12 +31,65 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-DEFAULT_XHS_URL = "http://xhslink.com/o/6vj01FlQoGl"
 DEFAULT_STYLE = {
-    "label": "小红书｜人像自然",
+    "label": "小红书｜人像写真",
     "color": "#be185d",
     "icon": "📕",
 }
+
+DEFAULT_XHS_SOURCES = [
+    {
+        "name": "万万学姐",
+        "url": "https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed",
+    },
+    {
+        "name": "人间富贵花",
+        "url": "https://www.xiaohongshu.com/explore/64c24c2e000000001701b934?xsec_token=ABEYLLyVLWG08-G_kO1QjaRTsF14-FQ2PebxlRpU_t8Uw&xsec_source=pc_feed",
+    },
+    {
+        "name": "小仙女周周",
+        "url": "https://www.xiaohongshu.com/explore/64ba91e5000000000800f849?xsec_token=ABbCLHT5s3qlM3EnEPlnWhUINrLLEnUQ51TY8T0KxqD2E%3D&xsec_source=pc_feed",
+    },
+    {
+        "name": "赵火火不火",
+        "url": "https://www.xiaohongshu.com/explore/64b3f0c4000000003500a86b?xsec_token=ABNXsDE_bYwfBCzcY2xDqbXHHpQKLLK_JG8paXQyCMd6w%3D&xsec_source=pc_feed",
+    },
+    {
+        "name": "天祁预暴",
+        "url": "https://www.xiaohongshu.com/explore/64b60f55000000001c00fc0c?xsec_token=ABUUOADRu6dI8NlNWT9_SMJ8-fzUziNIZRrvtYhv-sDII&xsec_source=pc_feed",
+    },
+    {
+        "name": "鯊魚喬納森",
+        "url": "https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed",
+    },
+    {
+        "name": "是朱朱呀",
+        "url": "https://www.xiaohongshu.com/explore/64c25844000000001201f682?xsec_token=ABEYLLyVLWG08-G_kO1QjaReN4Jza8SSqQbrqdh33bsyk&xsec_source=pc_feed",
+    },
+    {
+        "name": "Yeeton",
+        "url": "https://www.xiaohongshu.com/explore/643a5d6900000000130363ba?xsec_token=ABwMlOi53Bwe0jUAImDKByPTtTgJa-beEud-VpuGweXr4%3D&xsec_source=pc_feed",
+    },
+    {
+        "name": "奶油",
+        "url": "https://www.xiaohongshu.com/explore/644128a8000000001300bf69?xsec_token=ABlP6Vup-yAeNsm5GA_-MBKQjAtqezghDlgOx26677wCY%3D&xsec_source=pc_feed",
+    },
+    {
+        "name": "周姨",
+        "url": "https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&xsec_source=pc_feed",
+    },
+    {
+        "name": "黄小人",
+        "url": "https://www.xiaohongshu.com/explore/643631310000000011011932?xsec_token=AB6DeaQ6zZk4H1MBOXG_8A1JuIzflslThznKSGDFMJ2rM%3D&xsec_source=pc_feed",
+    },
+]
+
+for source in DEFAULT_XHS_SOURCES:
+    source.setdefault("style_label", DEFAULT_STYLE["label"])
+    source.setdefault("style_color", DEFAULT_STYLE["color"])
+    source.setdefault("style_icon", DEFAULT_STYLE["icon"])
+    source.setdefault("max_notes", 1)
+    source.setdefault("max_images_per_note", 1)
 
 
 def _xhs_config(config: dict[str, Any]) -> dict[str, Any]:
@@ -45,10 +98,10 @@ def _xhs_config(config: dict[str, Any]) -> dict[str, Any]:
         "style_label": DEFAULT_STYLE["label"],
         "style_color": DEFAULT_STYLE["color"],
         "style_icon": DEFAULT_STYLE["icon"],
-        "max_notes_per_source": 6,
-        "max_images_per_note": 10,
+        "max_notes_per_source": 1,
+        "max_images_per_note": 1,
         "cookie": "",
-        "sources": [{"name": "李贰腿", "url": DEFAULT_XHS_URL}],
+        "sources": copy.deepcopy(DEFAULT_XHS_SOURCES),
     }
     return {**defaults, **(config.get("xhs") or {})}
 
@@ -65,15 +118,29 @@ def _sources_from_env() -> list[dict[str, Any]]:
     return sources
 
 
+def _merge_sources(primary: list[dict[str, Any]], fallback: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    merged: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for source in [*primary, *fallback]:
+        url = str(source.get("url") or "")
+        if not url or url in seen:
+            continue
+        merged.append(source)
+        seen.add(url)
+    return merged
+
+
 def _build_sources(xhs_config: dict[str, Any], args: argparse.Namespace) -> list[dict[str, Any]]:
     if args.url:
         return [{"name": args.source_name or "小红书来源", "url": args.url}]
-    if _sources_from_env():
-        return _sources_from_env()
+    env_sources = _sources_from_env()
     sources = xhs_config.get("sources") or []
+    if env_sources:
+        fallback = sources if isinstance(sources, list) and sources else copy.deepcopy(DEFAULT_XHS_SOURCES)
+        return _merge_sources(env_sources, fallback)
     if isinstance(sources, list) and sources:
         return sources
-    return [{"name": "李贰腿", "url": DEFAULT_XHS_URL}]
+    return copy.deepcopy(DEFAULT_XHS_SOURCES)
 
 
 def _llm_for_xhs(config: dict[str, Any], xhs_config: dict[str, Any], model_override: str | None) -> dict[str, Any]:
@@ -134,15 +201,16 @@ def _select_for_date(
 ) -> list[dict[str, Any]]:
     if not photos:
         return []
-    day_index = date.fromisoformat(target_date).toordinal()
+    day_ordinal = date.fromisoformat(target_date).toordinal()
 
     if mode == "note":
         note_groups = _group_note_photos(photos)
-        selected = note_groups[day_index % len(note_groups)]
+        idx = day_ordinal % len(note_groups)
+        selected = note_groups[idx]
         return [copy.deepcopy(photo) for photo in selected[:count]]
 
     ordered = _dedupe(photos)
-    start = day_index % len(ordered)
+    start = day_ordinal % len(ordered)
     selected = [ordered[(start + offset) % len(ordered)] for offset in range(min(count, len(ordered)))]
     return [copy.deepcopy(photo) for photo in selected]
 
@@ -164,6 +232,15 @@ def _load_archive(path: Path) -> dict[str, list[dict[str, Any]]]:
     if not path.exists():
         return {}
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _without_previous_daily_xhs(grouped_photos: dict[str, list[dict[str, Any]]]) -> dict[str, list[dict[str, Any]]]:
+    cleaned: dict[str, list[dict[str, Any]]] = {}
+    for label, photos in grouped_photos.items():
+        kept = [photo for photo in photos if photo.get("daily_source") != "xhs_daily"]
+        if kept:
+            cleaned[label] = kept
+    return cleaned
 
 
 def _has_good_analysis(photo: dict[str, Any]) -> bool:
@@ -188,6 +265,8 @@ def run_for_date(
         for photo in photos
         if isinstance(photo, dict) and photo.get("id")
     }
+    if not args.append:
+        grouped_photos = _without_previous_daily_xhs(grouped_photos)
 
     selected = _select_for_date(
         xhs_pool,

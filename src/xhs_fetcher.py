@@ -136,6 +136,8 @@ def _fetch_html(session: requests.Session, url: str, timeout: int = 30) -> tuple
     logger.info("读取小红书公开页面: %s", url)
     resp = session.get(url, allow_redirects=True, timeout=timeout)
     resp.raise_for_status()
+    if not resp.encoding or resp.encoding.lower() == "iso-8859-1":
+        resp.encoding = "utf-8"
     time.sleep(0.8)
     return resp.text, resp.url
 
@@ -506,16 +508,20 @@ def fetch_sources(
         source_url = source.get("url")
         if not source_url:
             continue
-        fetched = fetch_source(
-            str(source_url),
-            source_name=str(source.get("name") or ""),
-            style_label=str(source.get("style_label") or source.get("label") or default_style_label),
-            style_color=str(source.get("style_color") or source.get("color") or default_style_color),
-            style_icon=str(source.get("style_icon") or source.get("icon") or default_style_icon),
-            max_notes=int(source.get("max_notes") or default_max_notes),
-            max_images_per_note=int(source.get("max_images_per_note") or default_max_images_per_note),
-            cookie=str(source.get("cookie") or cookie or ""),
-        )
+        try:
+            fetched = fetch_source(
+                str(source_url),
+                source_name=str(source.get("name") or ""),
+                style_label=str(source.get("style_label") or source.get("label") or default_style_label),
+                style_color=str(source.get("style_color") or source.get("color") or default_style_color),
+                style_icon=str(source.get("style_icon") or source.get("icon") or default_style_icon),
+                max_notes=int(source.get("max_notes") or default_max_notes),
+                max_images_per_note=int(source.get("max_images_per_note") or default_max_images_per_note),
+                cookie=str(source.get("cookie") or cookie or ""),
+            )
+        except requests.RequestException as exc:
+            logger.warning("小红书来源抓取失败，已跳过 %s: %s", source_url, exc)
+            continue
         for photo in fetched:
             key = photo.get("id") or photo.get("url_full")
             if key and key not in seen:
