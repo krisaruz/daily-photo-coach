@@ -4,4 +4,5 @@
 :: 密钥从 config.yaml 读取（已 gitignore）
 
 cd /d E:\daily-photo-coach
+set PYTHON_PATH=C:\Users\admin\AppData\Local\Programs\Python\Python311\python.exe
 powershell -ExecutionPolicy Bypass -File daily-run.ps1

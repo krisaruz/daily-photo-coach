@@ -689,7 +689,7 @@
 **摄影师**: [李贰腿📷（五月新疆）](https://www.xiaohongshu.com/user/profile/5cccd6750000000010039b3e)
  | **来源**: [小红书](https://www.xiaohongshu.com/discovery/item/66e5803b0000000026030817?app_platform=android&ignoreEngage=true&app_version=9.31.2&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBfMkixDO299WDNN9P7TkrM-z3uxlffVQQhl6XG75Svlk%3D&author_share=1&shareRedId=ODpHQzk4Rj42NzUyOTgwNjY0OTg3S0dM&apptime=1779603301&share_id=9134b310f90d48b2a691a706e5351615&share_channel=copy_link&appuid=64ec63b50000000001013fac&xhsshare=CopyLink)
 
-![朋友圈都说我拍的照片像散文诗](https://sns-webpic-qc.xhscdn.com/202605241449/6b745ee2745f2a5bf9150b602fd0b621/1040g008317nq4jke440g5n6cqpqk76pudl5a0o0!nd_dft_wlteh_jpg_3)
+![朋友圈都说我拍的照片像散文诗](../assets/xhs/66e5803b0000000026030817/xhs-66e5803b0000000026030817-2-regular.jpg)
 
 
 ## 直觉

@@ -5,6 +5,7 @@
 $ErrorActionPreference = "Stop"
 $projectDir = "E:\daily-photo-coach"
 $logFile = "$projectDir\daily-run.log"
+$pythonExe = "C:\Users\admin\AppData\Local\Programs\Python\Python311\python.exe"
 
 function Log($msg) {
     $ts = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
@@ -15,10 +16,14 @@ try {
     Log "=== Daily Photo Coach 开始 ==="
     Set-Location $projectDir
 
+    # 先拉取最新代码（GitHub Actions 可能已抓了图）
+    Log "拉取最新代码 ..."
+    git pull origin master --quiet 2>&1 | Tee-Object -FilePath $logFile -Append
+
     # 运行主程序（抓图 + LLM 分析）
-    Log "运行 main.py ..."
+    Log "运行 main.py (Python 3.11) ..."
     $env:PYTHONPATH = "src"
-    python src/main.py 2>&1 | Tee-Object -FilePath $logFile -Append
+    & $pythonExe src/main.py 2>&1 | Tee-Object -FilePath $logFile -Append
     if ($LASTEXITCODE -ne 0) {
         Log "main.py 执行失败，退出码: $LASTEXITCODE"
         exit $LASTEXITCODE
