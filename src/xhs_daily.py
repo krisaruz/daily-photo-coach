@@ -205,9 +205,13 @@ def _select_for_date(
 
     if mode == "note":
         note_groups = _group_note_photos(photos)
-        idx = day_ordinal % len(note_groups)
-        selected = note_groups[idx]
-        return [copy.deepcopy(photo) for photo in selected[:count]]
+        selected: list[dict[str, Any]] = []
+        start = day_ordinal % len(note_groups)
+        for offset in range(min(count, len(note_groups))):
+            group = note_groups[(start + offset) % len(note_groups)]
+            if group:
+                selected.append(group[0])
+        return [copy.deepcopy(photo) for photo in selected]
 
     ordered = _dedupe(photos)
     start = day_ordinal % len(ordered)
@@ -248,11 +252,34 @@ def _has_good_analysis(photo: dict[str, Any]) -> bool:
     return bool(analysis.strip()) and "分析失败" not in analysis
 
 
+def _load_existing_analysis_cache(output_dir: str) -> dict[str, str]:
+    cache: dict[str, str] = {}
+    output_path = Path(output_dir)
+    if not output_path.exists():
+        return cache
+    for json_file in output_path.glob("????-??-??/photos.json"):
+        try:
+            grouped_photos = json.loads(json_file.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        if not isinstance(grouped_photos, dict):
+            continue
+        for photos in grouped_photos.values():
+            if not isinstance(photos, list):
+                continue
+            for photo in photos:
+                if not isinstance(photo, dict) or not photo.get("id") or not _has_good_analysis(photo):
+                    continue
+                cache[str(photo["id"])] = str(photo["analysis"])
+    return cache
+
+
 def run_for_date(
     config: dict[str, Any],
     xhs_pool: list[dict[str, Any]],
     target_date: str,
     args: argparse.Namespace,
+    analysis_cache: dict[str, str] | None = None,
 ) -> Path:
     xhs_config = _xhs_config(config)
     output_dir = str(PROJECT_ROOT / config["output"]["dir"])
@@ -285,8 +312,13 @@ def run_for_date(
         photo["daily_source"] = "xhs_daily"
         photo["picked_for_date"] = target_date
         existing = existing_by_id.get(photo.get("id"))
-        if existing and _has_good_analysis(existing) and not args.force_analysis:
-            photo["analysis"] = existing["analysis"]
+        cached_analysis = ""
+        if existing and _has_good_analysis(existing):
+            cached_analysis = str(existing["analysis"])
+        elif analysis_cache:
+            cached_analysis = analysis_cache.get(str(photo.get("id"))) or ""
+        if cached_analysis and not args.force_analysis:
+            photo["analysis"] = cached_analysis
 
     llm_config = _llm_for_xhs(config, xhs_config, args.model)
     if args.skip_analysis:
@@ -300,6 +332,8 @@ def run_for_date(
                 continue
             logger.info("[%s] 小红书分析 %d/%d: %s", target_date, idx, len(selected), photo["id"])
             photo["analysis"] = analyzer.analyze_photo(photo, llm_config)
+            if analysis_cache is not None and _has_good_analysis(photo):
+                analysis_cache[str(photo["id"])] = str(photo["analysis"])
 
     new_groups = _group_by_style(selected)
     for label, photos in new_groups.items():
@@ -354,7 +388,7 @@ def main() -> None:
     parser.add_argument("--style-color", type=str, default=None, help="栏目颜色")
     parser.add_argument("--style-icon", type=str, default=None, help="栏目图标")
     parser.add_argument("--mode", choices=["photo", "note"], default="photo", help="按图片还是按整条笔记轮换")
-    parser.add_argument("--count", type=int, default=1, help="每天写入几张小红书图片")
+    parser.add_argument("--count", type=int, default=3, help="每天写入几张小红书图片")
     parser.add_argument("--max-notes", type=int, default=None, help="每个来源最多解析多少条笔记")
     parser.add_argument("--max-images-per-note", type=int, default=None, help="每条笔记最多解析多少张图")
     parser.add_argument("--model", type=str, default=None, help="分析模型")
@@ -371,8 +405,9 @@ def main() -> None:
 
     pool = fetch_pool(config, args)
     output_dir = str(PROJECT_ROOT / config["output"]["dir"])
+    analysis_cache = _load_existing_analysis_cache(output_dir)
     for day in _date_range(target_date, args.backfill_days):
-        run_for_date(config, pool, day, args)
+        run_for_date(config, pool, day, args, analysis_cache)
     renderer.update_index(output_dir)
     logger.info("每日小红书流程完成：%d 天", args.backfill_days)
 
