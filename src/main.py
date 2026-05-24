@@ -61,13 +61,18 @@ def _config_from_env() -> dict:
     import os
 
     access_key = os.environ.get("UNSPLASH_ACCESS_KEY", "")
-    llm_url = os.environ.get("LLM_URL", "")
+    llm_url = os.environ.get("LLM_URL", "https://api.openai.com/v1/chat/completions")
     llm_model = os.environ.get("LLM_MODEL", "gpt-4o")
     llm_auth = os.environ.get("LLM_AUTH", "")
+    openai_api_key = os.environ.get("OPENAI_API_KEY", "")
 
     headers: dict[str, str] = {}
     if llm_auth:
-        headers["Authorization"] = llm_auth
+        headers["Authorization"] = (
+            llm_auth if llm_auth.lower().startswith(("bearer ", "token ")) else f"Bearer {llm_auth}"
+        )
+    elif openai_api_key:
+        headers["Authorization"] = f"Bearer {openai_api_key}"
     gateway_uid = os.environ.get("LLM_GATEWAY_UID", "")
     gateway_product = os.environ.get("LLM_GATEWAY_PRODUCT", "")
     gateway_intention = os.environ.get("LLM_GATEWAY_INTENTION", "")
@@ -102,6 +107,12 @@ def _config_from_env() -> dict:
             "max_retries": int(os.environ.get("LLM_MAX_RETRIES", "3")),
         },
         "daily": {"photos_per_style": photos_per_style, "styles": styles},
+        "xhs": {
+            "model": os.environ.get("XHS_LLM_MODEL", "gpt-5.5"),
+            "cookie": os.environ.get("XHS_COOKIE", ""),
+            "max_notes_per_source": int(os.environ.get("XHS_MAX_NOTES", "3")),
+            "max_images_per_note": int(os.environ.get("XHS_MAX_IMAGES_PER_NOTE", "6")),
+        },
         "output": {"dir": os.environ.get("OUTPUT_DIR", "output")},
     }
 

@@ -271,3 +271,33 @@
 ![a tall building with a clock on the top of it](https://images.unsplash.com/photo-1647892842753-01ee3cafd42e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk0Nzc2ODh8&ixlib=rb-4.1.0&q=80&w=1080)
 
 > EXIF: Camera FUJIFILM X-T2 | f/1.0 | 1/550s | 50.0mm | ISO 200
+
+
+---
+
+# 小红书｜人像自然
+
+
+## #25 小红书｜人像自然
+
+**摄影师**: [李贰腿📷（五月新疆）](https://www.xiaohongshu.com/user/profile/5cccd6750000000010039b3e)
+ | **来源**: [小红书](https://www.xiaohongshu.com/discovery/item/66e5803b0000000026030817?app_platform=android&ignoreEngage=true&app_version=9.31.2&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBfMkixDO299WDNN9P7TkrM-z3uxlffVQQhl6XG75Svlk%3D&author_share=1&shareRedId=ODpHQzk4Rj42NzUyOTgwNjY0OTg3S0dM&apptime=1779603301&share_id=9134b310f90d48b2a691a706e5351615&share_channel=copy_link&appuid=64ec63b50000000001013fac&xhsshare=CopyLink)
+
+![朋友圈都说我拍的照片像散文诗](https://sns-webpic-qc.xhscdn.com/202605241449/fba5984ab2cc4bd2ca46e718f3b9584f/1040g008317nq4jke44405n6cqpqk76pudnqf10g!nd_dft_wlteh_jpg_3)
+
+
+## 直觉
+最打动人的是“风”和“留白”：白裙、湖面、草地、蓝绿色调把人物情绪放得很轻，确实有散文诗般的自由感。组图里远景、半身、特写的节奏也让叙事更完整。
+
+## 技法拆解
+- 构图上大量保留天空、湖面和草地，让人物不只是被拍摄，而是“长在环境里”。
+- 白裙与蓝绿背景形成干净对比，色彩克制，很适合小红书自然人像。
+- 逆风或侧风让头发、裙摆产生动态，比单纯摆姿更有生命力。
+- 中近景虚化柔和，背景不抢戏；远景则用环境交代情绪。
+- 画面整体偏低饱和、低反差，避免了“游客照”的硬朗感。
+
+## 实拍操作（佳能 R10）
+模式拨盘建议用 **Av 光圈优先**，方便控制虚化和氛围，光线变化时相机自动匹配快门。推荐参数：光圈 **F2.8-F4**，快门尽量高于 **1/500s** 捕捉发丝，ISO 自动或 **100-400**，评价测光，人眼识别伺服 AF，区域用全区域或大区域。镜头可选 **RF 50mm F1.8** 拍特写，或 **RF-S 18-150mm** 的 50-85mm 段拍半身；远景用 24-35mm 等效视角保留环境。现场先让人物站在湖边或草地边缘，背景保持简洁；等风来时引导她抬头、转身、手臂舒展；连拍抓头发扬起和裙摆自然落下的瞬间。
+
+## 后期思路
+方向是清冷、柔和、带空气感：降低对比和饱和度，蓝色略偏青，绿色压一点黄和亮度。人物皮肤保持通透，白裙注意压高光；可用曲线抬黑位、加轻微颗粒，让照片更像安静的电影散文。

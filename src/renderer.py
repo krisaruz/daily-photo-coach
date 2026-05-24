@@ -1,12 +1,13 @@
 """Render Daily Photo Coach outputs into HTML, Markdown, and JSON archives."""
 
+import html
 import json
 import logging
 import re
 from pathlib import Path
 from typing import Any
 
-from jinja2 import Environment, FileSystemLoader
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 logger = logging.getLogger(__name__)
 
@@ -77,6 +78,7 @@ def _markdown_to_html(md_text: str) -> str:
 
 def _inline_format(text: str) -> str:
     """Apply inline Markdown formatting."""
+    text = html.escape(text)
     text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"\*(.+?)\*", r"<em>\1</em>", text)
     text = re.sub(r"`(.+?)`", r"<code>\1</code>", text)
@@ -87,6 +89,11 @@ def _clean_text(text: str | None) -> str:
     if not text:
         return ""
     return re.sub(r"\s+", " ", text).strip()
+
+
+def _strip_trailing_whitespace(text: str) -> str:
+    """Remove generated line-end whitespace without changing content."""
+    return "\n".join(line.rstrip() for line in text.splitlines())
 
 
 def _truncate(text: str, limit: int = 140) -> str:
@@ -207,7 +214,10 @@ def render_web(
     output_dir: str,
 ) -> Path:
     """Render the daily HTML page."""
-    env = Environment(loader=FileSystemLoader(str(TEMPLATES_DIR)), autoescape=False)
+    env = Environment(
+        loader=FileSystemLoader(str(TEMPLATES_DIR)),
+        autoescape=select_autoescape(["html", "xml"], default=True),
+    )
     template = env.get_template("daily.html")
 
     # Filter out failed analysis photos
@@ -215,8 +225,22 @@ def render_web(
         analysis = photo.get("analysis", "")
         return analysis == "（分析失败，请稍后重试）"
 
+    ordered_styles = list(styles)
+    known_labels = {style.get("label") for style in ordered_styles}
+    for label, photos in grouped_photos.items():
+        if label in known_labels or not photos:
+            continue
+        sample = photos[0]
+        ordered_styles.append(
+            {
+                "label": label,
+                "color": sample.get("style_color", "#be185d"),
+                "icon": sample.get("style_icon", "📕"),
+            }
+        )
+
     tabs = []
-    for style in styles:
+    for style in ordered_styles:
         label = style["label"]
         photos = grouped_photos.get(label, [])
         if not photos:
@@ -233,6 +257,20 @@ def render_web(
             item["analysis_html"] = _markdown_to_html(photo.get("analysis", ""))
             item["analysis_excerpt"] = _extract_excerpt(photo.get("analysis", ""))
             item["description_short"] = _clean_description(photo.get("description", ""))
+            item["caption_short"] = _truncate(_clean_text(photo.get("caption", "")), 180)
+            item["note_title_short"] = _clean_description(photo.get("note_title", ""), 80)
+            item["source_name"] = (
+                photo.get("source_name")
+                or ("Unsplash" if photo.get("unsplash_url") else "来源")
+            )
+            item["source_url"] = (
+                photo.get("source_url")
+                or photo.get("unsplash_url")
+                or photo.get("xhs_url")
+                or photo.get("url_full")
+                or photo.get("url_regular")
+                or ""
+            )
 
             width = photo.get("width") or 0
             height = photo.get("height") or 0
@@ -273,7 +311,7 @@ def render_web(
     day_dir = Path(output_dir) / date
     day_dir.mkdir(parents=True, exist_ok=True)
     out_path = day_dir / "index.html"
-    out_path.write_text(html, encoding="utf-8")
+    out_path.write_text(_strip_trailing_whitespace(html), encoding="utf-8", newline="\n")
     logger.info("Web page rendered: %s", out_path)
     return out_path
 
@@ -302,9 +340,11 @@ def render_markdown(
 
         for photo in valid_photos:
             photo_idx += 1
+            source_name = photo.get("source_name") or ("Unsplash" if photo.get("unsplash_url") else "来源")
+            source_url = photo.get("source_url") or photo.get("unsplash_url") or photo.get("xhs_url") or ""
             parts.append(f"\n## #{photo_idx} {label}\n")
             parts.append(f"**摄影师**: [{photo['photographer']}]({photo.get('photographer_url', '')})")
-            parts.append(f" | **来源**: [Unsplash]({photo.get('unsplash_url', '')})\n")
+            parts.append(f" | **来源**: [{source_name}]({source_url})\n")
             parts.append(f"![{photo.get('description', '')}]({photo['url_regular']})\n")
 
             exif = photo.get("exif", {})
@@ -329,7 +369,7 @@ def render_markdown(
     day_dir = Path(output_dir) / date
     day_dir.mkdir(parents=True, exist_ok=True)
     out_path = day_dir / "daily.md"
-    out_path.write_text("\n".join(parts), encoding="utf-8")
+    out_path.write_text(_strip_trailing_whitespace("\n".join(parts)), encoding="utf-8", newline="\n")
     logger.info("Markdown rendered: %s", out_path)
     return out_path
 
@@ -343,7 +383,11 @@ def save_archive(
     day_dir = Path(output_dir) / date
     day_dir.mkdir(parents=True, exist_ok=True)
     out_path = day_dir / "photos.json"
-    out_path.write_text(json.dumps(grouped_photos, ensure_ascii=False, indent=2), encoding="utf-8")
+    out_path.write_text(
+        json.dumps(grouped_photos, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+        newline="\n",
+    )
     logger.info("JSON archive saved: %s", out_path)
     return out_path
 
@@ -354,6 +398,8 @@ def update_index(output_dir: str) -> Path:
     days = []
     total_photos = 0
     style_totals: dict[str, dict[str, Any]] = {}
+    source_totals: dict[str, int] = {}
+    xhs_picks: list[dict[str, Any]] = []
 
     # Filter out failed analysis photos
     def _is_analysis_failed(photo: dict) -> bool:
@@ -386,6 +432,24 @@ def update_index(output_dir: str) -> Path:
             photo_count = len(flat_photos)
             if not photo_count:
                 continue
+
+            for photo in flat_photos:
+                source_name = photo.get("source_name") or ("Unsplash" if photo.get("unsplash_url") else "其他")
+                source_totals[source_name] = source_totals.get(source_name, 0) + 1
+                if photo.get("source_platform") == "xhs" or source_name == "小红书":
+                    xhs_picks.append(
+                        {
+                            "date": day_dir.name,
+                            "image": photo.get("url_small") or photo.get("url_regular", ""),
+                            "title": _clean_description(
+                                photo.get("note_title") or photo.get("description") or "小红书摄影作品",
+                                64,
+                            ),
+                            "caption": _truncate(_clean_text(photo.get("caption", "")), 120),
+                            "photographer": photo.get("photographer", "小红书博主"),
+                            "source_url": photo.get("source_url") or photo.get("xhs_url") or "",
+                        }
+                    )
 
             for item in style_counts:
                 stat = style_totals.setdefault(
@@ -422,18 +486,27 @@ def update_index(output_dir: str) -> Path:
     featured_day = days[0] if days else None
     archive_days = days[1:] if len(days) > 1 else []
     style_totals_list = sorted(style_totals.values(), key=lambda item: item["count"], reverse=True)
+    source_totals_list = [
+        {"label": label, "count": count}
+        for label, count in sorted(source_totals.items(), key=lambda item: item[1], reverse=True)
+    ]
 
-    env = Environment(loader=FileSystemLoader(str(TEMPLATES_DIR)), autoescape=False)
+    env = Environment(
+        loader=FileSystemLoader(str(TEMPLATES_DIR)),
+        autoescape=select_autoescape(["html", "xml"], default=True),
+    )
     template = env.get_template("index.html")
     html = template.render(
         days=days,
         featured_day=featured_day,
         archive_days=archive_days,
         style_totals=style_totals_list,
+        source_totals=source_totals_list,
+        xhs_picks=xhs_picks[:10],
         total_photos=total_photos,
     )
 
     out_path = output_path / "index.html"
-    out_path.write_text(html, encoding="utf-8")
+    out_path.write_text(_strip_trailing_whitespace(html), encoding="utf-8", newline="\n")
     logger.info("Archive index updated: %s (%d days, %d photos)", out_path, len(days), total_photos)
     return out_path

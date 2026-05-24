@@ -267,3 +267,33 @@
 ![a black and white photo of a waterfall](https://images.unsplash.com/photo-1642714753200-6d6cdb49c323?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk1NjI0MDZ8&ixlib=rb-4.1.0&q=80&w=1080)
 
 > EXIF: Camera NIKON CORPORATION NIKON D7100 | f/5.0 | 30s | 24.0mm | ISO 100
+
+
+---
+
+# 小红书｜人像自然
+
+
+## #24 小红书｜人像自然
+
+**摄影师**: [李贰腿📷（五月新疆）](https://www.xiaohongshu.com/user/profile/5cccd6750000000010039b3e)
+ | **来源**: [小红书](https://www.xiaohongshu.com/discovery/item/66e5803b0000000026030817?app_platform=android&ignoreEngage=true&app_version=9.31.2&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBfMkixDO299WDNN9P7TkrM-z3uxlffVQQhl6XG75Svlk%3D&author_share=1&shareRedId=ODpHQzk4Rj42NzUyOTgwNjY0OTg3S0dM&apptime=1779603301&share_id=9134b310f90d48b2a691a706e5351615&share_channel=copy_link&appuid=64ec63b50000000001013fac&xhsshare=CopyLink)
+
+![朋友圈都说我拍的照片像散文诗](https://sns-webpic-qc.xhscdn.com/202605241449/3f036e763b661de18e30c8ec5eb802c7/1040g008317nq4jke444g5n6cqpqk76puq1ub4jg!nd_dft_wlteh_jpg_3)
+
+
+## 直觉
+最打动人的是“人被自然包住”的感觉：红衣像一小团火，落在潮湿的岩石、草木和山林里，有散文诗式的孤独与生命力。
+
+## 技法拆解
+- 红色上衣与大面积绿色形成强对比，人物即使占比不大也能被看见。
+- 构图上多用环境包围人物，留出山林、岩石和水流，让情绪大于“拍清楚人”。
+- 光线偏阴天或林下散射光，反差柔和，适合拍自然感人像。
+- 中间近景用浅景深压缩背景，突出衣领、肤色与岩石质感。
+- 整体曝光略压暗，保留森林的湿润、安静和电影感。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**，因为这类人像重点是控制景深和氛围，快门交给相机更灵活。推荐参数：环境人像用 **f/4-f/5.6，1/250s 以上，ISO 400-1600，评价测光，伺服 AF / 人眼检测，区域对焦**；近景可用 **f/2.8-f/4**。镜头建议 **RF-S 18-150mm** 拍全身与环境，或 **RF 50mm F1.8** 拍半身特写。现场先找深绿色背景和有层次的岩石，让人物穿亮色站进去；等阴天散射光或日落前柔光；按快门时让人物低头、侧身、停顿，不要一直看镜头。
+
+## 后期思路
+后期往“湿润、低饱和、电影绿”走：压高光、提一点阴影，降低整体饱和但保留红衣亮度。绿色可往青绿偏移，增加少量颗粒和暗角，让画面更像安静的散文诗。

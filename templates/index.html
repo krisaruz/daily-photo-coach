@@ -167,8 +167,15 @@
             color: rgba(33, 26, 21, 0.72);
         }
 
-        .hero-note {
+        .hero-actions {
             margin-top: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .hero-note {
             display: inline-flex;
             align-items: center;
             gap: 10px;
@@ -188,6 +195,27 @@
             border-radius: 999px;
             background: var(--accent);
             box-shadow: 0 0 0 6px rgba(182, 123, 62, 0.14);
+        }
+
+        .hero-action-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 40px;
+            padding: 10px 15px;
+            border-radius: 999px;
+            border: 1px solid rgba(190, 24, 93, 0.2);
+            background: rgba(255, 241, 246, 0.78);
+            color: #9f1239;
+            font-size: 13px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .hero-action-button:hover {
+            background: rgba(255, 228, 238, 0.95);
+            transform: translateY(-1px);
         }
 
         .feature-card {
@@ -480,6 +508,55 @@
             color: rgba(33, 26, 21, 0.6);
         }
 
+        .xhs-picks {
+            display: grid;
+            gap: 14px;
+        }
+
+        .xhs-pick {
+            display: grid;
+            grid-template-columns: 74px minmax(0, 1fr);
+            gap: 13px;
+            padding: 12px;
+            border-radius: 18px;
+            border: 1px solid rgba(190, 24, 93, 0.14);
+            background: rgba(255, 246, 249, 0.62);
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .xhs-pick img {
+            width: 74px;
+            height: 92px;
+            border-radius: 12px;
+            object-fit: cover;
+            background: rgba(55, 42, 32, 0.08);
+        }
+
+        .xhs-pick h3 {
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.45;
+            color: #4c1829;
+        }
+
+        .xhs-pick p {
+            margin: 6px 0 0;
+            font-size: 12px;
+            line-height: 1.65;
+            color: rgba(76, 24, 41, 0.68);
+        }
+
+        .xhs-pick-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 9px;
+            font-size: 11px;
+            font-weight: 800;
+            color: rgba(76, 24, 41, 0.58);
+        }
+
         .method-list {
             display: grid;
             gap: 14px;
@@ -601,7 +678,10 @@
                     把每日照片分析做成一座可回看、可比较、也更像作品手账的摄影档案馆。
                     每次打开，都能从光线、构图、色彩和拍摄决策里重新学到一点东西。
                 </p>
-                <div class="hero-note">Unsplash 图像采集 · 多模态分析 · 静态页面归档</div>
+                <div class="hero-actions">
+                    <button class="hero-action-button" onclick="importXhs()">导入小红书链接</button>
+                    <div class="hero-note">Unsplash / 小红书图像采集 · 多模态分析 · 静态页面归档</div>
+                </div>
 
                 <div class="stat-grid">
                     <div class="stat-card">
@@ -695,6 +775,35 @@
             </section>
 
             <aside class="stack">
+                {% if xhs_picks %}
+                <section class="section-block panel">
+                    <div class="section-head">
+                        <div>
+                            <p>Xiaohongshu</p>
+                            <h2>小红书精选</h2>
+                        </div>
+                    </div>
+
+                    <div class="xhs-picks">
+                        {% for pick in xhs_picks[:5] %}
+                        <a href="{{ pick.date }}/index.html" class="xhs-pick">
+                            <img src="{{ pick.image }}" alt="{{ pick.title }}" loading="lazy">
+                            <div>
+                                <h3>{{ pick.title }}</h3>
+                                {% if pick.caption %}
+                                <p>{{ pick.caption }}</p>
+                                {% endif %}
+                                <div class="xhs-pick-meta">
+                                    <span>{{ pick.date }}</span>
+                                    <span>{{ pick.photographer }}</span>
+                                </div>
+                            </div>
+                        </a>
+                        {% endfor %}
+                    </div>
+                </section>
+                {% endif %}
+
                 <section class="section-block panel">
                     <div class="section-head">
                         <div>
@@ -751,5 +860,62 @@
 
         <footer>Daily Photo Coach · Learn by looking closely</footer>
     </div>
+    <script>
+    const GITHUB_REPO = 'krisaruz/daily-photo-coach';
+    const GITHUB_REF = 'master';
+
+    function getGithubPat() {
+        let pat = localStorage.getItem('photo_coach_pat') || '';
+        if (!pat) {
+            pat = prompt('首次使用需配置 GitHub PAT（仅需 Actions write 权限）：');
+            if (pat) localStorage.setItem('photo_coach_pat', pat);
+        }
+        return pat;
+    }
+
+    async function dispatchWorkflow(workflowFile, inputs, successMessage) {
+        const pat = getGithubPat();
+        if (!pat) return;
+        const resp = await fetch(
+            `https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${workflowFile}/dispatches`,
+            {
+                method: 'POST',
+                headers: {
+                    'Authorization': `token ${pat}`,
+                    'Accept': 'application/vnd.github.v3+json'
+                },
+                body: JSON.stringify({ ref: GITHUB_REF, inputs })
+            }
+        );
+        if (resp.status === 204) {
+            alert(successMessage);
+            return;
+        }
+        if (resp.status === 401 || resp.status === 403) {
+            localStorage.removeItem('photo_coach_pat');
+            alert('PAT 无效或权限不足，请重新配置。');
+            return;
+        }
+        alert(`触发失败 (HTTP ${resp.status})，请检查 workflow、分支或 PAT 权限。`);
+    }
+
+    async function importXhs() {
+        const url = prompt('粘贴小红书公开分享链接或笔记链接：');
+        if (!url) return;
+        const style = prompt('归入哪个栏目？', '小红书｜人像自然') || '小红书｜人像自然';
+        const limit = prompt('最多导入几张图？', '6') || '6';
+        const ok = confirm(`确认导入「${style}」？\n将触发后台抓取公开图片并调用 GPT-5.5 分析。`);
+        if (!ok) return;
+        try {
+            await dispatchWorkflow(
+                'xhs.yml',
+                { url, style, limit, source_name: '', model: 'gpt-5.5', skip_analysis: 'false' },
+                '已触发小红书导入！完成后刷新页面即可看到新栏目。'
+            );
+        } catch (e) {
+            alert('网络错误: ' + e.message);
+        }
+    }
+    </script>
 </body>
 </html>

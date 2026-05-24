@@ -124,7 +124,13 @@
             <div class="text-center">
                 <div class="font-serif text-base font-bold tracking-tight text-ink">Daily Photo Coach</div>
             </div>
-            <div class="text-xs text-muted font-medium tabular-nums">2026-05-15 · 6 张</div>
+            <div class="flex items-center gap-3">
+                <button onclick="importXhs()"
+                        class="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-semibold text-rose-700 border border-rose-200 bg-rose-50/70 hover:bg-rose-100 transition-colors">
+                    导入小红书
+                </button>
+                <div class="text-xs text-muted font-medium tabular-nums">2026-05-15 · 25 张</div>
+            </div>
         </div>
     </header>
 
@@ -132,11 +138,11 @@
     <nav class="sticky top-14 z-40 bg-[#faf9f7]/90 backdrop-blur-lg border-b border-stone-200/50">
         <div class="max-w-[1200px] mx-auto px-6">
             <div class="flex gap-0.5 overflow-x-auto scrollbar-hide -mb-px" id="tab-bar">
-                
+
                 <button
                     class="tab-pill px-5 py-3 text-[13px] text-slate-500 flex items-center gap-2 rounded-t-lg active"
                     style="--c: #16a34a"
-                    onclick="switchTab('风光自然')"
+                    onclick='switchTab("\u98ce\u5149\u81ea\u7136")'
                     data-tab="风光自然"
                 >
                     <span class="text-base leading-none">🏔️</span>
@@ -146,11 +152,11 @@
                         3
                     </span>
                 </button>
-                
+
                 <button
                     class="tab-pill px-5 py-3 text-[13px] text-slate-500 flex items-center gap-2 rounded-t-lg "
                     style="--c: #ea580c"
-                    onclick="switchTab('街头人文')"
+                    onclick='switchTab("\u8857\u5934\u4eba\u6587")'
                     data-tab="街头人文"
                 >
                     <span class="text-base leading-none">🚶</span>
@@ -160,14 +166,112 @@
                         3
                     </span>
                 </button>
-                
+
+                <button
+                    class="tab-pill px-5 py-3 text-[13px] text-slate-500 flex items-center gap-2 rounded-t-lg "
+                    style="--c: #dc2626"
+                    onclick='switchTab("\u4eba\u50cf\u8096\u50cf")'
+                    data-tab="人像肖像"
+                >
+                    <span class="text-base leading-none">👤</span>
+                    <span>人像/肖像</span>
+                    <span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 rounded-full text-[11px] font-semibold"
+                          style="background: #dc262612; color: #dc2626">
+                        3
+                    </span>
+                </button>
+
+                <button
+                    class="tab-pill px-5 py-3 text-[13px] text-slate-500 flex items-center gap-2 rounded-t-lg "
+                    style="--c: #2563eb"
+                    onclick='switchTab("\u6781\u7b80\u5efa\u7b51")'
+                    data-tab="极简建筑"
+                >
+                    <span class="text-base leading-none">🏛️</span>
+                    <span>极简/建筑</span>
+                    <span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 rounded-full text-[11px] font-semibold"
+                          style="background: #2563eb12; color: #2563eb">
+                        3
+                    </span>
+                </button>
+
+                <button
+                    class="tab-pill px-5 py-3 text-[13px] text-slate-500 flex items-center gap-2 rounded-t-lg "
+                    style="--c: #d97706"
+                    onclick='switchTab("\u7f8e\u98df\u9759\u7269")'
+                    data-tab="美食静物"
+                >
+                    <span class="text-base leading-none">🍽️</span>
+                    <span>美食/静物</span>
+                    <span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 rounded-full text-[11px] font-semibold"
+                          style="background: #d9770612; color: #d97706">
+                        3
+                    </span>
+                </button>
+
+                <button
+                    class="tab-pill px-5 py-3 text-[13px] text-slate-500 flex items-center gap-2 rounded-t-lg "
+                    style="--c: #7c3aed"
+                    onclick='switchTab("\u591c\u666f\u57ce\u5e02")'
+                    data-tab="夜景城市"
+                >
+                    <span class="text-base leading-none">🌃</span>
+                    <span>夜景/城市</span>
+                    <span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 rounded-full text-[11px] font-semibold"
+                          style="background: #7c3aed12; color: #7c3aed">
+                        3
+                    </span>
+                </button>
+
+                <button
+                    class="tab-pill px-5 py-3 text-[13px] text-slate-500 flex items-center gap-2 rounded-t-lg "
+                    style="--c: #0d9488"
+                    onclick='switchTab("\u5fae\u8ddd\u7279\u5199")'
+                    data-tab="微距特写"
+                >
+                    <span class="text-base leading-none">🔍</span>
+                    <span>微距/特写</span>
+                    <span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 rounded-full text-[11px] font-semibold"
+                          style="background: #0d948812; color: #0d9488">
+                        3
+                    </span>
+                </button>
+
+                <button
+                    class="tab-pill px-5 py-3 text-[13px] text-slate-500 flex items-center gap-2 rounded-t-lg "
+                    style="--c: #475569"
+                    onclick='switchTab("\u9ed1\u767d\u5149\u5f71")'
+                    data-tab="黑白光影"
+                >
+                    <span class="text-base leading-none">⬛</span>
+                    <span>黑白/光影</span>
+                    <span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 rounded-full text-[11px] font-semibold"
+                          style="background: #47556912; color: #475569">
+                        3
+                    </span>
+                </button>
+
+                <button
+                    class="tab-pill px-5 py-3 text-[13px] text-slate-500 flex items-center gap-2 rounded-t-lg "
+                    style="--c: #be185d"
+                    onclick='switchTab("\u5c0f\u7ea2\u4e66\u4eba\u50cf\u81ea\u7136")'
+                    data-tab="小红书人像自然"
+                >
+                    <span class="text-base leading-none">📕</span>
+                    <span>小红书｜人像自然</span>
+                    <span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 rounded-full text-[11px] font-semibold"
+                          style="background: #be185d12; color: #be185d">
+                        1
+                    </span>
+                </button>
+
             </div>
         </div>
     </nav>
 
     <!-- Tab 内容面板 -->
     <main class="max-w-[1200px] mx-auto px-6 py-10">
-        
+
         <section class="panel active" id="panel-风光自然">
 
             <!-- 风格标题 -->
@@ -179,7 +283,7 @@
                         <p class="text-sm text-muted mt-0.5">3 张精选作品 · 摄影点评</p>
                     </div>
                 </div>
-                <button onclick="refreshStyle('风光/自然')"
+                <button onclick='refreshStyle("\u98ce\u5149/\u81ea\u7136")'
                         class="refresh-btn inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-slate-500 border border-slate-200 hover:border-slate-300 hover:text-slate-700 hover:bg-slate-50 transition-all">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
                     换一批
@@ -187,12 +291,12 @@
             </div>
 
             <div class="space-y-14">
-                
+
                 <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
 
                     <!-- 照片 -->
-                    <div class="photo-frame aspect-video" onclick="openLightbox('https://images.unsplash.com/photo-1634500242686-34d9fc1c9f6f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NTJ8&ixlib=rb-4.1.0&q=85')">
-                        <img src="https://images.unsplash.com/photo-1634500242686-34d9fc1c9f6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NTJ8&ixlib=rb-4.1.0&q=80&w=1080" alt="a mountain range with trees and clouds in the background"
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1634500242686-34d9fc1c9f6f?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NTJ8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1634500242686-34d9fc1c9f6f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NTJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="a mountain range with trees and clouds in the background"
                              class="w-full h-full object-cover" loading="lazy">
                         <div class="overlay"></div>
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
@@ -211,35 +315,39 @@
                                     🏔️ #1
                                 </span>
                                 <span class="text-sm text-slate-500">
-                                    <a href="https://unsplash.com/@kaldenswart" target="_blank"
+
+                                    <a href="https://unsplash.com/@kaldenswart" target="_blank" rel="noopener"
                                        class="font-medium text-ink hover:underline">Kalden Swart</a>
+
                                     <span class="text-muted mx-1">·</span>
-                                    <a href="https://unsplash.com/photos/a-mountain-range-with-trees-and-clouds-in-the-background-mAjR1Md3pVE" target="_blank"
+                                    <a href="https://unsplash.com/photos/a-mountain-range-with-trees-and-clouds-in-the-background-mAjR1Md3pVE" target="_blank" rel="noopener"
                                        class="text-muted hover:text-ink transition-colors">Unsplash</a>
                                 </span>
                             </div>
 
                             <!-- EXIF -->
-                            
+
                             <div class="flex flex-wrap gap-1.5">
-                                
+
                                 <span class="exif-tag">Canon Canon EOS 200D</span>
-                                
-                                
+
+
                                 <span class="exif-tag">f/1.8</span>
-                                
-                                
+
+
                                 <span class="exif-tag">1/250s</span>
-                                
-                                
+
+
                                 <span class="exif-tag">50.0mm</span>
-                                
-                                
+
+
                                 <span class="exif-tag">ISO 200</span>
-                                
+
                             </div>
-                            
+
                         </div>
+
+
 
                         <!-- 展开/收起分析 -->
                         <div class="mt-5 border-t border-stone-100 pt-4">
@@ -269,12 +377,12 @@
                         </div>
                     </div>
                 </article>
-                
+
                 <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
 
                     <!-- 照片 -->
-                    <div class="photo-frame aspect-video" onclick="openLightbox('https://images.unsplash.com/photo-1634220954278-d90e1632d9bf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NTR8&ixlib=rb-4.1.0&q=85')">
-                        <img src="https://images.unsplash.com/photo-1634220954278-d90e1632d9bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NTR8&ixlib=rb-4.1.0&q=80&w=1080" alt="clouds"
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1634220954278-d90e1632d9bf?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NTR8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1634220954278-d90e1632d9bf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="clouds"
                              class="w-full h-full object-cover" loading="lazy">
                         <div class="overlay"></div>
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
@@ -293,17 +401,21 @@
                                     🏔️ #2
                                 </span>
                                 <span class="text-sm text-slate-500">
-                                    <a href="https://unsplash.com/@lauraadaiphoto" target="_blank"
+
+                                    <a href="https://unsplash.com/@lauraadaiphoto" target="_blank" rel="noopener"
                                        class="font-medium text-ink hover:underline">laura adai</a>
+
                                     <span class="text-muted mx-1">·</span>
-                                    <a href="https://unsplash.com/photos/a-mountain-covered-in-snow-and-clouds-on-a-cloudy-day-6T33jxVQNa0" target="_blank"
+                                    <a href="https://unsplash.com/photos/a-mountain-covered-in-snow-and-clouds-on-a-cloudy-day-6T33jxVQNa0" target="_blank" rel="noopener"
                                        class="text-muted hover:text-ink transition-colors">Unsplash</a>
                                 </span>
                             </div>
 
                             <!-- EXIF -->
-                            
+
                         </div>
+
+
 
                         <!-- 展开/收起分析 -->
                         <div class="mt-5 border-t border-stone-100 pt-4">
@@ -333,12 +445,12 @@
                         </div>
                     </div>
                 </article>
-                
+
                 <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
 
                     <!-- 照片 -->
-                    <div class="photo-frame aspect-video" onclick="openLightbox('https://images.unsplash.com/photo-1728844484740-1a871298d400?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NTd8&ixlib=rb-4.1.0&q=85')">
-                        <img src="https://images.unsplash.com/photo-1728844484740-1a871298d400?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NTd8&ixlib=rb-4.1.0&q=80&w=1080" alt="National park Paklenica, seen from the highway."
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1728844484740-1a871298d400?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NTd8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1728844484740-1a871298d400?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NTd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="National park Paklenica, seen from the highway."
                              class="w-full h-full object-cover" loading="lazy">
                         <div class="overlay"></div>
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
@@ -357,17 +469,21 @@
                                     🏔️ #3
                                 </span>
                                 <span class="text-sm text-slate-500">
-                                    <a href="https://unsplash.com/@markobrecic" target="_blank"
+
+                                    <a href="https://unsplash.com/@markobrecic" target="_blank" rel="noopener"
                                        class="font-medium text-ink hover:underline">Marko Brečić</a>
+
                                     <span class="text-muted mx-1">·</span>
-                                    <a href="https://unsplash.com/photos/a-view-of-a-mountain-range-with-a-body-of-water-in-the-foreground-Jr3bEBoL50c" target="_blank"
+                                    <a href="https://unsplash.com/photos/a-view-of-a-mountain-range-with-a-body-of-water-in-the-foreground-Jr3bEBoL50c" target="_blank" rel="noopener"
                                        class="text-muted hover:text-ink transition-colors">Unsplash</a>
                                 </span>
                             </div>
 
                             <!-- EXIF -->
-                            
+
                         </div>
+
+
 
                         <!-- 展开/收起分析 -->
                         <div class="mt-5 border-t border-stone-100 pt-4">
@@ -397,10 +513,10 @@
                         </div>
                     </div>
                 </article>
-                
+
             </div>
         </section>
-        
+
         <section class="panel " id="panel-街头人文">
 
             <!-- 风格标题 -->
@@ -412,7 +528,7 @@
                         <p class="text-sm text-muted mt-0.5">3 张精选作品 · 摄影点评</p>
                     </div>
                 </div>
-                <button onclick="refreshStyle('街头/人文')"
+                <button onclick='refreshStyle("\u8857\u5934/\u4eba\u6587")'
                         class="refresh-btn inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-slate-500 border border-slate-200 hover:border-slate-300 hover:text-slate-700 hover:bg-slate-50 transition-all">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
                     换一批
@@ -420,12 +536,12 @@
             </div>
 
             <div class="space-y-14">
-                
+
                 <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
 
                     <!-- 照片 -->
-                    <div class="photo-frame aspect-video" onclick="openLightbox('https://images.unsplash.com/photo-1515086626903-addbbe02b5ce?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NjZ8&ixlib=rb-4.1.0&q=85')">
-                        <img src="https://images.unsplash.com/photo-1515086626903-addbbe02b5ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NjZ8&ixlib=rb-4.1.0&q=80&w=1080" alt="bW"
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1515086626903-addbbe02b5ce?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NjZ8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1515086626903-addbbe02b5ce?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NjZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="bW"
                              class="w-full h-full object-cover" loading="lazy">
                         <div class="overlay"></div>
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
@@ -444,35 +560,39 @@
                                     🚶 #1
                                 </span>
                                 <span class="text-sm text-slate-500">
-                                    <a href="https://unsplash.com/@marxgall" target="_blank"
+
+                                    <a href="https://unsplash.com/@marxgall" target="_blank" rel="noopener"
                                        class="font-medium text-ink hover:underline">Marek Szturc</a>
+
                                     <span class="text-muted mx-1">·</span>
-                                    <a href="https://unsplash.com/photos/grayscale-photo-of-people-walking-on-street-Izlq5sHsoyc" target="_blank"
+                                    <a href="https://unsplash.com/photos/grayscale-photo-of-people-walking-on-street-Izlq5sHsoyc" target="_blank" rel="noopener"
                                        class="text-muted hover:text-ink transition-colors">Unsplash</a>
                                 </span>
                             </div>
 
                             <!-- EXIF -->
-                            
+
                             <div class="flex flex-wrap gap-1.5">
-                                
+
                                 <span class="exif-tag">NIKON CORPORATION NIKON D3300</span>
-                                
-                                
+
+
                                 <span class="exif-tag">f/5.6</span>
-                                
-                                
+
+
                                 <span class="exif-tag">1/200s</span>
-                                
-                                
+
+
                                 <span class="exif-tag">300.0mm</span>
-                                
-                                
+
+
                                 <span class="exif-tag">ISO 100</span>
-                                
+
                             </div>
-                            
+
                         </div>
+
+
 
                         <!-- 展开/收起分析 -->
                         <div class="mt-5 border-t border-stone-100 pt-4">
@@ -503,12 +623,12 @@
                         </div>
                     </div>
                 </article>
-                
+
                 <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
 
                     <!-- 照片 -->
-                    <div class="photo-frame aspect-video" onclick="openLightbox('https://images.unsplash.com/photo-1777048940797-38262f7c0875?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2Njd8&ixlib=rb-4.1.0&q=85')">
-                        <img src="https://images.unsplash.com/photo-1777048940797-38262f7c0875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2Njd8&ixlib=rb-4.1.0&q=80&w=1080" alt="Street view with buildings and people in black and white"
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1777048940797-38262f7c0875?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2Njd8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1777048940797-38262f7c0875?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2Njd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Street view with buildings and people in black and white"
                              class="w-full h-full object-cover" loading="lazy">
                         <div class="overlay"></div>
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
@@ -527,35 +647,39 @@
                                     🚶 #2
                                 </span>
                                 <span class="text-sm text-slate-500">
-                                    <a href="https://unsplash.com/@miguelalcantara" target="_blank"
+
+                                    <a href="https://unsplash.com/@miguelalcantara" target="_blank" rel="noopener"
                                        class="font-medium text-ink hover:underline">Miguel Alcântara</a>
+
                                     <span class="text-muted mx-1">·</span>
-                                    <a href="https://unsplash.com/photos/street-view-with-buildings-and-people-in-black-and-white-vawXttzWtPM" target="_blank"
+                                    <a href="https://unsplash.com/photos/street-view-with-buildings-and-people-in-black-and-white-vawXttzWtPM" target="_blank" rel="noopener"
                                        class="text-muted hover:text-ink transition-colors">Unsplash</a>
                                 </span>
                             </div>
 
                             <!-- EXIF -->
-                            
+
                             <div class="flex flex-wrap gap-1.5">
-                                
+
                                 <span class="exif-tag">Canon  EOS RP</span>
-                                
-                                
+
+
                                 <span class="exif-tag">f/1.8</span>
-                                
-                                
+
+
                                 <span class="exif-tag">1/4000s</span>
-                                
-                                
+
+
                                 <span class="exif-tag">50.0mm</span>
-                                
-                                
+
+
                                 <span class="exif-tag">ISO 640</span>
-                                
+
                             </div>
-                            
+
                         </div>
+
+
 
                         <!-- 展开/收起分析 -->
                         <div class="mt-5 border-t border-stone-100 pt-4">
@@ -586,12 +710,12 @@
                         </div>
                     </div>
                 </article>
-                
+
                 <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
 
                     <!-- 照片 -->
-                    <div class="photo-frame aspect-video" onclick="openLightbox('https://images.unsplash.com/photo-1703737433945-cb867d4132de?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NzN8&ixlib=rb-4.1.0&q=85')">
-                        <img src="https://images.unsplash.com/photo-1703737433945-cb867d4132de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NzN8&ixlib=rb-4.1.0&q=80&w=1080" alt="taking a picture in the tunnel"
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1703737433945-cb867d4132de?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NzN8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1703737433945-cb867d4132de?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NzN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="taking a picture in the tunnel"
                              class="w-full h-full object-cover" loading="lazy">
                         <div class="overlay"></div>
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
@@ -610,35 +734,39 @@
                                     🚶 #3
                                 </span>
                                 <span class="text-sm text-slate-500">
-                                    <a href="https://unsplash.com/@noellejlee" target="_blank"
+
+                                    <a href="https://unsplash.com/@noellejlee" target="_blank" rel="noopener"
                                        class="font-medium text-ink hover:underline">noelle</a>
+
                                     <span class="text-muted mx-1">·</span>
-                                    <a href="https://unsplash.com/photos/a-woman-taking-a-picture-of-a-car-through-a-tunnel-AfLpAJ-Mg0U" target="_blank"
+                                    <a href="https://unsplash.com/photos/a-woman-taking-a-picture-of-a-car-through-a-tunnel-AfLpAJ-Mg0U" target="_blank" rel="noopener"
                                        class="text-muted hover:text-ink transition-colors">Unsplash</a>
                                 </span>
                             </div>
 
                             <!-- EXIF -->
-                            
+
                             <div class="flex flex-wrap gap-1.5">
-                                
+
                                 <span class="exif-tag">Canon  EOS R</span>
-                                
-                                
+
+
                                 <span class="exif-tag">f/1.8</span>
-                                
-                                
+
+
                                 <span class="exif-tag">1/800s</span>
-                                
-                                
+
+
                                 <span class="exif-tag">50.0mm</span>
-                                
-                                
+
+
                                 <span class="exif-tag">ISO 400</span>
-                                
+
                             </div>
-                            
+
                         </div>
+
+
 
                         <!-- 展开/收起分析 -->
                         <div class="mt-5 border-t border-stone-100 pt-4">
@@ -669,10 +797,1750 @@
                         </div>
                     </div>
                 </article>
-                
+
             </div>
         </section>
-        
+
+        <section class="panel " id="panel-人像肖像">
+
+            <!-- 风格标题 -->
+            <div class="mb-8 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <span class="text-3xl">👤</span>
+                    <div>
+                        <h2 class="font-serif text-2xl font-bold text-ink">人像/肖像</h2>
+                        <p class="text-sm text-muted mt-0.5">3 张精选作品 · 摄影点评</p>
+                    </div>
+                </div>
+                <button onclick='refreshStyle("\u4eba\u50cf/\u8096\u50cf")'
+                        class="refresh-btn inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-slate-500 border border-slate-200 hover:border-slate-300 hover:text-slate-700 hover:bg-slate-50 transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                    换一批
+                </button>
+            </div>
+
+            <div class="space-y-14">
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1694055839361-302387897f17?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NjF8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1694055839361-302387897f17?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NjF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="a person holding a camera in their hand"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">josh A. D.</div>
+                            <div class="text-xs opacity-70 mt-0.5">a person holding a camera in their hand</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #dc26260c; color: #dc2626; border: 1px solid #dc262620">
+                                    👤 #1
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@mista_j" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">josh A. D.</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-person-holding-a-camera-in-their-hand-QcBUnwprLm8" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">Canon  EOS 5D Mark III</span>
+
+
+                                <span class="exif-tag">f/2.8</span>
+
+
+                                <span class="exif-tag">1/200s</span>
+
+
+                                <span class="exif-tag">50.0mm</span>
+
+
+                                <span class="exif-tag">ISO 400</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>这张照片最有意思的是“相机被拍成主角”，手掌提供了人物温度，让器材照不显冰冷。背景虚化柔和，视线很自然地落到机身和手部。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>f/2.8 带来明显浅景深，背景布料被化开，主体更突出。</li>
+<li>1/200s 足够压住手持抖动，手和相机边缘基本稳定。</li>
+<li>ISO 400 在室内光下比较稳妥，兼顾亮度与画质。</li>
+<li>50mm 焦段透视自然，适合拍这种近距离静物肖像。</li>
+<li>构图略偏左，右侧留出空间，但机身顶部高光稍抢眼，可注意控光。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘选 <strong>Av 光圈优先</strong>，因为这类照片核心是控制虚化和主体分离，让相机自动匹配快门更高效。推荐参数：光圈 <strong>f/2.8-f/4</strong>，快门尽量不低于 <strong>1/160s</strong>，ISO <strong>400-800</strong>，评价测光，<strong>单次 AF / 单点或小区域对焦</strong>，对焦在相机品牌标识或机身边缘细节上。R10 是 APS-C，想接近全画幅 50mm 视角，可用 <strong>RF 35mm F1.8</strong>；若用套头 RF-S 18-45mm，可拉到 <strong>35-45mm</strong>。现场先让人物手掌托稳相机，背景离主体远一点；找一侧柔和窗光或台灯，避免直射反光；按快门前微调角度，让机身高光不过曝、手部线条清楚。</p>
+
+<h2>后期思路</h2>
+<p>整体适合走暖调、柔和的器材肖像感。后期可稍降高光、提一点阴影，增强相机和手部纹理；背景降低清晰度或饱和度，让主体更干净。色温可略偏暖，但注意别让肤色过黄。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1664281933063-be08f5744ed9?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NjJ8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1664281933063-be08f5744ed9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NjJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="a city street with cars and buildings"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Mohammad Mardani</div>
+                            <div class="text-xs opacity-70 mt-0.5">a city street with cars and buildings</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #dc26260c; color: #dc2626; border: 1px solid #dc262620">
+                                    👤 #2
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@mmdam20" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Mohammad Mardani</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-city-street-with-cars-and-buildings-0ONFxqTB0QM" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">NIKON CORPORATION NIKON D7500</span>
+
+
+                                <span class="exif-tag">f/5.6</span>
+
+
+                                <span class="exif-tag">1/125s</span>
+
+
+                                <span class="exif-tag">140.0mm</span>
+
+
+                                <span class="exif-tag">ISO 320</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>高楼夹出的纵深街道很有“城市峡谷”感，夕阳只打亮部分楼面，让画面有冷暖对比和真实的都市气息。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>140mm 长焦压缩了街道和楼群距离，强化了纵向透视。</li>
+<li>f/5.6 保留了足够景深，建筑、道路、车辆都较清晰。</li>
+<li>1/125s 对 140mm 略临界，若手持拍摄要注意防抖和稳定姿势。</li>
+<li>画面中央道路形成天然引导线，但左右建筑稍杂，可再收紧构图。</li>
+<li>暗部偏青、亮部偏暖，氛围好，但阴影细节略沉。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘选 <strong>Av 光圈优先</strong>，适合控制景深，同时让相机应对城市光线变化。推荐参数：光圈 <strong>f/5.6-f/8</strong>，快门尽量不低于 <strong>1/160s</strong>，ISO <strong>自动或400以内</strong>，测光用 <strong>评价测光</strong>，对焦用 <strong>单次AF + 小区域/单点AF</strong> 对准道路中段。镜头建议用 <strong>RF-S 18-150mm</strong> 的 100-150mm 端，或 <strong>RF 100-400mm</strong> 取压缩感。现场先找高机位，站在窗边或天台安全位置；等待夕阳斜射到楼面时拍；竖构图让道路居中，等车辆分布均衡时按快门。</p>
+
+<h2>后期思路</h2>
+<p>整体可走“电影感城市黄昏”方向：压高光、提一点阴影，保留楼面金色光。白平衡略偏冷，HSL 中降低绿色和青色饱和度，再用曲线增加中等反差，让街道更有纵深。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1635256517359-25c63fcc2cb7?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NjR8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1635256517359-25c63fcc2cb7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NjR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="The sweetest girl I&#39;ve ever met"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Dulana Kodithuwakku</div>
+                            <div class="text-xs opacity-70 mt-0.5">The sweetest girl I&#39;ve ever met</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #dc26260c; color: #dc2626; border: 1px solid #dc262620">
+                                    👤 #3
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@dulana_hansisi" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Dulana Kodithuwakku</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-young-boy-sitting-on-a-bench-holding-a-bucket-50zfaxsJse0" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">Nikon Nikon D7200</span>
+
+
+
+
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>这张肖像最动人的是“生活感”：孩子坐在床沿，水桶、砖墙、门洞和布帘都在讲述她的环境。画面有真实的温度，不是摆拍感很重的人像。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>人物居中稳定，但背景元素较多，布帘和黑门洞会分散注意力。</li>
+<li>自然光从右侧打来，手臂和墙面较亮，脸部区域相对偏暗，光比稍大。</li>
+<li>前景水桶形成生活道具，也让人物双手有着落，姿态自然。</li>
+<li>背景虚化不强，环境信息保留较多，适合纪实肖像。</li>
+<li>EXIF 仅显示 Nikon D7200，无法判断具体曝光参数，但整体曝光可再压高光、提人物暗部。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘建议选 <strong>Av 光圈优先</strong>，因为这类环境人像重点是控制景深，同时让相机快速适应自然光变化。推荐参数：光圈 <strong>F2.8-F4</strong>，快门确保不低于 <strong>1/250s</strong>，ISO 自动上限 1600，<strong>评价测光</strong>，对焦用 <strong>伺服 AF + 人眼识别/单点区域</strong>。镜头可用 <strong>RF-S 18-150mm</strong> 的 50-80mm 段，或 <strong>RF 50mm F1.8</strong> 获得更柔和背景。</p>
+
+<p>现场拍摄时，先让人物坐在门口边缘光里，避免脸完全陷入阴影；摄影师略蹲低，与孩子视线接近平齐；等她手部自然放松、眼神稳定或轻微互动时连拍 2-3 张。</p>
+
+<h2>后期思路</h2>
+<p>后期方向应保留纪实质感，不要磨皮过度。重点压低右侧墙面高光，提亮人物脸部和上半身阴影，适当增加暖色温与一点对比。可用径向滤镜轻微突出人物，背景降低清晰度和饱和度，让视线更集中。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="panel " id="panel-极简建筑">
+
+            <!-- 风格标题 -->
+            <div class="mb-8 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <span class="text-3xl">🏛️</span>
+                    <div>
+                        <h2 class="font-serif text-2xl font-bold text-ink">极简/建筑</h2>
+                        <p class="text-sm text-muted mt-0.5">3 张精选作品 · 摄影点评</p>
+                    </div>
+                </div>
+                <button onclick='refreshStyle("\u6781\u7b80/\u5efa\u7b51")'
+                        class="refresh-btn inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-slate-500 border border-slate-200 hover:border-slate-300 hover:text-slate-700 hover:bg-slate-50 transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                    换一批
+                </button>
+            </div>
+
+            <div class="space-y-14">
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1770507423228-85dd82d418da?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NzZ8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1770507423228-85dd82d418da?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2NzZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="A bold yellow station canopy with a metro sign reading “Invalidovna” against a vivid blue sky. Strong color contrast and clean diagonal lines create a minimal urban detail."
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Mikhail Mamaev</div>
+                            <div class="text-xs opacity-70 mt-0.5">A bold yellow station canopy with a metro sign reading “Invalidovna” against a vivid blue sky. Strong color contrast and clean diagonal lines create a minimal urban detail.</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #2563eb0c; color: #2563eb; border: 1px solid #2563eb20">
+                                    🏛️ #1
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@mikhail_mamaev" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Mikhail Mamaev</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/yellow-sign-with-downward-arrow-under-blue-sky-grkYhWXE99U" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">FUJIFILM X-Pro3</span>
+
+
+                                <span class="exif-tag">f/1.0</span>
+
+
+                                <span class="exif-tag">1/5400s</span>
+
+
+                                <span class="exif-tag">50.0mm</span>
+
+
+                                <span class="exif-tag">ISO 160</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>蓝天与黄色站台棚形成非常直接的撞色，画面干净、有城市标识感。斜向结构线把视线自然引到“Invalidovna”站牌，极简但不空。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>黄色建筑占据下半部，蓝天留白很大，形成强烈的色块对比。</li>
+<li>斜线构图很有效，顶棚从左下延伸到右上，让静态建筑有了方向感。</li>
+<li>站牌放在右侧偏上位置，是画面的视觉锚点，避免画面只剩色彩。</li>
+<li>EXIF 为 f/1.0、1/5400s、ISO160，超大光圈带来浅景深，但建筑题材其实可适当收至 f/4-f/5.6，让线条和材质更稳。</li>
+<li>云朵柔化了大面积蓝天，减少了纯色背景的单调。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘建议选 <strong>Av 光圈优先</strong>，因为这类建筑细节重点是控制景深和画面锐度，快门交给相机即可。推荐参数：光圈 <strong>f/4-f/5.6</strong>，快门保持 <strong>1/500s 以上</strong>，ISO <strong>100-200</strong>，评价测光，曝光补偿可设 <strong>-0.3EV</strong> 防止黄色过曝；对焦用 <strong>单次 AF</strong>，对焦区域选 <strong>单点 AF</strong>，对准站牌文字或边缘。镜头可用 <strong>RF-S 18-150mm</strong> 的 50-80mm 段，或 <strong>RF 50mm F1.8</strong>，在 R10 上视角更紧凑，适合截取建筑局部。现场先低机位仰拍，让顶棚形成斜线；再微调左右位置，把站牌放到右上三分线附近；最后等云朵进入蓝天留白区域时按快门。</p>
+
+<h2>后期思路</h2>
+<p>后期方向可以走高饱和、清爽的都市极简风。适当提高蓝色和黄色的饱和度与明度，但避免荧光感；用曲线增加中等对比，压一点高光，提升站牌文字和顶棚纹理的清晰度。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1637682184683-74e6d34ed72d?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2Nzh8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1637682184683-74e6d34ed72d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2Nzh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="a stack of black boxes sitting on top of each other"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Andrew Kliatskyi</div>
+                            <div class="text-xs opacity-70 mt-0.5">a stack of black boxes sitting on top of each other</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #2563eb0c; color: #2563eb; border: 1px solid #2563eb20">
+                                    🏛️ #2
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@kirp" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Andrew Kliatskyi</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-stack-of-black-boxes-sitting-on-top-of-each-other-L52tyPFiLac" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>这张照片最吸引人的是“黑中见层次”：几乎没有颜色，却靠微弱的边缘光和重复几何形成压迫感。极简建筑感很强，像一座被切割过的黑色雕塑。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>构图以竖幅强化高度，右侧凸出的盒体打破单调重复，形成节奏变化。</li>
+<li>曝光明显偏暗，重点不是看清细节，而是保留黑色块面的体积感。</li>
+<li>光线来自侧上方，细窄高光勾出边缘，是这类照片成败关键。</li>
+<li>大面积黑场让画面更极简，但需要保留少量暗部纹理，避免死黑一片。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘建议选 <strong>M档</strong>，因为黑色主体会误导测光，手动曝光更稳定。推荐参数：f/5.6-f/8 保证建筑边缘清晰，1/125s 起步防抖，ISO 100-400，评价测光或点测亮边，对焦用 <strong>单次AF + 单点/小区域AF</strong>。镜头可用 <strong>RF-S 18-150mm</strong> 的 50-100mm 段压缩线条，或 RF 50mm 定焦拍更干净。现场先贴近建筑侧面，寻找侧光形成的边缘；再上下微调机位，让重复横线保持简洁；等光线最硬、边缘最清楚时按快门，可适当欠曝 1-2 档。</p>
+
+<h2>后期思路</h2>
+<p>后期走低调黑白或近黑色调方向，重点压低曝光和黑色，同时用曲线保住边缘高光。可提升少量对比度、清晰度和纹理，让盒体表面有质感；必要时用局部加深背景，让主体轮廓更纯粹。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1707672705875-cfb33db1a60d?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2ODF8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1707672705875-cfb33db1a60d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2ODF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Modernes Bürohaus mit geflochtener Edelstahl-Fassade"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Felix Erdmann</div>
+                            <div class="text-xs opacity-70 mt-0.5">Modernes Bürohaus mit geflochtener Edelstahl-Fassade</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #2563eb0c; color: #2563eb; border: 1px solid #2563eb20">
+                                    🏛️ #3
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@ferdmann" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Felix Erdmann</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-black-and-white-photo-of-a-tall-building-0Xep3P98-Ew" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>这张极简建筑照最有力量的是“空白墙面”和“编织立面”的对比：一边安静，一边密集，形成很强的现代秩序感。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>黑白处理强化了线条、体块和明暗关系，削弱了颜色干扰。</li>
+<li>构图上右侧大面积留白很大胆，让左下建筑纹理更突出。</li>
+<li>斜向屋顶线带来一点动势，避免画面过于呆板。</li>
+<li>EXIF 显示焦距 0.0mm，无法参考，实际更像中广角建筑视角。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘建议用 <strong>Av 光圈优先</strong>，建筑静态题材优先控制景深和画质。推荐参数：F8、1/250s 以上、ISO 100-400、评价测光，单次自动对焦 One-Shot，单点或小区域对焦。镜头可用 <strong>RF-S 18-45mm</strong> 的 18-24mm，或 <strong>RF-S 10-18mm</strong> 拍更强透视。现场先站到建筑斜前方，让墙面占右侧大块面积；等待均匀阴天或柔和侧光；取景时盯住垂直线，略微欠曝保住白墙层次再按快门。</p>
+
+<h2>后期思路</h2>
+<p>后期走高反差黑白极简方向：降低饱和度或直接转黑白，适当提高对比度、清晰度和纹理。重点压住高光、拉开黑场，同时用透视校正确保建筑线条干净利落。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="panel " id="panel-美食静物">
+
+            <!-- 风格标题 -->
+            <div class="mb-8 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <span class="text-3xl">🍽️</span>
+                    <div>
+                        <h2 class="font-serif text-2xl font-bold text-ink">美食/静物</h2>
+                        <p class="text-sm text-muted mt-0.5">3 张精选作品 · 摄影点评</p>
+                    </div>
+                </div>
+                <button onclick='refreshStyle("\u7f8e\u98df/\u9759\u7269")'
+                        class="refresh-btn inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-slate-500 border border-slate-200 hover:border-slate-300 hover:text-slate-700 hover:bg-slate-50 transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                    换一批
+                </button>
+            </div>
+
+            <div class="space-y-14">
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1694075496485-3888e79db7c8?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2ODR8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1694075496485-3888e79db7c8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2ODR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="a close up of a plate of food on a table"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Zyanya Citlalli</div>
+                            <div class="text-xs opacity-70 mt-0.5">a close up of a plate of food on a table</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #d977060c; color: #d97706; border: 1px solid #d9770620">
+                                    🍽️ #1
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@zonalsublime" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Zyanya Citlalli</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-close-up-of-a-plate-of-food-on-a-table-U2qi_6WSQFc" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">SONY ILCE-7M4</span>
+
+
+                                <span class="exif-tag">f/5.6</span>
+
+
+                                <span class="exif-tag">1/8s</span>
+
+
+                                <span class="exif-tag">70.0mm</span>
+
+
+                                <span class="exif-tag">ISO 320</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>低机位贴近食物，让这份小食有“端到眼前”的亲密感；背景灯光虚化成光斑，给静物增加了夜晚餐厅的氛围。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>70mm 视角压缩空间，背景被拉近且虚化，主体更突出。</li>
+<li>f/5.6 景深不算极浅，但近距离拍摄仍能形成漂亮虚化。</li>
+<li>1/8s 快门很慢，若手持容易糊，推测应有支撑或防抖辅助。</li>
+<li>暖色食物与暗背景形成对比，红色配料是画面视觉中心。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘选 <strong>Av 光圈优先</strong>，便于控制景深和背景虚化。建议用 <strong>RF-S 18-150mm</strong> 拉到 70-100mm，或 <strong>RF 50mm F1.8</strong> 拍近景；参数可设 <strong>f/4-f/5.6，1/60s 以上，ISO 800-1600，评价测光，单次 AF，单点/小区域对焦</strong>，对焦在食物最有质感的肉丝或红色配料上。现场先把相机降到桌面高度，寻找背景灯点；再让食物侧前方受光；最后等手稳或用小三脚架再按快门。</p>
+
+<h2>后期思路</h2>
+<p>整体保留暖调餐厅感，适度提高对比和清晰度，让食物纹理更有食欲。压低高光避免背景灯过曝，略提阴影；可用径向滤镜加强主体亮度，背景降饱和、降清晰度。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1689250034759-e98be89411ee?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2ODV8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1689250034759-e98be89411ee?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2ODV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="a table topped with cookies covered in powdered sugar"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Patrycja Jadach</div>
+                            <div class="text-xs opacity-70 mt-0.5">a table topped with cookies covered in powdered sugar</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #d977060c; color: #d97706; border: 1px solid #d9770620">
+                                    🍽️ #2
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@patrycjajadach" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Patrycja Jadach</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-table-topped-with-cookies-covered-in-powdered-sugar-RKBP8k-X7hI" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">Canon  EOS 5D Mark III</span>
+
+
+                                <span class="exif-tag">f/1.8</span>
+
+
+                                <span class="exif-tag">1/200s</span>
+
+
+                                <span class="exif-tag">50.0mm</span>
+
+
+                                <span class="exif-tag">ISO 200</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>这张美食静物有很强的“乡村手作感”：粗木桌、白纱布、燕麦穗和糖粉一起营造出温暖、朴素的烘焙氛围。蜂蜜碗是很好的视觉锚点，让画面不只是饼干平铺。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>俯拍构图很适合饼干这类扁平主体，圆形饼干与圆碗形成重复节奏。</li>
+<li>白纱布把粗糙木纹和食物隔开，既提亮画面，也增加柔软层次。</li>
+<li>EXIF 的 f/1.8 在俯拍静物中景深偏浅，边缘饼干可能略虚；若想整体清晰可收至 f/4 左右。</li>
+<li>1/200s、ISO 200 很稳，适合自然窗光下手持或三脚架拍摄。</li>
+<li>色彩以棕、白、金为主，统一且有食欲，蜂蜜的暖黄色起到点睛作用。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘建议选 <strong>Av 光圈优先</strong>，因为美食静物最关键是控制景深和清晰范围。参数可用 <strong>f/4、1/125s 以上、ISO 200-800、评价测光、单次 AF，单点或小区域对焦</strong>；若上三脚架可把 ISO 固定 100。镜头建议用 <strong>RF-S 18-150mm 的 35-50mm 段</strong>，或 <strong>RF 50mm F1.8 STM</strong>；R10 上 50mm 等效约 80mm，适合压缩静物细节，但俯拍需站高一些。现场先把桌面靠近侧窗，让光从左上方斜射；再用纱布做 S 形走势，饼干错落摆放，蜂蜜碗放在三分线附近；最后对焦在中央饼干或蜂蜜勺交界处，等光线稳定后连拍几张微调构图。</p>
+
+<h2>后期思路</h2>
+<p>后期走“自然、粗粝、手作烘焙”方向：适当提高对比和纹理，让糖粉、木纹、饼干裂纹更明显。白纱布可稍微压高光、降一点饱和，避免抢主体；蜂蜜区域可局部提升暖色和亮度，突出食欲感。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1575972813356-d5d4f6e47985?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2ODd8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1575972813356-d5d4f6e47985?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2ODd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Asian Japanese Ramen Noodles with Soy sauce, peppers,radish, spring onion, sea weed, sesame seeds garlic wooden cutting board. Food ingredients oil, mushrooms shitake and chicken broth"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Daniel Houwing</div>
+                            <div class="text-xs opacity-70 mt-0.5">Asian Japanese Ramen Noodles with Soy sauce, peppers,radish, spring onion, sea weed, sesame seeds garlic wooden cutting board. Food ingredients oil, mushrooms shitake and chicken broth</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #d977060c; color: #d97706; border: 1px solid #d9770620">
+                                    🍽️ #3
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@danielhouwing" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Daniel Houwing</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/assorted-spices-on-chopping-board-H64BCK9xJvI" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">NIKON CORPORATION NIKON D5300</span>
+
+
+                                <span class="exif-tag">f/3.5</span>
+
+
+                                <span class="exif-tag">1/160s</span>
+
+
+                                <span class="exif-tag">18.0mm</span>
+
+
+                                <span class="exif-tag">ISO 320</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>这张静物最吸引人的是“料理前的仪式感”：木板、香料、蔬菜围成一圈，中间留白让画面有呼吸。整体有自然光下的手作温度，很适合日式拉面食材主题。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>俯拍构图很稳，砧板斜放形成动线，避免了呆板的横平竖直。</li>
+<li>周边食材做“框景”，中央留白突出主体，也方便后期加文字。</li>
+<li>木色、绿色、红色形成自然对比，食材新鲜感被强化。</li>
+<li>EXIF 为 f/3.5、1/160s、ISO320、18mm；广角带来空间感，但边缘物体会有轻微拉伸。</li>
+<li>光线像是侧上方自然窗光，阴影保留得不错，增加了木纹质感。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘选 <strong>Av 光圈优先</strong>，因为静物俯拍最需要控制景深和画面清晰度。建议用 <strong>f/5.6-f/8、1/125s 以上、ISO100-400、评价测光、One-Shot AF、单点或小区域对焦</strong>；若上三脚架可把 ISO 固定 100。镜头可用 <strong>RF-S 18-45mm</strong> 的 18-24mm 拍大场景，或 <strong>RF-S 18-150mm</strong> 在 24-35mm 减少畸变。现场先站到桌面正上方或用横臂三脚架，砧板斜放；再把红绿食材分散到四角平衡色彩；最后等窗光柔和时拍，注意不要让身体挡光。</p>
+
+<h2>后期思路</h2>
+<p>后期方向是保留自然木质和食材新鲜感，不要调得过艳。可略提曝光和阴影，增加纹理/清晰度突出木板与香料颗粒；白平衡稍微偏暖，绿色和红色单独微调饱和度即可。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="panel " id="panel-夜景城市">
+
+            <!-- 风格标题 -->
+            <div class="mb-8 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <span class="text-3xl">🌃</span>
+                    <div>
+                        <h2 class="font-serif text-2xl font-bold text-ink">夜景/城市</h2>
+                        <p class="text-sm text-muted mt-0.5">3 张精选作品 · 摄影点评</p>
+                    </div>
+                </div>
+                <button onclick='refreshStyle("\u591c\u666f/\u57ce\u5e02")'
+                        class="refresh-btn inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-slate-500 border border-slate-200 hover:border-slate-300 hover:text-slate-700 hover:bg-slate-50 transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                    换一批
+                </button>
+            </div>
+
+            <div class="space-y-14">
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1581906848371-59968ebb7052?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2ODl8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1581906848371-59968ebb7052?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2ODl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="red and white coca cola neon light signage"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Alora Griffiths</div>
+                            <div class="text-xs opacity-70 mt-0.5">red and white coca cola neon light signage</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #7c3aed0c; color: #7c3aed; border: 1px solid #7c3aed20">
+                                    🌃 #1
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@aloragriffiths" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Alora Griffiths</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/red-and-white-coca-cola-neon-light-signage-7h5J9TofreU" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">SONY ILCE-7M3</span>
+
+
+                                <span class="exif-tag">f/1.8</span>
+
+
+                                <span class="exif-tag">1/320s</span>
+
+
+                                <span class="exif-tag">85.0mm</span>
+
+
+                                <span class="exif-tag">ISO 2500</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>红色霓虹在黑暗巷道里非常抓眼，画面有明显的夜城情绪。左侧砖墙和管线的粗粝质感，也让“Scarlett”招牌更有故事感。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>EXIF 使用 f/1.8、1/320s、ISO2500，快门很稳，适合手持夜拍。</li>
+<li>85mm 焦段压缩空间，让招牌和墙面关系更紧凑。</li>
+<li>画面整体欠曝处理正确，保住了霓虹灯的高光氛围。</li>
+<li>构图上招牌偏右，左侧暗墙留白增加了城市孤独感。</li>
+<li>红色单一主色很强，但白色霓虹略接近过曝，需注意压高光。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘选 <strong>Av 光圈优先</strong>，夜景霓虹重点是控制景深和进光量，让相机自动匹配快门更高效。推荐 <strong>RF 50mm F1.8 STM</strong>，在 R10 上约等效 80mm，接近这张 85mm 的视角；若空间更窄可用 RF-S 18-150mm 的 50-70mm 段。</p>
+
+<p>参数建议：光圈 <strong>f/1.8-f/2.8</strong>，快门尽量不低于 <strong>1/160s</strong>，ISO <strong>1600-3200</strong>，评价测光，曝光补偿 <strong>-0.7 到 -1.3EV</strong>；对焦用 <strong>单次 AF + 小区域/单点 AF</strong>，对准霓虹字边缘或招牌框。</p>
+
+<p>现场先站在招牌斜前方，让墙线形成纵深；等路人或车灯干扰减少时拍；按快门前检查高光预警，宁可暗一点也别让霓虹字糊成一片。</p>
+
+<h2>后期思路</h2>
+<p>后期方向是“低调、高反差、红色电影感”。压高光和白色色阶，稍提阴影保留砖墙纹理；红色可提高饱和但降低明度，黑色加深，最后适度降噪和加一点暗角。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1709672328072-506fd8000bb7?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2OTB8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1709672328072-506fd8000bb7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2OTB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Lisbon Nightscapes: Vibrant Neons and Glass Reflections Amidst City Lights - Captured amidst the enchanting nocturnal ambiance of Lisbon, this photograph unveils a mesmerizing interplay of vibrant neons, gleaming glass reflections, and the twinkling allure of city lights. Against the backdrop of the urban skyline, neon signs cast their luminous hues, painting the atmosphere with an electrifying vibrancy. The glass facades of buildings mirror the luminosity, creating a kaleidoscopic spectacle that dances with the rhythm of the night. Illuminating the streets below, the city lights add depth and"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Bodega</div>
+                            <div class="text-xs opacity-70 mt-0.5">Lisbon Nightscapes: Vibrant Neons and Glass Reflections Amidst City Lights - Captured amidst the enchanting nocturnal ambiance of Lisbon, this photograph unveils a mesmerizing interplay of vibrant neons, gleaming glass reflections, and the twinkling allure of city lights. Against the backdrop of the urban skyline, neon signs cast their luminous hues, painting the atmosphere with an electrifying vibrancy. The glass facades of buildings mirror the luminosity, creating a kaleidoscopic spectacle that dances with the rhythm of the night. Illuminating the streets below, the city lights add depth and</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #7c3aed0c; color: #7c3aed; border: 1px solid #7c3aed20">
+                                    🌃 #2
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@bodegasupply" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Bodega</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-statue-of-a-person-holding-a-black-umbrella-rXOM06pOACE" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">LEICA CAMERA AG LEICA CL</span>
+
+
+
+                                <span class="exif-tag">1/160s</span>
+
+
+                                <span class="exif-tag">0.0mm</span>
+
+
+                                <span class="exif-tag">ISO 1600</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>巨手雕塑与建筑转角形成很强的城市戏剧感，红蓝霓虹把夜景拍出了赛博气质。画面最亮眼的是“巨大黑影”和“发光街景”的反差。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>竖构图很合适，强化雕塑的高度，也让建筑线条有压迫感。</li>
+<li>1/160s、ISO1600适合手持夜景，能压住抖动，但暗部会有噪点。</li>
+<li>红色霓虹作为点睛色，让偏冷的玻璃和墙面不显单调。</li>
+<li>雕塑主体略黑，属于剪影化处理，保留神秘感，但细节可再提一点。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘建议选 <strong>M档</strong>，夜景霓虹明暗差大，手动曝光更稳定，不容易被灯光骗测光。推荐参数：光圈 <strong>F4-F5.6</strong>，快门 <strong>1/125-1/160s</strong>，ISO <strong>1600-3200</strong>，评价测光；对焦用 <strong>单次AF + 单点/小区域AF</strong>，对在雕塑边缘或建筑窗框上。镜头建议 <strong>RF-S 10-18mm</strong> 拍广角张力，或 <strong>RF-S 18-45mm 的18mm端</strong>。现场先站在雕塑下方略仰拍，保持建筑竖线尽量端正；等红色霓虹最亮、人流少时按快门；可连拍2-3张防手抖。</p>
+
+<h2>后期思路</h2>
+<p>整体往冷紫、青蓝夜景方向走，保留红色霓虹的冲击力。降低高光避免灯带过曝，适度提升阴影找回雕塑纹理；用降噪和清晰度控制暗部质感，别把黑色提得太灰。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1633551692448-52cff691046c?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2OTJ8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1633551692448-52cff691046c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2OTJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="A view of Matera, Italy."
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">francesco pepe</div>
+                            <div class="text-xs opacity-70 mt-0.5">A view of Matera, Italy.</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #7c3aed0c; color: #7c3aed; border: 1px solid #7c3aed20">
+                                    🌃 #3
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@pepe_roma" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">francesco pepe</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-large-clock-tower-towering-over-a-city-at-night-7as-SPwMkVk" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">SONY ILCE-7SM2</span>
+
+
+                                <span class="exif-tag">f/6.3</span>
+
+
+                                <span class="exif-tag">1/25s</span>
+
+
+                                <span class="exif-tag">51.0mm</span>
+
+
+                                <span class="exif-tag">ISO 640</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>最打动人的是“暗城托起亮塔”的戏剧感，塔楼像夜色里的视觉锚点。整体低调、克制，很有马泰拉古城的神秘气质。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>原片 f/6.3、1/25s、ISO640，曝光压得较暗，保住了夜空和灯光层次。</li>
+<li>51mm 视角压缩了城镇层叠感，让塔楼更突出。</li>
+<li>构图把塔放在偏上中央，稳定但不呆板，前景黑影增加纵深。</li>
+<li>暖色灯光与冷蓝夜色形成对比，是画面情绪核心。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘选 <strong>Av 光圈优先</strong>，夜景静物方便控制景深，同时让相机自动给快门。推荐 <strong>f/5.6-f/6.3，ISO 800，曝光补偿 -0.7EV，评价测光，单次 AF，单点/小区域对焦塔楼</strong>；若手持，快门尽量不低于 1/50s，开镜头防抖。镜头用 <strong>RF-S 18-45mm 的 30-35mm</strong>，或 <strong>RF 35mm F1.8</strong>，接近此片视角。现场先找高处或远处平台，让塔楼露出天际线；等天未全黑的蓝调时刻；对塔楼测焦，连拍 2-3 张防抖动。</p>
+
+<h2>后期思路</h2>
+<p>后期保持低调夜景，不要强行提亮全城。降低高光保护塔楼，微提阴影找回建筑纹理；色温略偏冷，局部给灯光和塔楼加一点暖色与清晰度，强化冷暖对比。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="panel " id="panel-微距特写">
+
+            <!-- 风格标题 -->
+            <div class="mb-8 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <span class="text-3xl">🔍</span>
+                    <div>
+                        <h2 class="font-serif text-2xl font-bold text-ink">微距/特写</h2>
+                        <p class="text-sm text-muted mt-0.5">3 张精选作品 · 摄影点评</p>
+                    </div>
+                </div>
+                <button onclick='refreshStyle("\u5fae\u8ddd/\u7279\u5199")'
+                        class="refresh-btn inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-slate-500 border border-slate-200 hover:border-slate-300 hover:text-slate-700 hover:bg-slate-50 transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                    换一批
+                </button>
+            </div>
+
+            <div class="space-y-14">
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1733641839465-f9de0c9b9bde?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2OTN8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1733641839465-f9de0c9b9bde?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2OTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="A pair of headphones sitting on top of a wooden table"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Gaurav Kumar</div>
+                            <div class="text-xs opacity-70 mt-0.5">A pair of headphones sitting on top of a wooden table</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #0d94880c; color: #0d9488; border: 1px solid #0d948820">
+                                    🔍 #1
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@countingframez" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Gaurav Kumar</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-pair-of-headphones-sitting-on-top-of-a-wooden-table-sgP0k6Xmr4I" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">SONY ILCE-7C</span>
+
+
+                                <span class="exif-tag">f/2.8</span>
+
+
+                                <span class="exif-tag">1/1000s</span>
+
+
+                                <span class="exif-tag">90.0mm</span>
+
+
+                                <span class="exif-tag">ISO 400</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>这张最迷人的是“黑色耳机 + 老木纹”的质感对比，低调、硬朗，有产品广告感。焦点落在右侧耳机 Logo 上，视觉很明确。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>EXIF 为 90mm、f/2.8，长焦近摄带来很浅景深，背景木纹被柔化得自然。</li>
+<li>1/1000s 明显偏快，保证手持稳定，但若光线不足可降到 1/250s 换更低 ISO。</li>
+<li>构图采用斜向摆放，Marshall 标志和耳机形成呼应，品牌识别强。</li>
+<li>整体冷暗色调统一，但左下耳机虚化较重，信息量略少。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>用 <strong>Av 光圈优先</strong>，因为这类微距/特写最关键是控制景深。推荐：f/2.8-f/4，快门不低于 1/250s，ISO 400-800，评价测光或点测亮部，单次 AF，单点/小区域对焦。镜头可选 <strong>RF 85mm F2 Macro IS STM</strong>，或 <strong>RF-S 18-150mm</strong> 拉到长焦端近拍。现场先把耳机斜放在有纹理的木桌上；侧后方找一束柔光，让 Logo 有高光；对焦右侧耳机 Logo，压低机位，等画面边缘不过亮再按快门。</p>
+
+<h2>后期思路</h2>
+<p>方向是暗调质感产品照：压高光、降一点曝光，提升对比和清晰度。适当加强纹理、去一点饱和度，黑色保持厚重，白色 Logo 保留干净亮度即可。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1724109735700-51253af14b80?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2OTV8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1724109735700-51253af14b80?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2OTV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="A close up of a pink flower with a blurry background"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Alexandre Daoust</div>
+                            <div class="text-xs opacity-70 mt-0.5">A close up of a pink flower with a blurry background</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #0d94880c; color: #0d9488; border: 1px solid #0d948820">
+                                    🔍 #2
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@alexandredaoust" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Alexandre Daoust</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-close-up-of-a-pink-flower-with-a-blurry-background-u_0bsZOv6X8" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">FUJIFILM X-T5</span>
+
+
+                                <span class="exif-tag">f/4.0</span>
+
+
+                                <span class="exif-tag">1/8s</span>
+
+
+                                <span class="exif-tag">80.0mm</span>
+
+
+                                <span class="exif-tag">ISO 125</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>这张花瓣特写最吸引人的是“粉色的层次”和花瓣边缘的起伏，画面像一片柔软的抽象山脊。背景干净、虚化充分，让注意力集中在纹理与半透明质感上。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>80mm 微距视角压缩感好，避开了杂乱环境，适合拍花瓣局部。</li>
+<li>f/4 带来浅景深，背景柔化明显，但花瓣边缘已有部分焦平面外的松散感。</li>
+<li>1/8s 快门很慢，若手持容易糊，除非使用三脚架或防抖非常稳。</li>
+<li>粉色主体与粉紫背景同色系，画面统一，但需要靠纹理和明暗差拉开层次。</li>
+<li>构图上花瓣占下半部，上方留出大面积背景，形成简洁的负空间。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘建议用 <strong>Av 光圈优先</strong>，因为微距特写最关键是控制景深和背景虚化。推荐参数：光圈 f/4-f/5.6，快门尽量不低于 1/125s；若上三脚架可降到 1/20s 左右；ISO 100-800，评价测光或点测光，对焦用 <strong>单次 AF + 单点/小区域对焦</strong>，对在花瓣边缘或纹理最清晰处。镜头可选 <strong>RF 85mm F2 Macro IS STM</strong>，或 RF-S 18-150mm 拉到长焦端近摄。现场先靠近花朵，选择与花瓣平行的角度；等柔和散射光，避免直射高光；按快门前放大检查焦点，必要时连拍两三张。</p>
+
+<h2>后期思路</h2>
+<p>后期重点是保留粉色的柔和感，同时增强花瓣纹理。可轻微提高纹理、清晰度和局部对比，压低高光，避免粉色过曝。色彩上可略降饱和、微调洋红/紫色色相，让画面更干净细腻。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1730150413755-217233cede7b?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2OTZ8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1730150413755-217233cede7b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2OTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="A bunch of flowers that are in a vase"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Anastasia Zolotukhina</div>
+                            <div class="text-xs opacity-70 mt-0.5">A bunch of flowers that are in a vase</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #0d94880c; color: #0d9488; border: 1px solid #0d948820">
+                                    🔍 #3
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@stef_enheart" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Anastasia Zolotukhina</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-bunch-of-flowers-that-are-in-a-vase-rrPI_SVfHGE" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">Canon  EOS 6D Mark II</span>
+
+
+                                <span class="exif-tag">f/2.8</span>
+
+
+                                <span class="exif-tag">1/100s</span>
+
+
+                                <span class="exif-tag">100.0mm</span>
+
+
+                                <span class="exif-tag">ISO 250</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>这张花卉特写最迷人的是“轻”和“透”：浅粉花瓣被逆光托起，背景虚化成大面积光斑，画面有清晨般的空气感。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>100mm、f/2.8 带来很浅的景深，主体花朵清晰，其余花茎自然化成层次。</li>
+<li>1/100s 对微距来说略临界，若手持拍摄，花茎轻晃就可能虚，建议更快。</li>
+<li>逆光让花瓣边缘发亮，但右侧高光接近过曝，需注意保留细节。</li>
+<li>构图上花茎向上延伸，形成轻盈节奏；最高的花是视觉锚点。</li>
+<li>绿色与粉白、黄色花蕊形成柔和互补，色彩干净。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘选 <strong>Av 光圈优先</strong>，因为这类微距/特写核心是控制景深和背景虚化。推荐 <strong>f/2.8-f/4、1/250s 以上、ISO Auto 或 ISO 200-800、评价测光，曝光补偿 -0.3EV 到 -1EV</strong>；对焦用 <strong>单次 AF，单点/小区域对焦</strong>，对准最想突出的花蕊。镜头可用 <strong>RF 100mm F2.8L Macro</strong>，或预算方案 <strong>RF 85mm F2 Macro IS STM</strong>；若用 RF-S 18-150mm，可拉到长焦端并尽量靠近。现场先找逆光或侧逆光位置，让背景有树叶间隙形成光斑；蹲低与花朵平视，避开杂乱背景；等风停、花朵稳定时连拍 2-3 张。</p>
+
+<h2>后期思路</h2>
+<p>后期方向是保留梦幻感，同时压住右侧高光。降低高光、白色色阶，轻提阴影和暖色，让花瓣更通透；可用径向或蒙版轻微提亮主体花蕊，背景适度降清晰度与饱和度。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="panel " id="panel-黑白光影">
+
+            <!-- 风格标题 -->
+            <div class="mb-8 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <span class="text-3xl">⬛</span>
+                    <div>
+                        <h2 class="font-serif text-2xl font-bold text-ink">黑白/光影</h2>
+                        <p class="text-sm text-muted mt-0.5">3 张精选作品 · 摄影点评</p>
+                    </div>
+                </div>
+                <button onclick='refreshStyle("\u9ed1\u767d/\u5149\u5f71")'
+                        class="refresh-btn inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-slate-500 border border-slate-200 hover:border-slate-300 hover:text-slate-700 hover:bg-slate-50 transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                    换一批
+                </button>
+            </div>
+
+            <div class="space-y-14">
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1673305687546-f92644699aba?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2OTl8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1673305687546-f92644699aba?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA2OTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="a black and white photo of three flowers"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Marco Antonio Casique Reyes</div>
+                            <div class="text-xs opacity-70 mt-0.5">a black and white photo of three flowers</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #4755690c; color: #475569; border: 1px solid #47556920">
+                                    ⬛ #1
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@thalittlemarc" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Marco Antonio Casique Reyes</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-black-and-white-photo-of-three-flowers-0-Iu9pI4myY" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">Canon  EOS REBEL T5</span>
+
+
+                                <span class="exif-tag">f/5.6</span>
+
+
+                                <span class="exif-tag">1/200s</span>
+
+
+                                <span class="exif-tag">37.0mm</span>
+
+
+                                <span class="exif-tag">ISO 100</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>黑白处理让花瓣的纹理和暗背景更集中，主花像从阴影里浮出来。左侧虚化花朵形成呼应，画面有安静、克制的光影感。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>f/5.6 保留主花完整清晰，同时让背景和陪体有柔和虚化。</li>
+<li>1/200s 足够手持，适合微风不大的花卉拍摄。</li>
+<li>ISO 100 让黑白层次干净，暗部噪点少。</li>
+<li>构图上主花偏右，左侧虚花做平衡，空间感不错。</li>
+<li>暗背景提高了花瓣边缘和花心的对比，是这张的关键。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘选 <strong>Av 光圈优先</strong>，方便控制景深，让相机自动匹配快门。推荐参数：f/5.6，快门不低于 1/200s，ISO 100-400，评价测光或点测光，对焦用单次 AF，单点/小区域对准花心。镜头可用 RF-S 18-150mm 的 50-80mm 段，或 RF 35mm F1.8 Macro。拍摄时靠近主花，选择背后较暗的叶丛；等侧光或散射光打出花瓣纹理；主花稳定、风停瞬间按快门。</p>
+
+<h2>后期思路</h2>
+<p>转黑白后重点压暗背景、提高花心和花瓣的局部对比。可降低高光、加一点清晰度/纹理，用径向或画笔提亮主花，整体走低调、细腻的黑白质感。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1631825598395-58692acfee5c?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA3MDF8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1631825598395-58692acfee5c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA3MDF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="A black and white portrait"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Alonso Reyes</div>
+                            <div class="text-xs opacity-70 mt-0.5">A black and white portrait</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #4755690c; color: #475569; border: 1px solid #47556920">
+                                    ⬛ #2
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@alonsoreyes" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Alonso Reyes</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-black-and-white-photo-of-a-woman-surrounded-by-flowers-RputxT7w7cw" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">SONY ILCE-7RM4</span>
+
+
+                                <span class="exif-tag">f/5.0</span>
+
+
+                                <span class="exif-tag">1/250s</span>
+
+
+                                <span class="exif-tag">85.0mm</span>
+
+
+                                <span class="exif-tag">ISO 100</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>花枝与皮肤高光交织，黑白处理让画面有一种戏剧化的棚拍感。人物被花包围，氛围比表情更先抓人。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>85mm、f/5.0 让人像有压缩感，同时保留花枝层次，不会虚得太散。</li>
+<li>1/250s、ISO100 控制得稳，适合强光下保持皮肤质感。</li>
+<li>高反差黑白强化了发丝、肩颈和花瓣纹理，但部分白花略接近过曝。</li>
+<li>构图居中稳定，前景花枝形成遮挡和纵深，适合营造“被花包裹”的视觉。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘建议用 <strong>Av 光圈优先</strong>，方便先控制景深，让相机处理快门。参数可设 <strong>f/4-f/5.6、1/250s 以上、ISO100-400、评价测光，单次 AF，眼部检测/人像追踪</strong>；若光比很强，曝光补偿可降 <strong>-0.3 到 -0.7EV</strong>。镜头可用 <strong>RF 50mm F1.8</strong> 获得约80mm等效视角，或 <strong>RF 85mm F2</strong> 站远一点拍更压缩。现场先让模特背靠花墙，前景放几枝花贴近镜头；等侧前方硬光打出肩颈高光；对焦在眼部位置，花枝自然遮挡时连拍几张。</p>
+
+<h2>后期思路</h2>
+<p>转黑白后重点拉开对比：降低高光、压一点白色色阶，保住花瓣细节。适度提升清晰度和纹理，让发丝、花枝更立体；皮肤区域可局部柔化，避免质感过硬。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1675498547547-997105f59cfd?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA3MDR8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1675498547547-997105f59cfd?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjA3MDR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="The White path"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Shriskanthan Prabhakaran</div>
+                            <div class="text-xs opacity-70 mt-0.5">The White path</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #4755690c; color: #475569; border: 1px solid #47556920">
+                                    ⬛ #3
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@totallynotkandhu" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Shriskanthan Prabhakaran</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-black-and-white-photo-of-a-truck-driving-down-a-road-xl0EWBPJuFA" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>白色道路像一道光，从黑色山体里切出来，车的出现让画面有了“行进中的孤独感”。黑白处理强化了路径与环境的对比，主题很明确。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>构图核心是“S形道路”，视线会自然从左下被带到右上，再回到车的位置。</li>
+<li>大面积暗部山坡压住画面，白路成为视觉主角，黑白反差用得有效。</li>
+<li>小车比例很小，但因为落在亮路上，仍然能被第一时间看到。</li>
+<li>右下碎石坡提供了粗糙质感，与平滑道路形成对比。</li>
+<li>高机位拍摄让道路形态完整呈现，比平视更适合这个题材。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘建议用 <strong>Av 光圈优先</strong>，因为这类风景重点是控制景深和画面整体清晰度。推荐参数：光圈 <strong>F8-F11</strong>，快门保持 <strong>1/250s 以上</strong> 防止车虚，ISO <strong>100-400</strong>，评价测光；对焦用 <strong>单次AF</strong>，区域选 <strong>小区域/单点AF</strong> 对在道路或车附近。镜头可用 <strong>RF-S 18-150mm</strong> 的 <strong>70-120mm</strong> 段压缩空间，或 RF-S 55-210mm 取中长焦。现场先找高处俯拍，让道路形成明显曲线；等待车进入亮路中段、与建筑物不重叠时连拍；曝光可减 <strong>-0.3EV</strong> 保住白色路面的细节。</p>
+
+<h2>后期思路</h2>
+<p>后期适合走高反差黑白方向：降低色彩干扰，强化“白路穿过黑山”的图形感。重点调黑白混合、对比度、曲线和清晰度，压暗山坡暗部但别死黑，适当提亮道路和车，让视觉重心更集中。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="panel " id="panel-小红书人像自然">
+
+            <!-- 风格标题 -->
+            <div class="mb-8 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <span class="text-3xl">📕</span>
+                    <div>
+                        <h2 class="font-serif text-2xl font-bold text-ink">小红书｜人像自然</h2>
+                        <p class="text-sm text-muted mt-0.5">1 张精选作品 · 摄影点评</p>
+                    </div>
+                </div>
+                <button onclick='refreshStyle("\u5c0f\u7ea2\u4e66\uff5c\u4eba\u50cf\u81ea\u7136")'
+                        class="refresh-btn inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-slate-500 border border-slate-200 hover:border-slate-300 hover:text-slate-700 hover:bg-slate-50 transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                    换一批
+                </button>
+            </div>
+
+            <div class="space-y-14">
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://sns-webpic-qc.xhscdn.com/202605241449/6b745ee2745f2a5bf9150b602fd0b621/1040g008317nq4jke440g5n6cqpqk76pudl5a0o0!nd_dft_wlteh_jpg_3")'>
+                        <img src="https://sns-webpic-qc.xhscdn.com/202605241449/6b745ee2745f2a5bf9150b602fd0b621/1040g008317nq4jke440g5n6cqpqk76pudl5a0o0!nd_dft_wlteh_jpg_3" alt="朋友圈都说我拍的照片像散文诗"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">李贰腿📷（五月新疆）</div>
+                            <div class="text-xs opacity-70 mt-0.5">朋友圈都说我拍的照片像散文诗</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #be185d0c; color: #be185d; border: 1px solid #be185d20">
+                                    📕 #1
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://www.xiaohongshu.com/user/profile/5cccd6750000000010039b3e" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">李贰腿📷（五月新疆）</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://www.xiaohongshu.com/discovery/item/66e5803b0000000026030817?app_platform=android&amp;ignoreEngage=true&amp;app_version=9.31.2&amp;share_from_user_hidden=true&amp;xsec_source=app_share&amp;type=normal&amp;xsec_token=CBfMkixDO299WDNN9P7TkrM-z3uxlffVQQhl6XG75Svlk%3D&amp;author_share=1&amp;shareRedId=ODpHQzk4Rj42NzUyOTgwNjY0OTg3S0dM&amp;apptime=1779603301&amp;share_id=9134b310f90d48b2a691a706e5351615&amp;share_channel=copy_link&amp;appuid=64ec63b50000000001013fac&amp;xhsshare=CopyLink" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">小红书</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                        </div>
+
+
+                        <div class="mt-4 rounded-xl border border-rose-100 bg-rose-50/50 px-4 py-3 text-sm text-slate-600">
+
+                            <div class="font-semibold text-rose-900">朋友圈都说我拍的照片像散文诗</div>
+
+
+                            <div class="mt-1 leading-7">大家好我是摄影师李贰腿 擅长拍摄人像与自然的结合，有生命力和情绪的照片是我的风格。 也许是我太喜欢自由了，所以在我的照片里有着自由和生命力的情绪，像诗一样表达出内心的情感。 我的照片，也像极了散文诗。 #每张照片里都有一句诗# #我的摄影日记# #拍出电影感# #人像摄影# #电影感# #人生照片# #氛围感# #抬头看月亮的人#…</div>
+
+                        </div>
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>这组照片最动人的是“人被自然包住”的感觉：黄花、草地、逆光和尘雾一起，把人物拍得像散文里的一个片段。情绪不是靠表情，而是靠光和环境在说话。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>选择日落前后的低角度逆光，头发边缘和白裙被勾亮，氛围感很强。</li>
+<li>构图上有近景花枝、中景人物、远景田野，层次丰富，不会只是普通半身照。</li>
+<li>白裙与黄色小花、绿色田野形成柔和配色，整体偏暖，符合“小红书自然人像”的清新诗意。</li>
+<li>下方远景把人物放在画面右侧，留出大量雾气和田野空间，增强自由感与呼吸感。</li>
+<li>注意逆光下人脸容易欠曝，现场需要适当加曝光补偿或后期提亮暗部。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘建议选 <strong>Av 光圈优先</strong>，方便快速控制虚化和进光量，适合这种边走边拍的人像。推荐参数：光圈 <strong>F2.8-F4</strong>，快门不低于 <strong>1/500s</strong>，ISO 自动或 <strong>100-400</strong>，评价测光，曝光补偿 <strong>+0.3 到 +1EV</strong>；对焦用 <strong>伺服 AF + 人眼识别</strong>，区域选全域或小区域追踪。镜头可用 <strong>RF 50mm F1.8</strong> 拍半身和特写，或 <strong>RF-S 18-150mm</strong> 拉到 50-85mm 等效视角拍压缩感。现场让模特背对太阳侧一点站，花枝放在胸前或脸旁；等风吹动头发、尘雾浮起时连拍；远景时降低机位，让雾气铺满前景。</p>
+
+<h2>后期思路</h2>
+<p>整体往暖调、低对比、柔光方向走，保留金色夕阳和田野的诗意。重点提高阴影和人像亮度，压一点高光，色温略暖，绿色降低饱和并偏黄。可加轻微颗粒、柔化高光，让画面更像电影散文。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
     </main>
 
     <!-- 底部 -->
@@ -726,38 +2594,68 @@
     });
 
     const GITHUB_REPO = 'krisaruz/daily-photo-coach';
-    const REFRESH_PAT = localStorage.getItem('photo_coach_pat') || '';
+    const GITHUB_REF = 'master';
 
-    async function refreshStyle(style) {
-        if (!REFRESH_PAT) {
-            const pat = prompt('首次使用需配置 GitHub PAT（仅需 Actions write 权限）：');
-            if (!pat) return;
-            localStorage.setItem('photo_coach_pat', pat);
-            location.reload();
+    function getGithubPat() {
+        let pat = localStorage.getItem('photo_coach_pat') || '';
+        if (!pat) {
+            pat = prompt('首次使用需配置 GitHub PAT（仅需 Actions write 权限）：');
+            if (pat) localStorage.setItem('photo_coach_pat', pat);
+        }
+        return pat;
+    }
+
+    async function dispatchWorkflow(workflowFile, inputs, successMessage) {
+        const pat = getGithubPat();
+        if (!pat) return;
+
+        const resp = await fetch(
+            `https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${workflowFile}/dispatches`,
+            {
+                method: 'POST',
+                headers: {
+                    'Authorization': `token ${pat}`,
+                    'Accept': 'application/vnd.github.v3+json'
+                },
+                body: JSON.stringify({ ref: GITHUB_REF, inputs })
+            }
+        );
+
+        if (resp.status === 204) {
+            alert(successMessage);
             return;
         }
+        if (resp.status === 401 || resp.status === 403) {
+            localStorage.removeItem('photo_coach_pat');
+            alert('PAT 无效或权限不足，请重新配置。');
+            return;
+        }
+        alert(`触发失败 (HTTP ${resp.status})，请检查 workflow、分支或 PAT 权限。`);
+    }
+
+    async function refreshStyle(style) {
         const ok = confirm(`确认刷新「${style}」的照片？\n将触发后台重新抓取，约需 2-3 分钟。`);
         if (!ok) return;
         try {
-            const resp = await fetch(
-                `https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/refresh.yml/dispatches`,
-                {
-                    method: 'POST',
-                    headers: {
-                        'Authorization': `token ${REFRESH_PAT}`,
-                        'Accept': 'application/vnd.github.v3+json'
-                    },
-                    body: JSON.stringify({ ref: 'main', inputs: { style } })
-                }
+            await dispatchWorkflow('refresh.yml', { style }, '已触发刷新！约 2-3 分钟后刷新页面即可看到新照片。');
+        } catch (e) {
+            alert('网络错误: ' + e.message);
+        }
+    }
+
+    async function importXhs() {
+        const url = prompt('粘贴小红书公开分享链接或笔记链接：');
+        if (!url) return;
+        const style = prompt('归入哪个栏目？', '小红书｜人像自然') || '小红书｜人像自然';
+        const limit = prompt('最多导入几张图？', '6') || '6';
+        const ok = confirm(`确认导入「${style}」？\n将触发后台抓取公开图片并调用 GPT-5.5 分析。`);
+        if (!ok) return;
+        try {
+            await dispatchWorkflow(
+                'xhs.yml',
+                { url, style, limit, source_name: '', model: 'gpt-5.5', skip_analysis: 'false' },
+                '已触发小红书导入！完成后刷新页面即可看到新栏目。'
             );
-            if (resp.status === 204) {
-                alert('已触发刷新！约 2-3 分钟后刷新页面即可看到新照片。');
-            } else if (resp.status === 401 || resp.status === 403) {
-                localStorage.removeItem('photo_coach_pat');
-                alert('PAT 无效或已过期，请重新配置。');
-            } else {
-                alert(`触发失败 (HTTP ${resp.status})，请检查配置。`);
-            }
         } catch (e) {
             alert('网络错误: ' + e.message);
         }

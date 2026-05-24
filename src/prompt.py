@@ -39,11 +39,22 @@ def build_user_message(photo: dict) -> list[dict]:
 
     text = f"请对这张照片进行精要点评。\n\n"
     text += f"风格分类：{photo.get('style_label', '未知')}\n"
+    if photo.get("source_name"):
+        text += f"图片来源：{photo['source_name']}\n"
     if photo.get("description"):
         text += f"照片描述：{photo['description']}\n"
+    if photo.get("note_title"):
+        text += f"博主标题：{photo['note_title']}\n"
+    if photo.get("caption"):
+        text += f"博主文案：{photo['caption']}\n"
     if exif_parts:
         text += f"EXIF 数据：{' | '.join(exif_parts)}\n"
-    text += "\n按四段结构（直觉/技法拆解/实拍操作/后期思路）输出，总字数 250-400 字。"
+    if photo.get("note_title") or photo.get("caption"):
+        text += (
+            "\n请把博主文案当作拍摄语境参考：如果文案提到拍法、场景、情绪或后期方向，"
+            "要结合画面判断后融入分析，不要机械复述。\n"
+        )
+    text += "按四段结构（直觉/技法拆解/实拍操作/后期思路）输出，总字数 250-400 字。"
 
     return [
         {

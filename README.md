@@ -11,7 +11,7 @@ Daily Photo Coach 是一个每日运行的摄影教学内容生成系统。核�
 ## 核心架构
 
 ```
-Unsplash API → 多风格随机抓取 → 多模态 LLM 七维分析 → 静态站点生成（HTML/Markdown/JSON）
+Unsplash API / 小红书公开分享页 → 多风格抓取 → 多模态 LLM 教学分析 → 静态站点生成（HTML/Markdown/JSON）
 ```
 
 ### Phase 1: 数据采集
@@ -24,6 +24,8 @@ Unsplash API → 多风格随机抓取 → 多模态 LLM 七维分析 → 静态
 - 图片描述与尺寸信息
 
 支持多种 `orientation` 轮换，`content_filter: high` 保证内容质量，ID 级去重。
+
+也支持从小红书公开分享链接、公开笔记链接或公开主页中导入摄影作品。导入器会尽量解析公开页面里的图片、标题、博主文案和作者信息；如果博主文案里写了拍摄思路，会把这些文字一并交给多模态模型作为分析语境。
 
 ### Phase 2: 多模态分析
 
@@ -92,9 +94,30 @@ python src/main.py --skip-fetch
 
 # 指定风格子集
 python src/main.py --styles 街拍,风光
+
+# 导入小红书公开分享链接，并用 GPT-5.5 分析
+python src/xhs_import.py --url "http://xhslink.com/o/6vj01FlQoGl" --style 小红书精选 --limit 6
+
+# 每天轮换一张小红书精选；也可以一次补最近 10 天
+python src/xhs_daily.py --backfill-days 10 --style "小红书｜人像自然"
+
+# 只测试抓取和渲染，不调用 LLM
+python src/xhs_import.py --url "http://xhslink.com/o/6vj01FlQoGl" --skip-analysis
 ```
 
 产物输出到 `output/YYYY-MM-DD/`，浏览器打开 `index.html` 即可阅读。
+
+## 小红书入口
+
+静态站首页和每日页都提供“导入小红书链接”按钮。首次使用需要在浏览器里输入一个 GitHub PAT（仅需 Actions write 权限），按钮会触发 `.github/workflows/xhs.yml`，由 GitHub Actions 抓取公开页面、调用 `gpt-5.5` 分析并重新部署 Pages。
+
+另外 `.github/workflows/xhs-daily.yml` 会每天自动运行一次 `src/xhs_daily.py`，从 `xhs.sources` 或 GitHub Secret `XHS_SEED_URLS` 里的公开链接池轮换一张“小红书｜人像自然”。小红书公开搜索和主页经常要求登录，所以最稳定的方式是把你喜欢的摄影博主公开分享链接加入这个候选池；候选池不足时，脚本会按公开轮播图逐日轮换，保证站点每天都有一张小红书精选可分析。
+
+Actions 中建议配置：
+
+- `OPENAI_API_KEY`：OpenAI API Key；也可以用兼容网关的 `LLM_AUTH` / `LLM_URL`。
+- `XHS_SEED_URLS`：可选，逗号或换行分隔的小红书公开分享/笔记链接。
+- `XHS_COOKIE`：可选，仅用于你有权访问但公开页偶发需要 Cookie 的页面。脚本不会登录、解验证码或绕过访问控制。
 
 ## 源码
 

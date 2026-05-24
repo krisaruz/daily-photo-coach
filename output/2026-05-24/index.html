@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>每日摄影教练 · {{ date }}</title>
+    <title>每日摄影教练 · 2026-05-24</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -129,7 +129,7 @@
                         class="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-semibold text-rose-700 border border-rose-200 bg-rose-50/70 hover:bg-rose-100 transition-colors">
                     导入小红书
                 </button>
-                <div class="text-xs text-muted font-medium tabular-nums">{{ date }} · {{ total_photos }} 张</div>
+                <div class="text-xs text-muted font-medium tabular-nums">2026-05-24 · 2 张</div>
             </div>
         </div>
     </header>
@@ -138,40 +138,54 @@
     <nav class="sticky top-14 z-40 bg-[#faf9f7]/90 backdrop-blur-lg border-b border-stone-200/50">
         <div class="max-w-[1200px] mx-auto px-6">
             <div class="flex gap-0.5 overflow-x-auto scrollbar-hide -mb-px" id="tab-bar">
-                {% for tab in tabs %}
+
                 <button
-                    class="tab-pill px-5 py-3 text-[13px] text-slate-500 flex items-center gap-2 rounded-t-lg {{ 'active' if loop.first }}"
-                    style="--c: {{ tab.color }}"
-                    onclick='switchTab({{ tab.slug | tojson }})'
-                    data-tab="{{ tab.slug }}"
+                    class="tab-pill px-5 py-3 text-[13px] text-slate-500 flex items-center gap-2 rounded-t-lg active"
+                    style="--c: #16a34a"
+                    onclick='switchTab("\u98ce\u5149\u81ea\u7136")'
+                    data-tab="风光自然"
                 >
-                    <span class="text-base leading-none">{{ tab.icon }}</span>
-                    <span>{{ tab.label }}</span>
+                    <span class="text-base leading-none">🏔️</span>
+                    <span>风光/自然</span>
                     <span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 rounded-full text-[11px] font-semibold"
-                          style="background: {{ tab.color }}12; color: {{ tab.color }}">
-                        {{ tab.photos | length }}
+                          style="background: #16a34a12; color: #16a34a">
+                        1
                     </span>
                 </button>
-                {% endfor %}
+
+                <button
+                    class="tab-pill px-5 py-3 text-[13px] text-slate-500 flex items-center gap-2 rounded-t-lg "
+                    style="--c: #be185d"
+                    onclick='switchTab("\u5c0f\u7ea2\u4e66\u4eba\u50cf\u81ea\u7136")'
+                    data-tab="小红书人像自然"
+                >
+                    <span class="text-base leading-none">📕</span>
+                    <span>小红书｜人像自然</span>
+                    <span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 rounded-full text-[11px] font-semibold"
+                          style="background: #be185d12; color: #be185d">
+                        1
+                    </span>
+                </button>
+
             </div>
         </div>
     </nav>
 
     <!-- Tab 内容面板 -->
     <main class="max-w-[1200px] mx-auto px-6 py-10">
-        {% for tab in tabs %}
-        <section class="panel {{ 'active' if loop.first }}" id="panel-{{ tab.slug }}">
+
+        <section class="panel active" id="panel-风光自然">
 
             <!-- 风格标题 -->
             <div class="mb-8 flex items-center justify-between">
                 <div class="flex items-center gap-3">
-                    <span class="text-3xl">{{ tab.icon }}</span>
+                    <span class="text-3xl">🏔️</span>
                     <div>
-                        <h2 class="font-serif text-2xl font-bold text-ink">{{ tab.label }}</h2>
-                        <p class="text-sm text-muted mt-0.5">{{ tab.photos | length }} 张精选作品 · 摄影点评</p>
+                        <h2 class="font-serif text-2xl font-bold text-ink">风光/自然</h2>
+                        <p class="text-sm text-muted mt-0.5">1 张精选作品 · 摄影点评</p>
                     </div>
                 </div>
-                <button onclick='refreshStyle({{ tab.label | tojson }})'
+                <button onclick='refreshStyle("\u98ce\u5149/\u81ea\u7136")'
                         class="refresh-btn inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-slate-500 border border-slate-200 hover:border-slate-300 hover:text-slate-700 hover:bg-slate-50 transition-all">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
                     换一批
@@ -179,17 +193,17 @@
             </div>
 
             <div class="space-y-14">
-                {% for item in tab.photos %}
+
                 <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
 
                     <!-- 照片 -->
-                    <div class="photo-frame aspect-video" onclick='openLightbox({{ item.url_full | tojson }})'>
-                        <img src="{{ item.url_regular }}" alt="{{ item.description }}"
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1629746958979-08060ed5bf0b?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDM3NDl8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1629746958979-08060ed5bf0b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDM3NDl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="green trees on brown mountain under blue sky during daytime"
                              class="w-full h-full object-cover" loading="lazy">
                         <div class="overlay"></div>
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
-                            <div class="text-sm font-medium">{{ item.photographer }}</div>
-                            <div class="text-xs opacity-70 mt-0.5">{{ item.description }}</div>
+                            <div class="text-sm font-medium">Stefanos Nt</div>
+                            <div class="text-xs opacity-70 mt-0.5">green trees on brown mountain under blue sky during daytime</div>
                         </div>
                     </div>
 
@@ -199,54 +213,43 @@
                         <div class="flex items-center justify-between flex-wrap gap-3">
                             <div class="flex items-center gap-3">
                                 <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
-                                      style="background: {{ tab.color }}0c; color: {{ tab.color }}; border: 1px solid {{ tab.color }}20">
-                                    {{ tab.icon }} #{{ loop.index }}
+                                      style="background: #16a34a0c; color: #16a34a; border: 1px solid #16a34a20">
+                                    🏔️ #1
                                 </span>
                                 <span class="text-sm text-slate-500">
-                                    {% if item.photographer_url %}
-                                    <a href="{{ item.photographer_url }}" target="_blank" rel="noopener"
-                                       class="font-medium text-ink hover:underline">{{ item.photographer }}</a>
-                                    {% else %}
-                                    <span class="font-medium text-ink">{{ item.photographer }}</span>
-                                    {% endif %}
+
+                                    <a href="https://unsplash.com/@ribakos" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Stefanos Nt</a>
+
                                     <span class="text-muted mx-1">·</span>
-                                    <a href="{{ item.source_url }}" target="_blank" rel="noopener"
-                                       class="text-muted hover:text-ink transition-colors">{{ item.source_name }}</a>
+                                    <a href="https://unsplash.com/photos/green-trees-on-brown-mountain-under-blue-sky-during-daytime-df0RaMUtUXI" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
                                 </span>
                             </div>
 
                             <!-- EXIF -->
-                            {% if item.exif and (item.exif.model or item.exif.aperture or item.exif.iso) %}
+
                             <div class="flex flex-wrap gap-1.5">
-                                {% if item.exif.make or item.exif.model %}
-                                <span class="exif-tag">{{ item.exif.make or '' }} {{ item.exif.model or '' }}</span>
-                                {% endif %}
-                                {% if item.exif.aperture %}
-                                <span class="exif-tag">f/{{ item.exif.aperture }}</span>
-                                {% endif %}
-                                {% if item.exif.exposure_time %}
-                                <span class="exif-tag">{{ item.exif.exposure_time }}s</span>
-                                {% endif %}
-                                {% if item.exif.focal_length %}
-                                <span class="exif-tag">{{ item.exif.focal_length }}mm</span>
-                                {% endif %}
-                                {% if item.exif.iso %}
-                                <span class="exif-tag">ISO {{ item.exif.iso }}</span>
-                                {% endif %}
+
+                                <span class="exif-tag">NIKON CORPORATION NIKON D5300</span>
+
+
+                                <span class="exif-tag">f/4.5</span>
+
+
+                                <span class="exif-tag">1/100s</span>
+
+
+                                <span class="exif-tag">30.0mm</span>
+
+
+                                <span class="exif-tag">ISO 100</span>
+
                             </div>
-                            {% endif %}
+
                         </div>
 
-                        {% if item.source_name == '小红书' and (item.note_title_short or item.caption_short) %}
-                        <div class="mt-4 rounded-xl border border-rose-100 bg-rose-50/50 px-4 py-3 text-sm text-slate-600">
-                            {% if item.note_title_short %}
-                            <div class="font-semibold text-rose-900">{{ item.note_title_short }}</div>
-                            {% endif %}
-                            {% if item.caption_short %}
-                            <div class="mt-1 leading-7">{{ item.caption_short }}</div>
-                            {% endif %}
-                        </div>
-                        {% endif %}
+
 
                         <!-- 展开/收起分析 -->
                         <div class="mt-5 border-t border-stone-100 pt-4">
@@ -256,15 +259,131 @@
                                 <span class="label">展开拍摄教学分析</span>
                             </button>
                             <div class="analysis-body hidden mt-5 analysis">
-                                {{ item.analysis_html | safe }}
+                                <h2>直觉</h2>
+<p>山体的褶皱和明暗层次很有力量，前景绿树与金褐色山坡形成自然对比。整体有安静、开阔的午后风光感。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>构图采用横向展开，山脊占据主体，天空留白让画面更透气。</li>
+<li>前景树带压住底部，增强了画面的层次，但略显偏暗。</li>
+<li>EXIF 为 f/4.5、1/100s、ISO100，画质干净，但风光题材光圈可再收小到 f/8 提升整体清晰度。</li>
+<li>30mm 视角接近自然观看感，适合表现山体纹理而不夸张变形。</li>
+<li>色彩偏青绿，氛围统一，但山体暖色可以再稍微强化。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘建议用 <strong>Av 光圈优先</strong>，因为风光拍摄重点是控制景深和画面清晰度。推荐参数：光圈 <strong>f/8</strong>，快门保持 <strong>1/125s 以上</strong>，ISO <strong>100-400 自动</strong>，测光用 <strong>评价测光</strong>，对焦模式用 <strong>单次 AF</strong>，对焦区域选 <strong>单点或小区域 AF</strong>，对在山体中部纹理处。镜头可用 <strong>RF-S 18-45mm</strong> 的 24-35mm 段，或 <strong>RF-S 18-150mm</strong> 的 30-50mm 段。现场先找一条树带作为前景边界；等侧光或低角度阳光扫过山坡；按快门前检查高光不过曝，必要时曝光补偿 -0.3EV。</p>
+
+<h2>后期思路</h2>
+<p>后期重点是增强山体层次：适当提高对比度、清晰度和纹理。天空可降低高光、微调蓝色饱和度，前景树带用阴影提亮一点。整体色调建议保留自然暖绿，不要过度 HDR。</p>
                             </div>
                         </div>
                     </div>
                 </article>
-                {% endfor %}
+
             </div>
         </section>
-        {% endfor %}
+
+        <section class="panel " id="panel-小红书人像自然">
+
+            <!-- 风格标题 -->
+            <div class="mb-8 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <span class="text-3xl">📕</span>
+                    <div>
+                        <h2 class="font-serif text-2xl font-bold text-ink">小红书｜人像自然</h2>
+                        <p class="text-sm text-muted mt-0.5">1 张精选作品 · 摄影点评</p>
+                    </div>
+                </div>
+                <button onclick='refreshStyle("\u5c0f\u7ea2\u4e66\uff5c\u4eba\u50cf\u81ea\u7136")'
+                        class="refresh-btn inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-slate-500 border border-slate-200 hover:border-slate-300 hover:text-slate-700 hover:bg-slate-50 transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                    换一批
+                </button>
+            </div>
+
+            <div class="space-y-14">
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://sns-webpic-qc.xhscdn.com/202605241449/c2849e9791810fc30d8aae412854f532/1040g008317nq4jke44005n6cqpqk76pu53r36vo!nd_dft_wlteh_jpg_3")'>
+                        <img src="https://sns-webpic-qc.xhscdn.com/202605241449/c2849e9791810fc30d8aae412854f532/1040g008317nq4jke44005n6cqpqk76pu53r36vo!nd_dft_wlteh_jpg_3" alt="朋友圈都说我拍的照片像散文诗"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">李贰腿📷（五月新疆）</div>
+                            <div class="text-xs opacity-70 mt-0.5">朋友圈都说我拍的照片像散文诗</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #be185d0c; color: #be185d; border: 1px solid #be185d20">
+                                    📕 #1
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://www.xiaohongshu.com/user/profile/5cccd6750000000010039b3e" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">李贰腿📷（五月新疆）</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://www.xiaohongshu.com/discovery/item/66e5803b0000000026030817?app_platform=android&amp;ignoreEngage=true&amp;app_version=9.31.2&amp;share_from_user_hidden=true&amp;xsec_source=app_share&amp;type=normal&amp;xsec_token=CBfMkixDO299WDNN9P7TkrM-z3uxlffVQQhl6XG75Svlk%3D&amp;author_share=1&amp;shareRedId=ODpHQzk4Rj42NzUyOTgwNjY0OTg3S0dM&amp;apptime=1779603301&amp;share_id=9134b310f90d48b2a691a706e5351615&amp;share_channel=copy_link&amp;appuid=64ec63b50000000001013fac&amp;xhsshare=CopyLink" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">小红书</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                        </div>
+
+
+                        <div class="mt-4 rounded-xl border border-rose-100 bg-rose-50/50 px-4 py-3 text-sm text-slate-600">
+
+                            <div class="font-semibold text-rose-900">朋友圈都说我拍的照片像散文诗</div>
+
+
+                            <div class="mt-1 leading-7">大家好我是摄影师李贰腿 擅长拍摄人像与自然的结合，有生命力和情绪的照片是我的风格。 也许是我太喜欢自由了，所以在我的照片里有着自由和生命力的情绪，像诗一样表达出内心的情感。 我的照片，也像极了散文诗。 #每张照片里都有一句诗# #我的摄影日记# #拍出电影感# #人像摄影# #电影感# #人生照片# #氛围感# #抬头看月亮的人#…</div>
+
+                        </div>
+
+
+                        <!-- 展开/收起分析 -->
+                        <div class="mt-5 border-t border-stone-100 pt-4">
+                            <button class="expand-btn flex items-center gap-2 px-4 py-2.5 -ml-4 rounded-xl text-sm font-medium text-slate-600"
+                                    onclick="toggleAnalysis(this)">
+                                <svg class="chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                <span class="label">展开拍摄教学分析</span>
+                            </button>
+                            <div class="analysis-body hidden mt-5 analysis">
+                                <h2>直觉</h2>
+<p>最动人的是“人被自然轻轻包住”的感觉：夕阳、草、树和风都在替人物说话。不是强摆拍，而像一段安静散文里的停顿。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>逆光和侧逆光用得好，草穗被夕阳勾亮，立刻有生命力。</li>
+<li>构图上让人物偏边缘，留出大面积环境，情绪比脸更重要。</li>
+<li>色彩控制在暖橙、草绿、暮蓝之间，电影感来自低饱和与统一色温。</li>
+<li>中景、近景、远景组合成一组叙事，比单张更像“散文诗”。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘选 <strong>Av 光圈优先</strong>，方便在自然光变化中稳定控制景深与氛围。推荐 <strong>F2.8-F4、1/250s 以上、ISO 100-800、评价测光，人物眼部识别 AF / 单点 AF</strong>；逆光时可曝光补偿 <strong>-0.3 到 -1EV</strong> 保住高光。镜头可用 <strong>RF-S 18-150mm</strong> 拍环境与特写，或 <strong>RF 50mm F1.8</strong> 拍近景氛围。现场先找夕阳斜射的草地，让人物背光或侧身站；摄影师蹲低一点，让草进入前景；等风吹头发、人物抬头或回望时连拍。</p>
+
+<h2>后期思路</h2>
+<p>整体往“暖、柔、低对比”的自然电影感走。降低高光、提一点阴影，保留夕阳层次；色彩上压低绿色饱和度，给橙色和肤色一点温度。可加轻微颗粒和暗角，让画面更像记忆片段。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
     </main>
 
     <!-- 底部 -->
