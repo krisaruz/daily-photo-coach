@@ -111,7 +111,7 @@ def _config_from_env() -> dict:
             "model": os.environ.get("XHS_LLM_MODEL", "gpt-5.5"),
             "cookie": os.environ.get("XHS_COOKIE", ""),
             "max_notes_per_source": int(os.environ.get("XHS_MAX_NOTES", "3")),
-            "max_images_per_note": int(os.environ.get("XHS_MAX_IMAGES_PER_NOTE", "6")),
+            "max_images_per_note": int(os.environ.get("XHS_MAX_IMAGES_PER_NOTE", "18")),
         },
         "output": {"dir": os.environ.get("OUTPUT_DIR", "output")},
     }

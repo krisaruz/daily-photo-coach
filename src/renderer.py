@@ -231,6 +231,48 @@ def _build_style_counts(data: Any) -> list[dict[str, Any]]:
     return list(grouped.values())
 
 
+def _render_photo_item(photo: dict[str, Any], base_prefix: str) -> dict[str, Any]:
+    item = {**photo}
+    item["url_small"] = _image_url(photo, "small", base_prefix)
+    item["url_regular"] = _image_url(photo, "regular", base_prefix)
+    item["url_full"] = _image_url(photo, "full", base_prefix)
+    item["analysis_html"] = _markdown_to_html(photo.get("analysis", ""))
+    item["analysis_excerpt"] = _extract_excerpt(photo.get("analysis", ""))
+    item["description_short"] = _clean_description(photo.get("description", ""))
+    item["caption_short"] = _truncate(_clean_text(photo.get("caption", "")), 180)
+    item["note_title_short"] = _clean_description(photo.get("note_title", ""), 80)
+    if photo.get("note_image_index") and photo.get("note_image_count"):
+        item["note_title_short"] = (
+            f"{item['note_title_short']} · 组图 "
+            f"{photo['note_image_index']}/{photo['note_image_count']}"
+        )
+    item["source_name"] = (
+        photo.get("source_name")
+        or ("Unsplash" if photo.get("unsplash_url") else "来源")
+    )
+    item["source_url"] = (
+        photo.get("source_url")
+        or photo.get("unsplash_url")
+        or photo.get("xhs_url")
+        or photo.get("url_full")
+        or photo.get("url_regular")
+        or ""
+    )
+
+    width = photo.get("width") or 0
+    height = photo.get("height") or 0
+    if width and height:
+        if height > width:
+            item["orientation"] = "portrait"
+        elif width > height:
+            item["orientation"] = "landscape"
+        else:
+            item["orientation"] = "square"
+    else:
+        item["orientation"] = "unknown"
+    return item
+
+
 def render_web(
     grouped_photos: dict[str, list[dict[str, Any]]],
     styles: list[dict[str, str]],
@@ -275,48 +317,7 @@ def render_web(
         if not valid_photos:
             continue
 
-        rendered = []
-        for photo in valid_photos:
-            item = {**photo}
-            item["url_small"] = _image_url(photo, "small", "../")
-            item["url_regular"] = _image_url(photo, "regular", "../")
-            item["url_full"] = _image_url(photo, "full", "../")
-            item["analysis_html"] = _markdown_to_html(photo.get("analysis", ""))
-            item["analysis_excerpt"] = _extract_excerpt(photo.get("analysis", ""))
-            item["description_short"] = _clean_description(photo.get("description", ""))
-            item["caption_short"] = _truncate(_clean_text(photo.get("caption", "")), 180)
-            item["note_title_short"] = _clean_description(photo.get("note_title", ""), 80)
-            if photo.get("note_image_index") and photo.get("note_image_count"):
-                item["note_title_short"] = (
-                    f"{item['note_title_short']} · 组图 "
-                    f"{photo['note_image_index']}/{photo['note_image_count']}"
-                )
-            item["source_name"] = (
-                photo.get("source_name")
-                or ("Unsplash" if photo.get("unsplash_url") else "来源")
-            )
-            item["source_url"] = (
-                photo.get("source_url")
-                or photo.get("unsplash_url")
-                or photo.get("xhs_url")
-                or photo.get("url_full")
-                or photo.get("url_regular")
-                or ""
-            )
-
-            width = photo.get("width") or 0
-            height = photo.get("height") or 0
-            if width and height:
-                if height > width:
-                    item["orientation"] = "portrait"
-                elif width > height:
-                    item["orientation"] = "landscape"
-                else:
-                    item["orientation"] = "square"
-            else:
-                item["orientation"] = "unknown"
-
-            rendered.append(item)
+        rendered = [_render_photo_item(photo, "../") for photo in valid_photos]
 
         tabs.append(
             {
@@ -424,6 +425,90 @@ def save_archive(
     return out_path
 
 
+def _xhs_note_groups(photos: list[dict[str, Any]]) -> list[list[dict[str, Any]]]:
+    groups: dict[str, list[dict[str, Any]]] = {}
+    for photo in photos:
+        if photo.get("source_platform") != "xhs" and photo.get("source_name") != "小红书":
+            continue
+        key = str(photo.get("note_id") or photo.get("source_url") or photo.get("id") or "")
+        if not key:
+            continue
+        groups.setdefault(key, []).append(photo)
+    return list(groups.values())
+
+
+def render_xhs_site(output_dir: str) -> Path:
+    """Render the standalone Xiaohongshu mini-site."""
+    output_path = Path(output_dir)
+    xhs_root = output_path / "xhs"
+    xhs_root.mkdir(parents=True, exist_ok=True)
+
+    env = Environment(
+        loader=FileSystemLoader(str(TEMPLATES_DIR)),
+        autoescape=select_autoescape(["html", "xml"], default=True),
+    )
+    index_template = env.get_template("xhs_index.html")
+    detail_template = env.get_template("xhs_detail.html")
+    notes: list[dict[str, Any]] = []
+
+    def _is_analysis_failed(photo: dict) -> bool:
+        analysis = photo.get("analysis", "")
+        return analysis == "（分析失败，请稍后重试）"
+
+    for day_dir in sorted(output_path.iterdir(), reverse=True):
+        if not day_dir.is_dir() or not re.match(r"\d{4}-\d{2}-\d{2}", day_dir.name):
+            continue
+        json_file = day_dir / "photos.json"
+        if not json_file.exists():
+            continue
+        try:
+            data = json.loads(json_file.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError) as exc:
+            logger.warning("Skipping broken archive %s: %s", json_file, exc)
+            continue
+
+        flat_photos = [photo for photo in _iter_photos(data) if not _is_analysis_failed(photo)]
+        for group in _xhs_note_groups(flat_photos):
+            rendered_photos = [_render_photo_item(photo, "../../") for photo in group]
+            if not rendered_photos:
+                continue
+            cover = rendered_photos[0]
+            title = _clean_description(
+                cover.get("note_title") or cover.get("description") or "小红书摄影作品",
+                90,
+            )
+            note = {
+                "date": day_dir.name,
+                "note_id": cover.get("note_id", ""),
+                "title": title,
+                "caption": _truncate(_clean_text(cover.get("caption", "")), 180),
+                "photographer": cover.get("photographer", "小红书博主"),
+                "source_url": cover.get("source_url") or cover.get("xhs_url") or "",
+                "cover_image": _image_url(group[0], "small", "../"),
+                "detail_url": f"{day_dir.name}/index.html",
+                "image_count": len(rendered_photos),
+            }
+            detail_dir = xhs_root / day_dir.name
+            detail_dir.mkdir(parents=True, exist_ok=True)
+            detail_html = detail_template.render(
+                date=day_dir.name,
+                note=note,
+                photos=rendered_photos,
+            )
+            (detail_dir / "index.html").write_text(
+                _strip_trailing_whitespace(detail_html),
+                encoding="utf-8",
+                newline="\n",
+            )
+            notes.append(note)
+
+    index_html = index_template.render(notes=notes)
+    out_path = xhs_root / "index.html"
+    out_path.write_text(_strip_trailing_whitespace(index_html), encoding="utf-8", newline="\n")
+    logger.info("Xiaohongshu site updated: %s (%d notes)", out_path, len(notes))
+    return out_path
+
+
 def update_index(output_dir: str) -> Path:
     """Update the archive index page."""
     output_path = Path(output_dir)
@@ -492,6 +577,7 @@ def update_index(output_dir: str) -> Path:
                             "caption": _truncate(_clean_text(photo.get("caption", "")), 120),
                             "photographer": photo.get("photographer", "小红书博主"),
                             "source_url": photo.get("source_url") or photo.get("xhs_url") or "",
+                            "detail_url": f"xhs/{day_dir.name}/index.html",
                         }
                     )
 
@@ -547,8 +633,11 @@ def update_index(output_dir: str) -> Path:
         style_totals=style_totals_list,
         source_totals=source_totals_list,
         xhs_picks=xhs_picks[:10],
+        xhs_index_url="xhs/index.html",
         total_photos=total_photos,
     )
+
+    render_xhs_site(output_dir)
 
     out_path = output_path / "index.html"
     out_path.write_text(_strip_trailing_whitespace(html), encoding="utf-8", newline="\n")

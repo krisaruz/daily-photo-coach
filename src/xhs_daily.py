@@ -43,28 +43,12 @@ DEFAULT_XHS_SOURCES = [
         "url": "https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed",
     },
     {
-        "name": "人间富贵花",
-        "url": "https://www.xiaohongshu.com/explore/64c24c2e000000001701b934?xsec_token=ABEYLLyVLWG08-G_kO1QjaRTsF14-FQ2PebxlRpU_t8Uw&xsec_source=pc_feed",
-    },
-    {
         "name": "小仙女周周",
         "url": "https://www.xiaohongshu.com/explore/64ba91e5000000000800f849?xsec_token=ABbCLHT5s3qlM3EnEPlnWhUINrLLEnUQ51TY8T0KxqD2E%3D&xsec_source=pc_feed",
     },
     {
-        "name": "赵火火不火",
-        "url": "https://www.xiaohongshu.com/explore/64b3f0c4000000003500a86b?xsec_token=ABNXsDE_bYwfBCzcY2xDqbXHHpQKLLK_JG8paXQyCMd6w%3D&xsec_source=pc_feed",
-    },
-    {
-        "name": "天祁预暴",
-        "url": "https://www.xiaohongshu.com/explore/64b60f55000000001c00fc0c?xsec_token=ABUUOADRu6dI8NlNWT9_SMJ8-fzUziNIZRrvtYhv-sDII&xsec_source=pc_feed",
-    },
-    {
         "name": "鯊魚喬納森",
         "url": "https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed",
-    },
-    {
-        "name": "是朱朱呀",
-        "url": "https://www.xiaohongshu.com/explore/64c25844000000001201f682?xsec_token=ABEYLLyVLWG08-G_kO1QjaReN4Jza8SSqQbrqdh33bsyk&xsec_source=pc_feed",
     },
     {
         "name": "Yeeton",
@@ -89,7 +73,14 @@ for source in DEFAULT_XHS_SOURCES:
     source.setdefault("style_color", DEFAULT_STYLE["color"])
     source.setdefault("style_icon", DEFAULT_STYLE["icon"])
     source.setdefault("max_notes", 1)
-    source.setdefault("max_images_per_note", 1)
+
+
+DEFAULT_EXCLUDED_NOTE_IDS = {
+    "64c24c2e000000001701b934",  # 文案更偏情绪随拍，不适合作为写真教学样本
+    "64b60f55000000001c00fc0c",  # 旅行攻略拼图，教学信噪比低
+    "64b3f0c4000000003500a86b",  # 海岛旅行信息多于人像拍法
+    "64c25844000000001201f682",  # 部分图片会被模型安全系统拒绝，不适合作为默认多图样本
+}
 
 
 def _xhs_config(config: dict[str, Any]) -> dict[str, Any]:
@@ -99,8 +90,10 @@ def _xhs_config(config: dict[str, Any]) -> dict[str, Any]:
         "style_color": DEFAULT_STYLE["color"],
         "style_icon": DEFAULT_STYLE["icon"],
         "max_notes_per_source": 1,
-        "max_images_per_note": 1,
+        "max_images_per_note": 18,
         "cookie": "",
+        "exclude_note_ids": sorted(DEFAULT_EXCLUDED_NOTE_IDS),
+        "quality_blocklist": ["老娘", "黑不黑", "PUA", "美甲"],
         "sources": copy.deepcopy(DEFAULT_XHS_SOURCES),
     }
     return {**defaults, **(config.get("xhs") or {})}
@@ -205,13 +198,12 @@ def _select_for_date(
 
     if mode == "note":
         note_groups = _group_note_photos(photos)
-        selected: list[dict[str, Any]] = []
         start = day_ordinal % len(note_groups)
-        for offset in range(min(count, len(note_groups))):
-            group = note_groups[(start + offset) % len(note_groups)]
-            if group:
-                selected.append(group[0])
-        return [copy.deepcopy(photo) for photo in selected]
+        selected_groups = [
+            note_groups[(start + offset) % len(note_groups)]
+            for offset in range(min(count, len(note_groups)))
+        ]
+        return [copy.deepcopy(photo) for group in selected_groups for photo in group]
 
     ordered = _dedupe(photos)
     start = day_ordinal % len(ordered)
@@ -224,6 +216,40 @@ def _group_by_style(photos: list[dict[str, Any]]) -> dict[str, list[dict[str, An
     for photo in photos:
         grouped[photo.get("style_label") or DEFAULT_STYLE["label"]].append(photo)
     return dict(grouped)
+
+
+def _is_reasonable_note(group: list[dict[str, Any]], xhs_config: dict[str, Any]) -> bool:
+    if not group:
+        return False
+    sample = group[0]
+    note_id = str(sample.get("note_id") or "")
+    if note_id in set(str(item) for item in xhs_config.get("exclude_note_ids", [])):
+        return False
+
+    title = str(sample.get("note_title") or sample.get("description") or "")
+    caption = str(sample.get("caption") or "")
+    text = f"{title}\n{caption}"
+    if any(str(term) and str(term) in text for term in xhs_config.get("quality_blocklist", [])):
+        return False
+
+    photo_terms = ("拍照", "写真", "摄影", "出片", "机位", "构图", "调色", "光线", "拍摄")
+    if "攻略" in title and not any(term in text for term in photo_terms):
+        return False
+    return True
+
+
+def _filter_reasonable_notes(photos: list[dict[str, Any]], xhs_config: dict[str, Any]) -> list[dict[str, Any]]:
+    kept: list[dict[str, Any]] = []
+    dropped: list[str] = []
+    for group in _group_note_photos(photos):
+        if _is_reasonable_note(group, xhs_config):
+            kept.extend(group)
+        else:
+            sample = group[0] if group else {}
+            dropped.append(f"{sample.get('note_id')}:{sample.get('note_title') or sample.get('description')}")
+    if dropped:
+        logger.info("已过滤 %d 条不适合写真教学的小红书笔记: %s", len(dropped), "；".join(dropped))
+    return kept
 
 
 def _date_range(end_date: str, backfill_days: int) -> list[str]:
@@ -364,6 +390,7 @@ def fetch_pool(config: dict[str, Any], args: argparse.Namespace) -> list[dict[st
         cookie=args.cookie or xhs_config.get("cookie", ""),
     )
     pool = _dedupe(pool)
+    pool = _filter_reasonable_notes(pool, xhs_config)
     output_dir = PROJECT_ROOT / config["output"]["dir"]
     xhs_fetcher.cache_photo_assets(
         pool,
@@ -388,7 +415,7 @@ def main() -> None:
     parser.add_argument("--style-color", type=str, default=None, help="栏目颜色")
     parser.add_argument("--style-icon", type=str, default=None, help="栏目图标")
     parser.add_argument("--mode", choices=["photo", "note"], default="photo", help="按图片还是按整条笔记轮换")
-    parser.add_argument("--count", type=int, default=3, help="每天写入几张小红书图片")
+    parser.add_argument("--count", type=int, default=1, help="note 模式下表示每天选几条小红书帖子")
     parser.add_argument("--max-notes", type=int, default=None, help="每个来源最多解析多少条笔记")
     parser.add_argument("--max-images-per-note", type=int, default=None, help="每条笔记最多解析多少张图")
     parser.add_argument("--model", type=str, default=None, help="分析模型")

@@ -782,11 +782,12 @@
                             <p>Xiaohongshu</p>
                             <h2>小红书精选</h2>
                         </div>
+                        <a href="{{ xhs_index_url }}" class="text-sm font-bold text-rose-700 hover:underline">独立浏览</a>
                     </div>
 
                     <div class="xhs-picks">
                         {% for pick in xhs_picks[:5] %}
-                        <a href="{{ pick.date }}/index.html" class="xhs-pick">
+                        <a href="{{ pick.detail_url }}" class="xhs-pick">
                             <img src="{{ pick.image }}" alt="{{ pick.title }}" loading="lazy">
                             <div>
                                 <h3>{{ pick.title }}</h3>
@@ -902,7 +903,7 @@
     async function importXhs() {
         const url = prompt('粘贴小红书公开分享链接或笔记链接：');
         if (!url) return;
-        const style = prompt('归入哪个栏目？', '小红书｜人像自然') || '小红书｜人像自然';
+        const style = prompt('归入哪个栏目？', '小红书｜人像写真') || '小红书｜人像写真';
         const limit = prompt('最多导入几张图？', '6') || '6';
         const ok = confirm(`确认导入「${style}」？\n将触发后台抓取公开图片并调用 GPT-5.5 分析。`);
         if (!ok) return;

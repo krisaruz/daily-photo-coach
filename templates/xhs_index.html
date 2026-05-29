@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小红书精选 · Daily Photo Coach</title>
+    <style>
+        :root {
+            --paper: #fff7f8;
+            --ink: #26151b;
+            --muted: #80616c;
+            --line: rgba(190, 24, 93, 0.16);
+            --accent: #be185d;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "Segoe UI", sans-serif;
+            color: var(--ink);
+            background: linear-gradient(180deg, #fff, var(--paper));
+        }
+        .shell { width: min(1120px, calc(100vw - 32px)); margin: 0 auto; padding: 28px 0 56px; }
+        .topbar { display: flex; justify-content: space-between; gap: 16px; align-items: center; margin-bottom: 30px; }
+        a { color: inherit; }
+        .back { color: var(--muted); text-decoration: none; font-weight: 700; }
+        h1 { margin: 0; font-size: clamp(36px, 8vw, 72px); line-height: 1; letter-spacing: 0; }
+        .intro { margin: 12px 0 0; max-width: 680px; color: var(--muted); line-height: 1.8; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; margin-top: 32px; }
+        .note {
+            display: grid;
+            grid-template-columns: 104px minmax(0, 1fr);
+            gap: 14px;
+            min-height: 138px;
+            padding: 12px;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: rgba(255,255,255,0.78);
+            text-decoration: none;
+        }
+        .note img { width: 104px; height: 132px; object-fit: cover; border-radius: 6px; background: #eadde1; }
+        .note h2 { margin: 0; font-size: 17px; line-height: 1.35; }
+        .note p {
+            margin: 8px 0 0;
+            color: var(--muted);
+            font-size: 13px;
+            line-height: 1.65;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .meta { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px; color: var(--accent); font-size: 12px; font-weight: 800; }
+        @media (max-width: 640px) {
+            .topbar { align-items: flex-start; flex-direction: column; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <main class="shell">
+        <nav class="topbar">
+            <a class="back" href="../index.html">← 返回 Daily Photo Coach</a>
+            <span class="back">Xiaohongshu Notes</span>
+        </nav>
+        <header>
+            <h1>小红书精选</h1>
+            <p class="intro">这里是独立的小红书学习入口：每天只收录一条公开摄影帖子，并把帖子里的多张图片逐张拆解，避免和每日 Unsplash 内容混在一起。</p>
+        </header>
+        <section class="grid">
+            {% for note in notes %}
+            <a class="note" href="{{ note.detail_url }}">
+                <img src="{{ note.cover_image }}" alt="{{ note.title }}" loading="lazy">
+                <div>
+                    <h2>{{ note.title }}</h2>
+                    {% if note.caption %}
+                    <p>{{ note.caption }}</p>
+                    {% endif %}
+                    <div class="meta">
+                        <span>{{ note.date }}</span>
+                        <span>{{ note.photographer }}</span>
+                        <span>{{ note.image_count }} 张图</span>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </section>
+    </main>
+</body>
+</html>
