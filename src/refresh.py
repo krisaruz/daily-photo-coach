@@ -71,14 +71,21 @@ def refresh_style(
         grouped_photos = {}
         logger.info("当天无已有归档，将创建新的")
 
-    access_key = config["unsplash"]["access_key"]
-    if not access_key or access_key == "YOUR_UNSPLASH_ACCESS_KEY":
-        logger.error("Unsplash Access Key 未配置")
-        sys.exit(1)
+    source = config.get("daily", {}).get("source", "unsplash")
+    if source == "flickr":
+        flickr_key = config.get("flickr", {}).get("api_key", "")
+        if not flickr_key or flickr_key == "YOUR_FLICKR_API_KEY":
+            logger.error("Flickr API Key 未配置")
+            sys.exit(1)
+    else:
+        access_key = config.get("unsplash", {}).get("access_key", "")
+        if not access_key or access_key == "YOUR_UNSPLASH_ACCESS_KEY":
+            logger.error("Unsplash Access Key 未配置")
+            sys.exit(1)
 
     logger.info("=== 抓取新照片 ===")
     global_seen = fetcher.load_historical_ids(output_dir)
-    new_photos = fetcher.fetch_photos_for_style(access_key, target_style, count=photos_per_style, global_seen=global_seen)
+    new_photos = fetcher.fetch_photos_for_style(config, target_style, count=photos_per_style, global_seen=global_seen)
     if not new_photos:
         logger.error("抓取失败，无新照片")
         sys.exit(1)

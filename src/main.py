@@ -61,6 +61,10 @@ def _config_from_env() -> dict:
     import os
 
     access_key = os.environ.get("UNSPLASH_ACCESS_KEY", "")
+    unsplash_featured = os.environ.get("UNSPLASH_FEATURED", "true").lower() in ("true", "1", "yes")
+    flickr_api_key = os.environ.get("FLICKR_API_KEY", "")
+    daily_source = os.environ.get("DAILY_SOURCE", "unsplash")
+
     llm_url = os.environ.get("LLM_URL", "https://api.openai.com/v1/chat/completions")
     llm_model = os.environ.get("LLM_MODEL", "gpt-4o")
     llm_auth = os.environ.get("LLM_AUTH", "")
@@ -98,7 +102,8 @@ def _config_from_env() -> dict:
 
     logger.info("从环境变量加载配置（CI 模式）")
     return {
-        "unsplash": {"access_key": access_key},
+        "unsplash": {"access_key": access_key, "featured": unsplash_featured},
+        "flickr": {"api_key": flickr_api_key},
         "llm": {
             "url": llm_url,
             "model": llm_model,
@@ -106,7 +111,7 @@ def _config_from_env() -> dict:
             "timeout": int(os.environ.get("LLM_TIMEOUT", "300")),
             "max_retries": int(os.environ.get("LLM_MAX_RETRIES", "3")),
         },
-        "daily": {"photos_per_style": photos_per_style, "styles": styles},
+        "daily": {"source": daily_source, "photos_per_style": photos_per_style, "styles": styles},
         "xhs": {
             "model": os.environ.get("XHS_LLM_MODEL", "gpt-5.5"),
             "cookie": os.environ.get("XHS_COOKIE", ""),
@@ -150,17 +155,24 @@ def daily_run(
             archive_path.read_text(encoding="utf-8")
         )
     else:
-        access_key = config["unsplash"]["access_key"]
-        if access_key == "YOUR_UNSPLASH_ACCESS_KEY":
-            logger.error(
-                "请先在 config.yaml 中设置 Unsplash Access Key！\n"
-                "  注册地址: https://unsplash.com/developers"
-            )
-            sys.exit(1)
+        source = config.get("daily", {}).get("source", "unsplash")
+        if source == "flickr":
+            flickr_key = config.get("flickr", {}).get("api_key", "")
+            if not flickr_key or flickr_key == "YOUR_FLICKR_API_KEY":
+                logger.error("请先在 config.yaml 中设置 Flickr API Key！")
+                sys.exit(1)
+        else:
+            access_key = config.get("unsplash", {}).get("access_key", "")
+            if not access_key or access_key == "YOUR_UNSPLASH_ACCESS_KEY":
+                logger.error(
+                    "请先在 config.yaml 中设置 Unsplash Access Key！\n"
+                    "  注册地址: https://unsplash.com/developers"
+                )
+                sys.exit(1)
 
         logger.info("=== Phase 1: 抓取照片 ===")
         global_seen = fetcher.load_historical_ids(output_dir)
-        grouped_photos = fetcher.fetch_daily(access_key, styles, photos_per_style, global_seen=global_seen)
+        grouped_photos = fetcher.fetch_daily(config, styles, photos_per_style, global_seen=global_seen)
         actual = sum(len(v) for v in grouped_photos.values())
         logger.info("成功抓取 %d 张照片（%d 种风格）", actual, len(grouped_photos))
 
