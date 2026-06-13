@@ -30,11 +30,15 @@ jobs:
           git fetch origin
           git checkout origin/master -- output/ 2>/dev/null || true
 
-      - name: Fetch photos (LLM analysis runs locally)
+      - name: Fetch and Analyze photos (Runs completely on GitHub Actions)
         env:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LLM_AUTH: ${{ secrets.LLM_AUTH }}
+          LLM_URL: ${{ secrets.LLM_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
           PYTHONPATH: src
-        run: python src/main.py --skip-analysis
+        run: python src/main.py
 
       - name: Commit output to repo
         run: |

@@ -32,15 +32,18 @@ def load_historical_ids(output_dir: str) -> set[str]:
     return seen
 
 
-def fetch_photo(access_key: str, query: str, orientation: str = "landscape", featured: bool = False) -> dict[str, Any] | None:
+def fetch_photo(access_key: str, query: str = None, topics: str = None, orientation: str = "landscape", featured: bool = False) -> dict[str, Any] | None:
     """从 Unsplash 抓取一张符合主题的随机照片，遇限流自动等待。"""
     import time
 
     params = {
-        "query": query,
         "orientation": orientation,
         "content_filter": "high",
     }
+    if query:
+        params["query"] = query
+    if topics:
+        params["topics"] = topics
     if featured:
         params["featured"] = "true"
 
@@ -65,10 +68,10 @@ def fetch_photo(access_key: str, query: str, orientation: str = "landscape", fea
             break
         except requests.RequestException as e:
             if attempt < 9:
-                logger.warning("Unsplash API 请求失败 [query=%s]: %s，等待 10s 重试...", query, e)
+                logger.warning("Unsplash API 请求失败 [query=%s, topics=%s]: %s，等待 10s 重试...", query, topics, e)
                 time.sleep(10)
                 continue
-            logger.error("Unsplash API 请求最终失败 [query=%s]: %s", query, e)
+            logger.error("Unsplash API 请求最终失败 [query=%s, topics=%s]: %s", query, topics, e)
             return None
     else:
         return None
@@ -102,7 +105,7 @@ def fetch_unsplash_photos_for_style(
     config: dict[str, Any], style: dict[str, str], count: int = 3,
     global_seen: set[str] | None = None,
 ) -> list[dict[str, Any]]:
-    """使用 Unsplash 抓取一种风格的多张照片。"""
+    """使用 Unsplash 抓取一种风格的多张照片，支持 topics 官方精选和 query 关键词。"""
     access_key = config.get("unsplash", {}).get("access_key", "")
     featured = config.get("unsplash", {}).get("featured", False)
     
@@ -111,7 +114,13 @@ def fetch_unsplash_photos_for_style(
         return []
 
     orientations = ["landscape", "portrait", "squarish"]
-    queries = style["query"] if isinstance(style["query"], list) else [style["query"]]
+    
+    style_queries = style.get("query", "")
+    queries = style_queries if isinstance(style_queries, list) else [style_queries] if style_queries else []
+    
+    style_topics = style.get("topics", "")
+    topics = style_topics if isinstance(style_topics, list) else [style_topics] if style_topics else []
+
     photos = []
     local_seen: set[str] = set()
     max_retries = max(count * 10, 20)
@@ -120,8 +129,16 @@ def fetch_unsplash_photos_for_style(
     i = 0
     while len(photos) < count and attempts < max_retries:
         orientation = orientations[i % len(orientations)]
-        query = queries[i % len(queries)]
-        photo = fetch_photo(access_key, query=query, orientation=orientation, featured=featured)
+        
+        query = None
+        topic = None
+        
+        if topics:
+            topic = topics[i % len(topics)]
+        elif queries:
+            query = queries[i % len(queries)]
+            
+        photo = fetch_photo(access_key, query=query, topics=topic, orientation=orientation, featured=featured)
         attempts += 1
 
         if not photo:
@@ -133,7 +150,7 @@ def fetch_unsplash_photos_for_style(
             logger.debug("  [%s] 重复照片 %s，跳过", style["label"], pid)
             continue
 
-        photo["style_query"] = query
+        photo["style_query"] = topic or query or ""
         photo["style_label"] = style["label"]
         photo["style_color"] = style.get("color", "#6b7280")
         photo["style_icon"] = style.get("icon", "📷")
