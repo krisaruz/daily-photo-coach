@@ -8,10 +8,32 @@
 
 ## #1 风光/自然
 
-**摄影师**: [Md Mahdi](https://unsplash.com/@mahdi17)
- | **来源**: [Unsplash](https://unsplash.com/photos/yellow-and-red-light-streaks-WLgxcSA7sYs)
+**摄影师**: [Biel Morro](https://unsplash.com/@bielmorro)
+ | **来源**: [Unsplash](https://unsplash.com/photos/brown-conch-shell-on-right-human-palm-_l8ZdgJ9m7w)
 
-![yellow and red light streaks](https://images.unsplash.com/photo-1594547021300-467038ef6645?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1MTcyMDZ8&ixlib=rb-4.1.0&q=80&w=1080)
+![I took this photo a few days ago, during my holidays in Minorca, a tiny island where I was born. It’s been almost five years since I left my home now. I stumbled upon this empty shell while I was scuba diving, My intention was to capture a bit of the essence of my island: humanity and nature together in the middle of the sea.](https://images.unsplash.com/photo-1472152083436-a6eede6efad9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NTYxNDV8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera NIKON CORPORATION NIKON D3200 | f/1.8 | 1/4000s | 50.0mm | ISO 100
+
+
+## #2 风光/自然
+
+**摄影师**: [Daniel J. Schwarz](https://unsplash.com/@danieljschwarz)
+ | **来源**: [Unsplash](https://unsplash.com/photos/white-and-brown-house-near-lake-and-green-trees-under-white-clouds-and-blue-sky-during-ta87U8ClqFs)
+
+![Autumn at its best in Austria! 🍂](https://images.unsplash.com/photo-1603884652342-2b6992a1a9ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NTYxNDd8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera Canon Canon EOS 6D Mark II | f/2.8 | 1/1250s | 57.0mm | ISO 100
+
+
+## #3 风光/自然
+
+**摄影师**: [Martin Jernberg](https://unsplash.com/@martinjernberg)
+ | **来源**: [Unsplash](https://unsplash.com/photos/silhouette-of-statue-of-liberty-W8NMMbnlsEI)
+
+![Boat cruise at golden hour. Blessed.](https://images.unsplash.com/photo-1541214356144-6098f33b876a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NTYxNDl8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera Canon Canon EOS 5D Mark IV | f/2.8 | 1/200s | 95.0mm | ISO 640
 
 
 ---
@@ -19,14 +41,34 @@
 # 人像/质感
 
 
-## #2 人像/质感
+## #4 人像/质感
 
-**摄影师**: [Samsung Memory US](https://unsplash.com/@samsungmemoryus)
- | **来源**: [Unsplash](https://unsplash.com/photos/woman-works-on-laptop-with-child-in-car-ECqkhudJk-U)
+**摄影师**: [Jaykumar Bherwani](https://unsplash.com/@hashcode_error)
+ | **来源**: [Unsplash](https://unsplash.com/photos/person-wearing-a-baseball-cap-at-a-desk-7nNXiSAuCM8)
 
-![Woman works on laptop with child in car.](https://images.unsplash.com/photo-1756142007501-f5446097dfcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1MTcyMDh8&ixlib=rb-4.1.0&q=80&w=1080)
+![Person wearing a baseball cap at a desk.](https://images.unsplash.com/photo-1762512346990-22d810fe4252?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NTYxNTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: Camera FUJIFILM X-H2 | f/2.8 | 1/200s | 16.0mm | ISO 800
+> EXIF: Camera Google Pixel 8 Pro | f/2.8 | 1/30s | 18.0mm | ISO 155
+
+
+## #5 人像/质感
+
+**摄影师**: [Max Ovcharenko](https://unsplash.com/@chestmax)
+ | **来源**: [Unsplash](https://unsplash.com/photos/a-woman-with-long-hair-zijrRpYc3io)
+
+![a woman with long hair](https://images.unsplash.com/photo-1669199145926-7dad570f3c3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NTYxNTJ8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera Canon  EOS 600D | f/2 | 1/125s | 50.0mm | ISO 800
+
+
+## #6 人像/质感
+
+**摄影师**: [Katya Azimova](https://unsplash.com/@_katishna_)
+ | **来源**: [Unsplash](https://unsplash.com/photos/gray-sock-on-brown-textile-q-WjpEiKJrY)
+
+![Warmth](https://images.unsplash.com/photo-1604632482693-76d59bf352b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NTYxNTN8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera Canon Canon EOS R | f/18.0 | 1/20s | 63.0mm | ISO 1000
 
 
 ---
@@ -34,11 +76,31 @@
 # 街头/人文
 
 
-## #3 街头/人文
+## #7 街头/人文
 
-**摄影师**: [Richard Stachmann](https://unsplash.com/@stachmann)
- | **来源**: [Unsplash](https://unsplash.com/photos/a-group-of-people-walking-down-a-sidewalk-Gih7w9eXZEQ)
+**摄影师**: [taro ohtani](https://unsplash.com/@taro_ohtani)
+ | **来源**: [Unsplash](https://unsplash.com/photos/a-group-of-people-walking-past-a-subway-station-PJuwZJB2toI)
 
-![a group of people walking down a sidewalk](https://images.unsplash.com/photo-1709666245273-9e333bdb4b35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1MTcyMTB8&ixlib=rb-4.1.0&q=80&w=1080)
+![Inside Shinjuku Station: A view of the bustling station interior featuring six route information boards, epitomizing Tokyo's extensive and advanced railway network.](https://images.unsplash.com/photo-1701602714058-0d1403f606fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NTYxNTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: Camera RICOH IMAGING COMPANY, LTD. RICOH GR III | f/5.6 | 1/800s | 18.3mm | ISO 200
+> EXIF: Camera SONY ILCE-7M4 | f/18.0 | 1/8s | 38.0mm | ISO 1000
+
+
+## #8 街头/人文
+
+**摄影师**: [Bryan Dijkhuizen](https://unsplash.com/@bryandijkh)
+ | **来源**: [Unsplash](https://unsplash.com/photos/a-person-with-a-backpack-walking-down-a-street-Prg_UfDpfeQ)
+
+![A person with a backpack walking down a street](https://images.unsplash.com/photo-1732480509153-b895ce4c1b64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NTYxNTd8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera FUJIFILM X-H2 | f/2.0 | 1/35s | 35.0mm | ISO 800
+
+
+## #9 街头/人文
+
+**摄影师**: [Greg @greegorey](https://unsplash.com/@greegorey)
+ | **来源**: [Unsplash](https://unsplash.com/photos/people-walking-down-a-narrow-street-with-lanterns-1EC0PsM4KYA)
+
+![People walking down a narrow street with lanterns.](https://images.unsplash.com/photo-1767127961008-e2674eb9c20d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NTYxNTh8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera FUJIFILM X100V | f/2.8 | 1/125s | 23.0mm | ISO 320
