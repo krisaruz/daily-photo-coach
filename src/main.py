@@ -90,14 +90,9 @@ def _config_from_env() -> dict:
     photos_per_style = int(os.environ.get("PHOTOS_PER_STYLE", "3"))
 
     styles = [
-        {"query": "landscape nature mountain", "label": "风光/自然", "color": "#16a34a", "icon": "🏔️"},
-        {"query": ["street portrait photography", "lifestyle portrait candid", "cinematic portrait"], "label": "人像/质感", "color": "#dc2626", "icon": "👤"},
-        {"query": "street photography documentary", "label": "街头/人文", "color": "#ea580c", "icon": "🚶"},
-        {"query": "minimal architecture geometry", "label": "极简/建筑", "color": "#2563eb", "icon": "🏛️"},
-        {"query": "food photography styling", "label": "美食/静物", "color": "#d97706", "icon": "🍽️"},
-        {"query": "night photography city lights", "label": "夜景/城市", "color": "#7c3aed", "icon": "🌃"},
-        {"query": "macro photography close up", "label": "微距/特写", "color": "#0d9488", "icon": "🔍"},
-        {"query": "black and white photography", "label": "黑白/光影", "color": "#475569", "icon": "⬛"},
+        {"query": "landscape nature mountain", "topics": "nature,travel,wallpapers", "label": "风光/自然", "color": "#16a34a", "icon": "🏔️"},
+        {"query": ["street portrait photography", "lifestyle portrait candid", "cinematic portrait"], "topics": "people,fashion", "label": "人像/质感", "color": "#dc2626", "icon": "👤"},
+        {"query": "street photography documentary", "topics": "street-photography", "label": "街头/人文", "color": "#ea580c", "icon": "🚶"},
     ]
 
     logger.info("从环境变量加载配置（CI 模式）")

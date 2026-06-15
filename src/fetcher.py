@@ -58,6 +58,10 @@ def fetch_photo(access_key: str, query: str = None, topics: str = None, orientat
             if resp.status_code == 403:
                 remaining = resp.headers.get("X-Ratelimit-Remaining", "0")
                 if remaining == "0" or resp.status_code == 403:
+                    import os
+                    if os.environ.get("GITHUB_ACTIONS") == "true":
+                        logger.error("Unsplash API 限流（剩余: %s），运行在 CI 环境中，立即终止抓取以避免挂起。", remaining)
+                        return None
                     wait = 3660  # 等 61 分钟（配额每小时重置）
                     logger.warning("Unsplash API 限流（剩余: %s），等待 %d 分钟后继续...", remaining, wait // 60)
                     time.sleep(wait)
