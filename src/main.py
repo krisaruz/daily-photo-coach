@@ -60,13 +60,13 @@ def _config_from_env() -> dict:
     """从环境变量构建完整配置（用于 CI/GitHub Actions）。"""
     import os
 
-    access_key = os.environ.get("UNSPLASH_ACCESS_KEY", "")
-    unsplash_featured = os.environ.get("UNSPLASH_FEATURED", "true").lower() in ("true", "1", "yes")
-    flickr_api_key = os.environ.get("FLICKR_API_KEY", "")
-    daily_source = os.environ.get("DAILY_SOURCE", "unsplash")
+    access_key = os.environ.get("UNSPLASH_ACCESS_KEY") or ""
+    unsplash_featured = (os.environ.get("UNSPLASH_FEATURED") or "true").lower() in ("true", "1", "yes")
+    flickr_api_key = os.environ.get("FLICKR_API_KEY") or ""
+    daily_source = os.environ.get("DAILY_SOURCE") or "unsplash"
 
-    llm_url = os.environ.get("LLM_URL", "https://api.openai.com/v1/chat/completions")
-    llm_model = os.environ.get("LLM_MODEL", "gpt-4o")
+    llm_url = os.environ.get("LLM_URL") or "http://ai-gateway.wps.cn/api/v3/chat/completions"
+    llm_model = os.environ.get("LLM_MODEL") or "azure/gpt-5.5"
     llm_auth = os.environ.get("LLM_AUTH", "")
     openai_api_key = os.environ.get("OPENAI_API_KEY", "")
 
