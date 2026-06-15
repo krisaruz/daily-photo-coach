@@ -139,7 +139,7 @@ def fetch_unsplash_photos_for_style(
         
         if topics:
             topic = topics[i % len(topics)]
-        elif queries:
+        if queries:
             query = queries[i % len(queries)]
             
         photo = fetch_photo(access_key, query=query, topics=topic, orientation=orientation, featured=featured)

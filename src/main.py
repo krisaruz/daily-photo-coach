@@ -90,9 +90,9 @@ def _config_from_env() -> dict:
     photos_per_style = int(os.environ.get("PHOTOS_PER_STYLE", "3"))
 
     styles = [
-        {"query": "landscape nature mountain", "topics": "nature,travel,wallpapers", "label": "风光/自然", "color": "#16a34a", "icon": "🏔️"},
-        {"query": ["street portrait photography", "lifestyle portrait candid", "cinematic portrait"], "topics": "people,fashion", "label": "人像/质感", "color": "#dc2626", "icon": "👤"},
-        {"query": "street photography documentary", "topics": "street-photography", "label": "街头/人文", "color": "#ea580c", "icon": "🚶"},
+        {"query": "landscape nature mountain", "topics": "6sMVjTLSkeQ,Fzo3zuOHN6w,bo8jQKTaE0Y", "label": "风光/自然", "color": "#16a34a", "icon": "🏔️"},
+        {"query": ["street portrait photography", "lifestyle portrait candid", "cinematic portrait"], "topics": "towJZFskpGg,S4MKLAsBB74", "label": "人像/质感", "color": "#dc2626", "icon": "👤"},
+        {"query": "street photography documentary", "topics": "xHxYTMHLgOc", "label": "街头/人文", "color": "#ea580c", "icon": "🚶"},
     ]
 
     logger.info("从环境变量加载配置（CI 模式）")
