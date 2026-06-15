@@ -42,8 +42,12 @@ def main():
     parser.add_argument("--start", type=str, required=True, help="起始日期 YYYY-MM-DD")
     parser.add_argument("--end", type=str, required=True, help="结束日期 YYYY-MM-DD")
     parser.add_argument("--skip-existing", action="store_true", help="跳过已有 photos.json 的日期")
-    parser.add_argument("--skip-analysis", action="store_true", help="只抓图不分析")
+    parser.add_argument("--skip-analysis", action="store_true", default=True, help="只抓图不分析")
+    parser.add_argument("--run-analysis", action="store_true", help="执行分析（默认关闭）")
     args = parser.parse_args()
+
+    if args.run_analysis:
+        args.skip_analysis = False
 
     start = date.fromisoformat(args.start)
     end = date.fromisoformat(args.end)

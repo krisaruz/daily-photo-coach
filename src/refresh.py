@@ -115,8 +115,13 @@ def main():
     parser.add_argument("--style", type=str, required=True, help="要刷新的风格关键词（如：人像、街头）")
     parser.add_argument("--config", type=str, default=str(DEFAULT_CONFIG), help="配置文件路径")
     parser.add_argument("--date", type=str, default=None, help="指定日期 (YYYY-MM-DD)")
-    parser.add_argument("--skip-analysis", action="store_true", help="跳过 LLM 分析")
+    parser.add_argument("--skip-analysis", action="store_true", default=True, help="跳过 LLM 分析")
+    parser.add_argument("--run-analysis", action="store_true", help="执行 LLM 分析（默认关闭）")
     args = parser.parse_args()
+
+    skip_analysis = args.skip_analysis
+    if args.run_analysis:
+        skip_analysis = False
 
     config = load_config(Path(args.config))
     target_date = args.date or date.today().isoformat()
@@ -125,7 +130,7 @@ def main():
     logger.info("  风格关键词: %s", args.style)
     logger.info("  日期: %s", target_date)
 
-    refresh_style(config, args.style, target_date, skip_analysis=args.skip_analysis)
+    refresh_style(config, args.style, target_date, skip_analysis=skip_analysis)
 
 
 if __name__ == "__main__":

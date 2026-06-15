@@ -222,10 +222,12 @@
                             <figure class="frame">
                                 <img src="{{ photo.url_regular }}" alt="{{ photo.description }}" loading="{% if loop.first %}eager{% else %}lazy{% endif %}">
                             </figure>
+                            {% if photo.analysis_html.strip() %}
                             <div class="analysis-panel">
                                 <h2>第 {{ loop.index }} 张 / 共 {{ photos | length }} 张</h2>
                                 <div class="analysis">{{ photo.analysis_html | safe }}</div>
                             </div>
+                            {% endif %}
                         </article>
                         {% endfor %}
                     </div>

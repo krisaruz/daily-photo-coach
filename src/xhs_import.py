@@ -198,9 +198,13 @@ def main() -> None:
     parser.add_argument("--model", type=str, default=None, help="小红书分析使用的模型，默认读取 xhs.model")
     parser.add_argument("--cookie", type=str, default="", help="可选 Cookie；仅用于你有权访问的公开页面")
     parser.add_argument("--append", action="store_true", help="追加到同名栏目，而不是替换该栏目")
-    parser.add_argument("--skip-analysis", action="store_true", help="跳过 LLM 分析，仅导入和渲染")
+    parser.add_argument("--skip-analysis", action="store_true", default=True, help="跳过 LLM 分析，仅导入和渲染")
+    parser.add_argument("--run-analysis", action="store_true", help="执行 LLM 分析（默认关闭）")
     parser.add_argument("--force-analysis", action="store_true", help="强制重新分析已有结果")
     args = parser.parse_args()
+
+    if args.run_analysis:
+        args.skip_analysis = False
 
     config = load_config(Path(args.config))
     target_date = args.date or date.today().isoformat()

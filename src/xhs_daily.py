@@ -421,9 +421,13 @@ def main() -> None:
     parser.add_argument("--model", type=str, default=None, help="分析模型")
     parser.add_argument("--cookie", type=str, default="", help="可选 Cookie；仅用于你有权访问的公开页面")
     parser.add_argument("--append", action="store_true", help="追加到小红书栏目，而不是替换")
-    parser.add_argument("--skip-analysis", action="store_true", help="跳过分析")
+    parser.add_argument("--skip-analysis", action="store_true", default=True, help="跳过分析")
+    parser.add_argument("--run-analysis", action="store_true", help="运行分析（默认关闭）")
     parser.add_argument("--force-analysis", action="store_true", help="强制重新分析")
     args = parser.parse_args()
+
+    if args.run_analysis:
+        args.skip_analysis = False
 
     config = load_config(Path(args.config))
     target_date = args.date or datetime.now().date().isoformat()

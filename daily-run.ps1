@@ -23,7 +23,7 @@ try {
     # 运行主程序（抓图 + LLM 分析）
     Log "运行 main.py (Python 3.11) ..."
     $env:PYTHONPATH = "src"
-    & $pythonExe src/main.py 2>&1 | Tee-Object -FilePath $logFile -Append
+    & $pythonExe src/main.py --skip-analysis 2>&1 | Tee-Object -FilePath $logFile -Append
     if ($LASTEXITCODE -ne 0) {
         Log "main.py 执行失败，退出码: $LASTEXITCODE"
         exit $LASTEXITCODE
