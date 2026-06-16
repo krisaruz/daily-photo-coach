@@ -206,8 +206,7 @@ def main():
     parser.add_argument("--config", type=str, default=str(DEFAULT_CONFIG), help="配置文件路径")
     parser.add_argument("--date", type=str, default=None, help="指定日期 (YYYY-MM-DD)")
     parser.add_argument("--skip-fetch", action="store_true", help="跳过抓取，使用已有照片")
-    parser.add_argument("--skip-analysis", action="store_true", default=True, help="跳过 LLM 分析（仅抓图+渲染）")
-    parser.add_argument("--run-analysis", action="store_true", help="执行 LLM 分析（默认关闭）")
+    parser.add_argument("--skip-analysis", action="store_true", help="跳过 LLM 分析（仅抓图+渲染）")
     parser.add_argument("--force-analysis", action="store_true", help="强制重新分析（忽略已有结果）")
     parser.add_argument("--per-style", type=int, default=None, help="每种风格的照片数")
     parser.add_argument("--styles", nargs="+", default=None, help="只跑指定风格（关键词匹配）")
@@ -219,15 +218,11 @@ def main():
     logger.info("Daily Photo Coach 启动")
     logger.info("  日期: %s", target_date)
 
-    skip_analysis = args.skip_analysis
-    if args.run_analysis:
-        skip_analysis = False
-
     daily_run(
         config,
         target_date,
         skip_fetch=args.skip_fetch,
-        skip_analysis=skip_analysis,
+        skip_analysis=args.skip_analysis,
         force_analysis=args.force_analysis,
         per_style=args.per_style,
         style_filter=args.styles,
