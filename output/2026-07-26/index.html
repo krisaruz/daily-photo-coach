@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日摄影教练 · 2026-07-26</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { serif: ['"Noto Serif SC"', 'Georgia', 'serif'], sans: ['Inter', 'system-ui', 'sans-serif'] },
+                    colors: { ink: '#0f172a', paper: '#faf9f7', muted: '#94a3b8' }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Inter', system-ui, sans-serif; background: #faf9f7; -webkit-font-smoothing: antialiased; }
+        .font-serif { font-family: 'Noto Serif SC', Georgia, serif; }
+
+        /* 隐藏滚动条但保留功能 */
+        .scrollbar-hide::-webkit-scrollbar { display: none; }
+        .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+        /* Tab 样式 */
+        .tab-pill {
+            transition: all 0.25s cubic-bezier(0.4,0,0.2,1);
+            position: relative;
+        }
+        .tab-pill::after {
+            content: ''; position: absolute; bottom: -1px; left: 50%; width: 0; height: 2px;
+            background: var(--c); transition: all 0.25s ease; transform: translateX(-50%);
+        }
+        .tab-pill:hover { background: rgba(0,0,0,0.03); }
+        .tab-pill.active { color: #0f172a; font-weight: 600; }
+        .tab-pill.active::after { width: 100%; }
+
+        /* 面板淡入 */
+        .panel { display: none; }
+        .panel.active { display: block; animation: slideUp 0.35s cubic-bezier(0.4,0,0.2,1); }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+
+        /* 照片卡片 */
+        .photo-frame {
+            position: relative; overflow: hidden; border-radius: 16px;
+            background: #e2e0dc; cursor: zoom-in;
+        }
+        .photo-frame img { transition: transform 0.5s cubic-bezier(0.4,0,0.2,1); }
+        .photo-frame:hover img { transform: scale(1.03); }
+        .photo-frame .overlay {
+            position: absolute; inset: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 40%);
+            opacity: 0; transition: opacity 0.3s;
+        }
+        .photo-frame:hover .overlay { opacity: 1; }
+
+        /* 灯箱 */
+        .lightbox {
+            display: none; position: fixed; inset: 0; z-index: 100;
+            background: rgba(0,0,0,0.95); cursor: zoom-out;
+            justify-content: center; align-items: center;
+        }
+        .lightbox.open { display: flex; animation: fadeIn 0.25s ease; }
+        .lightbox img { max-width: 94vw; max-height: 92vh; object-fit: contain; border-radius: 8px; }
+        @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+
+        /* 分析内容排版 */
+        .analysis h2 {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 1.15rem; font-weight: 700; color: #0f172a;
+            margin: 2rem 0 0.6rem; padding-bottom: 0.4rem;
+            border-bottom: 1.5px solid #e2e8f0;
+        }
+        .analysis h2:first-child { margin-top: 0; }
+        .analysis h3 { font-size: 1rem; font-weight: 600; color: #1e293b; margin: 1.2rem 0 0.4rem; }
+        .analysis p { margin: 0.4rem 0; line-height: 1.85; color: #334155; font-size: 0.935rem; }
+        .analysis ul, .analysis ol { margin: 0.4rem 0; padding-left: 1.5rem; }
+        .analysis li { margin: 0.2rem 0; line-height: 1.85; color: #334155; font-size: 0.935rem; }
+        .analysis strong { color: #0f172a; font-weight: 600; }
+        .analysis code {
+            background: #f1f5f9; color: #475569; padding: 0.15em 0.45em;
+            border-radius: 5px; font-size: 0.88em; font-family: 'SF Mono', 'Fira Code', monospace;
+        }
+        .analysis hr { border: none; border-top: 1px solid #e2e8f0; margin: 1.5rem 0; }
+
+        /* 展开按钮 */
+        .expand-btn {
+            transition: all 0.2s;
+        }
+        .expand-btn:hover { background: #f1f5f9; }
+        .expand-btn .chevron { transition: transform 0.3s cubic-bezier(0.4,0,0.2,1); }
+        .expand-btn.open .chevron { transform: rotate(180deg); }
+
+        /* EXIF 标签 */
+        .exif-tag {
+            display: inline-flex; align-items: center; gap: 4px;
+            padding: 3px 10px; border-radius: 6px;
+            background: #f8fafc; border: 1px solid #e2e8f0;
+            font-size: 12px; color: #64748b; font-weight: 500;
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* 页面背景纹理 */
+        body::before {
+            content: ''; position: fixed; inset: 0; z-index: -1;
+            background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.015) 1px, transparent 0);
+            background-size: 32px 32px;
+        }
+    </style>
+</head>
+<body class="text-slate-700 min-h-screen">
+
+    <!-- 顶部导航 -->
+    <header class="sticky top-0 z-50 bg-[#faf9f7]/85 backdrop-blur-xl border-b border-stone-200/60">
+        <div class="max-w-[1200px] mx-auto px-6 h-14 flex items-center justify-between">
+            <a href="../index.html" class="group flex items-center gap-2 text-sm text-muted hover:text-ink transition-colors">
+                <svg class="w-4 h-4 transition-transform group-hover:-translate-x-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+                历史记录
+            </a>
+            <div class="text-center">
+                <div class="font-serif text-base font-bold tracking-tight text-ink">Daily Photo Coach</div>
+            </div>
+            <div class="flex items-center gap-3">
+                <button onclick="importXhs()"
+                        class="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-semibold text-rose-700 border border-rose-200 bg-rose-50/70 hover:bg-rose-100 transition-colors">
+                    导入小红书
+                </button>
+                <div class="text-xs text-muted font-medium tabular-nums">2026-07-26 · 9 张</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 风格 Tab 栏 -->
+    <nav class="sticky top-14 z-40 bg-[#faf9f7]/90 backdrop-blur-lg border-b border-stone-200/50">
+        <div class="max-w-[1200px] mx-auto px-6">
+            <div class="flex gap-0.5 overflow-x-auto scrollbar-hide -mb-px" id="tab-bar">
+
+                <button
+                    class="tab-pill px-5 py-3 text-[13px] text-slate-500 flex items-center gap-2 rounded-t-lg active"
+                    style="--c: #16a34a"
+                    onclick='switchTab("\u98ce\u5149\u81ea\u7136")'
+                    data-tab="风光自然"
+                >
+                    <span class="text-base leading-none">🏔️</span>
+                    <span>风光/自然</span>
+                    <span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 rounded-full text-[11px] font-semibold"
+                          style="background: #16a34a12; color: #16a34a">
+                        3
+                    </span>
+                </button>
+
+                <button
+                    class="tab-pill px-5 py-3 text-[13px] text-slate-500 flex items-center gap-2 rounded-t-lg "
+                    style="--c: #dc2626"
+                    onclick='switchTab("\u4eba\u50cf\u8d28\u611f")'
+                    data-tab="人像质感"
+                >
+                    <span class="text-base leading-none">👤</span>
+                    <span>人像/质感</span>
+                    <span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 rounded-full text-[11px] font-semibold"
+                          style="background: #dc262612; color: #dc2626">
+                        3
+                    </span>
+                </button>
+
+                <button
+                    class="tab-pill px-5 py-3 text-[13px] text-slate-500 flex items-center gap-2 rounded-t-lg "
+                    style="--c: #ea580c"
+                    onclick='switchTab("\u8857\u5934\u4eba\u6587")'
+                    data-tab="街头人文"
+                >
+                    <span class="text-base leading-none">🚶</span>
+                    <span>街头/人文</span>
+                    <span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 rounded-full text-[11px] font-semibold"
+                          style="background: #ea580c12; color: #ea580c">
+                        3
+                    </span>
+                </button>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tab 内容面板 -->
+    <main class="max-w-[1200px] mx-auto px-6 py-10">
+
+        <section class="panel active" id="panel-风光自然">
+
+            <!-- 风格标题 -->
+            <div class="mb-8 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <span class="text-3xl">🏔️</span>
+                    <div>
+                        <h2 class="font-serif text-2xl font-bold text-ink">风光/自然</h2>
+                        <p class="text-sm text-muted mt-0.5">3 张精选作品 · 摄影点评</p>
+                    </div>
+                </div>
+                <button onclick='refreshStyle("\u98ce\u5149/\u81ea\u7136")'
+                        class="refresh-btn inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-slate-500 border border-slate-200 hover:border-slate-300 hover:text-slate-700 hover:bg-slate-50 transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                    换一批
+                </button>
+            </div>
+
+            <div class="space-y-14">
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1678791600882-e190d6b765f1?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5MzN8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1678791600882-e190d6b765f1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5MzN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Star trails over the mountains of Madeira on a moon lit night. Clouds below lit from underneath by towns below."
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Colin Watts</div>
+                            <div class="text-xs opacity-70 mt-0.5">Star trails over the mountains of Madeira on a moon lit night. Clouds below lit from underneath by towns below.</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #16a34a0c; color: #16a34a; border: 1px solid #16a34a20">
+                                    🏔️ #1
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@colinwatts" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Colin Watts</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/the-night-sky-with-a-star-trail-over-a-mountain-range-1x0TJGhnueo" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1646939613522-69f702ce6479?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5MzV8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1646939613522-69f702ce6479?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5MzV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="a person riding a motorcycle down a street next to tall buildings"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">JUNHØ</div>
+                            <div class="text-xs opacity-70 mt-0.5">a person riding a motorcycle down a street next to tall buildings</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #16a34a0c; color: #16a34a; border: 1px solid #16a34a20">
+                                    🏔️ #2
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@junhochak" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">JUNHØ</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-person-riding-a-motorcycle-down-a-street-next-to-tall-buildings-cJm0dKLMNq0" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">NIKON CORPORATION NIKON D7500</span>
+
+
+                                <span class="exif-tag">f/4.0</span>
+
+
+                                <span class="exif-tag">1/2000s</span>
+
+
+                                <span class="exif-tag">18.0mm</span>
+
+
+                                <span class="exif-tag">ISO 100</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1525268771113-32d9e9021a97?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5MzZ8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1525268771113-32d9e9021a97?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5MzZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Ombre Balloons"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Shamblen Studios</div>
+                            <div class="text-xs opacity-70 mt-0.5">Ombre Balloons</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #16a34a0c; color: #16a34a; border: 1px solid #16a34a20">
+                                    🏔️ #3
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@shamblenstudios" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Shamblen Studios</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/person-holding-pink-and-white-balloon-pJ_DCj9KswI" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">Canon Canon EOS REBEL T2i</span>
+
+
+                                <span class="exif-tag">f/16.0</span>
+
+
+                                <span class="exif-tag">1/160s</span>
+
+
+                                <span class="exif-tag">18.0mm</span>
+
+
+                                <span class="exif-tag">ISO 100</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="panel " id="panel-人像质感">
+
+            <!-- 风格标题 -->
+            <div class="mb-8 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <span class="text-3xl">👤</span>
+                    <div>
+                        <h2 class="font-serif text-2xl font-bold text-ink">人像/质感</h2>
+                        <p class="text-sm text-muted mt-0.5">3 张精选作品 · 摄影点评</p>
+                    </div>
+                </div>
+                <button onclick='refreshStyle("\u4eba\u50cf/\u8d28\u611f")'
+                        class="refresh-btn inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-slate-500 border border-slate-200 hover:border-slate-300 hover:text-slate-700 hover:bg-slate-50 transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                    换一批
+                </button>
+            </div>
+
+            <div class="space-y-14">
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1479231233972-e184fe70398e?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5Mzh8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1479231233972-e184fe70398e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5Mzh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Supermoon in the nightscape"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Austin Neill</div>
+                            <div class="text-xs opacity-70 mt-0.5">Supermoon in the nightscape</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #dc26260c; color: #dc2626; border: 1px solid #dc262620">
+                                    👤 #1
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@arstyy" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Austin Neill</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/man-standing-on-hill-during-full-moon-OWbH9a8Yi2I" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1557361378-7ec022892363?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5Mzl8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1557361378-7ec022892363?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5Mzl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt=""
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Juno Jo</div>
+                            <div class="text-xs opacity-70 mt-0.5"></div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #dc26260c; color: #dc2626; border: 1px solid #dc262620">
+                                    👤 #2
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@junojo" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Juno Jo</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/sg35CeLwjvA" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">Apple iPhone 7 Plus</span>
+
+
+                                <span class="exif-tag">f/1.8</span>
+
+
+                                <span class="exif-tag">1/7407s</span>
+
+
+                                <span class="exif-tag">4.0mm</span>
+
+
+                                <span class="exif-tag">ISO 20</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1504438878808-ee48579f0f5f?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5NDJ8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1504438878808-ee48579f0f5f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5NDJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Hooded hat male"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Piron Guillaume</div>
+                            <div class="text-xs opacity-70 mt-0.5">Hooded hat male</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #dc26260c; color: #dc2626; border: 1px solid #dc262620">
+                                    👤 #3
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@gpiron" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Piron Guillaume</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/grayscale-photo-of-topless-man-wearing-bucket-hat-y60Pux2HYk4" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">Phase One A/S H 25</span>
+
+
+
+
+
+                                <span class="exif-tag">ISO 50</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="panel " id="panel-街头人文">
+
+            <!-- 风格标题 -->
+            <div class="mb-8 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <span class="text-3xl">🚶</span>
+                    <div>
+                        <h2 class="font-serif text-2xl font-bold text-ink">街头/人文</h2>
+                        <p class="text-sm text-muted mt-0.5">3 张精选作品 · 摄影点评</p>
+                    </div>
+                </div>
+                <button onclick='refreshStyle("\u8857\u5934/\u4eba\u6587")'
+                        class="refresh-btn inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium text-slate-500 border border-slate-200 hover:border-slate-300 hover:text-slate-700 hover:bg-slate-50 transition-all">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                    换一批
+                </button>
+            </div>
+
+            <div class="space-y-14">
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1783339782357-ca933830648d?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5NDN8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1783339782357-ca933830648d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5NDN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Close-up of a two-tone red-and-cream vintage Volkswagen Beetle, its rear window covered with vintage club and travel stickers. Film photography with soft warm color."
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Ruben Mavarez</div>
+                            <div class="text-xs opacity-70 mt-0.5">Close-up of a two-tone red-and-cream vintage Volkswagen Beetle, its rear window covered with vintage club and travel stickers. Film photography with soft warm color.</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #ea580c0c; color: #ea580c; border: 1px solid #ea580c20">
+                                    🚶 #1
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@justalifein" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Ruben Mavarez</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/vintage-red-and-white-car-with-window-stickers-n2DiAtWc-Eg" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1641064463935-759e830b1487?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5NDV8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1641064463935-759e830b1487?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5NDV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="a man is using a telephone booth in the snow"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Josh Hild</div>
+                            <div class="text-xs opacity-70 mt-0.5">a man is using a telephone booth in the snow</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #ea580c0c; color: #ea580c; border: 1px solid #ea580c20">
+                                    🚶 #2
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@joshhild" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Josh Hild</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-man-is-using-a-telephone-booth-in-the-snow-DwRfPtiQypA" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">Canon  EOS 6D</span>
+
+
+                                <span class="exif-tag">f/2.0</span>
+
+
+                                <span class="exif-tag">1/50s</span>
+
+
+                                <span class="exif-tag">35.0mm</span>
+
+
+                                <span class="exif-tag">ISO 1600</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+
+                    </div>
+                </article>
+
+                <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
+
+                    <!-- 照片 -->
+                    <div class="photo-frame aspect-video" onclick='openLightbox("https://images.unsplash.com/photo-1649562919445-987da28c1c64?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5NDZ8\u0026ixlib=rb-4.1.0\u0026q=85")'>
+                        <img src="https://images.unsplash.com/photo-1649562919445-987da28c1c64?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwOTE5NDZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="a group of people walking across a street"
+                             class="w-full h-full object-cover" loading="lazy">
+                        <div class="overlay"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="text-sm font-medium">Jamaal Kareem</div>
+                            <div class="text-xs opacity-70 mt-0.5">a group of people walking across a street</div>
+                        </div>
+                    </div>
+
+                    <!-- 信息栏 -->
+                    <div class="px-7 pt-5 pb-4">
+                        <!-- 摄影师 + 来源 -->
+                        <div class="flex items-center justify-between flex-wrap gap-3">
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
+                                      style="background: #ea580c0c; color: #ea580c; border: 1px solid #ea580c20">
+                                    🚶 #3
+                                </span>
+                                <span class="text-sm text-slate-500">
+
+                                    <a href="https://unsplash.com/@heyjamaal" target="_blank" rel="noopener"
+                                       class="font-medium text-ink hover:underline">Jamaal Kareem</a>
+
+                                    <span class="text-muted mx-1">·</span>
+                                    <a href="https://unsplash.com/photos/a-group-of-people-walking-across-a-street-K1fQlmBStnk" target="_blank" rel="noopener"
+                                       class="text-muted hover:text-ink transition-colors">Unsplash</a>
+                                </span>
+                            </div>
+
+                            <!-- EXIF -->
+
+                            <div class="flex flex-wrap gap-1.5">
+
+                                <span class="exif-tag">SONY ILCE-7M4</span>
+
+
+                                <span class="exif-tag">f/1.4</span>
+
+
+                                <span class="exif-tag">1/8000s</span>
+
+
+                                <span class="exif-tag">35.0mm</span>
+
+
+                                <span class="exif-tag">ISO 50</span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- 展开/收起分析 -->
+
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 底部 -->
+    <footer class="py-16 text-center">
+        <div class="font-serif text-lg font-bold text-ink/30 tracking-wide">Daily Photo Coach</div>
+        <div class="text-xs text-muted mt-2">每日精进摄影之眼</div>
+    </footer>
+
+    <!-- 灯箱 -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <img id="lb-img" src="">
+        <button class="absolute top-6 right-6 text-white/60 hover:text-white transition-colors" onclick="closeLightbox()">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+    </div>
+
+    <script>
+    function switchTab(slug) {
+        document.querySelectorAll('.tab-pill').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+        document.querySelector(`.tab-pill[data-tab="${slug}"]`).classList.add('active');
+        document.getElementById(`panel-${slug}`).classList.add('active');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function toggleAnalysis(btn) {
+        const body = btn.nextElementSibling;
+        const isOpen = !body.classList.contains('hidden');
+        body.classList.toggle('hidden');
+        btn.classList.toggle('open', !isOpen);
+        btn.querySelector('.label').textContent = isOpen ? '展开拍摄教学分析' : '收起分析';
+    }
+
+    function openLightbox(src) {
+        document.getElementById('lb-img').src = src;
+        document.getElementById('lightbox').classList.add('open');
+        document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox() {
+        document.getElementById('lightbox').classList.remove('open');
+        document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') closeLightbox();
+        if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+        const tabs = [...document.querySelectorAll('.tab-pill')];
+        const idx = tabs.findIndex(t => t.classList.contains('active'));
+        if (e.key === 'ArrowRight' && idx < tabs.length - 1) tabs[idx + 1].click();
+        if (e.key === 'ArrowLeft' && idx > 0) tabs[idx - 1].click();
+    });
+
+    const GITHUB_REPO = 'krisaruz/daily-photo-coach';
+    const GITHUB_REF = 'master';
+
+    function getGithubPat() {
+        let pat = localStorage.getItem('photo_coach_pat') || '';
+        if (!pat) {
+            pat = prompt('首次使用需配置 GitHub PAT（仅需 Actions write 权限）：');
+            if (pat) localStorage.setItem('photo_coach_pat', pat);
+        }
+        return pat;
+    }
+
+    async function dispatchWorkflow(workflowFile, inputs, successMessage) {
+        const pat = getGithubPat();
+        if (!pat) return;
+
+        const resp = await fetch(
+            `https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${workflowFile}/dispatches`,
+            {
+                method: 'POST',
+                headers: {
+                    'Authorization': `token ${pat}`,
+                    'Accept': 'application/vnd.github.v3+json'
+                },
+                body: JSON.stringify({ ref: GITHUB_REF, inputs })
+            }
+        );
+
+        if (resp.status === 204) {
+            alert(successMessage);
+            return;
+        }
+        if (resp.status === 401 || resp.status === 403) {
+            localStorage.removeItem('photo_coach_pat');
+            alert('PAT 无效或权限不足，请重新配置。');
+            return;
+        }
+        alert(`触发失败 (HTTP ${resp.status})，请检查 workflow、分支或 PAT 权限。`);
+    }
+
+    async function refreshStyle(style) {
+        const ok = confirm(`确认刷新「${style}」的照片？\n将触发后台重新抓取，约需 2-3 分钟。`);
+        if (!ok) return;
+        try {
+            await dispatchWorkflow('refresh.yml', { style }, '已触发刷新！约 2-3 分钟后刷新页面即可看到新照片。');
+        } catch (e) {
+            alert('网络错误: ' + e.message);
+        }
+    }
+
+    async function importXhs() {
+        const url = prompt('粘贴小红书公开分享链接或笔记链接：');
+        if (!url) return;
+        const style = prompt('归入哪个栏目？', '小红书｜人像写真') || '小红书｜人像写真';
+        const limit = prompt('最多导入几张图？', '6') || '6';
+        const ok = confirm(`确认导入「${style}」？\n将触发后台抓取公开图片并调用 GPT-5.5 分析。`);
+        if (!ok) return;
+        try {
+            await dispatchWorkflow(
+                'xhs.yml',
+                { url, style, limit, source_name: '', model: 'gpt-5.5', skip_analysis: 'false' },
+                '已触发小红书导入！完成后刷新页面即可看到新栏目。'
+            );
+        } catch (e) {
+            alert('网络错误: ' + e.message);
+        }
+    }
+    </script>
+</body>
+</html>
