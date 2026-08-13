@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小红书摄影作品 · 小红书精选</title>
+    <style>
+        :root {
+            --paper: #fff7f8;
+            --ink: #26151b;
+            --muted: #80616c;
+            --line: rgba(190, 24, 93, 0.16);
+            --accent: #be185d;
+            --accent-soft: rgba(190, 24, 93, 0.1);
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "Segoe UI", sans-serif;
+            color: var(--ink);
+            background: linear-gradient(180deg, #fff, var(--paper));
+        }
+        a { color: inherit; }
+        button { font: inherit; }
+        .shell { width: min(1160px, calc(100vw - 32px)); margin: 0 auto; padding: 28px 0 60px; }
+        .topbar { display: flex; justify-content: space-between; gap: 16px; margin-bottom: 28px; }
+        .back { color: var(--muted); text-decoration: none; font-weight: 800; }
+        .hero { display: grid; gap: 12px; margin-bottom: 24px; }
+        .eyebrow { color: var(--accent); font-size: 13px; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; }
+        h1 { margin: 0; font-size: clamp(32px, 6vw, 58px); line-height: 1.08; letter-spacing: 0; }
+        .caption { max-width: 780px; color: var(--muted); line-height: 1.85; }
+        .meta { display: flex; flex-wrap: wrap; gap: 10px; color: var(--accent); font-weight: 800; font-size: 13px; }
+        .source { display: inline-flex; margin-top: 10px; color: var(--accent); font-weight: 800; text-decoration: none; }
+
+        .study-layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 128px;
+            gap: 18px;
+            align-items: start;
+        }
+        .viewer {
+            min-width: 0;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: rgba(255,255,255,0.86);
+            overflow: hidden;
+        }
+        .viewer-bar {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            align-items: center;
+            min-height: 48px;
+            padding: 0 16px;
+            border-bottom: 1px solid var(--line);
+            color: var(--accent);
+            font-size: 13px;
+            font-weight: 900;
+        }
+        .track-shell { position: relative; }
+        .track {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+            scrollbar-width: none;
+            -webkit-overflow-scrolling: touch;
+        }
+        .track::-webkit-scrollbar { display: none; }
+        .slide {
+            flex: 0 0 100%;
+            min-width: 100%;
+            scroll-snap-align: start;
+            background: rgba(255,255,255,0.92);
+        }
+        .frame {
+            margin: 0;
+            background: #1f171b;
+            min-height: min(72vh, 760px);
+            display: grid;
+            place-items: center;
+        }
+        .frame img {
+            display: block;
+            width: 100%;
+            max-height: min(72vh, 760px);
+            object-fit: contain;
+            background: #1f171b;
+        }
+        .analysis-panel {
+            padding: 20px 22px 24px;
+            border-top: 1px solid var(--line);
+            background: #fff;
+        }
+        .analysis-panel h2 { margin: 0 0 14px; color: var(--accent); font-size: 18px; }
+        .analysis { color: #3a2730; line-height: 1.85; }
+        .analysis h2, .analysis h3 { margin: 18px 0 8px; font-size: 18px; }
+        .analysis p { margin: 8px 0; }
+        .analysis ul, .analysis ol { padding-left: 1.25rem; }
+
+        .nav-button {
+            position: absolute;
+            top: min(36vh, 360px);
+            z-index: 2;
+            width: 42px;
+            height: 42px;
+            display: grid;
+            place-items: center;
+            border: 1px solid rgba(255,255,255,0.6);
+            border-radius: 999px;
+            color: #fff;
+            background: rgba(38, 21, 27, 0.58);
+            cursor: pointer;
+            line-height: 1;
+            font-size: 28px;
+        }
+        .nav-button:hover { background: rgba(38, 21, 27, 0.74); }
+        .nav-button:focus-visible, .thumb:focus-visible {
+            outline: 3px solid rgba(190, 24, 93, 0.32);
+            outline-offset: 2px;
+        }
+        .nav-button.prev { left: 14px; }
+        .nav-button.next { right: 14px; }
+
+        .thumb-rail {
+            position: sticky;
+            top: 16px;
+            display: grid;
+            gap: 10px;
+        }
+        .thumb-title {
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 900;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+        .thumb-list {
+            display: grid;
+            gap: 8px;
+            max-height: calc(100vh - 80px);
+            overflow: auto;
+            padding-right: 4px;
+        }
+        .thumb {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            padding: 0;
+            overflow: hidden;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            background: #eadde1;
+            cursor: pointer;
+        }
+        .thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+        .thumb.is-active {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 4px var(--accent-soft);
+        }
+        @media (max-width: 760px) {
+            .shell { width: min(100vw - 24px, 640px); padding-top: 20px; }
+            .topbar { flex-direction: column; gap: 8px; margin-bottom: 22px; }
+            .study-layout { display: flex; flex-direction: column; }
+            .thumb-rail { position: static; order: -1; width: 100%; }
+            .thumb-title { display: none; }
+            .thumb-list {
+                display: flex;
+                gap: 8px;
+                max-height: none;
+                overflow-x: auto;
+                padding: 2px 2px 8px;
+                scroll-snap-type: x proximity;
+            }
+            .thumb { flex: 0 0 68px; width: 68px; }
+            .viewer-bar { padding: 0 12px; }
+            .frame { min-height: min(68vh, 620px); }
+            .frame img { max-height: min(68vh, 620px); }
+            .analysis-panel { padding: 18px 16px 22px; }
+            .nav-button {
+                top: min(34vh, 310px);
+                width: 38px;
+                height: 38px;
+                font-size: 24px;
+            }
+            .nav-button.prev { left: 10px; }
+            .nav-button.next { right: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <main class="shell">
+        <nav class="topbar">
+            <a class="back" href="../index.html">← 小红书精选</a>
+            <a class="back" href="../../index.html">Daily Photo Coach</a>
+        </nav>
+        <header class="hero">
+            <div class="eyebrow">Xiaohongshu · 2026-08-09</div>
+            <h1>小红书摄影作品</h1>
+            <div class="meta">
+                <span>万万学姐</span>
+                <span>1 张图逐张分析</span>
+            </div>
+
+
+            <a class="source" href="https://www.xiaohongshu.com/404?source=/404/sec_CCNmwJvs?redirectPath=https%3A%2F%2Fwww.xiaohongshu.com%2Fexplore%2F64c52bd6000000000c0371e2%3Fxsec_token%3DABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D%26xsec_source%3Dpc_feed&amp;error_code=300031&amp;error_msg=%E5%BD%93%E5%89%8D%E7%AC%94%E8%AE%B0%E6%9A%82%E6%97%B6%E6%97%A0%E6%B3%95%E6%B5%8F%E8%A7%88&amp;uuid=e2003ba5-6f66-470a-a01f-85b52ff7310a&amp;verifyMsg=" target="_blank" rel="noopener">打开小红书原帖</a>
+
+        </header>
+
+        <section class="study-layout" data-carousel>
+            <div class="viewer">
+                <div class="viewer-bar">
+                    <span data-counter>1 / 1</span>
+                    <span>2026-08-09</span>
+                </div>
+                <div class="track-shell">
+                    <button class="nav-button prev" type="button" data-dir="-1" aria-label="上一张" title="上一张">‹</button>
+                    <div class="track" data-track tabindex="0" aria-label="小红书组图">
+
+                        <article class="slide" data-slide data-index="0" id="photo-1">
+                            <figure class="frame">
+                                <img src="../../assets/xhs/075b1dbe2c5c7b2ec80326f7/xhs-075b1dbe2c5c7b2ec80326f7-1-small.png" alt="小红书摄影作品" loading="eager">
+                            </figure>
+
+                            <div class="analysis-panel">
+                                <h2>第 1 张 / 共 1 张</h2>
+                                <div class="analysis"><h2>直觉</h2>
+<p>这张图更像小红书平台标识/封面占位，并非实际人像写真；视觉上最强的是高饱和红底与白字形成的强识别度。若用于人像参考，方向应是“干净、明亮、抓眼、适合手机端浏览”。</p>
+
+<h2>技法拆解</h2>
+<ul>
+<li>画面采用极简构图，主体居中，信息传达直接。</li>
+<li>红白高对比非常适合小红书封面，但在人像中要避免肤色被红色环境污染。</li>
+<li>若做人像写真，可借鉴这种“单一主色+干净背景”的思路。</li>
+<li>小红书风格更重视明亮肤色、柔和光线和第一眼的情绪感。</li>
+</ul>
+
+<h2>实拍操作（佳能 R10）</h2>
+<p>模式拨盘建议选 <strong>Av 光圈优先</strong>，方便控制背景虚化，同时让相机自动匹配快门。推荐参数：光圈 <strong>F1.8-F2.8</strong>，快门尽量不低于 <strong>1/250s</strong>，ISO 自动上限 1600，评价测光；对焦用 <strong>人物眼部识别 + 伺服 AF</strong>。镜头可选 <strong>RF 50mm F1.8</strong> 拍半身，或 <strong>RF-S 18-45mm</strong> 用 35-45mm 端拍清新生活感。现场操作：让模特靠近窗边或阴影处柔光；背景选纯色墙、咖啡店、街角等干净场景；等待表情自然、眼神有交流时连拍 3-5 张。</p>
+
+<h2>后期思路</h2>
+<p>后期走“小红书清透感”：提高曝光和阴影，轻微降低高光，肤色往暖、亮、干净调整。重点用 HSL 控制红色/橙色，避免脸太红；适度加锐化与颗粒，让画面既精致又不塑料。</p></div>
+                            </div>
+
+                        </article>
+
+                    </div>
+                    <button class="nav-button next" type="button" data-dir="1" aria-label="下一张" title="下一张">›</button>
+                </div>
+            </div>
+
+            <aside class="thumb-rail" aria-label="全部图片预览">
+                <div class="thumb-title">全部图片</div>
+                <div class="thumb-list">
+
+                    <button class="thumb is-active" type="button" data-thumb="0" aria-label="查看第 1 张" title="第 1 张">
+                        <img src="../../assets/xhs/075b1dbe2c5c7b2ec80326f7/xhs-075b1dbe2c5c7b2ec80326f7-1-small.png" alt="小红书摄影作品" loading="lazy">
+                    </button>
+
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <script>
+        (() => {
+            const root = document.querySelector('[data-carousel]');
+            if (!root) return;
+
+            const track = root.querySelector('[data-track]');
+            const slides = Array.from(root.querySelectorAll('[data-slide]'));
+            const thumbs = Array.from(root.querySelectorAll('[data-thumb]'));
+            const counter = root.querySelector('[data-counter]');
+            const buttons = Array.from(root.querySelectorAll('[data-dir]'));
+            const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            let activeIndex = 0;
+            let raf = 0;
+
+            function clamp(index) {
+                return Math.max(0, Math.min(slides.length - 1, index));
+            }
+
+            function setActive(index) {
+                activeIndex = clamp(index);
+                thumbs.forEach((thumb, thumbIndex) => {
+                    const selected = thumbIndex === activeIndex;
+                    thumb.classList.toggle('is-active', selected);
+                    thumb.setAttribute('aria-pressed', selected ? 'true' : 'false');
+                });
+                if (counter) {
+                    counter.textContent = `${activeIndex + 1} / ${slides.length}`;
+                }
+                const activeThumb = thumbs[activeIndex];
+                if (activeThumb) {
+                    activeThumb.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+                }
+            }
+
+            function goTo(index) {
+                const nextIndex = clamp(index);
+                const slide = slides[nextIndex];
+                if (!slide) return;
+                track.scrollTo({
+                    left: slide.offsetLeft,
+                    behavior: reduceMotion ? 'auto' : 'smooth',
+                });
+                setActive(nextIndex);
+            }
+
+            function syncFromScroll() {
+                raf = 0;
+                const center = track.scrollLeft + track.clientWidth / 2;
+                let nearest = 0;
+                let nearestDistance = Number.POSITIVE_INFINITY;
+                slides.forEach((slide, index) => {
+                    const slideCenter = slide.offsetLeft + slide.clientWidth / 2;
+                    const distance = Math.abs(slideCenter - center);
+                    if (distance < nearestDistance) {
+                        nearest = index;
+                        nearestDistance = distance;
+                    }
+                });
+                if (nearest !== activeIndex) {
+                    setActive(nearest);
+                }
+            }
+
+            track.addEventListener('scroll', () => {
+                if (!raf) {
+                    raf = window.requestAnimationFrame(syncFromScroll);
+                }
+            }, { passive: true });
+
+            buttons.forEach((button) => {
+                button.addEventListener('click', () => {
+                    goTo(activeIndex + Number(button.dataset.dir || 0));
+                });
+            });
+
+            thumbs.forEach((thumb) => {
+                thumb.addEventListener('click', () => {
+                    goTo(Number(thumb.dataset.thumb || 0));
+                });
+            });
+
+            track.addEventListener('keydown', (event) => {
+                if (event.key === 'ArrowLeft') {
+                    event.preventDefault();
+                    goTo(activeIndex - 1);
+                }
+                if (event.key === 'ArrowRight') {
+                    event.preventDefault();
+                    goTo(activeIndex + 1);
+                }
+            });
+
+            setActive(0);
+        })();
+    </script>
+</body>
+</html>
