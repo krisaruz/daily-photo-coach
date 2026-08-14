@@ -258,9 +258,7 @@ def _is_reasonable_note(group: list[dict[str, Any]], xhs_config: dict[str, Any])
         return False
 
     photo_terms = xhs_config.get("photo_terms") or PHOTO_TERMS
-    if not any(str(term) and str(term) in text for term in photo_terms):
-        return False
-    if "攻略" in title and not any(term in text for term in photo_terms):
+    if "攻略" in title and not any(str(term) and str(term) in text for term in photo_terms):
         return False
     return True
 
