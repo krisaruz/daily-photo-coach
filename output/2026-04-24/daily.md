@@ -1,4 +1,4 @@
-# 每日摄影教练 — 2026-04-24
+# 每日摄影教练 - 2026-04-24
 
 
 ---
@@ -13,17 +13,17 @@
 
 ![Gaustablikk](https://images.unsplash.com/photo-1691392467015-e5a6c87e116a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1ODMwMTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M2 | f/29.0 | 1/4s | 34.0mm | ISO 50
+> EXIF: Camera SONY ILCE-7M2 | f/29.0 | 1/4s | 34.0mm | ISO 50
 
 
 ## 直觉
 这张风光最吸引人的是“冷峻山地 + 柔化溪流”的氛围，水面把天空蓝色带进前景，让画面有了呼吸感。远山、岩石、溪流层次清楚，空间感不错。
 
 ## 技法拆解
-- 1/4s 快门让流水产生丝滑拖影，是画面情绪的关键。  
-- f/29 景深虽大，但容易产生衍射，画质会变软；风光通常 f/8-f/11 更稳。  
-- 构图上前景水流、中景岩石、远山递进明确，但天空高光略亮，可再压一点。  
-- 色彩偏冷青，强化了北欧山地的清寂感，但岩石和草地可以稍微提暖，避免过灰。  
+- 1/4s 快门让流水产生丝滑拖影，是画面情绪的关键。
+- f/29 景深虽大，但容易产生衍射，画质会变软；风光通常 f/8-f/11 更稳。
+- 构图上前景水流、中景岩石、远山递进明确，但天空高光略亮，可再压一点。
+- 色彩偏冷青，强化了北欧山地的清寂感，但岩石和草地可以稍微提暖，避免过灰。
 
 ## 实拍操作（佳能 R10）
 模式拨盘选 **Tv 快门优先**，因为这类照片核心是控制流水动感，先锁定慢门效果。推荐参数：快门 **1/4s-1s**，光圈约 **f/8-f/11**，ISO **100**，评价测光，单次自动对焦 AF-S，区域用单点或小区域对焦在中景岩石。镜头建议用 **RF-S 18-150mm** 的 18-24mm，或 **RF-S 10-18mm** 拍更开阔视角。现场先把相机架上三脚架，低机位靠近溪流找前景线条；等云层遮住强光、反差变柔时拍；用 2 秒自拍或快门线，必要时加 ND 镜控制慢门。
@@ -39,17 +39,17 @@
 
 ![green trees on mountain under cloudy sky during daytime](https://images.unsplash.com/photo-1626386111746-13667e2fbdb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1ODMwMTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5300 | f/7.1 | 1/200s | 18.0mm | ISO 100
+> EXIF: Camera NIKON CORPORATION NIKON D5300 | f/7.1 | 1/200s | 18.0mm | ISO 100
 
 
 ## 直觉
 云雾压在山脊上，石阶小路把视线带进深处，有很强的“走进山里”的代入感。绿色前景和灰色岩壁形成冷静、湿润的高山气氛。
 
 ## 技法拆解
-- 18mm 广角把小路、植被和山体都收进来，空间层次明确。  
-- f/7.1、ISO100 保证了较好的画质和景深，适合风光记录。  
-- 1/200s 对手持拍摄足够安全，山路环境下不易糊片。  
-- 天空云层偏亮，曝光略向天空妥协会更稳，可避免高光死白。  
+- 18mm 广角把小路、植被和山体都收进来，空间层次明确。
+- f/7.1、ISO100 保证了较好的画质和景深，适合风光记录。
+- 1/200s 对手持拍摄足够安全，山路环境下不易糊片。
+- 天空云层偏亮，曝光略向天空妥协会更稳，可避免高光死白。
 - 构图上右侧植被稍重，若让石阶更居中或更明显，视觉引导会更强。
 
 ## 实拍操作（佳能 R10）
@@ -66,17 +66,17 @@
 
 ![brown and white mountain under gray sky](https://images.unsplash.com/photo-1622058655233-fc31fc928f27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1ODMwMTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM3 | f/8.0 | 1/400s | 400.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7RM3 | f/8.0 | 1/400s | 400.0mm | ISO 100
 
 
 ## 直觉
 这张山峰最吸引人的是雪线与岩层纹理，被侧光一打，立体感很强。长焦压缩让山体像雕塑一样充满重量。
 
 ## 技法拆解
-- 400mm 长焦切掉杂乱环境，专注峰顶结构，是这张照片成功的关键。  
-- f/8 保证山体纹理清晰，ISO 100 让画质干净。  
-- 1/400s 对长焦拍远山基本稳妥，但手持时仍建议开启防抖。  
-- 光线来自侧前方，亮面有暖色，阴影偏冷，形成自然冷暖对比。  
+- 400mm 长焦切掉杂乱环境，专注峰顶结构，是这张照片成功的关键。
+- f/8 保证山体纹理清晰，ISO 100 让画质干净。
+- 1/400s 对长焦拍远山基本稳妥，但手持时仍建议开启防抖。
+- 光线来自侧前方，亮面有暖色，阴影偏冷，形成自然冷暖对比。
 - 构图略满，山峰顶端留白不多，压迫感强，但也少了一点呼吸感。
 
 ## 实拍操作（佳能 R10）
@@ -103,10 +103,10 @@
 夕阳斜射进林道，暖色光线和树影把人物包住，氛围很温柔。纵深道路形成天然引导线，让画面有“走进故事里”的感觉。
 
 ## 技法拆解
-- 人物放在画面偏中位置，左右树列形成对称透视，空间感很好。  
-- 低角度金色侧光打在人物和树干上，增强了立体感与季节氛围。  
-- 背景虚化适中，既保留林道环境，又没有完全抢走主体。  
-- 人物面部略暗、背景亮部较多，拍摄时可对脸部稍微加曝光补偿。  
+- 人物放在画面偏中位置，左右树列形成对称透视，空间感很好。
+- 低角度金色侧光打在人物和树干上，增强了立体感与季节氛围。
+- 背景虚化适中，既保留林道环境，又没有完全抢走主体。
+- 人物面部略暗、背景亮部较多，拍摄时可对脸部稍微加曝光补偿。
 - 白裙在暖光下很出彩，但要注意高光不过曝，保留裙子细节。
 
 ## 实拍操作（佳能 R10）
@@ -123,17 +123,17 @@
 
 ![A blurry photo of a woman's face](https://images.unsplash.com/photo-1727341552909-559eef4c18f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1ODMwMjB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7M3 | f/7.1 | 0.8s | 24.0mm | ISO 100
+> EXIF: Camera SONY ILCE-7M3 | f/7.1 | 0.8s | 24.0mm | ISO 100
 
 
 ## 直觉
 这张人像最有力量的是“失焦与拖影”带来的心理感，像一瞬间的情绪被拉长。黑白高反差让面部变得陌生、紧张，很有实验肖像气质。
 
 ## 技法拆解
-- EXIF 中 0.8s 快门是核心，人物轻微转头形成脸部残影，而身体暗部保持相对稳定。  
-- f/7.1、ISO100 让画面不过曝，同时保留墙面和皮肤的层次。  
-- 侧向强光制造了明显明暗分割，增强戏剧性。  
-- 24mm 近距离拍人会有轻微透视变形，适合这种不安、压迫的表达。  
+- EXIF 中 0.8s 快门是核心，人物轻微转头形成脸部残影，而身体暗部保持相对稳定。
+- f/7.1、ISO100 让画面不过曝，同时保留墙面和皮肤的层次。
+- 侧向强光制造了明显明暗分割，增强戏剧性。
+- 24mm 近距离拍人会有轻微透视变形，适合这种不安、压迫的表达。
 
 ## 实拍操作（佳能 R10）
 模式拨盘选 **M 挡**，因为这类照片需要稳定控制快门速度，不能让相机自动改变曝光。推荐参数：光圈 f/5.6-f/8，快门 0.5-1s，ISO100，评价测光；对焦用单次 AF，小区域对焦先对眼部或脸部边缘，也可手动预对焦。镜头可用 **RF-S 18-45mm** 的 18-24mm，或 RF 24mm F1.8，R10 上约等效 29-38mm。现场先让模特靠近墙面，单侧放一盏硬光或台灯；相机尽量固定，按下快门时让模特缓慢转头或低头；多拍几张，挑残影形状最有表情的一张。
@@ -179,7 +179,7 @@
 
 ![a man and a woman standing in a cemetery](https://images.unsplash.com/photo-1677061857156-8ee65b46b1b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0Mjd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-H1 | f/4.0 | 1/400s | 140.0mm | ISO 400
+> EXIF: Camera FUJIFILM X-H1 | f/4.0 | 1/400s | 140.0mm | ISO 400
 
 
 ## 直觉
@@ -206,17 +206,17 @@
 
 ![Street view with buildings and people in black and white](https://images.unsplash.com/photo-1777048940797-38262f7c0875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0MzB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS RP | f/1.8 | 1/4000s | 50.0mm | ISO 640
+> EXIF: Camera Canon  EOS RP | f/1.8 | 1/4000s | 50.0mm | ISO 640
 
 
 ## 直觉
 低机位贴近路面，双白线把视线直接拉进城市深处，黑白处理让街道有一种电影感和孤独感。失焦的建筑与人群反而强化了“城市掠影”的氛围。
 
 ## 技法拆解
-- f/1.8 带来很浅的景深，路面质感清楚，远处人物和建筑虚化成情绪背景。  
-- 1/4000s 快门足够冻结行人，也说明现场光线较亮，ISO 640 略高，可适当降低以保留画质。  
-- 构图核心是地面双线的引导线，低角度让普通街景变得更有张力。  
-- 黑白强化了明暗对比，但两侧建筑偏暗，形成明显的压迫感。  
+- f/1.8 带来很浅的景深，路面质感清楚，远处人物和建筑虚化成情绪背景。
+- 1/4000s 快门足够冻结行人，也说明现场光线较亮，ISO 640 略高，可适当降低以保留画质。
+- 构图核心是地面双线的引导线，低角度让普通街景变得更有张力。
+- 黑白强化了明暗对比，但两侧建筑偏暗，形成明显的压迫感。
 
 ## 实拍操作（佳能 R10）
 模式拨盘选 **Av 光圈优先**，因为这类照片重点是控制景深和氛围，让相机自动匹配快门即可。推荐 **f/1.8-f/2.8，快门不低于 1/500s，ISO 100-400，评价测光，单次自动对焦 One-Shot，单点或小区域对焦**。镜头建议用 **RF 35mm F1.8 Macro IS STM**，在 R10 上约等效 56mm，接近这张街头视角；若用 RF 50mm F1.8，会更压缩、更窄。现场蹲低或把相机接近地面，沿道路白线取景；对焦在前景路面或白线附近；等待远处行人分布有层次时按快门。
@@ -232,17 +232,17 @@
 
 ![grayscale photo of 2 women sitting on bench](https://images.unsplash.com/photo-1622314128145-8ada937685c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0MzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM4 | f/1.8 | 1/640s | 85.0mm | ISO 400
+> EXIF: Camera SONY ILCE-7RM4 | f/1.8 | 1/640s | 85.0mm | ISO 400
 
 
 ## 直觉
 这张街头照片最有意思的是“气球”像一个安静的视觉锚点，把儿童、坐着的老人和路人串在一起。黑白处理削弱了杂乱色彩，让日常场景更有叙事感。
 
 ## 技法拆解
-- 85mm + f/1.8 带来明显压缩感和浅景深，背景人群被虚化但仍保留环境信息。  
-- 1/640s 足够冻结路人步伐和孩子动作，街拍抓拍很稳。  
-- 构图上气球处在画面中上部，形成视觉中心，但左侧人物略重，可考虑再向右取景。  
-- 黑白反差适中，适合人文题材，但人物脸部被阴影压住，主体层次可再提亮。  
+- 85mm + f/1.8 带来明显压缩感和浅景深，背景人群被虚化但仍保留环境信息。
+- 1/640s 足够冻结路人步伐和孩子动作，街拍抓拍很稳。
+- 构图上气球处在画面中上部，形成视觉中心，但左侧人物略重，可考虑再向右取景。
+- 黑白反差适中，适合人文题材，但人物脸部被阴影压住，主体层次可再提亮。
 
 ## 实拍操作（佳能 R10）
 模式拨盘选 **Av 光圈优先**，街头人文需要快速控制景深，让相机自动应对光线变化。推荐 **f/1.8-f/2.8、1/500s 以上、ISO Auto 上限 1600、评价测光、伺服 AF、人眼/区域对焦**。镜头可用 **RF 50mm F1.8** 获得约 80mm 等效视角，或 **RF 85mm F2** 拍更强压缩感。现场先站在人物侧前方，等待气球与人物分离；半按锁定对焦在主要人物或气球附近；等路人脚步进入画面形成层次时连拍 2-3 张。
@@ -263,17 +263,17 @@
 
 ![white concrete building structure](https://images.unsplash.com/photo-1571993302797-e9451a9434f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0MzV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon Canon EOS 6D | f/4 | 1/320s | 17.0mm | ISO 160
+> EXIF: Camera Canon Canon EOS 6D | f/4 | 1/320s | 17.0mm | ISO 160
 
 
 ## 直觉
 这张建筑照最吸引人的是强烈的向上透视和中轴对称，玻璃顶棚像把视线“吸”到画面深处。冷暖材质对比也让画面既理性又有空间感。
 
 ## 技法拆解
-- 17mm 超广角带来明显纵深，适合表现建筑的高度与结构张力。  
-- 构图基本沿中线展开，左右墙面形成夹角，引导视线进入顶部天窗。  
-- f/4、1/320s、ISO160 保证手持稳定，同时室内暗部仍有一定细节。  
-- 高光区域接近过曝，拍摄时应优先保护玻璃天窗细节。  
+- 17mm 超广角带来明显纵深，适合表现建筑的高度与结构张力。
+- 构图基本沿中线展开，左右墙面形成夹角，引导视线进入顶部天窗。
+- f/4、1/320s、ISO160 保证手持稳定，同时室内暗部仍有一定细节。
+- 高光区域接近过曝，拍摄时应优先保护玻璃天窗细节。
 - 画面略有仰拍透视变形，但用于建筑极简风格是加分的。
 
 ## 实拍操作（佳能 R10）
@@ -290,18 +290,18 @@
 
 ![Common sight in Hong Kong, colorful buildings and mosaic tiles.](https://images.unsplash.com/photo-1727945583694-227228846881?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0Mzh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple iPhone 12 | f/1.6 | 1/168s | 4.2mm | ISO 32
+> EXIF: Camera Apple iPhone 12 | f/1.6 | 1/168s | 4.2mm | ISO 32
 
 
 ## 直觉
 这张最吸引人的是薄荷绿马赛克墙面与白色楼梯形成的几何秩序，香港日常建筑被拍出了很强的平面设计感。左下角路灯虽小，却给画面一点生活气息。
 
 ## 技法拆解
-- 构图以竖幅压缩空间，楼梯斜线与墙面竖线形成清晰节奏。  
-- 大面积绿色统一色调，白色楼梯作为视觉跳点，极简但不单调。  
-- EXIF 为 iPhone 12，4.2mm 广角带来轻微透视感，建筑边缘仍控制得较稳。  
-- 1/168s、ISO 32 保证画面干净，适合拍摄静态建筑细节。  
-- 阴影区域保留较深，让楼梯凹位更有层次。  
+- 构图以竖幅压缩空间，楼梯斜线与墙面竖线形成清晰节奏。
+- 大面积绿色统一色调，白色楼梯作为视觉跳点，极简但不单调。
+- EXIF 为 iPhone 12，4.2mm 广角带来轻微透视感，建筑边缘仍控制得较稳。
+- 1/168s、ISO 32 保证画面干净，适合拍摄静态建筑细节。
+- 阴影区域保留较深，让楼梯凹位更有层次。
 
 ## 实拍操作（佳能 R10）
 模式拨盘选 **Av 光圈优先**，建筑不动，重点是控制景深和画质，快门交给相机即可。推荐 **f/5.6-f/8，ISO 100，评价测光，单次自动对焦 One-Shot，单点或小区域对焦**；若光线较暗，保证快门不低于 1/125s。镜头可用 **RF-S 18-45mm** 的 35-45mm 端，或 **RF 24-105mm** 中长焦端，减少广角畸变、压缩几何关系。现场先站远一点正对建筑，尽量让竖线保持垂直；等待无强烈直射光的阴天或背光时段；最后微调边缘，确保楼梯、窗洞、横梁切割干净再按快门。
@@ -317,7 +317,7 @@
 
 ![A tall white building with windows and a sky background](https://images.unsplash.com/photo-1725020834759-f1942e6d1d43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0NDB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY NEX-6 | f/13.0 | 1/200s | 24.0mm | ISO 100
+> EXIF: Camera SONY NEX-6 | f/13.0 | 1/200s | 24.0mm | ISO 100
 
 
 ## 直觉
@@ -349,17 +349,17 @@
 
 ![Top view composition of healthy organic nuts](https://images.unsplash.com/photo-1772986796391-fc4bed241f6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0NDV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 70D | f/9.0 | 1/160s | 35.0mm | ISO 100
+> EXIF: Camera Canon  EOS 70D | f/9.0 | 1/160s | 35.0mm | ISO 100
 
 
 ## 直觉
 这张图最舒服的是“少即是多”：一排坚果把画面切成简洁的横线，上方大量留白让食物显得干净、健康、有呼吸感。
 
 ## 技法拆解
-- 俯拍角度很适合静物排布，形状节奏比单个主体更重要。  
-- f/9 保证坚果从边缘到中心都清晰，适合平面静物。  
-- 1/160s、ISO100 画质干净，说明现场光或补光比较充足。  
-- 白底略带粉调，整体柔和，但要注意白场不要过曝、坚果不要失去纹理。  
+- 俯拍角度很适合静物排布，形状节奏比单个主体更重要。
+- f/9 保证坚果从边缘到中心都清晰，适合平面静物。
+- 1/160s、ISO100 画质干净，说明现场光或补光比较充足。
+- 白底略带粉调，整体柔和，但要注意白场不要过曝、坚果不要失去纹理。
 - 构图上坚果靠下，留白明确，适合做海报或文字排版背景。
 
 ## 实拍操作（佳能 R10）
@@ -376,7 +376,7 @@
 
 ![a table topped with plates filled with sandwiches](https://images.unsplash.com/photo-1696721497792-f0dcdfecde0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0NDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 5D Mark IV | f/13.0 | 1/125s | 50.0mm | ISO 10000
+> EXIF: Camera Canon  EOS 5D Mark IV | f/13.0 | 1/125s | 50.0mm | ISO 10000
 
 
 ## 直觉
@@ -402,17 +402,17 @@
 
 ![Asian Japanese Ramen Noodles with Soy sauce, peppers,radish, spring onion, sea weed, sesame seeds garlic wooden cutting board. Food ingredients oil, mushrooms shitake and chicken broth](https://images.unsplash.com/photo-1575972813356-d5d4f6e47985?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0NTB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 NIKON CORPORATION NIKON D5300 | f/3.5 | 1/160s | 18.0mm | ISO 320
+> EXIF: Camera NIKON CORPORATION NIKON D5300 | f/3.5 | 1/160s | 18.0mm | ISO 320
 
 
 ## 直觉
 这张图最吸引人的是“料理前的秩序感”：食材散落但不乱，木质背景和亚洲食材让画面有温度。中央砧板留白很大胆，给食材和故事留出了呼吸空间。
 
 ## 技法拆解
-- 俯拍构图很适合静物美食，砧板斜放形成主视觉动线，避免画面呆板。  
-- EXIF 为 18mm、f/3.5，广角带来丰富环境感，但边缘食材会有轻微拉伸，拍摄时需注意变形。  
-- 1/160s 足够手持俯拍，ISO 320 画质干净，适合自然窗光环境。  
-- 色彩上木色、绿色、红色形成对比，食材识别度高；黑色海带压住画面右侧，增加视觉重量。  
+- 俯拍构图很适合静物美食，砧板斜放形成主视觉动线，避免画面呆板。
+- EXIF 为 18mm、f/3.5，广角带来丰富环境感，但边缘食材会有轻微拉伸，拍摄时需注意变形。
+- 1/160s 足够手持俯拍，ISO 320 画质干净，适合自然窗光环境。
+- 色彩上木色、绿色、红色形成对比，食材识别度高；黑色海带压住画面右侧，增加视觉重量。
 - 中央大面积浅色砧板是亮部核心，曝光应保护高光，避免木纹发白。
 
 ## 实拍操作（佳能 R10）
@@ -434,7 +434,7 @@
 
 ![A couple of people standing in a tunnel](https://images.unsplash.com/photo-1734282134343-a223ce00b9aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0NTN8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X100S | f/4.0 | 1/12s | 23.0mm | ISO 1000
+> EXIF: Camera FUJIFILM X100S | f/4.0 | 1/12s | 23.0mm | ISO 1000
 
 
 ## 直觉
@@ -448,9 +448,9 @@
 - 色彩以红色为主，局部绿色和蓝色点缀，让画面更有赛博/电影感。
 
 ## 实拍操作（佳能 R10）
-模式拨盘建议用 **Av 光圈优先**：夜景街拍变化快，先控制景深和进光量，让相机自动给快门更高效。  
-推荐参数：光圈 f/4 或 f/5.6，快门尽量不低于 1/30s，ISO 1600-3200，评价测光或高光重点测光，伺服 AF，单点/小区域对焦；若想稳定剪影，可对亮处测光后适当 -0.7EV。  
-镜头建议 RF-S 18-45mm 用 18-24mm，或 RF-S 18-150mm 的广角端；想要更强夜景能力可用 RF 24mm F1.8。  
+模式拨盘建议用 **Av 光圈优先**：夜景街拍变化快，先控制景深和进光量，让相机自动给快门更高效。
+推荐参数：光圈 f/4 或 f/5.6，快门尽量不低于 1/30s，ISO 1600-3200，评价测光或高光重点测光，伺服 AF，单点/小区域对焦；若想稳定剪影，可对亮处测光后适当 -0.7EV。
+镜头建议 RF-S 18-45mm 用 18-24mm，或 RF-S 18-150mm 的广角端；想要更强夜景能力可用 RF 24mm F1.8。
 现场先站在楼梯下方，让隧道边框对称包住画面；等人物走到出口亮光前，轮廓分开时连拍；肘部夹紧或靠墙，避免 1/30s 以下抖动。
 
 ## 后期思路
@@ -464,7 +464,7 @@
 
 ![a dark street at night with no cars on it](https://images.unsplash.com/photo-1705978590338-fbd6858b25c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0NTV8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY ILCE-7RM3 | f/2.8 | 1/30s | 29.0mm | ISO 1600
+> EXIF: Camera SONY ILCE-7RM3 | f/2.8 | 1/30s | 29.0mm | ISO 1600
 
 
 ## 直觉
@@ -477,7 +477,7 @@
 - 色彩以钠灯黄为主，统一但略重，适合营造压抑夜景。
 
 ## 实拍操作（佳能 R10）
-模式拨盘选 **Av**：夜景街道主体静止，优先控制光圈，让相机自动给快门更高效。  
+模式拨盘选 **Av**：夜景街道主体静止，优先控制光圈，让相机自动给快门更高效。
 推荐参数：光圈 f/2.8-f/4，快门尽量不低于 1/30s，ISO 1600-3200，评价测光，单次 AF，单点或小区域对焦。镜头可用 **RF 16mm F2.8 STM**，或 RF-S 18-45mm 拉到 18mm。现场先站在路中央偏低机位，让道路反光占前景；等路灯照亮雪面和湿地；屏住呼吸连拍 2-3 张，避免手抖。
 
 ## 后期思路
@@ -491,17 +491,17 @@
 
 ![a foggy street at night with street lights](https://images.unsplash.com/photo-1710956756655-a001b491c395?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0NTh8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-T3 | f/2.8 | 1/250s | 35.0mm | ISO 2500
+> EXIF: Camera FUJIFILM X-T3 | f/2.8 | 1/250s | 35.0mm | ISO 2500
 
 
 ## 直觉
 雾夜里的路灯把街道切成一层层暖色光晕，很有悬疑电影的开场感。右侧高架的大面积暗部压下来，让画面有明显的压迫感和方向性。
 
 ## 技法拆解
-- f/2.8、1/250s、ISO 2500 保证了手持安全，但夜景静态场景其实快门可再慢一点，换取更低 ISO。  
-- 构图上右侧高架形成强引导线，把视线带向远处雾中的灯点。  
-- 画面亮点集中在路灯，暗部占比大，整体低调氛围成立。  
-- 暖色路灯与黑色阴影对比强，色彩很统一，但左上路灯略抢眼。  
+- f/2.8、1/250s、ISO 2500 保证了手持安全，但夜景静态场景其实快门可再慢一点，换取更低 ISO。
+- 构图上右侧高架形成强引导线，把视线带向远处雾中的灯点。
+- 画面亮点集中在路灯，暗部占比大，整体低调氛围成立。
+- 暖色路灯与黑色阴影对比强，色彩很统一，但左上路灯略抢眼。
 - 雾气让光源有体积感，是这张照片的核心，不要过度提亮暗部。
 
 ## 实拍操作（佳能 R10）
@@ -523,17 +523,17 @@
 
 ![a pink and red flower with green leaves in the background](https://images.unsplash.com/photo-1705562707007-e0032437f4f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0NjJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 SONY DSC-RX100M3 | f/1.8 | 1/125s | 8.8mm | ISO 250
+> EXIF: Camera SONY DSC-RX100M3 | f/1.8 | 1/125s | 8.8mm | ISO 250
 
 
 ## 直觉
 粉紫花苞与右侧红花形成很漂亮的色彩对比，绿色背景压暗后，主体像从阴影里“跳”出来。画面有雨后湿润感，很适合微距特写氛围。
 
 ## 技法拆解
-- EXIF 中 f/1.8 带来明显虚化，但花簇有厚度，部分花瓣已偏软。  
-- 1/125s 拍花勉强够用，若有微风或手持靠近，容易轻微糊。  
-- 红花放在右侧，紫花横向延展，构图有方向感。  
-- 背景绿色较暗，衬托主体，但饱和度略高，可稍微压一压。  
+- EXIF 中 f/1.8 带来明显虚化，但花簇有厚度，部分花瓣已偏软。
+- 1/125s 拍花勉强够用，若有微风或手持靠近，容易轻微糊。
+- 红花放在右侧，紫花横向延展，构图有方向感。
+- 背景绿色较暗，衬托主体，但饱和度略高，可稍微压一压。
 
 ## 实拍操作（佳能 R10）
 模式拨盘选 **Av 光圈优先**，因为这类照片重点是控制景深和背景虚化。推荐 **f/4 左右、1/250s 以上、ISO 自动上限 1600、评价测光，单点 AF / One-Shot AF**；若有风，可改 Servo AF。镜头建议 **RF 85mm F2 Macro IS STM**，或轻便用 **RF-S 18-150mm** 拉到长焦端近拍。现场先找深绿色背景，让主体离背景远一点；机位略高于花心，避开杂乱枝条；等风停、花瓣最稳的一瞬间连拍 2-3 张。
@@ -549,17 +549,17 @@
 
 ![a couple of black and orange bugs sitting on top of a green leaf](https://images.unsplash.com/photo-1687106379101-ec9b21175beb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0Njd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Canon  EOS 1200D | f/5.6 | 1/125s | 250.0mm | ISO 320
+> EXIF: Camera Canon  EOS 1200D | f/5.6 | 1/125s | 250.0mm | ISO 320
 
 
 ## 直觉
 黑橙虫体与嫩绿色叶片形成强烈对比，主体关系明确，背景虚化也很干净。最吸引人的是昆虫姿态和叶片曲线带来的自然张力。
 
 ## 技法拆解
-- f/5.6 在250mm下景深很浅，主体有立体感，但前后两只虫的清晰范围略不够。  
-- 1/125s 对250mm长焦微距偏慢，容易出现轻微手抖或虫体模糊。  
-- ISO 320画质干净，但可适当提高ISO来换更安全的快门。  
-- 构图上主体偏左、叶茎向下延伸，画面有方向感，但顶部触角附近略显拥挤。  
+- f/5.6 在250mm下景深很浅，主体有立体感，但前后两只虫的清晰范围略不够。
+- 1/125s 对250mm长焦微距偏慢，容易出现轻微手抖或虫体模糊。
+- ISO 320画质干净，但可适当提高ISO来换更安全的快门。
+- 构图上主体偏左、叶茎向下延伸，画面有方向感，但顶部触角附近略显拥挤。
 
 ## 实拍操作（佳能 R10）
 模式拨盘建议用 **M档+自动ISO**：微距时要同时锁定景深和快门，交给ISO应对光线变化。推荐 **f/8、1/500s、ISO自动上限1600、评价测光、伺服AF或单次AF、小区域/定点对焦**。镜头可用 **RF 100mm F2.8L Macro**；若没有微距镜，**RF 100-400mm** 在长焦端也适合拍昆虫特写。现场先平行靠近昆虫身体侧面，让两只虫尽量落在同一焦平面；选择柔和阴天或叶片背光；屏住呼吸连拍，等触角和身体稳定时按快门。
@@ -575,17 +575,17 @@
 
 ![bunch of mushrooms](https://images.unsplash.com/photo-1728130039735-68b63057214b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0NzB8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 FUJIFILM X-H2 | f/4.5 | 1/90s | 80.0mm | ISO 800
+> EXIF: Camera FUJIFILM X-H2 | f/4.5 | 1/90s | 80.0mm | ISO 800
 
 
 ## 直觉
 这张照片最迷人的是“潮湿森林地表”的质感：蘑菇表面的反光、苔藓的绿和泥土的暗色，形成了很强的微观生态感。画面有真实的野外观察气息，不是摆拍。
 
 ## 技法拆解
-- 80mm 焦段配合 f/4.5，让主体蘑菇有足够突出，同时背景自然虚化。  
-- 1/90s 在微距距离下略偏慢，若手持拍摄，细节容易因轻微晃动变软。  
-- ISO 800 是合理选择，森林地表光线弱，优先保证快门速度比追求低 ISO 更重要。  
-- 构图上主体集中在中右区域，左上留出虚化环境，增加了“从林地中发现它”的感觉。  
+- 80mm 焦段配合 f/4.5，让主体蘑菇有足够突出，同时背景自然虚化。
+- 1/90s 在微距距离下略偏慢，若手持拍摄，细节容易因轻微晃动变软。
+- ISO 800 是合理选择，森林地表光线弱，优先保证快门速度比追求低 ISO 更重要。
+- 构图上主体集中在中右区域，左上留出虚化环境，增加了“从林地中发现它”的感觉。
 - 亮面蘑菇反光较强，拍摄时要注意避免高光糊成一片。
 
 ## 实拍操作（佳能 R10）
@@ -607,16 +607,16 @@
 
 ![sun rays coming through cave](https://images.unsplash.com/photo-1627397719733-2ee7744e2266?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0NzJ8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 OLYMPUS CORPORATION E-M1MarkII | f/1.8 | 1/20s | 8.0mm | ISO 250
+> EXIF: Camera OLYMPUS CORPORATION E-M1MarkII | f/1.8 | 1/20s | 8.0mm | ISO 250
 
 
 ## 直觉
 洞口的强光像“出口”一样把视线牢牢吸住，黑白处理强化了洞穴的压迫感与神秘感。前景碎石的低调质感也让空间更有深度。
 
 ## 技法拆解
-- 这是典型高反差逆光，洞口过曝可接受，关键是保住岩壁层次。  
-- 8mm 超广角拉开洞穴纵深，岩壁形成天然框架，引导视线到亮处。  
-- f/1.8、1/20s、ISO250 说明现场很暗，快门偏慢，手持容易虚。  
+- 这是典型高反差逆光，洞口过曝可接受，关键是保住岩壁层次。
+- 8mm 超广角拉开洞穴纵深，岩壁形成天然框架，引导视线到亮处。
+- f/1.8、1/20s、ISO250 说明现场很暗，快门偏慢，手持容易虚。
 - 黑白让色彩干扰消失，重点落在明暗、纹理和空间感上。
 
 ## 实拍操作（佳能 R10）
@@ -631,21 +631,21 @@
 **摄影师**: [Stanley Shashi](https://unsplash.com/@90s__kid)
  | **来源**: [Unsplash](https://unsplash.com/photos/silhouette-of-man-standing-on-window-Pm_926lM-xI)
 
-![This Shot was taken with the realisation that there is no reason to compare yourself with anyone, you are the best than anybody else in the world.
-It’s not necessary to heal the entire world rather focus on healing thyself as you are a part of the world within.
+![This Shot was taken with the realisation that there is no reason to compare yourself with anyone, you are the best than anybody else in the world.
+It’s not necessary to heal the entire world rather focus on healing thyself as you are a part of the world within.
 Find yourself.](https://images.unsplash.com/photo-1530890792-e8e5d92a8606?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2MTI0Nzd8&ixlib=rb-4.1.0&q=80&w=1080)
 
-> EXIF: 📷 Apple  iPhone SE | f/2.3 | 0.0018083182640144665s | 4.15mm | ISO 25
+> EXIF: Camera Apple  iPhone SE | f/2.3 | 0.0018083182640144665s | 4.15mm | ISO 25
 
 
 ## 直觉
 这张黑白剪影最有力量的是“圆”把人物包住，像一个内在世界的边界。低调人物与高亮窗面形成强反差，情绪安静但很坚定。
 
 ## 技法拆解
-- 画面核心是逆光剪影，曝光明显以窗户高光为准，让人物完全压黑。  
-- 圆形道具与方形窗框形成“圆中有方”的结构，构图很稳。  
-- 人物侧身、帽檐、手势都有清晰轮廓，是剪影成立的关键。  
-- EXIF 显示 iPhone 以 ISO 25、约 1/553 秒拍摄，说明现场光很亮，低 ISO 保住了干净的黑白层次。  
+- 画面核心是逆光剪影，曝光明显以窗户高光为准，让人物完全压黑。
+- 圆形道具与方形窗框形成“圆中有方”的结构，构图很稳。
+- 人物侧身、帽檐、手势都有清晰轮廓，是剪影成立的关键。
+- EXIF 显示 iPhone 以 ISO 25、约 1/553 秒拍摄，说明现场光很亮，低 ISO 保住了干净的黑白层次。
 - 上方大面积黑色留白增加压迫感，也让主题更像自我凝视。
 
 ## 实拍操作（佳能 R10）
@@ -667,10 +667,10 @@ Find yourself.](https://images.unsplash.com/photo-1530890792-e8e5d92a8606?crop=e
 最吸引人的是强烈直闪带来的“档案感”：人物、桌布和暗背景被硬生生切开，像一幕被突然照亮的剧场瞬间。荒诞服装与严肃合影姿态形成反差，很有年代幽默。
 
 ## 技法拆解
-- 黑白处理让花纹、帽子、裙摆和桌布成为主要视觉信息，减少了色彩干扰。  
-- 正面硬光制造高反差，桌布明显过曝，但也强化了1950年代闪光照片的真实感。  
-- 构图以餐桌为中心，人物围成半弧，叙事关系清楚。  
-- 背景大面积黑色，压住杂乱环境，让视线集中在人物表演上。  
+- 黑白处理让花纹、帽子、裙摆和桌布成为主要视觉信息，减少了色彩干扰。
+- 正面硬光制造高反差，桌布明显过曝，但也强化了1950年代闪光照片的真实感。
+- 构图以餐桌为中心，人物围成半弧，叙事关系清楚。
+- 背景大面积黑色，压住杂乱环境，让视线集中在人物表演上。
 
 ## 实拍操作（佳能 R10）
 模式拨盘选 **M 档**：室内闪光场景要锁定环境曝光，避免相机自动把背景提得太亮。推荐 **f/5.6、1/125s、ISO 800**，评价测光；对焦用 **单次 AF / 人脸+追踪**，必要时改用单点对焦对准中间人物。镜头可用 **RF-S 18-45mm** 的 24-30mm 端，或 **RF 24mm F1.8** 收到 f/5.6。现场先站在桌前约2米处，略低于人眼高度；让人物围桌站定，保留暗背景；使用机顶闪或小型闪光灯直打，等表情和手势同时成立时连拍2-3张。

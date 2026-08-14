@@ -1,7 +1,7 @@
 # 小红书精选改为链出原文，不再公开托管原图
 
 日期：2026-08-14  
-状态：待实现  
+状态：已实现  
 站点：https://krisaruz.github.io/daily-photo-coach/
 
 ## 1. 背景

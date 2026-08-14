@@ -117,7 +117,9 @@ Shot made with an old Beroflex M42 500mm Lens with adapter to MFT](https://image
 **摄影师**: [万万学姐](https://www.xiaohongshu.com/user/profile/5937ab955e87e72e7cc13830)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed)
 
-![ccd下新疆的十点半](../assets/xhs/64c52bd6000000000c0371e2/xhs-64c52bd6000000000c0371e2-1-regular.jpg)
+原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。
+
+[在小红书查看原图](https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed)
 
 
 ## 直觉
@@ -143,7 +145,9 @@ Shot made with an old Beroflex M42 500mm Lens with adapter to MFT](https://image
 **摄影师**: [万万学姐](https://www.xiaohongshu.com/user/profile/5937ab955e87e72e7cc13830)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed)
 
-![ccd下新疆的十点半](../assets/xhs/64c52bd6000000000c0371e2/xhs-64c52bd6000000000c0371e2-2-regular.jpg)
+原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。
+
+[在小红书查看原图](https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed)
 
 
 ## 直觉
@@ -167,7 +171,9 @@ Shot made with an old Beroflex M42 500mm Lens with adapter to MFT](https://image
 **摄影师**: [万万学姐](https://www.xiaohongshu.com/user/profile/5937ab955e87e72e7cc13830)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed)
 
-![ccd下新疆的十点半](../assets/xhs/64c52bd6000000000c0371e2/xhs-64c52bd6000000000c0371e2-3-regular.jpg)
+原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。
+
+[在小红书查看原图](https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed)
 
 
 ## 直觉
@@ -191,7 +197,9 @@ Shot made with an old Beroflex M42 500mm Lens with adapter to MFT](https://image
 **摄影师**: [万万学姐](https://www.xiaohongshu.com/user/profile/5937ab955e87e72e7cc13830)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed)
 
-![ccd下新疆的十点半](../assets/xhs/64c52bd6000000000c0371e2/xhs-64c52bd6000000000c0371e2-4-regular.jpg)
+原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。
+
+[在小红书查看原图](https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed)
 
 
 ## 直觉
@@ -215,7 +223,9 @@ Shot made with an old Beroflex M42 500mm Lens with adapter to MFT](https://image
 **摄影师**: [万万学姐](https://www.xiaohongshu.com/user/profile/5937ab955e87e72e7cc13830)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed)
 
-![ccd下新疆的十点半](../assets/xhs/64c52bd6000000000c0371e2/xhs-64c52bd6000000000c0371e2-5-regular.jpg)
+原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。
+
+[在小红书查看原图](https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed)
 
 
 ## 直觉

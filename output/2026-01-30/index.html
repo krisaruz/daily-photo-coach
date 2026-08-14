@@ -124,7 +124,13 @@
             <div class="text-center">
                 <div class="font-serif text-base font-bold tracking-tight text-ink">Daily Photo Coach</div>
             </div>
-            <div class="text-xs text-muted font-medium tabular-nums">2026-01-30 · 0 张</div>
+            <div class="flex items-center gap-3">
+                <button onclick="importXhs()"
+                        class="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-semibold text-rose-700 border border-rose-200 bg-rose-50/70 hover:bg-rose-100 transition-colors">
+                    导入小红书
+                </button>
+                <div class="text-xs text-muted font-medium tabular-nums">2026-01-30 · 0 张</div>
+            </div>
         </div>
     </header>
 
@@ -132,14 +138,14 @@
     <nav class="sticky top-14 z-40 bg-[#faf9f7]/90 backdrop-blur-lg border-b border-stone-200/50">
         <div class="max-w-[1200px] mx-auto px-6">
             <div class="flex gap-0.5 overflow-x-auto scrollbar-hide -mb-px" id="tab-bar">
-                
+
             </div>
         </div>
     </nav>
 
     <!-- Tab 内容面板 -->
     <main class="max-w-[1200px] mx-auto px-6 py-10">
-        
+
     </main>
 
     <!-- 底部 -->
@@ -193,38 +199,68 @@
     });
 
     const GITHUB_REPO = 'krisaruz/daily-photo-coach';
-    const REFRESH_PAT = localStorage.getItem('photo_coach_pat') || '';
+    const GITHUB_REF = 'master';
 
-    async function refreshStyle(style) {
-        if (!REFRESH_PAT) {
-            const pat = prompt('首次使用需配置 GitHub PAT（仅需 Actions write 权限）：');
-            if (!pat) return;
-            localStorage.setItem('photo_coach_pat', pat);
-            location.reload();
+    function getGithubPat() {
+        let pat = localStorage.getItem('photo_coach_pat') || '';
+        if (!pat) {
+            pat = prompt('首次使用需配置 GitHub PAT（仅需 Actions write 权限）：');
+            if (pat) localStorage.setItem('photo_coach_pat', pat);
+        }
+        return pat;
+    }
+
+    async function dispatchWorkflow(workflowFile, inputs, successMessage) {
+        const pat = getGithubPat();
+        if (!pat) return;
+
+        const resp = await fetch(
+            `https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${workflowFile}/dispatches`,
+            {
+                method: 'POST',
+                headers: {
+                    'Authorization': `token ${pat}`,
+                    'Accept': 'application/vnd.github.v3+json'
+                },
+                body: JSON.stringify({ ref: GITHUB_REF, inputs })
+            }
+        );
+
+        if (resp.status === 204) {
+            alert(successMessage);
             return;
         }
+        if (resp.status === 401 || resp.status === 403) {
+            localStorage.removeItem('photo_coach_pat');
+            alert('PAT 无效或权限不足，请重新配置。');
+            return;
+        }
+        alert(`触发失败 (HTTP ${resp.status})，请检查 workflow、分支或 PAT 权限。`);
+    }
+
+    async function refreshStyle(style) {
         const ok = confirm(`确认刷新「${style}」的照片？\n将触发后台重新抓取，约需 2-3 分钟。`);
         if (!ok) return;
         try {
-            const resp = await fetch(
-                `https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/refresh.yml/dispatches`,
-                {
-                    method: 'POST',
-                    headers: {
-                        'Authorization': `token ${REFRESH_PAT}`,
-                        'Accept': 'application/vnd.github.v3+json'
-                    },
-                    body: JSON.stringify({ ref: 'main', inputs: { style } })
-                }
+            await dispatchWorkflow('refresh.yml', { style }, '已触发刷新！约 2-3 分钟后刷新页面即可看到新照片。');
+        } catch (e) {
+            alert('网络错误: ' + e.message);
+        }
+    }
+
+    async function importXhs() {
+        const url = prompt('粘贴小红书公开分享链接或笔记链接：');
+        if (!url) return;
+        const style = prompt('归入哪个栏目？', '小红书｜人像写真') || '小红书｜人像写真';
+        const limit = prompt('最多导入几张图？', '6') || '6';
+        const ok = confirm(`确认导入「${style}」？\n将触发后台抓取公开图片并调用 GPT-5.5 分析。`);
+        if (!ok) return;
+        try {
+            await dispatchWorkflow(
+                'xhs.yml',
+                { url, style, limit, source_name: '', model: 'gpt-5.5', skip_analysis: 'false' },
+                '已触发小红书导入！完成后刷新页面即可看到新栏目。'
             );
-            if (resp.status === 204) {
-                alert('已触发刷新！约 2-3 分钟后刷新页面即可看到新照片。');
-            } else if (resp.status === 401 || resp.status === 403) {
-                localStorage.removeItem('photo_coach_pat');
-                alert('PAT 无效或已过期，请重新配置。');
-            } else {
-                alert(`触发失败 (HTTP ${resp.status})，请检查配置。`);
-            }
         } catch (e) {
             alert('网络错误: ' + e.message);
         }

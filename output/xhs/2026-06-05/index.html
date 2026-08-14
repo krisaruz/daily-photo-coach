@@ -11,7 +11,6 @@
             --muted: #80616c;
             --line: rgba(190, 24, 93, 0.16);
             --accent: #be185d;
-            --accent-soft: rgba(190, 24, 93, 0.1);
         }
         * { box-sizing: border-box; }
         body {
@@ -21,169 +20,49 @@
             background: linear-gradient(180deg, #fff, var(--paper));
         }
         a { color: inherit; }
-        button { font: inherit; }
-        .shell { width: min(1160px, calc(100vw - 32px)); margin: 0 auto; padding: 28px 0 60px; }
+        .shell { width: min(760px, calc(100vw - 32px)); margin: 0 auto; padding: 28px 0 60px; }
         .topbar { display: flex; justify-content: space-between; gap: 16px; margin-bottom: 28px; }
         .back { color: var(--muted); text-decoration: none; font-weight: 800; }
         .hero { display: grid; gap: 12px; margin-bottom: 24px; }
         .eyebrow { color: var(--accent); font-size: 13px; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; }
-        h1 { margin: 0; font-size: clamp(32px, 6vw, 58px); line-height: 1.08; letter-spacing: 0; }
+        h1 { margin: 0; font-size: clamp(32px, 6vw, 52px); line-height: 1.08; }
         .caption { max-width: 780px; color: var(--muted); line-height: 1.85; }
         .meta { display: flex; flex-wrap: wrap; gap: 10px; color: var(--accent); font-weight: 800; font-size: 13px; }
-        .source { display: inline-flex; margin-top: 10px; color: var(--accent); font-weight: 800; text-decoration: none; }
-
-        .study-layout {
-            display: grid;
-            grid-template-columns: minmax(0, 1fr) 128px;
-            gap: 18px;
-            align-items: start;
+        .source {
+            display: inline-flex;
+            margin-top: 6px;
+            color: #fff;
+            background: var(--accent);
+            font-weight: 800;
+            text-decoration: none;
+            padding: 10px 14px;
+            border-radius: 999px;
+            width: fit-content;
         }
-        .viewer {
-            min-width: 0;
+        .notice {
+            padding: 12px 14px;
             border: 1px solid var(--line);
-            border-radius: 8px;
+            border-radius: 10px;
             background: rgba(255,255,255,0.86);
-            overflow: hidden;
+            color: var(--muted);
+            line-height: 1.7;
+            font-size: 14px;
         }
-        .viewer-bar {
-            display: flex;
-            justify-content: space-between;
-            gap: 12px;
-            align-items: center;
-            min-height: 48px;
-            padding: 0 16px;
-            border-bottom: 1px solid var(--line);
-            color: var(--accent);
-            font-size: 13px;
-            font-weight: 900;
-        }
-        .track-shell { position: relative; }
-        .track {
-            display: flex;
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-            scroll-behavior: smooth;
-            scrollbar-width: none;
-            -webkit-overflow-scrolling: touch;
-        }
-        .track::-webkit-scrollbar { display: none; }
-        .slide {
-            flex: 0 0 100%;
-            min-width: 100%;
-            scroll-snap-align: start;
+        .warn { color: #9f1239; font-weight: 700; }
+        .study { display: grid; gap: 16px; margin-top: 22px; }
+        .card {
+            border: 1px solid var(--line);
+            border-radius: 12px;
             background: rgba(255,255,255,0.92);
-        }
-        .frame {
-            margin: 0;
-            background: #1f171b;
-            min-height: min(72vh, 760px);
-            display: grid;
-            place-items: center;
-        }
-        .frame img {
-            display: block;
-            width: 100%;
-            max-height: min(72vh, 760px);
-            object-fit: contain;
-            background: #1f171b;
-        }
-        .analysis-panel {
             padding: 20px 22px 24px;
-            border-top: 1px solid var(--line);
-            background: #fff;
         }
-        .analysis-panel h2 { margin: 0 0 14px; color: var(--accent); font-size: 18px; }
+        .card h2 { margin: 0 0 14px; color: var(--accent); font-size: 18px; }
         .analysis { color: #3a2730; line-height: 1.85; }
         .analysis h2, .analysis h3 { margin: 18px 0 8px; font-size: 18px; }
         .analysis p { margin: 8px 0; }
         .analysis ul, .analysis ol { padding-left: 1.25rem; }
-
-        .nav-button {
-            position: absolute;
-            top: min(36vh, 360px);
-            z-index: 2;
-            width: 42px;
-            height: 42px;
-            display: grid;
-            place-items: center;
-            border: 1px solid rgba(255,255,255,0.6);
-            border-radius: 999px;
-            color: #fff;
-            background: rgba(38, 21, 27, 0.58);
-            cursor: pointer;
-            line-height: 1;
-            font-size: 28px;
-        }
-        .nav-button:hover { background: rgba(38, 21, 27, 0.74); }
-        .nav-button:focus-visible, .thumb:focus-visible {
-            outline: 3px solid rgba(190, 24, 93, 0.32);
-            outline-offset: 2px;
-        }
-        .nav-button.prev { left: 14px; }
-        .nav-button.next { right: 14px; }
-
-        .thumb-rail {
-            position: sticky;
-            top: 16px;
-            display: grid;
-            gap: 10px;
-        }
-        .thumb-title {
-            color: var(--muted);
-            font-size: 12px;
-            font-weight: 900;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-        }
-        .thumb-list {
-            display: grid;
-            gap: 8px;
-            max-height: calc(100vh - 80px);
-            overflow: auto;
-            padding-right: 4px;
-        }
-        .thumb {
-            width: 100%;
-            aspect-ratio: 1 / 1;
-            padding: 0;
-            overflow: hidden;
-            border: 2px solid transparent;
-            border-radius: 8px;
-            background: #eadde1;
-            cursor: pointer;
-        }
-        .thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
-        .thumb.is-active {
-            border-color: var(--accent);
-            box-shadow: 0 0 0 4px var(--accent-soft);
-        }
-        @media (max-width: 760px) {
-            .shell { width: min(100vw - 24px, 640px); padding-top: 20px; }
-            .topbar { flex-direction: column; gap: 8px; margin-bottom: 22px; }
-            .study-layout { display: flex; flex-direction: column; }
-            .thumb-rail { position: static; order: -1; width: 100%; }
-            .thumb-title { display: none; }
-            .thumb-list {
-                display: flex;
-                gap: 8px;
-                max-height: none;
-                overflow-x: auto;
-                padding: 2px 2px 8px;
-                scroll-snap-type: x proximity;
-            }
-            .thumb { flex: 0 0 68px; width: 68px; }
-            .viewer-bar { padding: 0 12px; }
-            .frame { min-height: min(68vh, 620px); }
-            .frame img { max-height: min(68vh, 620px); }
-            .analysis-panel { padding: 18px 16px 22px; }
-            .nav-button {
-                top: min(34vh, 310px);
-                width: 38px;
-                height: 38px;
-                font-size: 24px;
-            }
-            .nav-button.prev { left: 10px; }
-            .nav-button.next { right: 10px; }
+        @media (max-width: 640px) {
+            .topbar { flex-direction: column; gap: 8px; }
         }
     </style>
 </head>
@@ -198,34 +77,24 @@
             <h1>电影般的春天｜漫游属于西安的那片紫色花海</h1>
             <div class="meta">
                 <span>周姨</span>
-                <span>13 张图逐张分析</span>
+                <span>13 张逐张分析</span>
             </div>
 
             <p class="caption">世博园的小森林，开满了紫色的二月兰 阳光穿过树干的缝隙，照耀在花朵上、叶片上 闪闪发光，好似进入童话世界🧚 🟢时间：4月8日 🟡位置：西安世博园（西出入口）直行后左拐约100余米，左手边就是 🟠出行：地铁🚇很方便，乘坐3号线到香湖湾，从A2口出来就是✅汽车🚗可以直接导航世博园西出入口 🟡小提示：树林中有小路，可以沿着痕迹行走或拍照，这样就不会踩到花花啦～…</p>
 
+            <p class="notice">原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。</p>
 
-            <a class="source" href="https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&amp;xsec_source=pc_feed" target="_blank" rel="noopener">打开小红书原帖</a>
+            <a class="source" href="https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&amp;xsec_source=pc_feed" target="_blank" rel="noopener">在小红书查看原图</a>
+
 
         </header>
 
-        <section class="study-layout" data-carousel>
-            <div class="viewer">
-                <div class="viewer-bar">
-                    <span data-counter>1 / 13</span>
-                    <span>2026-06-05</span>
-                </div>
-                <div class="track-shell">
-                    <button class="nav-button prev" type="button" data-dir="-1" aria-label="上一张" title="上一张">‹</button>
-                    <div class="track" data-track tabindex="0" aria-label="小红书组图">
+        <section class="study">
 
-                        <article class="slide" data-slide data-index="0" id="photo-1">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-1-regular.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="eager">
-                            </figure>
+            <article class="card" id="photo-1">
+                <h2>第 1 张 / 共 13 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 1 张 / 共 13 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>最迷人的是“紫色花海 + 林间逆光”的童话感，人物只露背影，反而更有春日漫游的电影氛围。三张拼接也强化了从环境到人像再到花朵细节的叙事。</p>
 
 <h2>技法拆解</h2>
@@ -241,18 +110,13 @@
 
 <h2>后期思路</h2>
 <p>整体往“柔和、明亮、电影春天”走：提高曝光和阴影，压一点高光，保留逆光闪烁感。色彩上增强紫色饱和与明度，绿色稍微降饱和、偏暖，最后加轻微柔焦或颗粒，让画面更像春日胶片。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="1" id="photo-2">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-2-regular.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-2">
+                <h2>第 2 张 / 共 13 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 2 张 / 共 13 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>这张最迷人的是“人被春天包围”的电影感：紫色二月兰、浅色风衣和斑驳阳光，形成很温柔的法式漫游气质。</p>
 
 <h2>技法拆解</h2>
@@ -268,18 +132,13 @@
 
 <h2>后期思路</h2>
 <p>整体往“柔和、暖绿、胶片感”走：降低高光和对比，微提阴影，让阳光不刺眼。绿色可稍降饱和、偏黄一点，紫色花保留亮度；再加轻微柔焦/颗粒，让画面更像春日电影截图。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="2" id="photo-3">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-3-regular.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-3">
+                <h2>第 3 张 / 共 13 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 3 张 / 共 13 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>这张最动人的是“紫色花海被树林切成一束束光”的春日氛围，像电影里的散步空镜。树干形成纵深，花丛一直铺到远处，很适合做人像写真里的环境铺垫。</p>
 
 <h2>技法拆解</h2>
@@ -296,18 +155,13 @@
 
 <h2>后期思路</h2>
 <p>整体往“法式复古、春日电影感”走：降低高光、微提阴影，让林间光更柔。紫色适当降饱和、偏一点洋红，绿色降低黄绿的刺眼感；最后加轻微颗粒和柔化，保留童话般的闪光。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="3" id="photo-4">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-4-regular.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-4">
+                <h2>第 4 张 / 共 13 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 4 张 / 共 13 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>这张最迷人的是“从花丛里偷看森林”的感觉：紫色二月兰铺满前景，树干被斑驳阳光点亮，很有春日下午的电影感。</p>
 
 <h2>技法拆解</h2>
@@ -323,18 +177,13 @@
 
 <h2>后期思路</h2>
 <p>整体往“柔和春日电影感”走：降低对比和高光，适当提阴影，保留阳光的温暖。绿色可降一点饱和、偏黄，紫色花稍提亮提纯；加轻微暗角和颗粒，增强小红书式氛围感。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="4" id="photo-5">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-5-regular.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-5">
+                <h2>第 5 张 / 共 13 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 5 张 / 共 13 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>草帽挂在树干间，像人物刚离开画面，留下春日漫游的想象。紫色二月兰铺满背景，阳光斑驳，很有小红书常见的法式复古花海氛围。</p>
 
 <h2>技法拆解</h2>
@@ -351,18 +200,13 @@
 
 <h2>后期思路</h2>
 <p>整体往“电影般的春天”走：降低一点对比，提亮阴影，保留柔和高光。紫色花海可适度提高饱和和明度，绿色稍微往黄绿偏，草帽用暖色温突出复古感；最后加轻微颗粒或暗角，增强胶片氛围。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="5" id="photo-6">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-6-regular.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-6">
+                <h2>第 6 张 / 共 13 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 6 张 / 共 13 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>这张最迷人的是“紫色花海被阳光点亮”的春日空气感，树干的纵深让画面有电影里的森林漫游感。前景虚化的花朵也增加了代入感，像人正走进这片花里。</p>
 
 <h2>技法拆解</h2>
@@ -379,18 +223,13 @@
 
 <h2>后期思路</h2>
 <p>整体往“春日电影感”走：适度提亮阴影、压一点高光，保留阳光闪烁。绿色降低饱和、偏黄一点，紫色稍提亮但别过艳；加轻微暖色调和柔化，可用径向滤镜强调中间光感。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="6" id="photo-7">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-7-regular.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-7">
+                <h2>第 7 张 / 共 13 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 7 张 / 共 13 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>这张最动人的是“背影走进花海”的叙事感：紫色二月兰、斑驳阳光和浅色风衣组合出很小红书的春日电影氛围。</p>
 
 <h2>技法拆解</h2>
@@ -406,18 +245,13 @@
 
 <h2>后期思路</h2>
 <p>整体往“柔和电影春天”走：降低高光、提一点阴影，保留斑驳光感。绿色可稍降饱和、偏暖偏黄，紫色花提高一点明度和饱和；加轻微暗角、颗粒和暖色调，让画面更像胶片漫游。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="7" id="photo-8">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-8-regular.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-8">
+                <h2>第 8 张 / 共 13 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 8 张 / 共 13 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>这张最迷人的是“林间小路通向紫色花海”的童话感，树干的纵向节奏和地面的花带把视线自然带进画面。下午斜光让绿色和紫色都显得很有春天的呼吸感。</p>
 
 <h2>技法拆解</h2>
@@ -433,18 +267,13 @@
 
 <h2>后期思路</h2>
 <p>整体往“电影感春日”走：降低高光、提阴影，保留阳光穿林的通透感。绿色可稍微降饱和并偏黄，紫色提高明度和饱和；加一点柔化或颗粒，让画面更像复古写真。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="8" id="photo-9">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-9-regular.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-9">
+                <h2>第 9 张 / 共 13 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 9 张 / 共 13 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>这张最动人的是“人被春天包围”的沉浸感，紫色二月兰、草帽和浅色衣服共同营造出法式、电影感的松弛氛围。脸被帽子遮住，反而让画面更有想象空间。</p>
 
 <h2>技法拆解</h2>
@@ -461,18 +290,13 @@
 
 <h2>后期思路</h2>
 <p>整体走清透、柔和、偏胶片的春日感：提高曝光和阴影，压一点高光，保留阳光闪烁。紫色不要拉得太艳，可降低饱和、提高明度；绿色稍微往黄绿偏，画面会更温柔。可加轻微颗粒和暗角，增强电影感。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="9" id="photo-10">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-10-regular.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-10">
+                <h2>第 10 张 / 共 13 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 10 张 / 共 13 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>这张最迷人的是“紫色花海 + 斑驳树影”的春日氛围，阳光把二月兰照得很轻盈，有童话感。画面若用于人像写真，非常适合做浅色裙装、草帽、野餐篮这类法式春游场景。</p>
 
 <h2>技法拆解</h2>
@@ -488,18 +312,13 @@
 
 <h2>后期思路</h2>
 <p>整体往“小红书电影春天”走：提高曝光和暖色温，适当降低高光、提阴影，让阳光柔和。紫色花可用 HSL 微调紫色亮度和饱和度，绿色降低一点饱和、偏黄绿，最后加轻微颗粒和柔化，保留胶片感。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="10" id="photo-11">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-11-regular.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-11">
+                <h2>第 11 张 / 共 13 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 11 张 / 共 13 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>树干像天然画框，把人包在紫色二月兰和嫩绿春光里，氛围很“电影感”。人物偏小但情绪安静，适合小红书式春日漫游写真。</p>
 
 <h2>技法拆解</h2>
@@ -515,18 +334,13 @@
 
 <h2>后期思路</h2>
 <p>整体往柔和、微过曝、低对比的春日胶片感走。适当提高曝光和阴影，压一点高光，绿色往黄绿偏、紫色保持清透；可加轻微柔焦或降低清晰度，让画面更像童话森林。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="11" id="photo-12">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-12-regular.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-12">
+                <h2>第 12 张 / 共 13 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 12 张 / 共 13 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>紫色二月兰铺满林地，阳光从树缝里漏下来，有很强的春日童话感。画面氛围好，但目前主体略散，且需注意照片方向与构图重心。</p>
 
 <h2>技法拆解</h2>
@@ -542,18 +356,13 @@
 
 <h2>后期思路</h2>
 <p>整体往“小红书春日电影感”走：提高暖色氛围，但保留紫花的清透。可降低高光、提阴影，适当加一点柔光；HSL里压低黄绿饱和，提高紫色明度，让花海更干净梦幻。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="12" id="photo-13">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-13-regular.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-13">
+                <h2>第 13 张 / 共 13 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 13 张 / 共 13 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>这张最迷人的是“林间紫色花毯”的氛围：阳光从树缝落下来，花和叶子有闪光感，很适合做春日人像的环境铺垫。</p>
 
 <h2>技法拆解</h2>
@@ -569,170 +378,10 @@
 
 <h2>后期思路</h2>
 <p>整体往“电影感春日”走：压一点高光，提阴影，让林子保留柔和层次。紫色可稍提升明度、降低饱和，绿色往黄绿偏一点，避免脏绿。加轻微暖色调和暗角，强化童话森林的包围感。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                    </div>
-                    <button class="nav-button next" type="button" data-dir="1" aria-label="下一张" title="下一张">›</button>
-                </div>
-            </div>
-
-            <aside class="thumb-rail" aria-label="全部图片预览">
-                <div class="thumb-title">全部图片</div>
-                <div class="thumb-list">
-
-                    <button class="thumb is-active" type="button" data-thumb="0" aria-label="查看第 1 张" title="第 1 张">
-                        <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-1-small.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="1" aria-label="查看第 2 张" title="第 2 张">
-                        <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-2-small.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="2" aria-label="查看第 3 张" title="第 3 张">
-                        <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-3-small.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="3" aria-label="查看第 4 张" title="第 4 张">
-                        <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-4-small.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="4" aria-label="查看第 5 张" title="第 5 张">
-                        <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-5-small.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="5" aria-label="查看第 6 张" title="第 6 张">
-                        <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-6-small.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="6" aria-label="查看第 7 张" title="第 7 张">
-                        <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-7-small.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="7" aria-label="查看第 8 张" title="第 8 张">
-                        <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-8-small.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="8" aria-label="查看第 9 张" title="第 9 张">
-                        <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-9-small.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="9" aria-label="查看第 10 张" title="第 10 张">
-                        <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-10-small.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="10" aria-label="查看第 11 张" title="第 11 张">
-                        <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-11-small.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="11" aria-label="查看第 12 张" title="第 12 张">
-                        <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-12-small.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="12" aria-label="查看第 13 张" title="第 13 张">
-                        <img src="../../assets/xhs/6433d257000000000800e88f/xhs-6433d257000000000800e88f-13-small.jpg" alt="电影般的春天｜漫游属于西安的那片紫色花海" loading="lazy">
-                    </button>
-
-                </div>
-            </aside>
         </section>
     </main>
-
-    <script>
-        (() => {
-            const root = document.querySelector('[data-carousel]');
-            if (!root) return;
-
-            const track = root.querySelector('[data-track]');
-            const slides = Array.from(root.querySelectorAll('[data-slide]'));
-            const thumbs = Array.from(root.querySelectorAll('[data-thumb]'));
-            const counter = root.querySelector('[data-counter]');
-            const buttons = Array.from(root.querySelectorAll('[data-dir]'));
-            const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-            let activeIndex = 0;
-            let raf = 0;
-
-            function clamp(index) {
-                return Math.max(0, Math.min(slides.length - 1, index));
-            }
-
-            function setActive(index) {
-                activeIndex = clamp(index);
-                thumbs.forEach((thumb, thumbIndex) => {
-                    const selected = thumbIndex === activeIndex;
-                    thumb.classList.toggle('is-active', selected);
-                    thumb.setAttribute('aria-pressed', selected ? 'true' : 'false');
-                });
-                if (counter) {
-                    counter.textContent = `${activeIndex + 1} / ${slides.length}`;
-                }
-                const activeThumb = thumbs[activeIndex];
-                if (activeThumb) {
-                    activeThumb.scrollIntoView({ block: 'nearest', inline: 'nearest' });
-                }
-            }
-
-            function goTo(index) {
-                const nextIndex = clamp(index);
-                const slide = slides[nextIndex];
-                if (!slide) return;
-                track.scrollTo({
-                    left: slide.offsetLeft,
-                    behavior: reduceMotion ? 'auto' : 'smooth',
-                });
-                setActive(nextIndex);
-            }
-
-            function syncFromScroll() {
-                raf = 0;
-                const center = track.scrollLeft + track.clientWidth / 2;
-                let nearest = 0;
-                let nearestDistance = Number.POSITIVE_INFINITY;
-                slides.forEach((slide, index) => {
-                    const slideCenter = slide.offsetLeft + slide.clientWidth / 2;
-                    const distance = Math.abs(slideCenter - center);
-                    if (distance < nearestDistance) {
-                        nearest = index;
-                        nearestDistance = distance;
-                    }
-                });
-                if (nearest !== activeIndex) {
-                    setActive(nearest);
-                }
-            }
-
-            track.addEventListener('scroll', () => {
-                if (!raf) {
-                    raf = window.requestAnimationFrame(syncFromScroll);
-                }
-            }, { passive: true });
-
-            buttons.forEach((button) => {
-                button.addEventListener('click', () => {
-                    goTo(activeIndex + Number(button.dataset.dir || 0));
-                });
-            });
-
-            thumbs.forEach((thumb) => {
-                thumb.addEventListener('click', () => {
-                    goTo(Number(thumb.dataset.thumb || 0));
-                });
-            });
-
-            track.addEventListener('keydown', (event) => {
-                if (event.key === 'ArrowLeft') {
-                    event.preventDefault();
-                    goTo(activeIndex - 1);
-                }
-                if (event.key === 'ArrowRight') {
-                    event.preventDefault();
-                    goTo(activeIndex + 1);
-                }
-            });
-
-            setActive(0);
-        })();
-    </script>
 </body>
 </html>

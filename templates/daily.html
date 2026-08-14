@@ -182,7 +182,20 @@
                 {% for item in tab.photos %}
                 <article class="group bg-white rounded-[20px] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)] border border-stone-200/70 overflow-hidden">
 
-                    <!-- 照片 -->
+                    {% if item.is_xhs or not item.url_regular %}
+                    <div class="px-7 pt-6">
+                        <p class="text-sm text-slate-500 leading-7">{{ item.xhs_notice or "原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。" }}</p>
+                        {% if item.source_url %}
+                        <a href="{{ item.source_url }}" target="_blank" rel="noopener"
+                           class="inline-flex mt-3 px-4 py-2 rounded-full text-sm font-semibold text-white bg-rose-700 hover:bg-rose-800">
+                            在小红书查看原图
+                        </a>
+                        {% endif %}
+                        {% if item.source_unavailable %}
+                        <p class="text-sm font-semibold text-rose-800 mt-3">原帖可能已无法公开浏览。</p>
+                        {% endif %}
+                    </div>
+                    {% else %}
                     <div class="photo-frame aspect-video" onclick='openLightbox({{ item.url_full | tojson }})'>
                         <img src="{{ item.url_regular }}" alt="{{ item.description }}"
                              class="w-full h-full object-cover" loading="lazy">
@@ -192,6 +205,7 @@
                             <div class="text-xs opacity-70 mt-0.5">{{ item.description }}</div>
                         </div>
                     </div>
+                    {% endif %}
 
                     <!-- 信息栏 -->
                     <div class="px-7 pt-5 pb-4">

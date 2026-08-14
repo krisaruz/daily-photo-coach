@@ -25,7 +25,7 @@ Unsplash API / 小红书公开分享页 → 多风格抓取 → 多模态 LLM �
 
 支持多种 `orientation` 轮换，`content_filter: high` 保证内容质量，ID 级去重。
 
-也支持从小红书公开分享链接、公开笔记链接或公开主页中导入摄影作品。导入器会尽量解析公开页面里的图片、标题、博主文案和作者信息；如果博主文案里写了拍摄思路，会把这些文字一并交给多模态模型作为分析语境。
+也支持从小红书公开分享链接导入笔记元数据，把博主文案交给多模态模型作语境。公开站点只保留学习笔记和原帖链接，不托管、不展示小红书原图。
 
 ### Phase 2: 多模态分析
 
@@ -111,7 +111,7 @@ python src/xhs_import.py --url "http://xhslink.com/o/6vj01FlQoGl" --skip-analysi
 
 静态站首页和每日页都提供“导入小红书链接”按钮。首次使用需要在浏览器里输入一个 GitHub PAT（仅需 Actions write 权限），按钮会触发 `.github/workflows/xhs.yml`，由 GitHub Actions 抓取公开页面、调用 `gpt-5.5` 分析并重新部署 Pages。
 
-另外 `.github/workflows/daily.yml` 会在北京时间 09:20–22:20 每小时检查一次，并在当天 9–22 点中抽一个稳定随机整点生成 Unsplash 日报和小红书精选。公开搜索经常要求登录时，最稳定的方式是把你喜欢的摄影博主公开分享链接加入 `xhs.sources` 或 GitHub Secret `XHS_SEED_URLS`；直播笔记失效时，脚本会回退到已经缓存过的真实笔记。`xhs-daily.yml` 仅保留手动回填。
+另外 `.github/workflows/daily.yml` 会在北京时间 09:20–22:20 每小时检查一次，并在当天 9–22 点中抽一个稳定随机整点生成 Unsplash 日报和小红书精选。公开搜索经常要求登录时，最稳定的方式是把你喜欢的摄影博主公开分享链接加入 `xhs.sources` 或 GitHub Secret `XHS_SEED_URLS`；直播笔记失效时，脚本会回退到已有分析文字的历史笔记。站点不保存小红书原图。`xhs-daily.yml` 仅保留手动回填。
 
 Actions 中建议配置：
 

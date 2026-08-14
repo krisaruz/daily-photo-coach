@@ -136,11 +136,6 @@ def import_xhs(
     )
     photos = _dedupe_photos(photos)[: args.limit]
     photos = [photo for photo in photos if xhs_fetcher.is_usable_xhs_photo(photo)]
-    xhs_fetcher.cache_photo_assets(
-        photos,
-        output_dir,
-        cookie=args.cookie or xhs_config.get("cookie", ""),
-    )
     if not photos:
         logger.error("没有解析到可用照片。公开页面可能已过期、需要登录，或页面结构发生变化。")
         sys.exit(1)

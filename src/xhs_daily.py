@@ -493,11 +493,6 @@ def fetch_pool(config: dict[str, Any], args: argparse.Namespace) -> list[dict[st
             cookie=args.cookie or xhs_config.get("cookie", ""),
         )
         live = [photo for photo in live if xhs_fetcher.is_usable_xhs_photo(photo)]
-        xhs_fetcher.cache_photo_assets(
-            live,
-            output_dir,
-            cookie=args.cookie or xhs_config.get("cookie", ""),
-        )
     else:
         logger.info("跳过小红书在线抓取，仅使用历史归档")
 

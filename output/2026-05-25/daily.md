@@ -282,7 +282,9 @@ From now on, Every Saturday (Central Time - US & Canada) I will release Lightroo
 **摄影师**: [小仙女周周](https://www.xiaohongshu.com/user/profile/5b9de124f110cc0001ad3c94)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64ba91e5000000000800f849?xsec_token=ABbCLHT5s3qlM3EnEPlnWhUINrLLEnUQ51TY8T0KxqD2E%3D&xsec_source=pc_feed)
 
-![在西江千户苗寨一定要到这观景台拍照](../assets/xhs/64ba91e5000000000800f849/xhs-64ba91e5000000000800f849-1-regular.jpg)
+原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。
+
+[在小红书查看原图](https://www.xiaohongshu.com/explore/64ba91e5000000000800f849?xsec_token=ABbCLHT5s3qlM3EnEPlnWhUINrLLEnUQ51TY8T0KxqD2E%3D&xsec_source=pc_feed)
 
 
 ## 直觉

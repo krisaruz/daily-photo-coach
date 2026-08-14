@@ -15,6 +15,8 @@ logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = PROJECT_ROOT / "templates"
+LOCAL_ASSET_KEYS = ("local_url_small", "local_url_regular", "local_url_full")
+XHS_PUBLIC_NOTICE = "原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。"
 
 
 def _markdown_to_html(md_text: str) -> str:
@@ -93,8 +95,52 @@ def _clean_text(text: str | None) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def _is_xhs_entry(photo: dict[str, Any] | None) -> bool:
+    if not isinstance(photo, dict):
+        return False
+    return photo.get("source_platform") == "xhs" or photo.get("source_name") == "小红书"
+
+
+def _strip_local_asset_fields(photo: dict[str, Any]) -> dict[str, Any]:
+    cleaned = dict(photo)
+    for key in LOCAL_ASSET_KEYS:
+        cleaned.pop(key, None)
+    return cleaned
+
+
+def _strip_grouped_local_assets(grouped_photos: dict[str, list[dict[str, Any]]]) -> dict[str, list[dict[str, Any]]]:
+    cleaned: dict[str, list[dict[str, Any]]] = {}
+    for label, photos in grouped_photos.items():
+        if not isinstance(photos, list):
+            cleaned[label] = photos
+            continue
+        cleaned[label] = [
+            _strip_local_asset_fields(photo) if isinstance(photo, dict) else photo
+            for photo in photos
+        ]
+    return cleaned
+
+
+def _styles_from_grouped(grouped_photos: dict[str, list[dict[str, Any]]]) -> list[dict[str, str]]:
+    styles: list[dict[str, str]] = []
+    for label, photos in grouped_photos.items():
+        if not photos or not isinstance(photos, list):
+            continue
+        sample = next((item for item in photos if isinstance(item, dict)), {})
+        styles.append(
+            {
+                "label": label,
+                "color": str(sample.get("style_color") or "#6b7280"),
+                "icon": str(sample.get("style_icon") or "📷"),
+            }
+        )
+    return styles
+
+
 def _image_url(photo: dict[str, Any], size: str = "regular", base_prefix: str = "") -> str:
-    """Return a renderable image URL, preferring cached static assets."""
+    """Return a renderable image URL. Xiaohongshu entries are never displayed."""
+    if _is_xhs_entry(photo):
+        return ""
     local_keys = {
         "small": ("local_url_small", "local_url_regular", "local_url_full"),
         "regular": ("local_url_regular", "local_url_full", "local_url_small"),
@@ -181,6 +227,8 @@ def _pick_preview_images(data: Any, limit: int = 3) -> list[str]:
             if not isinstance(group, list):
                 continue
             for photo in group[:1]:
+                if _is_xhs_entry(photo):
+                    continue
                 url = _image_url(photo, "small")
                 if url and url not in seen:
                     previews.append(url)
@@ -189,6 +237,8 @@ def _pick_preview_images(data: Any, limit: int = 3) -> list[str]:
                     return previews
 
     for photo in _iter_photos(data):
+        if _is_xhs_entry(photo):
+            continue
         url = _image_url(photo, "small")
         if url and url not in seen:
             previews.append(url)
@@ -260,6 +310,11 @@ def _render_photo_item(photo: dict[str, Any], base_prefix: str) -> dict[str, Any
         or photo.get("url_regular")
         or ""
     )
+    item["is_xhs"] = _is_xhs_entry(photo)
+    item["source_unavailable"] = bool(
+        item["is_xhs"] and xhs_fetcher.is_blocked_note_page(item["source_url"])
+    )
+    item["xhs_notice"] = XHS_PUBLIC_NOTICE if item["is_xhs"] else ""
 
     width = photo.get("width") or 0
     height = photo.get("height") or 0
@@ -380,7 +435,13 @@ def render_markdown(
             parts.append(f"\n## #{photo_idx} {label}\n")
             parts.append(f"**摄影师**: [{photo['photographer']}]({photo.get('photographer_url', '')})")
             parts.append(f" | **来源**: [{source_name}]({source_url})\n")
-            parts.append(f"![{photo.get('description', '')}]({_image_url(photo, 'regular', '../')})\n")
+            image_url = _image_url(photo, "regular", "../")
+            if image_url:
+                parts.append(f"![{photo.get('description', '')}]({image_url})\n")
+            elif _is_xhs_entry(photo):
+                parts.append(f"{XHS_PUBLIC_NOTICE}\n")
+                if source_url:
+                    parts.append(f"[在小红书查看原图]({source_url})\n")
 
             exif = photo.get("exif", {})
             exif_parts = []
@@ -415,6 +476,7 @@ def save_archive(
     output_dir: str,
 ) -> Path:
     """Persist the structured photo archive for the day."""
+    grouped_photos = _strip_grouped_local_assets(grouped_photos)
     day_dir = Path(output_dir) / date
     day_dir.mkdir(parents=True, exist_ok=True)
     out_path = day_dir / "photos.json"
@@ -489,7 +551,9 @@ def render_xhs_site(output_dir: str) -> Path:
                 "caption": _truncate(_clean_text(cover.get("caption", "")), 180),
                 "photographer": cover.get("photographer", "小红书博主"),
                 "source_url": cover.get("source_url") or cover.get("xhs_url") or "",
-                "cover_image": _image_url(group[0], "small", "../"),
+                "source_unavailable": bool(
+                    xhs_fetcher.is_blocked_note_page(cover.get("source_url") or cover.get("xhs_url") or "")
+                ),
                 "detail_url": f"{day_dir.name}/index.html",
                 "image_count": len(rendered_photos),
             }
@@ -499,6 +563,7 @@ def render_xhs_site(output_dir: str) -> Path:
                 date=day_dir.name,
                 note=note,
                 photos=rendered_photos,
+                xhs_notice=XHS_PUBLIC_NOTICE,
             )
             (detail_dir / "index.html").write_text(
                 _strip_trailing_whitespace(detail_html),
@@ -507,7 +572,7 @@ def render_xhs_site(output_dir: str) -> Path:
             )
             notes.append(note)
 
-    index_html = index_template.render(notes=notes)
+    index_html = index_template.render(notes=notes, xhs_notice=XHS_PUBLIC_NOTICE)
     out_path = xhs_root / "index.html"
     out_path.write_text(_strip_trailing_whitespace(index_html), encoding="utf-8", newline="\n")
     logger.info("Xiaohongshu site updated: %s (%d notes)", out_path, len(notes))
@@ -571,20 +636,20 @@ def update_index(output_dir: str) -> Path:
                         photo.get("note_title") or photo.get("description") or "小红书摄影作品",
                         64,
                     )
-                    if photo.get("note_image_index") and photo.get("note_image_count"):
-                        xhs_title = (
-                            f"{xhs_title} · 组图 "
-                            f"{photo['note_image_index']}/{photo['note_image_count']}"
-                        )
                     xhs_picks.append(
                         {
                             "date": day_dir.name,
-                            "image": _image_url(photo, "small"),
                             "title": xhs_title,
                             "caption": _truncate(_clean_text(photo.get("caption", "")), 120),
                             "photographer": photo.get("photographer", "小红书博主"),
                             "source_url": photo.get("source_url") or photo.get("xhs_url") or "",
+                            "source_unavailable": bool(
+                                xhs_fetcher.is_blocked_note_page(
+                                    photo.get("source_url") or photo.get("xhs_url") or ""
+                                )
+                            ),
                             "detail_url": f"xhs/{day_dir.name}/index.html",
+                            "image_count": int(photo.get("note_image_count") or 1),
                         }
                     )
 
@@ -641,6 +706,7 @@ def update_index(output_dir: str) -> Path:
         source_totals=source_totals_list,
         xhs_picks=xhs_picks[:10],
         xhs_index_url="xhs/index.html",
+        xhs_notice=XHS_PUBLIC_NOTICE,
         total_photos=total_photos,
     )
 
@@ -650,3 +716,32 @@ def update_index(output_dir: str) -> Path:
     out_path.write_text(_strip_trailing_whitespace(html), encoding="utf-8", newline="\n")
     logger.info("Archive index updated: %s (%d days, %d photos)", out_path, len(days), total_photos)
     return out_path
+
+
+def rebuild_public_pages(output_dir: str) -> None:
+    """Re-render every daily page, markdown, and index from existing archives."""
+    output_path = Path(output_dir)
+    if not output_path.exists():
+        raise FileNotFoundError(output_dir)
+
+    for day_dir in sorted(output_path.iterdir()):
+        if not day_dir.is_dir() or not re.match(r"\d{4}-\d{2}-\d{2}", day_dir.name):
+            continue
+        json_file = day_dir / "photos.json"
+        if not json_file.exists():
+            continue
+        try:
+            grouped = json.loads(json_file.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError) as exc:
+            logger.warning("Skipping broken archive %s: %s", json_file, exc)
+            continue
+        if not isinstance(grouped, dict):
+            continue
+        grouped = _strip_grouped_local_assets(grouped)
+        save_archive(grouped, day_dir.name, str(output_path))
+        styles = _styles_from_grouped(grouped)
+        render_web(grouped, styles, day_dir.name, str(output_path))
+        render_markdown(grouped, day_dir.name, str(output_path))
+        logger.info("Rebuilt public pages for %s", day_dir.name)
+
+    update_index(str(output_path))

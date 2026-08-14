@@ -13,7 +13,6 @@ import logging
 import re
 import time
 from html.parser import HTMLParser
-from pathlib import Path
 from typing import Any
 from urllib.parse import urljoin, urlparse
 
@@ -34,13 +33,6 @@ DEFAULT_HEADERS = {
     ),
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.7",
-}
-
-IMAGE_HEADERS = {
-    "User-Agent": DEFAULT_HEADERS["User-Agent"],
-    "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
-    "Accept-Language": DEFAULT_HEADERS["Accept-Language"],
-    "Referer": "https://www.xiaohongshu.com/",
 }
 
 PLACEHOLDER_IMAGE_MARKERS = (
@@ -144,38 +136,6 @@ def is_usable_xhs_photo(photo: dict[str, Any]) -> bool:
     if title in FALLBACK_TITLES and description in FALLBACK_TITLES:
         return False
     return True
-
-
-def _safe_asset_name(value: Any, fallback: str) -> str:
-    raw = str(value or fallback)
-    safe = re.sub(r"[^0-9A-Za-z._-]+", "-", raw).strip("-._")
-    return safe or fallback
-
-
-def _image_extension(resp: requests.Response, url: str) -> str:
-    content_type = resp.headers.get("Content-Type", "").split(";", 1)[0].strip().lower()
-    if content_type in {"image/jpeg", "image/jpg"}:
-        return ".jpg"
-    if content_type == "image/png":
-        return ".png"
-    if content_type == "image/webp":
-        return ".webp"
-    if content_type == "image/gif":
-        return ".gif"
-
-    path = urlparse(url).path.lower()
-    for ext in (".jpg", ".jpeg", ".png", ".webp", ".gif"):
-        if ext in path:
-            return ".jpg" if ext == ".jpeg" else ext
-    return ".jpg"
-
-
-def _existing_asset(stem: Path) -> Path | None:
-    for ext in (".jpg", ".png", ".webp", ".gif"):
-        path = stem.with_suffix(ext)
-        if path.exists() and path.stat().st_size > 0:
-            return path
-    return None
 
 
 def _make_session(cookie: str = "") -> requests.Session:
@@ -366,74 +326,6 @@ def _note_to_photos(
                 "exif": {},
             }
         )
-
-    return photos
-
-
-def cache_photo_assets(
-    photos: list[dict[str, Any]],
-    output_dir: str | Path,
-    *,
-    asset_prefix: str = "assets/xhs",
-    cookie: str = "",
-) -> list[dict[str, Any]]:
-    """Download Xiaohongshu CDN images into the static site output directory.
-
-    The public CDN URLs exposed by Xiaohongshu frequently fail as hotlinks on
-    GitHub Pages. Keep the original `url_*` values for attribution/analysis and
-    add `local_url_*` values for rendering stable static pages.
-    """
-    output_root = Path(output_dir)
-    asset_root = output_root / asset_prefix
-    session = _make_session(cookie)
-    session.headers.update(IMAGE_HEADERS)
-    downloaded: dict[str, str] = {}
-
-    for photo in photos:
-        if photo.get("source_platform") != "xhs":
-            continue
-
-        note_id = _safe_asset_name(photo.get("note_id"), "note")
-        photo_id = _safe_asset_name(photo.get("id"), hashlib.sha1(str(photo).encode()).hexdigest()[:12])
-        photo_dir = asset_root / note_id
-
-        for source_key, local_key, suffix in (
-            ("url_small", "local_url_small", "small"),
-            ("url_regular", "local_url_regular", "regular"),
-            ("url_full", "local_url_full", "full"),
-        ):
-            url = str(photo.get(source_key) or "")
-            if not _is_http_url(url) or is_placeholder_image_url(url):
-                continue
-            if url in downloaded:
-                photo[local_key] = downloaded[url]
-                continue
-
-            stem = photo_dir / f"{photo_id}-{suffix}"
-            existing = _existing_asset(stem)
-            if existing:
-                rel_path = existing.relative_to(output_root).as_posix()
-                photo[local_key] = rel_path
-                downloaded[url] = rel_path
-                continue
-
-            try:
-                resp = session.get(url, timeout=45)
-                resp.raise_for_status()
-                content_type = resp.headers.get("Content-Type", "")
-                if not content_type.lower().startswith("image/"):
-                    logger.warning("Xiaohongshu image response is not an image: %s (%s)", url, content_type)
-                    continue
-
-                path = stem.with_suffix(_image_extension(resp, url))
-                path.parent.mkdir(parents=True, exist_ok=True)
-                path.write_bytes(resp.content)
-                rel_path = path.relative_to(output_root).as_posix()
-                photo[local_key] = rel_path
-                downloaded[url] = rel_path
-                logger.info("Xiaohongshu image cached: %s", rel_path)
-            except requests.RequestException as exc:
-                logger.warning("Xiaohongshu image cache failed %s: %s", url, exc)
 
     return photos
 

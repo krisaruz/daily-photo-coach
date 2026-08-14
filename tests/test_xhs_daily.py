@@ -98,12 +98,8 @@ class ArchiveFallbackTests(unittest.TestCase):
                     "fetch_sources",
                     return_value=[PLACEHOLDER_NOTE],
                 ):
-                    with mock.patch.object(xhs_daily.xhs_fetcher, "cache_photo_assets", side_effect=lambda photos, *a, **k: photos):
-                        config["output"]["dir"] = "."
-                        # PROJECT_ROOT / output dir -> tmp if output.dir is "."
-                        # Wait: output_dir = PROJECT_ROOT / config["output"]["dir"]
-                        # If PROJECT_ROOT is tmp and dir is ".", that's tmp which has 2026-07-21
-                        pool = xhs_daily.fetch_pool(config, args)
+                    config["output"]["dir"] = "."
+                    pool = xhs_daily.fetch_pool(config, args)
         self.assertEqual(len(pool), 1)
         self.assertEqual(pool[0]["note_id"], "643631310000000011011932")
 

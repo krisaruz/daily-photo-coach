@@ -702,7 +702,9 @@ If you want to request any photos from there to be uploaded here for commercial 
 **摄影师**: [鯊魚喬納森.](https://www.xiaohongshu.com/user/profile/5a52302fe8ac2b3d2b212a76)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
 
-![嘿🌴夏天的快乐已充值到账](../assets/xhs/64bfc48e000000000a01aeb4/xhs-64bfc48e000000000a01aeb4-1-regular.jpg)
+原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。
+
+[在小红书查看原图](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
 
 
 ## 直觉
@@ -726,7 +728,9 @@ If you want to request any photos from there to be uploaded here for commercial 
 **摄影师**: [鯊魚喬納森.](https://www.xiaohongshu.com/user/profile/5a52302fe8ac2b3d2b212a76)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
 
-![嘿🌴夏天的快乐已充值到账](../assets/xhs/64bfc48e000000000a01aeb4/xhs-64bfc48e000000000a01aeb4-2-regular.jpg)
+原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。
+
+[在小红书查看原图](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
 
 
 ## 直觉
@@ -750,7 +754,9 @@ If you want to request any photos from there to be uploaded here for commercial 
 **摄影师**: [鯊魚喬納森.](https://www.xiaohongshu.com/user/profile/5a52302fe8ac2b3d2b212a76)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
 
-![嘿🌴夏天的快乐已充值到账](../assets/xhs/64bfc48e000000000a01aeb4/xhs-64bfc48e000000000a01aeb4-3-regular.jpg)
+原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。
+
+[在小红书查看原图](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
 
 
 ## 直觉
@@ -774,7 +780,9 @@ If you want to request any photos from there to be uploaded here for commercial 
 **摄影师**: [鯊魚喬納森.](https://www.xiaohongshu.com/user/profile/5a52302fe8ac2b3d2b212a76)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
 
-![嘿🌴夏天的快乐已充值到账](../assets/xhs/64bfc48e000000000a01aeb4/xhs-64bfc48e000000000a01aeb4-4-regular.jpg)
+原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。
+
+[在小红书查看原图](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
 
 
 ## 直觉
@@ -799,7 +807,9 @@ If you want to request any photos from there to be uploaded here for commercial 
 **摄影师**: [鯊魚喬納森.](https://www.xiaohongshu.com/user/profile/5a52302fe8ac2b3d2b212a76)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
 
-![嘿🌴夏天的快乐已充值到账](../assets/xhs/64bfc48e000000000a01aeb4/xhs-64bfc48e000000000a01aeb4-5-regular.jpg)
+原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。
+
+[在小红书查看原图](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
 
 
 ## 直觉
@@ -823,7 +833,9 @@ If you want to request any photos from there to be uploaded here for commercial 
 **摄影师**: [鯊魚喬納森.](https://www.xiaohongshu.com/user/profile/5a52302fe8ac2b3d2b212a76)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
 
-![嘿🌴夏天的快乐已充值到账](../assets/xhs/64bfc48e000000000a01aeb4/xhs-64bfc48e000000000a01aeb4-6-regular.jpg)
+原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。
+
+[在小红书查看原图](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
 
 
 ## 直觉

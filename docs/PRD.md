@@ -1,6 +1,6 @@
 # Daily Photo Coach PRD
 
-版本：v2.1
+版本：v2.2
 最近同步日期：2026-08-14
 最近同步实现提交：基于 `master` 分支全量代码审查
 线上站点：https://krisaruz.github.io/daily-photo-coach/
@@ -32,7 +32,7 @@ Daily Photo Coach 是一个每日摄影学习内容生成与发布系统。它�
 
 用户希望每天看到可直接学习的摄影案例，而不是泛泛的图片推荐。早期 Unsplash 图片质量稳定，但内容与国内摄影表达、社交平台拍法和人像写真场景有距离。小红书上有大量摄影博主会直接分享拍摄机位、文案、氛围和拍法，因此系统需要支持从公开小红书笔记中获取多图素材并结合文案分析。
 
-小红书公开网页存在反爬、登录风控和分享链接跳转不稳定的问题。项目因此不做无限制搜索式爬取，而采用"可信公开笔记池 + 每日轮换 + 质量过滤 + 本地缓存资产"的策略。
+小红书公开网页存在反爬、登录风控和分享链接跳转不稳定的问题。项目因此不做无限制搜索式爬取，而采用「可信公开笔记池 + 每日轮换 + 质量过滤 + 链出原文」的策略。公开站点不托管、不热链小红书原图。
 
 ## 4. 产品目标
 
@@ -51,7 +51,7 @@ Daily Photo Coach 是一个每日摄影学习内容生成与发布系统。它�
 - 不实现绕过登录、验证码、付费墙或访问控制的爬取。
 - 不承诺小红书公开搜索或主页可以稳定大规模抓取。
 - 不做用户账号系统、评论系统、数据库后台或服务端管理台。
-- 不把项目变成图片存储平台；优先引用远端图片，必要时缓存小红书图片资产。
+- 不把项目变成图片存储平台。Unsplash 继续引用远端图片；小红书原图不在本站托管或热链展示。
 - 不保证大模型分析结果是摄影事实的唯一标准，输出定位为学习辅助。
 
 ## 6. 目标用户
@@ -129,9 +129,9 @@ Flickr 抓取能力：
 - 支持 `quality_blocklist` 过滤文案明显不适合作为摄影教学样本的内容。
 - 纯旅行「攻略」且不含摄影关键词的笔记会被丢掉；人像/写真/妆造等关键词加权。
 - 近 6 天用过的 `note_id` 大幅降权，避免连续重复。
-- 公开页若被平台 404 / 返回小红书 Logo 占位图，不得当作作品图；改为从历史归档里的真实笔记回退。
+- 公开页若被平台 404 / 返回小红书 Logo 占位图，不得当作作品图；改为从历史归档里已有分析文字的笔记元数据回退。
 - 支持复用历史分析缓存，避免同一图片反复调用模型。
-- 小红书图片会缓存到 `output/assets/xhs/`，保证 GitHub Pages 可稳定展示。
+- 分析阶段可把远程图片 URL 交给模型；公开 HTML / Markdown 只保留学习笔记和原帖链接，不展示、不托管小红书照片。
 
 ### 7.4 LLM 分析教学框架
 
@@ -178,12 +178,10 @@ Flickr 抓取能力：
 
 小红书详情页当前布局要求：
 
-- 主图支持横向滑动切换。
-- 左右箭头可切换图片。
-- 键盘左右键可切换图片。
-- 每张图片的分析位于该图片下方。
-- 页面提供当天全部图片的小图预览。
-- 桌面端缩略图在右侧，移动端缩略图在主图上方横向排列。
+- 不展示小红书原图。
+- Hero 为标题、作者、说明和「在小红书查看原图」按钮。
+- 下方按「第 N / M 张」列出已有分析文字。
+- 注明本站不转载、不托管照片；原帖若可能已无法公开浏览，需提示。
 
 ### 7.7 浏览器触发 GitHub Actions
 
@@ -211,9 +209,8 @@ flowchart TD
     C --> F[图片灯箱与分析卡片]
     C --> G[每日 Markdown daily.md]
     C --> H[每日 JSON photos.json]
-    E --> I[横向滑动主图]
-    E --> J[图片下方分析]
-    E --> K[全部缩略图预览]
+    E --> I[原帖链出]
+    E --> J[按张文字分析]
     B --> L[导入小红书链接按钮]
     C --> M[刷新风格按钮]
     C --> N[导入小红书链接按钮]
@@ -231,7 +228,7 @@ flowchart LR
 
     subgraph Pipeline[Python 生成管线]
         F[src/fetcher.py<br/>Unsplash + Flickr 抓取]
-        XF[src/xhs_fetcher.py<br/>小红书公开页解析与图片缓存]
+        XF[src/xhs_fetcher.py<br/>小红书公开页解析]
         D[src/xhs_daily.py<br/>每日笔记轮换与过滤]
         RF[src/refresh.py<br/>单风格刷新]
         A[src/analyzer.py<br/>多模态 LLM 分析<br/>四段式教学框架]
@@ -245,7 +242,7 @@ flowchart LR
         O4[output/index.html]
         O5[output/xhs/index.html]
         O6[output/xhs/YYYY-MM-DD/index.html]
-        O7[output/assets/xhs/*]
+        O7[output/xhs/* 文字精选]
     end
 
     subgraph Publish[发布]
@@ -312,7 +309,7 @@ flowchart TD
     B --> C[提取 note 元数据、图片、标题、文案、作者]
     C --> D[按 note_id 去重]
     D --> E[质量过滤<br/>exclude_note_ids + quality_blocklist + 教学相关词]
-    E --> F[缓存图片到 output/assets/xhs]
+    E --> F[分析阶段使用远程图 URL]
     F --> G[加载历史分析缓存]
     G --> H[按目标日期轮换选择 1 条笔记]
     H --> I[选中笔记下所有图片]
@@ -353,16 +350,9 @@ sequenceDiagram
 ```mermaid
 stateDiagram-v2
     [*] --> LoadPage
-    LoadPage --> ShowFirstPhoto
-    ShowFirstPhoto --> Viewing
-    Viewing --> Viewing: 左右滑动主图
-    Viewing --> Viewing: 点击上一张/下一张
-    Viewing --> Viewing: 键盘 ArrowLeft/ArrowRight
-    Viewing --> Viewing: 点击缩略图
-    Viewing --> UpdateCounter
-    UpdateCounter --> HighlightThumb
-    HighlightThumb --> ShowAnalysisBelowPhoto
-    ShowAnalysisBelowPhoto --> Viewing
+    LoadPage --> ReadNote
+    ReadNote --> ReadNote: 打开小红书原帖
+    ReadNote --> ReadNote: 阅读第 N 张分析
 ```
 
 ### 10.5 浏览器触发 Actions 流程
@@ -481,9 +471,7 @@ erDiagram
 | `caption` | 博主文案 |
 | `note_image_index` | 当前图片在该帖中的序号，从 1 开始 |
 | `note_image_count` | 该帖总图片数 |
-| `local_url_small` | 缓存后的小图路径 |
-| `local_url_regular` | 缓存后的常规图路径 |
-| `local_url_full` | 缓存后的原图路径 |
+| `local_url_*` | 已废弃；重建归档时删除，渲染器忽略 |
 | `daily_source` | 每日轮换写入的图片标记为 `xhs_daily` |
 | `picked_for_date` | 该图片被选入的日期 |
 
@@ -516,7 +504,7 @@ Flickr 图片的 PhotoRecord 与 Unsplash 兼容，额外包含：
 | F-001 | 支持从 Unsplash 按风格 query 抓取图片 | P0 |
 | F-002 | 支持读取历史图片 ID，降低重复 | P0 |
 | F-003 | 支持从小红书公开分享链接或笔记链接解析图片 | P0 |
-| F-004 | 支持小红书图片缓存到静态资产目录 | P0 |
+| F-004 | 公开站不托管、不热链展示小红书原图；只保留笔记和分析 | P0 |
 | F-005 | 支持通过配置或 `XHS_SEED_URLS` 扩展小红书来源池 | P0 |
 | F-006 | 支持过滤已知低质量或不适合教学的小红书笔记 | P0 |
 | F-007 | 不绕过登录、验证码或访问控制 | P0 |
@@ -550,8 +538,8 @@ Flickr 图片的 PhotoRecord 与 Unsplash 兼容，额外包含：
 | F-205 | 首页展示小红书精选入口和最近小红书帖子 | P0 |
 | F-206 | 生成小红书独立首页 | P0 |
 | F-207 | 生成小红书单帖详情页 | P0 |
-| F-208 | 小红书详情页支持左右滑动、箭头、键盘切换和缩略图跳转 | P0 |
-| F-209 | 小红书详情页中每张图片的分析必须放在该图片下面 | P0 |
+| F-208 | 小红书详情页按张列出分析，并提供原帖链出 | P0 |
+| F-209 | 小红书详情页按「第 N 张」列出分析，并链到原帖 | P0 |
 | F-210 | 首页和每日页提供浏览器内触发 GitHub Actions 的按钮 | P1 |
 
 ### 12.4 自动化
@@ -576,7 +564,7 @@ Flickr 图片的 PhotoRecord 与 Unsplash 兼容，额外包含：
 | 性能 | 静态站可直接由 GitHub Pages 托管；详情页无需后端请求 |
 | 成本控制 | 支持 `--skip-analysis`、历史分析缓存和可选强制重跑 |
 | 合规 | 不绕过平台访问控制；只处理公开且有权引用的内容 |
-| 可访问性 | 小红书详情页支持键盘切换；按钮提供 `aria-label` |
+| 可访问性 | 按钮提供可理解文案；原帖链使用 `rel="noopener"` |
 | 响应式 | 首页、每日页、小红书详情页需兼容桌面和移动端 |
 | 容错 | LLM 分析支持指数退避重试；Unsplash 限流自动等待 61 分钟后重试 |
 
@@ -693,11 +681,11 @@ python -c "from src.renderer import render_xhs_site; render_xhs_site('output')"
 ### 16.1 小红书每日内容
 
 - 一个日期的小红书栏目只包含一个 `note_id`。
-- 当天小红书图片数量等于该 note 的 `note_image_count`，除非图片解析或缓存失败并被显式记录。
+- 当天小红书栏目对应一条 `note_id`，按张保留分析文字；公开页不嵌入该笔记图片。
 - 被 `exclude_note_ids` 排除的笔记不得出现在新生成的小红书日期页。
 - 命中 `quality_blocklist` 的笔记不得作为默认每日样本。
-- `output/xhs/YYYY-MM-DD/index.html` 能展示该 note 的所有图片。
-- 小红书详情页必须有缩略图预览和滑动切换能力。
+- `output/xhs/YYYY-MM-DD/index.html` 展示该 note 的按张分析，并链到原帖。
+- 小红书公开页不得嵌入原图。
 
 ### 16.2 LLM 分析输出
 
@@ -718,7 +706,7 @@ python -c "from src.renderer import render_xhs_site; render_xhs_site('output')"
 - `output/index.html` 可访问。
 - `output/xhs/index.html` 可访问。
 - `output/xhs/YYYY-MM-DD/index.html` 可访问。
-- 所有本地缓存图片路径返回有效资源。
+- 小红书公开页不出现 `assets/xhs` 或小红书 CDN 作为 `<img src>`。
 - Deploy Pages workflow 成功。
 
 ### 16.5 浏览器触发 Actions
@@ -741,7 +729,7 @@ python -c "from src.renderer import render_xhs_site; render_xhs_site('output')"
 | 内容质量不稳定 | 抓到旅行攻略、情绪文案或无教学价值图片 | 使用排除 ID、blocklist、摄影相关词过滤 |
 | 模型拒绝分析 | 个别图片触发安全拒绝 | 过滤已知问题 note；记录失败；支持换源 |
 | API 成本 | 多图帖子会产生多次模型调用 | 复用历史分析缓存；支持 `--skip-analysis` |
-| 静态资源失效 | 外链图片不稳定 | 小红书图片缓存到 `output/assets/xhs/` |
+| 静态资源失效 | 小红书外链图不稳定，且不宜站外展示 | 公开站只链出原帖，不托管原图 |
 | 日期混杂 | 首页卡片跳错每日主页面 | 小红书卡片跳到独立 `xhs/YYYY-MM-DD/` 页面 |
 | Unsplash API 限流 | 连续抓取超过每小时配额 | 自动等待 61 分钟后重试 |
 | Flickr EXIF 获取失败 | 照片未开放 EXIF 或 API 返回错误 | 返回空 EXIF，不阻断后续流程 |
@@ -758,7 +746,7 @@ python -c "from src.renderer import render_xhs_site; render_xhs_site('output')"
 | Prompt | `src/prompt.py` | 四段式教学 Prompt 模板 + user message 构建 |
 | 渲染器 | `src/renderer.py` | HTML/Markdown/JSON 渲染 + 首页/小红书站生成 |
 | 单风格刷新 | `src/refresh.py` | 仅刷新指定风格的照片 |
-| 小红书抓取 | `src/xhs_fetcher.py` | 公开页 HTML 解析、`window.__INITIAL_STATE__` 提取、OpenGraph fallback、图片缓存 |
+| 小红书抓取 | `src/xhs_fetcher.py` | 公开页 HTML 解析、`window.__INITIAL_STATE__` 提取、OpenGraph fallback；不下载原图到站点 |
 | 小红书导入 | `src/xhs_import.py` | 手动导入单条小红书公开链接 |
 | 小红书每日 | `src/xhs_daily.py` | 每日笔记轮换、质量过滤、分析缓存复用、backfill |
 
@@ -775,11 +763,12 @@ python -c "from src.renderer import render_xhs_site; render_xhs_site('output')"
 
 ## 20. 当前已知实现边界
 
-- 小红书公开笔记页从 2026-07-22 起经常返回 `error_code=300031` 与平台 Logo 占位图；每日精选会跳过占位图，并从已缓存的真实笔记回退。新笔记需要有效的公开 URL / `XHS_SEED_URLS`。
+- 小红书公开笔记页从 2026-07-22 起经常返回 `error_code=300031` 与平台 Logo 占位图；每日精选会跳过占位图，并从历史归档的分析文字回退。新笔记需要有效的公开 URL / `XHS_SEED_URLS`。
+- 公开站点不托管小红书原图。git 历史中可能仍有旧文件，本次只保证当前树与 Pages 当前部署不含这些资产。
 - README、配置示例和部分源码注释在 Windows PowerShell 中可能显示为乱码，但文件应按 UTF-8 读写；后续如修复编码显示，需要单独验证不破坏内容。
 - `output/` 中包含历史生成物，生成规则变化时通常只重渲染受影响页面。
 - 小红书独立站目前扫描历史 `photos.json` 并按 note 分组生成页面。
-- 小红书详情页的轮播逻辑是原生 HTML/CSS/JavaScript，不依赖前端构建工具。
+- 小红书详情页是按张排列的文字分析，不再做图片轮播。
 - README 中描述的"七维教学框架"为早期设计，当前实现已改为四段式结构（见 7.4 节）。
 - Flickr 数据源已在代码中完整实现，但非默认数据源，需要手动配置。
 - 浏览器触发 Actions 的 PAT 存储在 `localStorage`，安全性依赖于用户仅授予最小权限。
@@ -789,6 +778,6 @@ python -c "from src.renderer import render_xhs_site; render_xhs_site('output')"
 
 | 日期 | 版本 | 变更内容 |
 | --- | --- | --- |
-| 2026-08-14 | v2.1 | (1) 小红书封面不再使用平台 404 Logo；(2) AI 分析改为北京时间 9–22 点窗口内按日随机整点执行，错过则补跑；(3) Unsplash 改为 Search 候选池 + 质量评分（分辨率/likes/赞助/构图方向/摄影师去重）；(4) 分析失败会在后续小时重试，不再整点重抓把当天照片冲掉；(5) 小红书按教学相关度选帖，公开页失效时回退历史真图 |
+| 2026-08-14 | v2.2 | 小红书精选改为链出原文：公开站不再托管/热链原图，历史页面重渲染为文字分析；CI 仍可临时用远程图 URL 做分析 |
 | 2026-06-14 | v2.0 | 全量代码审查同步：(1) 新增 LLM 分析教学框架章节（四段式），取代旧七维描述；(2) 新增 Flickr 备选数据源章节与功能需求；(3) 新增单风格刷新章节（refresh.py）与流程图；(4) 新增浏览器触发 GitHub Actions 章节与流程图；(5) 新增 Unsplash Topics/query 列表/featured 支持；(6) 完善配置项清单，新增 daily.source、unsplash.featured、flickr.api_key、AI Gateway 环境变量等；(7) 完善 GitHub Secrets 清单；(8) 新增 CI 环境变量章节；(9) 更新系统架构图，加入 Flickr 和 refresh.py；(10) 新增单风格刷新、浏览器触发 Actions 流程图；(11) 新增 LLM 分析输出、单风格刷新、浏览器触发 Actions 验收标准；(12) 完善数据模型，新增 local_url_full、flickr_url、EXIF 子结构章节；(13) 新增源码模块索引章节；(14) 更新路线图和已知实现边界 |
 | 2026-05-29 | v1.0 | 初始版本：覆盖 Unsplash 每日教练、小红书摄影精选两条产品线 |

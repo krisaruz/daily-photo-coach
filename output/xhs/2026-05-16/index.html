@@ -11,7 +11,6 @@
             --muted: #80616c;
             --line: rgba(190, 24, 93, 0.16);
             --accent: #be185d;
-            --accent-soft: rgba(190, 24, 93, 0.1);
         }
         * { box-sizing: border-box; }
         body {
@@ -21,169 +20,49 @@
             background: linear-gradient(180deg, #fff, var(--paper));
         }
         a { color: inherit; }
-        button { font: inherit; }
-        .shell { width: min(1160px, calc(100vw - 32px)); margin: 0 auto; padding: 28px 0 60px; }
+        .shell { width: min(760px, calc(100vw - 32px)); margin: 0 auto; padding: 28px 0 60px; }
         .topbar { display: flex; justify-content: space-between; gap: 16px; margin-bottom: 28px; }
         .back { color: var(--muted); text-decoration: none; font-weight: 800; }
         .hero { display: grid; gap: 12px; margin-bottom: 24px; }
         .eyebrow { color: var(--accent); font-size: 13px; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; }
-        h1 { margin: 0; font-size: clamp(32px, 6vw, 58px); line-height: 1.08; letter-spacing: 0; }
+        h1 { margin: 0; font-size: clamp(32px, 6vw, 52px); line-height: 1.08; }
         .caption { max-width: 780px; color: var(--muted); line-height: 1.85; }
         .meta { display: flex; flex-wrap: wrap; gap: 10px; color: var(--accent); font-weight: 800; font-size: 13px; }
-        .source { display: inline-flex; margin-top: 10px; color: var(--accent); font-weight: 800; text-decoration: none; }
-
-        .study-layout {
-            display: grid;
-            grid-template-columns: minmax(0, 1fr) 128px;
-            gap: 18px;
-            align-items: start;
+        .source {
+            display: inline-flex;
+            margin-top: 6px;
+            color: #fff;
+            background: var(--accent);
+            font-weight: 800;
+            text-decoration: none;
+            padding: 10px 14px;
+            border-radius: 999px;
+            width: fit-content;
         }
-        .viewer {
-            min-width: 0;
+        .notice {
+            padding: 12px 14px;
             border: 1px solid var(--line);
-            border-radius: 8px;
+            border-radius: 10px;
             background: rgba(255,255,255,0.86);
-            overflow: hidden;
+            color: var(--muted);
+            line-height: 1.7;
+            font-size: 14px;
         }
-        .viewer-bar {
-            display: flex;
-            justify-content: space-between;
-            gap: 12px;
-            align-items: center;
-            min-height: 48px;
-            padding: 0 16px;
-            border-bottom: 1px solid var(--line);
-            color: var(--accent);
-            font-size: 13px;
-            font-weight: 900;
-        }
-        .track-shell { position: relative; }
-        .track {
-            display: flex;
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-            scroll-behavior: smooth;
-            scrollbar-width: none;
-            -webkit-overflow-scrolling: touch;
-        }
-        .track::-webkit-scrollbar { display: none; }
-        .slide {
-            flex: 0 0 100%;
-            min-width: 100%;
-            scroll-snap-align: start;
+        .warn { color: #9f1239; font-weight: 700; }
+        .study { display: grid; gap: 16px; margin-top: 22px; }
+        .card {
+            border: 1px solid var(--line);
+            border-radius: 12px;
             background: rgba(255,255,255,0.92);
-        }
-        .frame {
-            margin: 0;
-            background: #1f171b;
-            min-height: min(72vh, 760px);
-            display: grid;
-            place-items: center;
-        }
-        .frame img {
-            display: block;
-            width: 100%;
-            max-height: min(72vh, 760px);
-            object-fit: contain;
-            background: #1f171b;
-        }
-        .analysis-panel {
             padding: 20px 22px 24px;
-            border-top: 1px solid var(--line);
-            background: #fff;
         }
-        .analysis-panel h2 { margin: 0 0 14px; color: var(--accent); font-size: 18px; }
+        .card h2 { margin: 0 0 14px; color: var(--accent); font-size: 18px; }
         .analysis { color: #3a2730; line-height: 1.85; }
         .analysis h2, .analysis h3 { margin: 18px 0 8px; font-size: 18px; }
         .analysis p { margin: 8px 0; }
         .analysis ul, .analysis ol { padding-left: 1.25rem; }
-
-        .nav-button {
-            position: absolute;
-            top: min(36vh, 360px);
-            z-index: 2;
-            width: 42px;
-            height: 42px;
-            display: grid;
-            place-items: center;
-            border: 1px solid rgba(255,255,255,0.6);
-            border-radius: 999px;
-            color: #fff;
-            background: rgba(38, 21, 27, 0.58);
-            cursor: pointer;
-            line-height: 1;
-            font-size: 28px;
-        }
-        .nav-button:hover { background: rgba(38, 21, 27, 0.74); }
-        .nav-button:focus-visible, .thumb:focus-visible {
-            outline: 3px solid rgba(190, 24, 93, 0.32);
-            outline-offset: 2px;
-        }
-        .nav-button.prev { left: 14px; }
-        .nav-button.next { right: 14px; }
-
-        .thumb-rail {
-            position: sticky;
-            top: 16px;
-            display: grid;
-            gap: 10px;
-        }
-        .thumb-title {
-            color: var(--muted);
-            font-size: 12px;
-            font-weight: 900;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-        }
-        .thumb-list {
-            display: grid;
-            gap: 8px;
-            max-height: calc(100vh - 80px);
-            overflow: auto;
-            padding-right: 4px;
-        }
-        .thumb {
-            width: 100%;
-            aspect-ratio: 1 / 1;
-            padding: 0;
-            overflow: hidden;
-            border: 2px solid transparent;
-            border-radius: 8px;
-            background: #eadde1;
-            cursor: pointer;
-        }
-        .thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
-        .thumb.is-active {
-            border-color: var(--accent);
-            box-shadow: 0 0 0 4px var(--accent-soft);
-        }
-        @media (max-width: 760px) {
-            .shell { width: min(100vw - 24px, 640px); padding-top: 20px; }
-            .topbar { flex-direction: column; gap: 8px; margin-bottom: 22px; }
-            .study-layout { display: flex; flex-direction: column; }
-            .thumb-rail { position: static; order: -1; width: 100%; }
-            .thumb-title { display: none; }
-            .thumb-list {
-                display: flex;
-                gap: 8px;
-                max-height: none;
-                overflow-x: auto;
-                padding: 2px 2px 8px;
-                scroll-snap-type: x proximity;
-            }
-            .thumb { flex: 0 0 68px; width: 68px; }
-            .viewer-bar { padding: 0 12px; }
-            .frame { min-height: min(68vh, 620px); }
-            .frame img { max-height: min(68vh, 620px); }
-            .analysis-panel { padding: 18px 16px 22px; }
-            .nav-button {
-                top: min(34vh, 310px);
-                width: 38px;
-                height: 38px;
-                font-size: 24px;
-            }
-            .nav-button.prev { left: 10px; }
-            .nav-button.next { right: 10px; }
+        @media (max-width: 640px) {
+            .topbar { flex-direction: column; gap: 8px; }
         }
     </style>
 </head>
@@ -198,34 +77,24 @@
             <h1>横店拍摄一日游！</h1>
             <div class="meta">
                 <span>黄小人</span>
-                <span>7 张图逐张分析</span>
+                <span>7 张逐张分析</span>
             </div>
 
             <p class="caption">去横店玩的姐们看过来！在此只宣布一件事！强推@青伊阁汉服体验馆 里面的小姐姐超级好哈哈哈哈 妆造也特别细致特别棒！</p>
 
+            <p class="notice">原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。</p>
 
-            <a class="source" href="https://www.xiaohongshu.com/explore/643631310000000011011932?xsec_token=AB6DeaQ6zZk4H1MBOXG_8A1JuIzflslThznKSGDFMJ2rM%3D&amp;xsec_source=pc_feed" target="_blank" rel="noopener">打开小红书原帖</a>
+            <a class="source" href="https://www.xiaohongshu.com/explore/643631310000000011011932?xsec_token=AB6DeaQ6zZk4H1MBOXG_8A1JuIzflslThznKSGDFMJ2rM%3D&amp;xsec_source=pc_feed" target="_blank" rel="noopener">在小红书查看原图</a>
+
 
         </header>
 
-        <section class="study-layout" data-carousel>
-            <div class="viewer">
-                <div class="viewer-bar">
-                    <span data-counter>1 / 7</span>
-                    <span>2026-05-16</span>
-                </div>
-                <div class="track-shell">
-                    <button class="nav-button prev" type="button" data-dir="-1" aria-label="上一张" title="上一张">‹</button>
-                    <div class="track" data-track tabindex="0" aria-label="小红书组图">
+        <section class="study">
 
-                        <article class="slide" data-slide data-index="0" id="photo-1">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/643631310000000011011932/xhs-643631310000000011011932-1-regular.jpg" alt="横店拍摄一日游！" loading="eager">
-                            </figure>
+            <article class="card" id="photo-1">
+                <h2>第 1 张 / 共 7 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 1 张 / 共 7 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>汉服的轻盈白纱和古城墙的厚重灰面形成反差，很有“横店一日游写真”的氛围。人物姿态有戏曲感，袖摆和发饰让画面有流动感。</p>
 
 <h2>技法拆解</h2>
@@ -241,18 +110,13 @@
 
 <h2>后期思路</h2>
 <p>整体往“小红书古风写真”方向走：降低高光、拉回白色衣料细节，适度提阴影让脸和衣纹更柔。色彩可压低绿色饱和度，墙面加一点暖灰，人物皮肤和汉服保持干净通透。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="1" id="photo-2">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/643631310000000011011932/xhs-643631310000000011011932-2-regular.jpg" alt="横店拍摄一日游！" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-2">
+                <h2>第 2 张 / 共 7 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 2 张 / 共 7 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>高墙夹出的纵深感很强，汉服白袖一甩，瞬间有了“穿越片场”的动势。横店场景的硬朗线条和人物的柔软衣袂形成了不错的反差。</p>
 
 <h2>技法拆解</h2>
@@ -268,18 +132,13 @@
 
 <h2>后期思路</h2>
 <p>整体走小红书清透古风感：降低高光、拉回白衣细节，适度提阴影让脸和头发不闷。色彩上可把天空蓝压干净，墙面稍加暖，人物皮肤提亮但别磨得太假；用局部蒙版强化袖子和远处楼阁的层次。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="2" id="photo-3">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/643631310000000011011932/xhs-643631310000000011011932-3-regular.jpg" alt="横店拍摄一日游！" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-3">
+                <h2>第 3 张 / 共 7 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 3 张 / 共 7 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>汉服大袖展开的姿态很有“横店一日游写真”的仪式感，背景台阶和大门也强化了古装场景。画面最可惜的是人物被强光压住，脸部和衣服细节不够干净。</p>
 
 <h2>技法拆解</h2>
@@ -295,18 +154,13 @@
 
 <h2>后期思路</h2>
 <p>整体往“小红书汉服写真”的清透暖调走：降低高光、拉回白衣层次，适度提亮人物面部。背景可压暗一点、降低蓝灰饱和度，让主体更突出；用局部蒙版加强眼部、妆造和衣服刺绣细节。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="3" id="photo-4">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/643631310000000011011932/xhs-643631310000000011011932-4-regular.jpg" alt="横店拍摄一日游！" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-4">
+                <h2>第 4 张 / 共 7 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 4 张 / 共 7 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>红色楼梯和浅色汉服形成很漂亮的反差，人物俯身比手势有“打卡抓拍”的轻松感。整体很适合小红书汉服体验分享，氛围比正式棚拍更自然。</p>
 
 <h2>技法拆解</h2>
@@ -322,18 +176,13 @@
 
 <h2>后期思路</h2>
 <p>后期可走“小红书汉服打卡”的清透暖调：略提亮人物、降低红色楼梯的饱和度，避免背景抢戏。重点用曲线提一点柔和对比，HSL 中压红色亮度/饱和，局部增强衣服刺绣和发饰细节。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="4" id="photo-5">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/643631310000000011011932/xhs-643631310000000011011932-5-regular.jpg" alt="横店拍摄一日游！" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-5">
+                <h2>第 5 张 / 共 7 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 5 张 / 共 7 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>最打动人的是“两位汉服少女奔向城楼”的沉浸感，像横店一日游里的古装剧入场镜头。高墙形成强烈纵深，红白服装一冷一热，把画面情绪撑起来了。</p>
 
 <h2>技法拆解</h2>
@@ -350,18 +199,13 @@
 
 <h2>后期思路</h2>
 <p>整体走“小红书古风旅行写真”方向：提高暖色氛围，适当增强红色饱和和明度，让服装更抓眼。压高光、拉回白衣细节，墙面可降低清晰度与纹理，人物背影稍加亮，天空保持干净通透即可。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="5" id="photo-6">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/643631310000000011011932/xhs-643631310000000011011932-6-regular.jpg" alt="横店拍摄一日游！" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-6">
+                <h2>第 6 张 / 共 7 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 6 张 / 共 7 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>这张很有“小红书打卡感”：汉服妆造、团扇、姐妹合照都很有游玩氛围。最吸引人的是红白服饰的对比和手势互动，轻松、不端着。</p>
 
 <h2>技法拆解</h2>
@@ -377,18 +221,13 @@
 
 <h2>后期思路</h2>
 <p>整体往“小红书古风写真”方向走：提亮肤色、降低背景杂色存在感，让红色和金色刺绣更精致。可适当提高曝光和阴影，降低高光，微调红色饱和度，最后加一点暖色调和轻微锐化，让妆造与服饰细节更突出。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                        <article class="slide" data-slide data-index="6" id="photo-7">
-                            <figure class="frame">
-                                <img src="../../assets/xhs/643631310000000011011932/xhs-643631310000000011011932-7-regular.jpg" alt="横店拍摄一日游！" loading="lazy">
-                            </figure>
+            <article class="card" id="photo-7">
+                <h2>第 7 张 / 共 7 张</h2>
 
-                            <div class="analysis-panel">
-                                <h2>第 7 张 / 共 7 张</h2>
-                                <div class="analysis"><h2>直觉</h2>
+                <div class="analysis"><h2>直觉</h2>
 <p>汉服的红、金、珍珠配饰很抢眼，和横店式木窗背景很搭，有“小红书打卡照”的热闹感。画面亲近，但左侧人物贴得太满，稍显拥挤。</p>
 
 <h2>技法拆解</h2>
@@ -404,146 +243,10 @@
 
 <h2>后期思路</h2>
 <p>后期走“明亮古风打卡”方向：提高曝光和阴影，略降高光，保留衣服金线细节。色彩上加强红色与金色饱和度，肤色保持干净，不要磨皮过度；最后做轻微透视校正和裁切，让人物更居中。</p></div>
-                            </div>
 
-                        </article>
+            </article>
 
-                    </div>
-                    <button class="nav-button next" type="button" data-dir="1" aria-label="下一张" title="下一张">›</button>
-                </div>
-            </div>
-
-            <aside class="thumb-rail" aria-label="全部图片预览">
-                <div class="thumb-title">全部图片</div>
-                <div class="thumb-list">
-
-                    <button class="thumb is-active" type="button" data-thumb="0" aria-label="查看第 1 张" title="第 1 张">
-                        <img src="../../assets/xhs/643631310000000011011932/xhs-643631310000000011011932-1-small.jpg" alt="横店拍摄一日游！" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="1" aria-label="查看第 2 张" title="第 2 张">
-                        <img src="../../assets/xhs/643631310000000011011932/xhs-643631310000000011011932-2-small.jpg" alt="横店拍摄一日游！" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="2" aria-label="查看第 3 张" title="第 3 张">
-                        <img src="../../assets/xhs/643631310000000011011932/xhs-643631310000000011011932-3-small.jpg" alt="横店拍摄一日游！" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="3" aria-label="查看第 4 张" title="第 4 张">
-                        <img src="../../assets/xhs/643631310000000011011932/xhs-643631310000000011011932-4-small.jpg" alt="横店拍摄一日游！" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="4" aria-label="查看第 5 张" title="第 5 张">
-                        <img src="../../assets/xhs/643631310000000011011932/xhs-643631310000000011011932-5-small.jpg" alt="横店拍摄一日游！" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="5" aria-label="查看第 6 张" title="第 6 张">
-                        <img src="../../assets/xhs/643631310000000011011932/xhs-643631310000000011011932-6-small.jpg" alt="横店拍摄一日游！" loading="lazy">
-                    </button>
-
-                    <button class="thumb" type="button" data-thumb="6" aria-label="查看第 7 张" title="第 7 张">
-                        <img src="../../assets/xhs/643631310000000011011932/xhs-643631310000000011011932-7-small.jpg" alt="横店拍摄一日游！" loading="lazy">
-                    </button>
-
-                </div>
-            </aside>
         </section>
     </main>
-
-    <script>
-        (() => {
-            const root = document.querySelector('[data-carousel]');
-            if (!root) return;
-
-            const track = root.querySelector('[data-track]');
-            const slides = Array.from(root.querySelectorAll('[data-slide]'));
-            const thumbs = Array.from(root.querySelectorAll('[data-thumb]'));
-            const counter = root.querySelector('[data-counter]');
-            const buttons = Array.from(root.querySelectorAll('[data-dir]'));
-            const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-            let activeIndex = 0;
-            let raf = 0;
-
-            function clamp(index) {
-                return Math.max(0, Math.min(slides.length - 1, index));
-            }
-
-            function setActive(index) {
-                activeIndex = clamp(index);
-                thumbs.forEach((thumb, thumbIndex) => {
-                    const selected = thumbIndex === activeIndex;
-                    thumb.classList.toggle('is-active', selected);
-                    thumb.setAttribute('aria-pressed', selected ? 'true' : 'false');
-                });
-                if (counter) {
-                    counter.textContent = `${activeIndex + 1} / ${slides.length}`;
-                }
-                const activeThumb = thumbs[activeIndex];
-                if (activeThumb) {
-                    activeThumb.scrollIntoView({ block: 'nearest', inline: 'nearest' });
-                }
-            }
-
-            function goTo(index) {
-                const nextIndex = clamp(index);
-                const slide = slides[nextIndex];
-                if (!slide) return;
-                track.scrollTo({
-                    left: slide.offsetLeft,
-                    behavior: reduceMotion ? 'auto' : 'smooth',
-                });
-                setActive(nextIndex);
-            }
-
-            function syncFromScroll() {
-                raf = 0;
-                const center = track.scrollLeft + track.clientWidth / 2;
-                let nearest = 0;
-                let nearestDistance = Number.POSITIVE_INFINITY;
-                slides.forEach((slide, index) => {
-                    const slideCenter = slide.offsetLeft + slide.clientWidth / 2;
-                    const distance = Math.abs(slideCenter - center);
-                    if (distance < nearestDistance) {
-                        nearest = index;
-                        nearestDistance = distance;
-                    }
-                });
-                if (nearest !== activeIndex) {
-                    setActive(nearest);
-                }
-            }
-
-            track.addEventListener('scroll', () => {
-                if (!raf) {
-                    raf = window.requestAnimationFrame(syncFromScroll);
-                }
-            }, { passive: true });
-
-            buttons.forEach((button) => {
-                button.addEventListener('click', () => {
-                    goTo(activeIndex + Number(button.dataset.dir || 0));
-                });
-            });
-
-            thumbs.forEach((thumb) => {
-                thumb.addEventListener('click', () => {
-                    goTo(Number(thumb.dataset.thumb || 0));
-                });
-            });
-
-            track.addEventListener('keydown', (event) => {
-                if (event.key === 'ArrowLeft') {
-                    event.preventDefault();
-                    goTo(activeIndex - 1);
-                }
-                if (event.key === 'ArrowRight') {
-                    event.preventDefault();
-                    goTo(activeIndex + 1);
-                }
-            });
-
-            setActive(0);
-        })();
-    </script>
 </body>
 </html>
