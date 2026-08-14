@@ -53,7 +53,11 @@ jobs:
         run: |
           TARGET_DATE="$(TZ=Asia/Shanghai date +%Y-%m-%d)"
           echo "target_date=$TARGET_DATE"
-          python src/main.py --date "$TARGET_DATE"
+          if [ -f "output/$TARGET_DATE/photos.json" ]; then
+            python src/main.py --date "$TARGET_DATE" --skip-fetch
+          else
+            python src/main.py --date "$TARGET_DATE"
+          fi
           python src/xhs_daily.py --date "$TARGET_DATE" --style "小红书｜人像写真" --mode note --count 1
 
       - name: Commit output to repo

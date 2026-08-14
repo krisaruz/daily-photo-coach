@@ -21,6 +21,7 @@ def _photo(**overrides):
         "height": 3000,
         "sponsored": False,
         "description": "mountain ridge at sunrise",
+        "photographer": "Ada",
         "exif": {"model": "Canon EOS R5", "aperture": "8", "exposure_time": "1/250"},
     }
     photo.update(overrides)
@@ -43,15 +44,35 @@ class PhotoQualityTests(unittest.TestCase):
         weak = _photo(id="weak", likes=25, exif={}, description="")
         self.assertGreater(fetcher.photo_quality_score(strong), fetcher.photo_quality_score(weak))
 
+    def test_low_likes_are_rejected(self):
+        self.assertLess(fetcher.photo_quality_score(_photo(likes=20)), 0)
+
+    def test_landscape_style_prefers_wide_frame_over_square(self):
+        wide = _photo(id="wide", width=6000, height=3375, likes=200)
+        square = _photo(id="square", width=4000, height=4000, likes=200)
+        self.assertGreater(
+            fetcher.photo_quality_score(wide, style_label="风光/自然"),
+            fetcher.photo_quality_score(square, style_label="风光/自然"),
+        )
+
     def test_select_best_photos_keeps_top_scored(self):
         candidates = [
-            _photo(id="weak", likes=30, exif={}),
+            _photo(id="weak", likes=45, exif={}),
             _photo(id="best", likes=900, width=6000, height=4000),
             _photo(id="mid", likes=120),
             _photo(id="spam", description="tag me on instagram @foo"),
         ]
         selected = fetcher.select_best_photos(candidates, limit=2)
         self.assertEqual([photo["id"] for photo in selected], ["best", "mid"])
+
+    def test_select_best_photos_prefers_different_photographers(self):
+        candidates = [
+            _photo(id="a1", photographer="Ada", likes=900, width=6000, height=4000),
+            _photo(id="a2", photographer="Ada", likes=800, width=5500, height=3600),
+            _photo(id="b1", photographer="Bo", likes=150, width=4200, height=2800),
+        ]
+        selected = fetcher.select_best_photos(candidates, limit=2, style_label="风光/自然")
+        self.assertEqual([photo["id"] for photo in selected], ["a1", "b1"])
 
     def test_split_topic_ids(self):
         self.assertEqual(

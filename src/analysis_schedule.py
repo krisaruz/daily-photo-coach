@@ -53,8 +53,27 @@ def should_run(
     return hour > target
 
 
+def _iter_archive_photos(grouped: Any) -> list[dict[str, Any]]:
+    photos: list[dict[str, Any]] = []
+    if not isinstance(grouped, dict):
+        return photos
+    for group in grouped.values():
+        if isinstance(group, list):
+            photos.extend(item for item in group if isinstance(item, dict))
+    return photos
+
+
+def _is_xhs_photo(photo: dict[str, Any]) -> bool:
+    return photo.get("source_platform") == "xhs" or photo.get("source_name") == "小红书"
+
+
+def _has_good_analysis(photo: dict[str, Any]) -> bool:
+    analysis = str(photo.get("analysis") or "").strip()
+    return bool(analysis) and "分析失败" not in analysis
+
+
 def day_is_complete(output_dir: str | Path, day: date) -> bool:
-    """Return True when today's Unsplash photos already have usable analysis."""
+    """Return True when today's Unsplash and Xiaohongshu photos already have usable analysis."""
     archive = Path(output_dir) / day.isoformat() / "photos.json"
     if not archive.exists():
         return False
@@ -64,24 +83,14 @@ def day_is_complete(output_dir: str | Path, day: date) -> bool:
         grouped = json.loads(archive.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         return False
-    if not isinstance(grouped, dict):
-        return False
 
-    photos: list[dict[str, Any]] = []
-    for group in grouped.values():
-        if isinstance(group, list):
-            photos.extend(item for item in group if isinstance(item, dict))
-    unsplash = [
-        photo
-        for photo in photos
-        if photo.get("source_platform") != "xhs" and photo.get("source_name") != "小红书"
-    ]
-    if not unsplash:
+    photos = _iter_archive_photos(grouped)
+    unsplash = [photo for photo in photos if not _is_xhs_photo(photo)]
+    xhs = [photo for photo in photos if _is_xhs_photo(photo)]
+    if not unsplash or not xhs:
         return False
-    return all(
-        str(photo.get("analysis") or "").strip()
-        and "分析失败" not in str(photo.get("analysis") or "")
-        for photo in unsplash
+    return all(_has_good_analysis(photo) for photo in unsplash) and all(
+        _has_good_analysis(photo) for photo in xhs
     )
 
 

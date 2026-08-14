@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+import json
 import sys
+import tempfile
 import unittest
 from datetime import date, datetime
 from pathlib import Path
@@ -73,6 +75,56 @@ class ShouldRunTests(unittest.TestCase):
         target = schedule.target_hour(day)
         now = _at("2026-08-14", target)
         self.assertFalse(schedule.should_run(now, force=False, already_complete=True))
+
+
+class DayCompleteTests(unittest.TestCase):
+    def test_failed_analysis_is_not_complete(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            day_dir = Path(tmp) / "2026-08-14"
+            day_dir.mkdir()
+            (day_dir / "photos.json").write_text(
+                json.dumps(
+                    {
+                        "风光/自然": [
+                            {"id": "u1", "analysis": "（分析失败，请稍后重试）"},
+                        ],
+                        "小红书｜人像写真": [
+                            {
+                                "id": "x1",
+                                "source_platform": "xhs",
+                                "source_name": "小红书",
+                                "analysis": "## 直觉\n可用",
+                            }
+                        ],
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            self.assertFalse(schedule.day_is_complete(tmp, date(2026, 8, 14)))
+
+    def test_unsplash_and_xhs_with_good_analysis_are_complete(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            day_dir = Path(tmp) / "2026-08-14"
+            day_dir.mkdir()
+            (day_dir / "photos.json").write_text(
+                json.dumps(
+                    {
+                        "风光/自然": [{"id": "u1", "analysis": "## 直觉\n山脊的光"}],
+                        "小红书｜人像写真": [
+                            {
+                                "id": "x1",
+                                "source_platform": "xhs",
+                                "source_name": "小红书",
+                                "analysis": "## 直觉\n妆造干净",
+                            }
+                        ],
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            self.assertTrue(schedule.day_is_complete(tmp, date(2026, 8, 14)))
 
 
 if __name__ == "__main__":

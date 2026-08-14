@@ -63,6 +63,14 @@ def _call_llm(
     return full_text
 
 
+def has_good_analysis(photo: dict[str, Any] | None) -> bool:
+    """Return True when a photo already has usable teaching analysis."""
+    if not photo:
+        return False
+    analysis = str(photo.get("analysis") or "").strip()
+    return bool(analysis) and "分析失败" not in analysis
+
+
 def analyze_photo(photo: dict, llm_config: dict[str, Any]) -> str:
     """对单张照片进行摄影教学分析，带重试机制。"""
     user_content = build_user_message(photo)

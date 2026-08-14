@@ -1,9 +1,11 @@
 """Unsplash 图片抓取模块 -- 按风格主题每日抓取高质量摄影作品。"""
 
+import hashlib
 import json
 import logging
 import os
 import random
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -12,8 +14,9 @@ import requests
 logger = logging.getLogger(__name__)
 
 UNSPLASH_RANDOM_URL = "https://api.unsplash.com/photos/random"
+UNSPLASH_SEARCH_URL = "https://api.unsplash.com/search/photos"
 MIN_LONG_EDGE = 1600
-MIN_LIKES = 20
+MIN_LIKES = 40
 SPAM_DESCRIPTION_MARKERS = (
     "credit me by linking",
     "tag me on instagram",
@@ -57,7 +60,33 @@ def _as_query_list(value: Any) -> list[str]:
     return []
 
 
-def photo_quality_score(photo: dict[str, Any]) -> float:
+def _style_fit_score(photo: dict[str, Any], style_label: str = "") -> float:
+    """Reward frames that match the teaching style; penalize awkward crops."""
+    width = int(photo.get("width") or 0)
+    height = int(photo.get("height") or 0)
+    if width <= 0 or height <= 0:
+        return 0
+    ratio = width / height
+    label = style_label or str(photo.get("style_label") or "")
+    square = 0.9 <= ratio <= 1.11
+    if "风光" in label or "建筑" in label or "夜景" in label:
+        if ratio >= 1.25:
+            return 12
+        if square:
+            return -18
+        return -6
+    if "人像" in label:
+        if ratio <= 0.85:
+            return 12
+        if square:
+            return -12
+        return -4
+    if square:
+        return -8
+    return 0
+
+
+def photo_quality_score(photo: dict[str, Any], style_label: str = "") -> float:
     """Score a candidate for photography teaching. Negative means reject."""
     if photo.get("sponsored"):
         return -100
@@ -83,10 +112,15 @@ def photo_quality_score(photo: dict[str, Any]) -> float:
         score += 10
     if description and "http" not in description:
         score += 5
+    score += _style_fit_score(photo, style_label)
     return score
 
 
-def select_best_photos(candidates: list[dict[str, Any]], limit: int) -> list[dict[str, Any]]:
+def select_best_photos(
+    candidates: list[dict[str, Any]],
+    limit: int,
+    style_label: str = "",
+) -> list[dict[str, Any]]:
     """Keep the highest-scoring unique photos that pass the quality floor."""
     ranked = []
     seen: set[str] = set()
@@ -94,13 +128,40 @@ def select_best_photos(candidates: list[dict[str, Any]], limit: int) -> list[dic
         pid = str(photo.get("id") or "")
         if not pid or pid in seen:
             continue
-        score = photo_quality_score(photo)
+        score = photo_quality_score(photo, style_label=style_label)
         if score < 0:
             continue
         seen.add(pid)
         ranked.append((score, photo))
     ranked.sort(key=lambda item: item[0], reverse=True)
-    return [photo for _, photo in ranked[:limit]]
+
+    picked: list[dict[str, Any]] = []
+    picked_ids: set[str] = set()
+    used_photographers: set[str] = set()
+
+    def photographer_key(photo: dict[str, Any]) -> str:
+        return str(photo.get("photographer") or "").strip().lower()
+
+    for _, photo in ranked:
+        photog = photographer_key(photo)
+        if photog and photog in used_photographers:
+            continue
+        picked.append(photo)
+        picked_ids.add(str(photo["id"]))
+        if photog:
+            used_photographers.add(photog)
+        if len(picked) >= limit:
+            return picked
+
+    for _, photo in ranked:
+        pid = str(photo["id"])
+        if pid in picked_ids:
+            continue
+        picked.append(photo)
+        picked_ids.add(pid)
+        if len(picked) >= limit:
+            break
+    return picked
 
 
 def _normalise_unsplash_photo(data: dict[str, Any]) -> dict[str, Any]:
@@ -207,6 +268,65 @@ def _request_unsplash_random(
     return []
 
 
+def _request_unsplash_search(
+    access_key: str,
+    *,
+    query: str,
+    orientation: str | None,
+    page: int,
+    per_page: int,
+) -> list[dict[str, Any]]:
+    """Search Unsplash for a larger, relevance-ranked candidate pool."""
+    import time
+
+    params: dict[str, Any] = {
+        "query": query,
+        "page": max(page, 1),
+        "per_page": min(max(per_page, 1), 30),
+        "order_by": "relevant",
+        "content_filter": "high",
+    }
+    if orientation:
+        params["orientation"] = orientation
+
+    headers = {
+        "Authorization": f"Client-ID {access_key}",
+        "Accept-Version": "v1",
+    }
+
+    for attempt in range(10):
+        try:
+            resp = requests.get(UNSPLASH_SEARCH_URL, params=params, headers=headers, timeout=30)
+            remaining = resp.headers.get("X-Ratelimit-Remaining", "")
+            if resp.status_code == 403:
+                if os.environ.get("GITHUB_ACTIONS") == "true":
+                    logger.error("Unsplash Search 限流（剩余: %s），运行在 CI 环境中，立即终止抓取以避免挂起。", remaining)
+                    return []
+                wait = 3660
+                logger.warning("Unsplash Search 限流（剩余: %s），等待 %d 分钟后继续...", remaining, wait // 60)
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            payload = resp.json()
+            time.sleep(1.2)
+            items = payload.get("results") if isinstance(payload, dict) else payload
+            if not isinstance(items, list):
+                return []
+            photos = []
+            for item in items:
+                if isinstance(item, dict) and item.get("id") and item.get("urls"):
+                    photos.append(_normalise_unsplash_photo(item))
+            return photos
+        except requests.RequestException as exc:
+            if attempt < 9:
+                logger.warning("Unsplash Search 请求失败 [query=%s]: %s，等待 10s 重试...", query, exc)
+                time.sleep(10)
+                continue
+            logger.error("Unsplash Search 请求最终失败 [query=%s]: %s", query, exc)
+            return []
+    return []
+
+
 def fetch_unsplash_photos_for_style(
     config: dict[str, Any], style: dict[str, str], count: int = 3,
     global_seen: set[str] | None = None,
@@ -222,36 +342,56 @@ def fetch_unsplash_photos_for_style(
     queries = _as_query_list(style.get("query", ""))
     topics = _as_topic_list(style.get("topics", ""))
     orientations = ["landscape", "portrait"]
-    candidate_count = min(max(count * 3, 6), 12)
     candidates: list[dict[str, Any]] = []
     local_seen: set[str] = set()
+    style_label = style["label"]
+    page = 1 + (
+        int(hashlib.sha256(f"{date.today().isoformat()}:{style_label}".encode("utf-8")).hexdigest()[:8], 16) % 4
+    )
+
+    def accept(photo: dict[str, Any], via: str) -> None:
+        pid = photo.get("id")
+        if not pid or pid in local_seen or (global_seen and pid in global_seen):
+            return
+        if photo_quality_score(photo, style_label=style_label) < 0:
+            logger.debug("  [%s] 低质量照片 %s，跳过", style_label, pid)
+            return
+        photo["style_query"] = via
+        photo["style_label"] = style_label
+        photo["style_color"] = style.get("color", "#6b7280")
+        photo["style_icon"] = style.get("icon", "📷")
+        candidates.append(photo)
+        local_seen.add(pid)
 
     for index, orientation in enumerate(orientations):
-        topic = topics[index % len(topics)] if topics else None
         query = queries[index % len(queries)] if queries else None
-        batch = _request_unsplash_random(
+        search_query = query or "photography"
+        for photo in _request_unsplash_search(
             access_key,
-            query=query,
-            topics=topic,
+            query=search_query,
             orientation=orientation,
-            featured=featured,
-            count=candidate_count,
-        )
-        for photo in batch:
-            pid = photo.get("id")
-            if not pid or pid in local_seen or (global_seen and pid in global_seen):
-                continue
-            if photo_quality_score(photo) < 0:
-                logger.debug("  [%s] 低质量照片 %s，跳过", style["label"], pid)
-                continue
-            photo["style_query"] = topic or query or ""
-            photo["style_label"] = style["label"]
-            photo["style_color"] = style.get("color", "#6b7280")
-            photo["style_icon"] = style.get("icon", "📷")
-            candidates.append(photo)
-            local_seen.add(pid)
+            page=page,
+            per_page=30,
+        ):
+            accept(photo, search_query)
 
-    selected = select_best_photos(candidates, count)
+    if len(select_best_photos(candidates, count, style_label=style_label)) < count:
+        logger.info("  [%s] Search 候选不足，补充 Unsplash random", style_label)
+        candidate_count = min(max(count * 3, 6), 12)
+        for index, orientation in enumerate(orientations):
+            topic = topics[index % len(topics)] if topics else None
+            query = queries[index % len(queries)] if queries else None
+            for photo in _request_unsplash_random(
+                access_key,
+                query=query,
+                topics=topic,
+                orientation=orientation,
+                featured=featured,
+                count=candidate_count,
+            ):
+                accept(photo, topic or query or "")
+
+    selected = select_best_photos(candidates, count, style_label=style_label)
     if global_seen is not None:
         for photo in selected:
             global_seen.add(photo["id"])
@@ -259,15 +399,15 @@ def fetch_unsplash_photos_for_style(
     for photo in selected:
         logger.info(
             "  [Unsplash %s] %s by %s (likes=%s score=%.1f)",
-            style["label"],
+            style_label,
             photo["id"],
             photo["photographer"],
             photo.get("likes"),
-            photo_quality_score(photo),
+            photo_quality_score(photo, style_label=style_label),
         )
 
     if len(selected) < count:
-        logger.warning("  [%s] Unsplash 只筛选到 %d/%d 张高质量照片", style["label"], len(selected), count)
+        logger.warning("  [%s] Unsplash 只筛选到 %d/%d 张高质量照片", style_label, len(selected), count)
     return selected
 
 

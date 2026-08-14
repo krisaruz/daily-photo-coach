@@ -47,6 +47,7 @@ jobs:
       - name: Add daily Xiaohongshu pick
         env:
           PYTHONPATH: src
+          TZ: Asia/Shanghai
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           LLM_AUTH: ${{ secrets.LLM_AUTH }}
           LLM_URL: ${{ secrets.LLM_URL }}
@@ -57,7 +58,7 @@ jobs:
         run: |
           TARGET_DATE="${{ inputs.date }}"
           if [ -z "$TARGET_DATE" ]; then
-            TARGET_DATE="$(date -u +%Y-%m-%d)"
+            TARGET_DATE="$(TZ=Asia/Shanghai date +%Y-%m-%d)"
           fi
           BACKFILL_DAYS="${{ inputs.backfill_days }}"
           if [ -z "$BACKFILL_DAYS" ]; then

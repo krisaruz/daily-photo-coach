@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import copy
+import hashlib
 import json
 import logging
 import os
@@ -206,7 +207,10 @@ def _select_for_date(
         note_groups = _group_note_photos(photos)
         scored = sorted(
             note_groups,
-            key=lambda group: _note_teach_score(group, recent),
+            key=lambda group: (
+                _note_teach_score(group, recent),
+                _stable_jitter(str((group[0] if group else {}).get("note_id") or ""), target_date),
+            ),
             reverse=True,
         )
         selected_groups = scored[: min(count, len(scored))]
@@ -216,6 +220,12 @@ def _select_for_date(
     start = day_ordinal % len(ordered)
     selected = [ordered[(start + offset) % len(ordered)] for offset in range(min(count, len(ordered)))]
     return [copy.deepcopy(photo) for photo in selected]
+
+
+def _stable_jitter(note_id: str, target_date: str) -> int:
+    """Break near-ties so the same runner-up is not frozen for every date."""
+    digest = hashlib.sha256(f"{note_id}:{target_date}".encode("utf-8")).hexdigest()
+    return int(digest[:2], 16) % 5
 
 
 def _note_teach_score(group: list[dict[str, Any]], recent_note_ids: set[str]) -> float:
@@ -299,8 +309,7 @@ def _without_previous_daily_xhs(grouped_photos: dict[str, list[dict[str, Any]]])
 
 
 def _has_good_analysis(photo: dict[str, Any]) -> bool:
-    analysis = photo.get("analysis") or ""
-    return bool(analysis.strip()) and "分析失败" not in analysis
+    return analyzer.has_good_analysis(photo)
 
 
 def _load_archived_xhs_pool(output_dir: str | Path) -> list[dict[str, Any]]:

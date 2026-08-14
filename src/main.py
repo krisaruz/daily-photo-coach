@@ -181,7 +181,7 @@ def daily_run(
         for label, photos in grouped_photos.items():
             for photo in photos:
                 done += 1
-                if photo.get("analysis") and skip_fetch and not force_analysis:
+                if skip_fetch and not force_analysis and analyzer.has_good_analysis(photo):
                     logger.info("[%d/%d] 已有分析，跳过: %s", done, total, photo["id"])
                     continue
                 logger.info("[%d/%d] [%s] 分析中: %s", done, total, label, photo["id"])

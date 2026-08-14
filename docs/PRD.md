@@ -1,7 +1,7 @@
 # Daily Photo Coach PRD
 
-版本：v2.0
-最近同步日期：2026-06-14
+版本：v2.1
+最近同步日期：2026-08-14
 最近同步实现提交：基于 `master` 分支全量代码审查
 线上站点：https://krisaruz.github.io/daily-photo-coach/
 
@@ -93,12 +93,16 @@ Daily Photo Coach 是一个每日摄影学习内容生成与发布系统。它�
 
 #### Unsplash 抓取能力
 
-- 支持 `query` 关键词搜索和 `topics` 官方精选集两种方式。优先使用 topics，其次 fallback 到 query。
+- 优先使用 Unsplash Search（`order_by=relevant`，每方向最多 30 张）组成候选池，再按教学评分取 Top N；Search 不足时才补充 `/photos/random`。
+- 支持 `query` 关键词搜索和 `topics` 官方精选集两种方式。Search 使用 query；random 补充阶段可带 topics / featured。
 - `query` 字段支持单个字符串或字符串列表；使用列表时，按轮换方式交替使用不同关键词。
-- 支持 `orientation` 轮换（landscape / portrait / squarish），确保图片宽高方向多样。
-- 支持 `unsplash.featured: true` 配置，仅抓取编辑精选照片。
+- 支持 `orientation` 轮换（landscape / portrait），同一风格混入横图与竖图候选。
+- 支持 `unsplash.featured: true` 配置，仅在 random 补充抓取时生效。
 - 支持 `content_filter: high` 保证内容质量。
 - 支持全局历史 ID 去重，扫描所有历史 `photos.json` 避免重复。
+- 质量门槛：长边 ≥ 1600、likes ≥ 40、拒绝赞助图和“tag me on instagram”类引流文案。
+- 评分偏好：高 likes、高分辨率、有相机 EXIF；风光/建筑偏横图，人像偏竖图；正方形构图降权。
+- 同一风格优先选择不同摄影师，避免一天内连续出现同一作者。
 
 ### 7.2 Flickr 备选数据源
 
@@ -123,6 +127,9 @@ Flickr 抓取能力：
 - 默认使用 `gpt-5.5` 分析小红书内容。
 - 支持 `exclude_note_ids` 排除已知低质量或不适合教学的笔记。
 - 支持 `quality_blocklist` 过滤文案明显不适合作为摄影教学样本的内容。
+- 纯旅行「攻略」且不含摄影关键词的笔记会被丢掉；人像/写真/妆造等关键词加权。
+- 近 6 天用过的 `note_id` 大幅降权，避免连续重复。
+- 公开页若被平台 404 / 返回小红书 Logo 占位图，不得当作作品图；改为从历史归档里的真实笔记回退。
 - 支持复用历史分析缓存，避免同一图片反复调用模型。
 - 小红书图片会缓存到 `output/assets/xhs/`，保证 GitHub Pages 可稳定展示。
 
@@ -675,8 +682,8 @@ python -c "from src.renderer import render_xhs_site; render_xhs_site('output')"
 
 | Workflow | 文件 | 触发 | 作用 | 内联部署 |
 | --- | --- | --- | --- | --- |
-| Daily Photo Coach | `daily.yml` | 每日 UTC 18:00 / 手动 | 生成 Unsplash 每日内容并部署 | 是 |
-| Daily Xiaohongshu Pick | `xhs-daily.yml` | 每日 UTC 18:25 / 手动（支持 backfill_days、date、skip_analysis 输入） | 生成小红书每日精选并部署 | 是 |
+| Daily Photo Coach | `daily.yml` | 北京时间 09:20–22:20 每小时一次；由 `analysis_schedule.py` 在当天 9–22 点中抽一个稳定随机整点执行，错过则补跑。手动 `workflow_dispatch` 强制执行 | 生成 Unsplash 每日内容 + 小红书精选并部署 | 是 |
+| Daily Xiaohongshu Pick | `xhs-daily.yml` | 仅手动（支持 backfill_days、date、skip_analysis 输入） | 补跑或回填小红书每日精选并部署 | 是 |
 | Import XHS | `xhs.yml` | 手动 | 导入指定小红书公开链接 | 是 |
 | Refresh Style | `refresh.yml` | 手动 | 刷新指定 Unsplash 风格（默认跳过分析） | 是 |
 | Deploy Pages | `deploy.yml` | `output/**` push / 手动 | 独立部署 GitHub Pages（备用） | 是 |
@@ -745,7 +752,8 @@ python -c "from src.renderer import render_xhs_site; render_xhs_site('output')"
 | 模块 | 文件 | 职责 |
 | --- | --- | --- |
 | 主入口 | `src/main.py` | Unsplash 每日生成流水线，支持 skip-fetch/skip-analysis/force-analysis/per-style/styles 参数 |
-| 抓取器 | `src/fetcher.py` | Unsplash + Flickr 多风格图片抓取，支持 query/topics、orientation 轮换、ID 去重、限流等待 |
+| 抓取器 | `src/fetcher.py` | Unsplash + Flickr 多风格图片抓取，支持 Search 候选池、质量评分、摄影师去重、query/topics、orientation 轮换、ID 去重、限流等待 |
+| 调度闸门 | `src/analysis_schedule.py` | 北京时间 9–22 点窗口内按日期哈希抽取执行小时；分析失败或小红书缺失时允许补跑 |
 | 分析器 | `src/analyzer.py` | 多模态 LLM 流式分析，指数退避重试 |
 | Prompt | `src/prompt.py` | 四段式教学 Prompt 模板 + user message 构建 |
 | 渲染器 | `src/renderer.py` | HTML/Markdown/JSON 渲染 + 首页/小红书站生成 |
@@ -767,6 +775,7 @@ python -c "from src.renderer import render_xhs_site; render_xhs_site('output')"
 
 ## 20. 当前已知实现边界
 
+- 小红书公开笔记页从 2026-07-22 起经常返回 `error_code=300031` 与平台 Logo 占位图；每日精选会跳过占位图，并从已缓存的真实笔记回退。新笔记需要有效的公开 URL / `XHS_SEED_URLS`。
 - README、配置示例和部分源码注释在 Windows PowerShell 中可能显示为乱码，但文件应按 UTF-8 读写；后续如修复编码显示，需要单独验证不破坏内容。
 - `output/` 中包含历史生成物，生成规则变化时通常只重渲染受影响页面。
 - 小红书独立站目前扫描历史 `photos.json` 并按 note 分组生成页面。
@@ -780,5 +789,6 @@ python -c "from src.renderer import render_xhs_site; render_xhs_site('output')"
 
 | 日期 | 版本 | 变更内容 |
 | --- | --- | --- |
+| 2026-08-14 | v2.1 | (1) 小红书封面不再使用平台 404 Logo；(2) AI 分析改为北京时间 9–22 点窗口内按日随机整点执行，错过则补跑；(3) Unsplash 改为 Search 候选池 + 质量评分（分辨率/likes/赞助/构图方向/摄影师去重）；(4) 分析失败会在后续小时重试，不再整点重抓把当天照片冲掉；(5) 小红书按教学相关度选帖，公开页失效时回退历史真图 |
 | 2026-06-14 | v2.0 | 全量代码审查同步：(1) 新增 LLM 分析教学框架章节（四段式），取代旧七维描述；(2) 新增 Flickr 备选数据源章节与功能需求；(3) 新增单风格刷新章节（refresh.py）与流程图；(4) 新增浏览器触发 GitHub Actions 章节与流程图；(5) 新增 Unsplash Topics/query 列表/featured 支持；(6) 完善配置项清单，新增 daily.source、unsplash.featured、flickr.api_key、AI Gateway 环境变量等；(7) 完善 GitHub Secrets 清单；(8) 新增 CI 环境变量章节；(9) 更新系统架构图，加入 Flickr 和 refresh.py；(10) 新增单风格刷新、浏览器触发 Actions 流程图；(11) 新增 LLM 分析输出、单风格刷新、浏览器触发 Actions 验收标准；(12) 完善数据模型，新增 local_url_full、flickr_url、EXIF 子结构章节；(13) 新增源码模块索引章节；(14) 更新路线图和已知实现边界 |
 | 2026-05-29 | v1.0 | 初始版本：覆盖 Unsplash 每日教练、小红书摄影精选两条产品线 |

@@ -111,7 +111,7 @@ python src/xhs_import.py --url "http://xhslink.com/o/6vj01FlQoGl" --skip-analysi
 
 静态站首页和每日页都提供“导入小红书链接”按钮。首次使用需要在浏览器里输入一个 GitHub PAT（仅需 Actions write 权限），按钮会触发 `.github/workflows/xhs.yml`，由 GitHub Actions 抓取公开页面、调用 `gpt-5.5` 分析并重新部署 Pages。
 
-另外 `.github/workflows/xhs-daily.yml` 会每天自动运行一次 `src/xhs_daily.py`，从 `xhs.sources` 或 GitHub Secret `XHS_SEED_URLS` 里的公开链接池轮换一张“小红书｜人像自然”。小红书公开搜索和主页经常要求登录，所以最稳定的方式是把你喜欢的摄影博主公开分享链接加入这个候选池；候选池不足时，脚本会按公开轮播图逐日轮换，保证站点每天都有一张小红书精选可分析。
+另外 `.github/workflows/daily.yml` 会在北京时间 09:20–22:20 每小时检查一次，并在当天 9–22 点中抽一个稳定随机整点生成 Unsplash 日报和小红书精选。公开搜索经常要求登录时，最稳定的方式是把你喜欢的摄影博主公开分享链接加入 `xhs.sources` 或 GitHub Secret `XHS_SEED_URLS`；直播笔记失效时，脚本会回退到已经缓存过的真实笔记。`xhs-daily.yml` 仅保留手动回填。
 
 Actions 中建议配置：
 
