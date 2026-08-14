@@ -15,13 +15,14 @@ import logging
 import os
 import sys
 from collections import defaultdict
-from datetime import date, datetime, timedelta
+from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
 
 import analyzer
 import renderer
 import xhs_fetcher
+from analysis_schedule import shanghai_now
 from main import DEFAULT_CONFIG, PROJECT_ROOT, load_config
 
 logging.basicConfig(
@@ -81,6 +82,9 @@ DEFAULT_EXCLUDED_NOTE_IDS = {
     "64b3f0c4000000003500a86b",  # 海岛旅行信息多于人像拍法
     "64c25844000000001201f682",  # 部分图片会被模型安全系统拒绝，不适合作为默认多图样本
 }
+
+PHOTO_TERMS = ("拍照", "写真", "摄影", "出片", "机位", "构图", "调色", "光线", "拍摄", "人像", "妆造")
+PORTRAIT_TERMS = ("人像", "写真", "肖像", "半身", "妆造", "出片", "汉服")
 
 
 def _xhs_config(config: dict[str, Any]) -> dict[str, Any]:
@@ -191,24 +195,45 @@ def _select_for_date(
     *,
     mode: str,
     count: int,
+    recent_note_ids: set[str] | None = None,
 ) -> list[dict[str, Any]]:
     if not photos:
         return []
     day_ordinal = date.fromisoformat(target_date).toordinal()
+    recent = recent_note_ids or set()
 
     if mode == "note":
         note_groups = _group_note_photos(photos)
-        start = day_ordinal % len(note_groups)
-        selected_groups = [
-            note_groups[(start + offset) % len(note_groups)]
-            for offset in range(min(count, len(note_groups)))
-        ]
+        scored = sorted(
+            note_groups,
+            key=lambda group: _note_teach_score(group, recent),
+            reverse=True,
+        )
+        selected_groups = scored[: min(count, len(scored))]
         return [copy.deepcopy(photo) for group in selected_groups for photo in group]
 
     ordered = _dedupe(photos)
     start = day_ordinal % len(ordered)
     selected = [ordered[(start + offset) % len(ordered)] for offset in range(min(count, len(ordered)))]
     return [copy.deepcopy(photo) for photo in selected]
+
+
+def _note_teach_score(group: list[dict[str, Any]], recent_note_ids: set[str]) -> float:
+    if not group:
+        return -100
+    sample = group[0]
+    title = str(sample.get("note_title") or sample.get("description") or "")
+    caption = str(sample.get("caption") or "")
+    text = f"{title}\n{caption}"
+    image_count = max(len(group), int(sample.get("note_image_count") or 0) or 0)
+    score = min(image_count, 12) * 3
+    score += 8 * sum(1 for term in PHOTO_TERMS if term in text)
+    score += 12 * sum(1 for term in PORTRAIT_TERMS if term in text)
+    if str(sample.get("note_id") or "") in recent_note_ids:
+        score -= 80
+    if _has_good_analysis(sample):
+        score += 10
+    return score
 
 
 def _group_by_style(photos: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
@@ -232,7 +257,9 @@ def _is_reasonable_note(group: list[dict[str, Any]], xhs_config: dict[str, Any])
     if any(str(term) and str(term) in text for term in xhs_config.get("quality_blocklist", [])):
         return False
 
-    photo_terms = ("拍照", "写真", "摄影", "出片", "机位", "构图", "调色", "光线", "拍摄")
+    photo_terms = xhs_config.get("photo_terms") or PHOTO_TERMS
+    if not any(str(term) and str(term) in text for term in photo_terms):
+        return False
     if "攻略" in title and not any(term in text for term in photo_terms):
         return False
     return True
@@ -276,6 +303,69 @@ def _without_previous_daily_xhs(grouped_photos: dict[str, list[dict[str, Any]]])
 def _has_good_analysis(photo: dict[str, Any]) -> bool:
     analysis = photo.get("analysis") or ""
     return bool(analysis.strip()) and "分析失败" not in analysis
+
+
+def _load_archived_xhs_pool(output_dir: str | Path) -> list[dict[str, Any]]:
+    """Load previously saved real Xiaohongshu notes, skipping placeholder logos."""
+    output_path = Path(output_dir)
+    photos: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    if not output_path.exists():
+        return photos
+
+    for json_file in sorted(output_path.glob("????-??-??/photos.json")):
+        try:
+            grouped_photos = json.loads(json_file.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        if not isinstance(grouped_photos, dict):
+            continue
+        for group in grouped_photos.values():
+            if not isinstance(group, list):
+                continue
+            for photo in group:
+                if not isinstance(photo, dict):
+                    continue
+                if photo.get("source_platform") != "xhs" and photo.get("source_name") != "小红书":
+                    continue
+                if not xhs_fetcher.is_usable_xhs_photo(photo):
+                    continue
+                key = str(photo.get("id") or photo.get("url_full") or "")
+                if not key or key in seen:
+                    continue
+                seen.add(key)
+                photos.append(copy.deepcopy(photo))
+    logger.info("从历史归档加载 %d 张可用小红书图片", len(photos))
+    return photos
+
+
+def _recent_note_ids(output_dir: str | Path, target_date: str, lookback: int = 6) -> set[str]:
+    """Collect Xiaohongshu note IDs used in the previous few days."""
+    output_path = Path(output_dir)
+    target = date.fromisoformat(target_date)
+    seen: set[str] = set()
+    for offset in range(1, lookback + 1):
+        archive = output_path / (target - timedelta(days=offset)).isoformat() / "photos.json"
+        if not archive.exists():
+            continue
+        try:
+            grouped_photos = json.loads(archive.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        if not isinstance(grouped_photos, dict):
+            continue
+        for group in grouped_photos.values():
+            if not isinstance(group, list):
+                continue
+            for photo in group:
+                if not isinstance(photo, dict):
+                    continue
+                if photo.get("source_platform") != "xhs" and photo.get("source_name") != "小红书":
+                    continue
+                note_id = str(photo.get("note_id") or "")
+                if note_id:
+                    seen.add(note_id)
+    return seen
 
 
 def _load_existing_analysis_cache(output_dir: str) -> dict[str, str]:
@@ -326,6 +416,7 @@ def run_for_date(
         target_date,
         mode=args.mode,
         count=args.count,
+        recent_note_ids=_recent_note_ids(output_dir, target_date),
     )
     if not selected:
         logger.error("没有可用的小红书公开照片")
@@ -378,25 +469,33 @@ def run_for_date(
 
 def fetch_pool(config: dict[str, Any], args: argparse.Namespace) -> list[dict[str, Any]]:
     xhs_config = _xhs_config(config)
-    sources = _build_sources(xhs_config, args)
-    logger.info("读取 %d 个小红书公开来源", len(sources))
-    pool = xhs_fetcher.fetch_sources(
-        sources,
-        default_style_label=args.style or xhs_config["style_label"],
-        default_style_color=args.style_color or xhs_config["style_color"],
-        default_style_icon=args.style_icon or xhs_config["style_icon"],
-        default_max_notes=args.max_notes or int(xhs_config["max_notes_per_source"]),
-        default_max_images_per_note=args.max_images_per_note or int(xhs_config["max_images_per_note"]),
-        cookie=args.cookie or xhs_config.get("cookie", ""),
-    )
-    pool = _dedupe(pool)
-    pool = _filter_reasonable_notes(pool, xhs_config)
     output_dir = PROJECT_ROOT / config["output"]["dir"]
-    xhs_fetcher.cache_photo_assets(
-        pool,
-        output_dir,
-        cookie=args.cookie or xhs_config.get("cookie", ""),
-    )
+    archived = _load_archived_xhs_pool(output_dir)
+    live: list[dict[str, Any]] = []
+
+    if not getattr(args, "from_archive_only", False):
+        sources = _build_sources(xhs_config, args)
+        logger.info("读取 %d 个小红书公开来源", len(sources))
+        live = xhs_fetcher.fetch_sources(
+            sources,
+            default_style_label=args.style or xhs_config["style_label"],
+            default_style_color=args.style_color or xhs_config["style_color"],
+            default_style_icon=args.style_icon or xhs_config["style_icon"],
+            default_max_notes=args.max_notes or int(xhs_config["max_notes_per_source"]),
+            default_max_images_per_note=args.max_images_per_note or int(xhs_config["max_images_per_note"]),
+            cookie=args.cookie or xhs_config.get("cookie", ""),
+        )
+        live = [photo for photo in live if xhs_fetcher.is_usable_xhs_photo(photo)]
+        xhs_fetcher.cache_photo_assets(
+            live,
+            output_dir,
+            cookie=args.cookie or xhs_config.get("cookie", ""),
+        )
+    else:
+        logger.info("跳过小红书在线抓取，仅使用历史归档")
+
+    pool = _dedupe([*live, *archived])
+    pool = _filter_reasonable_notes(pool, xhs_config)
     if not pool:
         logger.error("没有解析到小红书公开照片")
         sys.exit(1)
@@ -423,10 +522,15 @@ def main() -> None:
     parser.add_argument("--append", action="store_true", help="追加到小红书栏目，而不是替换")
     parser.add_argument("--skip-analysis", action="store_true", help="跳过分析")
     parser.add_argument("--force-analysis", action="store_true", help="强制重新分析")
+    parser.add_argument(
+        "--from-archive-only",
+        action="store_true",
+        help="不访问小红书在线页面，只用历史归档里已成功缓存的笔记",
+    )
     args = parser.parse_args()
 
     config = load_config(Path(args.config))
-    target_date = args.date or datetime.now().date().isoformat()
+    target_date = args.date or shanghai_now().date().isoformat()
     if args.backfill_days < 1:
         parser.error("--backfill-days must be >= 1")
 

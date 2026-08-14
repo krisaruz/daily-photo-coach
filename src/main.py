@@ -12,7 +12,6 @@ import argparse
 import json
 import logging
 import sys
-from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -24,6 +23,7 @@ import yaml
 import analyzer
 import fetcher
 import renderer
+from analysis_schedule import shanghai_now
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CONFIG = PROJECT_ROOT / "config.yaml"
@@ -213,7 +213,7 @@ def main():
     args = parser.parse_args()
 
     config = load_config(Path(args.config))
-    target_date = args.date or date.today().isoformat()
+    target_date = args.date or shanghai_now().date().isoformat()
 
     logger.info("Daily Photo Coach 启动")
     logger.info("  日期: %s", target_date)

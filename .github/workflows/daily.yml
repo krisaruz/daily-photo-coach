@@ -2,7 +2,7 @@ name: Daily Photo Coach
 
 on:
   schedule:
-    - cron: '0 18 * * *'  # UTC 18:00 = 北京 02:00
+    - cron: '20 1-14 * * *'  # 北京时间 09:20-22:20，每小时一次；真正执行时刻由 analysis_schedule 随机抽取
   workflow_dispatch:
 
 jobs:
@@ -30,32 +30,52 @@ jobs:
           git fetch origin
           git checkout origin/master -- output/ 2>/dev/null || true
 
-      - name: Fetch and Analyze photos (Runs completely on GitHub Actions)
+      - name: Decide whether to run
+        id: gate
+        env:
+          PYTHONPATH: src
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
+        run: python src/analysis_schedule.py --output-dir output
+
+      - name: Fetch and analyze photos
+        if: steps.gate.outputs.should_run == 'true'
         env:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           LLM_AUTH: ${{ secrets.LLM_AUTH }}
           LLM_URL: ${{ secrets.LLM_URL }}
           LLM_MODEL: ${{ secrets.LLM_MODEL || 'azure/gpt-5.5' }}
+          XHS_LLM_MODEL: ${{ secrets.XHS_LLM_MODEL || 'gpt-5.5' }}
+          XHS_COOKIE: ${{ secrets.XHS_COOKIE }}
+          XHS_SEED_URLS: ${{ secrets.XHS_SEED_URLS }}
           PYTHONPATH: src
-        run: python src/main.py
+          TZ: Asia/Shanghai
+        run: |
+          TARGET_DATE="$(TZ=Asia/Shanghai date +%Y-%m-%d)"
+          echo "target_date=$TARGET_DATE"
+          python src/main.py --date "$TARGET_DATE"
+          python src/xhs_daily.py --date "$TARGET_DATE" --style "小红书｜人像写真" --mode note --count 1
 
       - name: Commit output to repo
+        if: steps.gate.outputs.should_run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add output/ -f
-          git diff --cached --quiet || git commit -m "daily: fetch photos for $(date -u +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "daily: fetch photos for $(TZ=Asia/Shanghai date +%Y-%m-%d)"
           git push origin HEAD:master
 
       - name: Ensure .nojekyll
+        if: steps.gate.outputs.should_run == 'true'
         run: touch output/.nojekyll
 
       - name: Upload Pages artifact
+        if: steps.gate.outputs.should_run == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: output
 
       - name: Deploy to GitHub Pages
+        if: steps.gate.outputs.should_run == 'true'
         id: deployment
         uses: actions/deploy-pages@v4

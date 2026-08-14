@@ -9,6 +9,8 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+import xhs_fetcher
+
 logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -469,6 +471,9 @@ def render_xhs_site(output_dir: str) -> Path:
 
         flat_photos = [photo for photo in _iter_photos(data) if not _is_analysis_failed(photo)]
         for group in _xhs_note_groups(flat_photos):
+            group = [photo for photo in group if xhs_fetcher.is_usable_xhs_photo(photo)]
+            if not group:
+                continue
             rendered_photos = [_render_photo_item(photo, "../../") for photo in group]
             if not rendered_photos:
                 continue
@@ -555,6 +560,8 @@ def update_index(output_dir: str) -> Path:
                 source_name = photo.get("source_name") or ("Unsplash" if photo.get("unsplash_url") else "其他")
                 source_totals[source_name] = source_totals.get(source_name, 0) + 1
                 if photo.get("source_platform") == "xhs" or source_name == "小红书":
+                    if not xhs_fetcher.is_usable_xhs_photo(photo):
+                        continue
                     note_key = str(photo.get("note_id") or photo.get("source_url") or photo.get("id") or "")
                     if note_key and note_key in seen_xhs_notes:
                         continue

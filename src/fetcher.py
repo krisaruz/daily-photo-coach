@@ -2,6 +2,7 @@
 
 import json
 import logging
+import os
 import random
 from pathlib import Path
 from typing import Any
@@ -11,6 +12,14 @@ import requests
 logger = logging.getLogger(__name__)
 
 UNSPLASH_RANDOM_URL = "https://api.unsplash.com/photos/random"
+MIN_LONG_EDGE = 1600
+MIN_LIKES = 20
+SPAM_DESCRIPTION_MARKERS = (
+    "credit me by linking",
+    "tag me on instagram",
+    "follow me on instagram",
+    "linking back to my website",
+)
 
 
 def load_historical_ids(output_dir: str) -> set[str]:
@@ -32,14 +41,129 @@ def load_historical_ids(output_dir: str) -> set[str]:
     return seen
 
 
+def _as_topic_list(value: Any) -> list[str]:
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()]
+    if isinstance(value, str):
+        return [part.strip() for part in value.split(",") if part.strip()]
+    return []
+
+
+def _as_query_list(value: Any) -> list[str]:
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()]
+    if isinstance(value, str) and value.strip():
+        return [value.strip()]
+    return []
+
+
+def photo_quality_score(photo: dict[str, Any]) -> float:
+    """Score a candidate for photography teaching. Negative means reject."""
+    if photo.get("sponsored"):
+        return -100
+    width = int(photo.get("width") or 0)
+    height = int(photo.get("height") or 0)
+    long_edge = max(width, height)
+    if long_edge < MIN_LONG_EDGE:
+        return -50
+    likes = int(photo.get("likes") or 0)
+    if likes < MIN_LIKES:
+        return -30
+
+    description = str(photo.get("description") or "").lower()
+    if any(marker in description for marker in SPAM_DESCRIPTION_MARKERS):
+        return -40
+
+    score = min(likes, 2000) / 20
+    score += min(long_edge, 6000) / 1000
+    exif = photo.get("exif") or {}
+    if exif.get("model"):
+        score += 15
+    if exif.get("aperture") and exif.get("exposure_time"):
+        score += 10
+    if description and "http" not in description:
+        score += 5
+    return score
+
+
+def select_best_photos(candidates: list[dict[str, Any]], limit: int) -> list[dict[str, Any]]:
+    """Keep the highest-scoring unique photos that pass the quality floor."""
+    ranked = []
+    seen: set[str] = set()
+    for photo in candidates:
+        pid = str(photo.get("id") or "")
+        if not pid or pid in seen:
+            continue
+        score = photo_quality_score(photo)
+        if score < 0:
+            continue
+        seen.add(pid)
+        ranked.append((score, photo))
+    ranked.sort(key=lambda item: item[0], reverse=True)
+    return [photo for _, photo in ranked[:limit]]
+
+
+def _normalise_unsplash_photo(data: dict[str, Any]) -> dict[str, Any]:
+    exif = data.get("exif") or {}
+    description = data.get("description") or data.get("alt_description") or ""
+    urls = data.get("urls") or {}
+    user = data.get("user") or {}
+    links = data.get("links") or {}
+    return {
+        "id": data["id"],
+        "url_regular": urls.get("regular") or "",
+        "url_full": urls.get("full") or "",
+        "url_small": urls.get("small") or "",
+        "width": data.get("width"),
+        "height": data.get("height"),
+        "likes": int(data.get("likes") or 0),
+        "sponsored": bool(data.get("sponsorship")),
+        "description": description,
+        "photographer": user.get("name", "Unknown"),
+        "photographer_url": (user.get("links") or {}).get("html", ""),
+        "unsplash_url": links.get("html", ""),
+        "download_location": links.get("download_location", ""),
+        "exif": {
+            "make": exif.get("make"),
+            "model": exif.get("model"),
+            "aperture": exif.get("aperture"),
+            "exposure_time": exif.get("exposure_time"),
+            "focal_length": exif.get("focal_length"),
+            "iso": exif.get("iso"),
+        },
+    }
+
+
 def fetch_photo(access_key: str, query: str = None, topics: str = None, orientation: str = "landscape", featured: bool = False) -> dict[str, Any] | None:
     """从 Unsplash 抓取一张符合主题的随机照片，遇限流自动等待。"""
+    photos = _request_unsplash_random(
+        access_key,
+        query=query,
+        topics=topics,
+        orientation=orientation,
+        featured=featured,
+        count=1,
+    )
+    return photos[0] if photos else None
+
+
+def _request_unsplash_random(
+    access_key: str,
+    *,
+    query: str | None,
+    topics: str | None,
+    orientation: str | None,
+    featured: bool,
+    count: int,
+) -> list[dict[str, Any]]:
     import time
 
-    params = {
-        "orientation": orientation,
+    params: dict[str, Any] = {
         "content_filter": "high",
+        "count": min(max(count, 1), 30),
     }
+    if orientation:
+        params["orientation"] = orientation
     if query:
         params["query"] = query
     if topics:
@@ -55,54 +179,32 @@ def fetch_photo(access_key: str, query: str = None, topics: str = None, orientat
     for attempt in range(10):
         try:
             resp = requests.get(UNSPLASH_RANDOM_URL, params=params, headers=headers, timeout=30)
+            remaining = resp.headers.get("X-Ratelimit-Remaining", "")
             if resp.status_code == 403:
-                remaining = resp.headers.get("X-Ratelimit-Remaining", "0")
-                if remaining == "0" or resp.status_code == 403:
-                    import os
-                    if os.environ.get("GITHUB_ACTIONS") == "true":
-                        logger.error("Unsplash API 限流（剩余: %s），运行在 CI 环境中，立即终止抓取以避免挂起。", remaining)
-                        return None
-                    wait = 3660  # 等 61 分钟（配额每小时重置）
-                    logger.warning("Unsplash API 限流（剩余: %s），等待 %d 分钟后继续...", remaining, wait // 60)
-                    time.sleep(wait)
-                    continue
+                if os.environ.get("GITHUB_ACTIONS") == "true":
+                    logger.error("Unsplash API 限流（剩余: %s），运行在 CI 环境中，立即终止抓取以避免挂起。", remaining)
+                    return []
+                wait = 3660
+                logger.warning("Unsplash API 限流（剩余: %s），等待 %d 分钟后继续...", remaining, wait // 60)
+                time.sleep(wait)
+                continue
             resp.raise_for_status()
-            data = resp.json()
+            payload = resp.json()
             time.sleep(1.2)
-            break
-        except requests.RequestException as e:
+            items = payload if isinstance(payload, list) else [payload]
+            photos = []
+            for item in items:
+                if isinstance(item, dict) and item.get("id") and item.get("urls"):
+                    photos.append(_normalise_unsplash_photo(item))
+            return photos
+        except requests.RequestException as exc:
             if attempt < 9:
-                logger.warning("Unsplash API 请求失败 [query=%s, topics=%s]: %s，等待 10s 重试...", query, topics, e)
+                logger.warning("Unsplash API 请求失败 [query=%s, topics=%s]: %s，等待 10s 重试...", query, topics, exc)
                 time.sleep(10)
                 continue
-            logger.error("Unsplash API 请求最终失败 [query=%s, topics=%s]: %s", query, topics, e)
-            return None
-    else:
-        return None
-
-    exif = data.get("exif") or {}
-
-    return {
-        "id": data["id"],
-        "url_regular": data["urls"]["regular"],
-        "url_full": data["urls"]["full"],
-        "url_small": data["urls"]["small"],
-        "width": data.get("width"),
-        "height": data.get("height"),
-        "description": data.get("description") or data.get("alt_description") or "",
-        "photographer": data.get("user", {}).get("name", "Unknown"),
-        "photographer_url": data.get("user", {}).get("links", {}).get("html", ""),
-        "unsplash_url": data.get("links", {}).get("html", ""),
-        "download_location": data.get("links", {}).get("download_location", ""),
-        "exif": {
-            "make": exif.get("make"),
-            "model": exif.get("model"),
-            "aperture": exif.get("aperture"),
-            "exposure_time": exif.get("exposure_time"),
-            "focal_length": exif.get("focal_length"),
-            "iso": exif.get("iso"),
-        },
-    }
+            logger.error("Unsplash API 请求最终失败 [query=%s, topics=%s]: %s", query, topics, exc)
+            return []
+    return []
 
 
 def fetch_unsplash_photos_for_style(
@@ -112,66 +214,61 @@ def fetch_unsplash_photos_for_style(
     """使用 Unsplash 抓取一种风格的多张照片，支持 topics 官方精选和 query 关键词。"""
     access_key = config.get("unsplash", {}).get("access_key", "")
     featured = config.get("unsplash", {}).get("featured", False)
-    
+
     if not access_key or access_key == "YOUR_UNSPLASH_ACCESS_KEY":
         logger.error("Unsplash Access Key 未配置，跳过 Unsplash 抓取")
         return []
 
-    orientations = ["landscape", "portrait", "squarish"]
-    
-    style_queries = style.get("query", "")
-    queries = style_queries if isinstance(style_queries, list) else [style_queries] if style_queries else []
-    
-    style_topics = style.get("topics", "")
-    topics = style_topics if isinstance(style_topics, list) else [style_topics] if style_topics else []
-
-    photos = []
+    queries = _as_query_list(style.get("query", ""))
+    topics = _as_topic_list(style.get("topics", ""))
+    orientations = ["landscape", "portrait"]
+    candidate_count = min(max(count * 3, 6), 12)
+    candidates: list[dict[str, Any]] = []
     local_seen: set[str] = set()
-    max_retries = max(count * 10, 20)
 
-    attempts = 0
-    i = 0
-    while len(photos) < count and attempts < max_retries:
-        orientation = orientations[i % len(orientations)]
-        
-        query = None
-        topic = None
-        
-        if topics:
-            topic = topics[i % len(topics)]
-        if queries:
-            query = queries[i % len(queries)]
-            
-        photo = fetch_photo(access_key, query=query, topics=topic, orientation=orientation, featured=featured)
-        attempts += 1
+    for index, orientation in enumerate(orientations):
+        topic = topics[index % len(topics)] if topics else None
+        query = queries[index % len(queries)] if queries else None
+        batch = _request_unsplash_random(
+            access_key,
+            query=query,
+            topics=topic,
+            orientation=orientation,
+            featured=featured,
+            count=candidate_count,
+        )
+        for photo in batch:
+            pid = photo.get("id")
+            if not pid or pid in local_seen or (global_seen and pid in global_seen):
+                continue
+            if photo_quality_score(photo) < 0:
+                logger.debug("  [%s] 低质量照片 %s，跳过", style["label"], pid)
+                continue
+            photo["style_query"] = topic or query or ""
+            photo["style_label"] = style["label"]
+            photo["style_color"] = style.get("color", "#6b7280")
+            photo["style_icon"] = style.get("icon", "📷")
+            candidates.append(photo)
+            local_seen.add(pid)
 
-        if not photo:
-            logger.warning("  [%s] Unsplash 抓取失败，重试", style["label"])
-            continue
+    selected = select_best_photos(candidates, count)
+    if global_seen is not None:
+        for photo in selected:
+            global_seen.add(photo["id"])
 
-        pid = photo["id"]
-        if pid in local_seen or (global_seen and pid in global_seen):
-            logger.debug("  [%s] 重复照片 %s，跳过", style["label"], pid)
-            continue
-
-        photo["style_query"] = topic or query or ""
-        photo["style_label"] = style["label"]
-        photo["style_color"] = style.get("color", "#6b7280")
-        photo["style_icon"] = style.get("icon", "📷")
-        photos.append(photo)
-        local_seen.add(pid)
-        if global_seen is not None:
-            global_seen.add(pid)
-        i += 1
+    for photo in selected:
         logger.info(
-            "  [Unsplash %s %d/%d] %s by %s",
-            style["label"], len(photos), count, pid, photo["photographer"],
+            "  [Unsplash %s] %s by %s (likes=%s score=%.1f)",
+            style["label"],
+            photo["id"],
+            photo["photographer"],
+            photo.get("likes"),
+            photo_quality_score(photo),
         )
 
-    if len(photos) < count:
-        logger.warning("  [%s] Unsplash 只获取到 %d/%d 张（去重后）", style["label"], len(photos), count)
-
-    return photos
+    if len(selected) < count:
+        logger.warning("  [%s] Unsplash 只筛选到 %d/%d 张高质量照片", style["label"], len(selected), count)
+    return selected
 
 
 FLICKR_API_URL = "https://api.flickr.com/services/rest/"

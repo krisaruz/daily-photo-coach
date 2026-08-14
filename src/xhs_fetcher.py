@@ -43,6 +43,18 @@ IMAGE_HEADERS = {
     "Referer": "https://www.xiaohongshu.com/",
 }
 
+PLACEHOLDER_IMAGE_MARKERS = (
+    "picasso-static.xiaohongshu.com",
+    "/fe-platform/",
+)
+
+BLOCKED_PAGE_MARKERS = (
+    "error_code=300031",
+    "当前笔记暂时无法浏览",
+)
+
+FALLBACK_TITLES = {"", "小红书", "小红书摄影作品"}
+
 
 class _MetaParser(HTMLParser):
     def __init__(self) -> None:
@@ -90,6 +102,48 @@ def _normalise_url(url: str | None, base_url: str = "") -> str:
 def _is_http_url(url: str) -> bool:
     parsed = urlparse(url)
     return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
+
+
+def is_placeholder_image_url(url: str | None) -> bool:
+    """Return True for Xiaohongshu platform logos / OG fallback images."""
+    value = str(url or "").lower()
+    if not value:
+        return False
+    return any(marker in value for marker in PLACEHOLDER_IMAGE_MARKERS)
+
+
+def is_blocked_note_page(url: str | None, page_html: str = "") -> bool:
+    """Return True when Xiaohongshu served a 404 / temporarily-unavailable note."""
+    value = str(url or "")
+    parsed_path = urlparse(value).path
+    if parsed_path.rstrip("/").endswith("/404") or "/404/" in parsed_path:
+        return True
+    combined = f"{value}\n{page_html or ''}"
+    return any(marker in combined for marker in BLOCKED_PAGE_MARKERS)
+
+
+def is_usable_xhs_photo(photo: dict[str, Any]) -> bool:
+    """Return True when a photo looks like a real note image, not a platform logo."""
+    if not isinstance(photo, dict):
+        return False
+    source_url = str(photo.get("source_url") or photo.get("xhs_url") or "")
+    if is_blocked_note_page(source_url):
+        return False
+    for key in (
+        "url_small",
+        "url_regular",
+        "url_full",
+        "local_url_small",
+        "local_url_regular",
+        "local_url_full",
+    ):
+        if is_placeholder_image_url(photo.get(key)):
+            return False
+    title = _clean_text(photo.get("note_title"))
+    description = _clean_text(photo.get("description"))
+    if title in FALLBACK_TITLES and description in FALLBACK_TITLES:
+        return False
+    return True
 
 
 def _safe_asset_name(value: Any, fallback: str) -> str:
@@ -282,7 +336,7 @@ def _note_to_photos(
         if not isinstance(image, dict):
             continue
         url_full, url_small = _image_urls(image, note_url)
-        if not url_full:
+        if not url_full or is_placeholder_image_url(url_full) or is_placeholder_image_url(url_small):
             continue
         description = title or _clean_text(caption[:120]) or "小红书摄影作品"
         photos.append(
@@ -349,7 +403,7 @@ def cache_photo_assets(
             ("url_full", "local_url_full", "full"),
         ):
             url = str(photo.get(source_key) or "")
-            if not _is_http_url(url):
+            if not _is_http_url(url) or is_placeholder_image_url(url):
                 continue
             if url in downloaded:
                 photo[local_key] = downloaded[url]
@@ -391,10 +445,15 @@ def _meta_to_photos(
     style: dict[str, str],
     max_images: int,
 ) -> list[dict[str, Any]]:
+    if is_blocked_note_page(page_url):
+        return []
+
     title = _clean_text((meta.get("og:title") or [""])[0]).removesuffix(" - 小红书")
     caption = _clean_text((meta.get("description") or meta.get("og:description") or [""])[0], keep_lines=True)
     image_urls = [_normalise_url(url, page_url) for url in meta.get("og:image", [])]
-    image_urls = [url for url in image_urls if _is_http_url(url)]
+    image_urls = [
+        url for url in image_urls if _is_http_url(url) and not is_placeholder_image_url(url)
+    ]
 
     note_id_match = re.search(r"/(?:discovery/item|explore)/([0-9a-fA-F]{24})", page_url)
     note_id = note_id_match.group(1) if note_id_match else hashlib.sha1(page_url.encode()).hexdigest()[:24]
@@ -448,6 +507,10 @@ def fetch_source(
     style = {"label": style_label, "color": style_color, "icon": style_icon}
 
     page_html, final_url = _fetch_html(session, url)
+    if is_blocked_note_page(final_url, page_html):
+        logger.warning("小红书笔记暂时无法浏览，已跳过: %s", url)
+        return []
+
     meta, links = _parse_meta(page_html)
     state = _parse_initial_state(page_html)
     notes = _extract_note_dicts(state)
@@ -523,6 +586,8 @@ def fetch_sources(
             logger.warning("小红书来源抓取失败，已跳过 %s: %s", source_url, exc)
             continue
         for photo in fetched:
+            if not is_usable_xhs_photo(photo):
+                continue
             key = photo.get("id") or photo.get("url_full")
             if key and key not in seen:
                 photos.append(photo)

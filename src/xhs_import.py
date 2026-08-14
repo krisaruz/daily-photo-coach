@@ -135,6 +135,7 @@ def import_xhs(
         cookie=args.cookie or xhs_config.get("cookie", ""),
     )
     photos = _dedupe_photos(photos)[: args.limit]
+    photos = [photo for photo in photos if xhs_fetcher.is_usable_xhs_photo(photo)]
     xhs_fetcher.cache_photo_assets(
         photos,
         output_dir,
