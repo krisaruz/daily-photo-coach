@@ -53,7 +53,7 @@ jobs:
           LLM_GATEWAY_PRODUCT: ${{ secrets.LLM_GATEWAY_PRODUCT }}
           LLM_GATEWAY_INTENTION: ${{ secrets.LLM_GATEWAY_INTENTION }}
         run: |
-          python -c "
+          python << 'PYEOF'
 import os, requests
 a = os.environ.get('LLM_AUTH','')
 url = os.environ.get('LLM_URL','')
@@ -76,10 +76,10 @@ payload = {'model': model, 'stream': False, 'messages':[{'role':'user','content'
 try:
     r = requests.post(url, headers=headers, json=payload, timeout=30)
     print('HTTP', r.status_code)
-    print('Body head:', r.text[:300])
+    print('Body head:', r.text[:500])
 except Exception as e:
     print('ERR:', e)
-"
+PYEOF
 
 
       - name: Fetch and analyze photos
