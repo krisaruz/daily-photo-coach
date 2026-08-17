@@ -47,15 +47,21 @@ jobs:
           LLM_GATEWAY_PRODUCT: ${{ secrets.LLM_GATEWAY_PRODUCT }}
           LLM_GATEWAY_INTENTION: ${{ secrets.LLM_GATEWAY_INTENTION }}
         run: |
-          echo "LLM_AUTH length: ${#LLM_AUTH}"
-          echo "LLM_AUTH first4: ${LLM_AUTH:0:4}"
-          echo "LLM_AUTH last4: ${LLM_AUTH: -4}"
-          echo "LLM_AUTH starts with Bearer: $(if [[ "$LLM_AUTH" == Bearer* ]]; then echo yes; else echo no; fi)"
-          echo "LLM_URL: $LLM_URL"
-          echo "LLM_MODEL: $LLM_MODEL"
-          echo "LLM_GATEWAY_UID: $LLM_GATEWAY_UID"
-          echo "LLM_GATEWAY_PRODUCT: $LLM_GATEWAY_PRODUCT"
-          echo "LLM_GATEWAY_INTENTION: $LLM_GATEWAY_INTENTION"
+          python -c "
+import os
+a = os.environ.get('LLM_AUTH','')
+print('LLM_AUTH len:', len(a))
+print('LLM_AUTH starts_with_bearer:', a.lower().startswith('bearer '))
+print('LLM_AUTH has_newline:', '\n' in a)
+print('LLM_AUTH has_space_inside:', ' ' in a.strip())
+print('LLM_AUTH has_cr:', '\r' in a)
+print('LLM_URL:', os.environ.get('LLM_URL',''))
+print('LLM_MODEL:', os.environ.get('LLM_MODEL',''))
+print('LLM_GATEWAY_UID:', os.environ.get('LLM_GATEWAY_UID',''))
+print('LLM_GATEWAY_PRODUCT:', os.environ.get('LLM_GATEWAY_PRODUCT',''))
+print('LLM_GATEWAY_INTENTION:', os.environ.get('LLM_GATEWAY_INTENTION',''))
+"
+
 
       - name: Fetch and analyze photos
         if: steps.gate.outputs.should_run == 'true'
