@@ -38,7 +38,7 @@ jobs:
         run: python src/analysis_schedule.py --output-dir output
 
       - name: Debug LLM_AUTH
-        if: steps.gate.outputs.should_run == 'true'
+        if: always()
         env:
           LLM_AUTH: ${{ secrets.LLM_AUTH }}
           LLM_URL: ${{ secrets.LLM_URL }}
