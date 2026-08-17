@@ -48,18 +48,31 @@ jobs:
           LLM_GATEWAY_INTENTION: ${{ secrets.LLM_GATEWAY_INTENTION }}
         run: |
           python -c "
-import os
+import os, requests
 a = os.environ.get('LLM_AUTH','')
+url = os.environ.get('LLM_URL','')
+model = os.environ.get('LLM_MODEL','')
+uid = os.environ.get('LLM_GATEWAY_UID','')
+prod = os.environ.get('LLM_GATEWAY_PRODUCT','')
+intent = os.environ.get('LLM_GATEWAY_INTENTION','')
 print('LLM_AUTH len:', len(a))
 print('LLM_AUTH starts_with_bearer:', a.lower().startswith('bearer '))
-print('LLM_AUTH has_newline:', '\n' in a)
-print('LLM_AUTH has_space_inside:', ' ' in a.strip())
-print('LLM_AUTH has_cr:', '\r' in a)
-print('LLM_URL:', os.environ.get('LLM_URL',''))
-print('LLM_MODEL:', os.environ.get('LLM_MODEL',''))
-print('LLM_GATEWAY_UID:', os.environ.get('LLM_GATEWAY_UID',''))
-print('LLM_GATEWAY_PRODUCT:', os.environ.get('LLM_GATEWAY_PRODUCT',''))
-print('LLM_GATEWAY_INTENTION:', os.environ.get('LLM_GATEWAY_INTENTION',''))
+auth = a if a.lower().startswith(('bearer ','token ')) else f'Bearer {a}'
+print('auth header len:', len(auth))
+headers = {
+  'Authorization': auth,
+  'AI-Gateway-Uid': uid,
+  'AI-Gateway-Product-Name': prod,
+  'AI-Gateway-Intention-Code': intent,
+  'Content-Type': 'application/json',
+}
+payload = {'model': model, 'stream': False, 'messages':[{'role':'user','content':'PONG'}]}
+try:
+    r = requests.post(url, headers=headers, json=payload, timeout=30)
+    print('HTTP', r.status_code)
+    print('Body head:', r.text[:300])
+except Exception as e:
+    print('ERR:', e)
 "
 
 
