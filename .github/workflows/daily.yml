@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '20 1-14 * * *'  # 北京时间 09:20-22:20，每小时一次；真正执行时刻由 analysis_schedule 随机抽取
   workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - '.github/workflows/daily.yml'
+      - 'src/**'
+      - 'config.yaml.example'
 
 jobs:
   generate:
@@ -34,7 +40,7 @@ jobs:
         id: gate
         env:
           PYTHONPATH: src
-          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && 'true' || (github.event_name == 'push' && 'true' || 'false') }}
         run: python src/analysis_schedule.py --output-dir output
 
       - name: Debug LLM_AUTH
