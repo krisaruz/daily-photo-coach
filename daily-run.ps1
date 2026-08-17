@@ -2,7 +2,6 @@
 # 功能：抓取照片 + LLM 分析 + 推送到 GitHub（自动部署到 Pages）
 # 密钥从 config.yaml 读取（已 gitignore）
 
-$ErrorActionPreference = "Stop"
 $projectDir = "E:\daily-photo-coach"
 $logFile = "$projectDir\daily-run.log"
 $pythonExe = "C:\Users\admin\AppData\Local\Programs\Python\Python311\python.exe"
@@ -18,21 +17,31 @@ try {
 
     # 先拉取最新代码（GitHub Actions 可能已抓了图）
     Log "拉取最新代码 ..."
-    git pull origin master --quiet 2>&1 | Tee-Object -FilePath $logFile -Append
+    git pull origin master --quiet 2>&1 | Out-File -FilePath $logFile -Append -Encoding utf8
 
     # 运行主程序（抓图 + LLM 分析）
+    # Python logging 写 stderr，所以用 cmd 重定向把 stderr 合并到 stdout，避免 PowerShell ErrorActionPreference 触发异常
     Log "运行 main.py (Python 3.11) ..."
     $env:PYTHONPATH = "src"
-    & $pythonExe src/main.py 2>&1 | Tee-Object -FilePath $logFile -Append
+    $env:PYTHONIOENCODING = "utf-8"
+    cmd /c "`"$pythonExe`" src\main.py 2>&1" | Tee-Object -FilePath $logFile -Append
     if ($LASTEXITCODE -ne 0) {
         Log "main.py 执行失败，退出码: $LASTEXITCODE"
         exit $LASTEXITCODE
     }
 
+    # 也跑小红书 daily pick
+    Log "运行 xhs_daily.py ..."
+    cmd /c "`"$pythonExe`" src\xhs_daily.py --style `"小红书｜人像写真`" --mode note --count 1 2>&1" | Tee-Object -FilePath $logFile -Append
+    if ($LASTEXITCODE -ne 0) {
+        Log "xhs_daily.py 执行失败，退出码: $LASTEXITCODE"
+    }
+
     # 提交并推送
     Log "提交 output 到 git ..."
     git add output/ -f
-    $changed = git diff --cached --quiet; $hasChanges = $LASTEXITCODE -ne 0
+    git diff --cached --quiet
+    $hasChanges = ($LASTEXITCODE -ne 0)
     if ($hasChanges) {
         $today = Get-Date -Format "yyyy-MM-dd"
         git commit -m "daily: auto fetch + analyze for $today"
@@ -48,3 +57,4 @@ try {
     Log "异常: $_"
     exit 1
 }
+
