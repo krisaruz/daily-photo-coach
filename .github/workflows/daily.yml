@@ -37,6 +37,26 @@ jobs:
           FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
         run: python src/analysis_schedule.py --output-dir output
 
+      - name: Debug LLM_AUTH
+        if: steps.gate.outputs.should_run == 'true'
+        env:
+          LLM_AUTH: ${{ secrets.LLM_AUTH }}
+          LLM_URL: ${{ secrets.LLM_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL || 'azure/gpt-5.5' }}
+          LLM_GATEWAY_UID: ${{ secrets.LLM_GATEWAY_UID }}
+          LLM_GATEWAY_PRODUCT: ${{ secrets.LLM_GATEWAY_PRODUCT }}
+          LLM_GATEWAY_INTENTION: ${{ secrets.LLM_GATEWAY_INTENTION }}
+        run: |
+          echo "LLM_AUTH length: ${#LLM_AUTH}"
+          echo "LLM_AUTH first4: ${LLM_AUTH:0:4}"
+          echo "LLM_AUTH last4: ${LLM_AUTH: -4}"
+          echo "LLM_AUTH starts with Bearer: $(if [[ "$LLM_AUTH" == Bearer* ]]; then echo yes; else echo no; fi)"
+          echo "LLM_URL: $LLM_URL"
+          echo "LLM_MODEL: $LLM_MODEL"
+          echo "LLM_GATEWAY_UID: $LLM_GATEWAY_UID"
+          echo "LLM_GATEWAY_PRODUCT: $LLM_GATEWAY_PRODUCT"
+          echo "LLM_GATEWAY_INTENTION: $LLM_GATEWAY_INTENTION"
+
       - name: Fetch and analyze photos
         if: steps.gate.outputs.should_run == 'true'
         env:
