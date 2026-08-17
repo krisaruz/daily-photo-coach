@@ -1,5 +1,6 @@
 """Debug CI LLM auth - run inside GitHub Actions to probe what the gateway returns."""
 
+import hashlib
 import os
 import requests
 
@@ -14,6 +15,9 @@ def main() -> None:
 
     print("LLM_AUTH len:", len(a))
     print("LLM_AUTH starts_with_bearer:", a.lower().startswith("bearer "))
+    print("LLM_AUTH sha256:", hashlib.sha256(a.encode()).hexdigest())
+    print("LLM_AUTH first3:", a[:3])
+    print("LLM_AUTH last3:", a[-3:])
     auth = a if a.lower().startswith(("bearer ", "token ")) else f"Bearer {a}"
     print("auth header len:", len(auth))
 
