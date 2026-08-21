@@ -1,0 +1,667 @@
+# 每日摄影教练 - 2026-08-22
+
+
+---
+
+# 风光/自然
+
+
+## #1 风光/自然
+
+**摄影师**: [NEOM](https://unsplash.com/@neom)
+ | **来源**: [Unsplash](https://unsplash.com/photos/a-person-standing-at-the-entrance-to-a-cave-kXbit_yx8t4)
+
+![Natural rock bridge in the Hisma Desert – NEOM, Saudi Arabia | The NEOM Nature Reserve region is being designed to deliver protection and restoration of biodiversity across 95% of NEOM.](https://images.unsplash.com/photo-1682685797857-97de838c192e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMjF8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: 0.0mm
+
+
+## 直觉
+岩桥的巨大体量与人物剪影形成强烈对比，空间感非常震撼。逆光从洞口涌入，让沙漠岩壁有了史诗感和方向性。
+
+## 技法拆解
+- 构图上用岩桥做天然画框，人物放在亮部边缘，尺度关系一眼成立。
+- 逆光曝光压住天空，保留洞口高光，岩壁形成厚重暗部，很有层次。
+- 暖色侧光打在右侧岩壁和地面上，强化了沙漠质感。
+- 前景岩面纹理引导视线向人物和远山延伸。
+- EXIF 焦距显示 0.0mm，信息不可用；画面观感接近超广角拍摄。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**，方便控制景深，同时让相机快速应对逆光环境。推荐 **f/8-f/11，1/250s 以上，ISO 100-400，评价测光，单次 AF，单点或小区域对焦**，对焦在人物或岩桥边缘。镜头建议 **RF-S 10-18mm** 或 **RF-S 18-45mm 的广角端**，若用 RF 16mm F2.8 也很合适。现场先退后并降低机位，把岩桥完整纳入画面；等待太阳接近洞口侧后方，形成边缘光；让人物站在亮暗交界处，姿态稳定时连拍几张。
+
+## 后期思路
+整体往“暖、厚重、电影感”走：压高光、提一点阴影，但不要把暗部全拉亮。重点加强岩壁橙色与纹理，可用清晰度、纹理、曲线和局部蒙版处理洞口光束与人物剪影。
+
+
+## #2 风光/自然
+
+**摄影师**: [Vincent Erhart](https://unsplash.com/@vince_erhart)
+ | **来源**: [Unsplash](https://unsplash.com/photos/a-large-piece-of-art-is-lit-up-in-the-dark-Y2Tfj9I7SAE)
+
+![I took that image in a former romanian salt mine. It was one of the darkest, most surrealistic and impressing place I have ever been. You could even play minigolf and table tennis down there. The photo shows the 120 meter high vertical main tunnel.](https://images.unsplash.com/photo-1484852168632-238c9f9a78a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMTl8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera SIGMA SIGMA DP1 Merrill | f/4.5 | 1/5s | 19.0mm | ISO 200
+
+
+## 直觉
+这张最迷人的是“地下宇宙感”：巨大的竖井、盐壁纹理和点状灯光，让空间既压迫又神秘。
+
+## 技法拆解
+- 低机位仰拍强化了 120 米竖井的尺度感，画面有很强的纵深。
+- 右上灯光形成节奏线，引导视线向洞顶移动。
+- EXIF 为 f/4.5、1/5s、ISO200，说明现场极暗，低 ISO 保住了暗部质感。
+- 高光灯点略亮，但在这种黑暗环境中反而增加了“深渊中的人造光”效果。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **M 挡**：矿洞光比大，手动曝光更容易控制灯光不过曝。推荐 **f/5.6、1/4s-1s、ISO100-400**，评价测光后看直方图，必要时压暗 1 档；对焦用 **单次 AF + 单点/小区域**，对准有纹理的盐壁，太暗就切手动对焦。镜头建议 **RF-S 10-18mm F4.5-6.3 IS STM**，用 10-14mm 拍出竖井压迫感。现场先找能同时看到竖井、灯带和平台的位置；相机贴近地面或仰拍；上三脚架或靠墙固定，2 秒自拍防抖，等游客/灯光干扰最少时按快门。
+
+## 后期思路
+整体往冷暗、超现实方向处理：压高光，稍提阴影但保留黑位。增强盐壁纹理可用清晰度、纹理、去雾；局部压暗边缘，让视线集中在灯带和中央空间。
+
+
+## #3 风光/自然
+
+**摄影师**: [Marek Piwnicki](https://unsplash.com/@marekpiwnicki)
+ | **来源**: [Unsplash](https://unsplash.com/photos/snow-covered-mountain-during-daytime-enuCEimS1p4)
+
+![Evening.](https://images.unsplash.com/photo-1617571736695-5127086fb2af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMTl8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera Canon Canon EOS 6D | f/11.0 | 1/10s | 150.0mm | ISO 500
+
+
+## 直觉
+最打动人的是雪山被夕阳点亮的一瞬，暖橙天空与冷蓝山谷形成很强的情绪对比。湖面和弯路把视线自然引向主峰，画面很有“抵达感”。
+
+## 技法拆解
+- 150mm 长焦压缩了山、湖、前景的距离，让雪山显得更雄伟。
+- f/11 保证山体与前景都有足够清晰度，适合大景深风光。
+- 1/10s 快门偏慢，若无三脚架很容易糊；这类光线建议上架拍。
+- ISO 500 是为了补夕暮弱光，但若有三脚架可降到 ISO 100 提升纯净度。
+- 构图上主峰居中稳定，左下弯路提供了很好的引导线。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**：风光里先控制景深，快门交给相机，配合三脚架更稳。推荐 **f/8-f/11，ISO 100-200，评价测光，单次自动对焦 One-Shot，单点 AF 对主峰或远山边缘**；若手持，快门尽量不低于 1/160s。镜头可用 **RF-S 18-150mm**，焦段约 **90-100mm** 可接近全画幅 150mm 的视角。现场先找高位，把湖岸和公路放进前景；等日落后几分钟雪山残留金光时拍；用 2 秒自拍或快门线减少震动。
+
+## 后期思路
+整体往“冷暖对比的黄昏史诗感”走：压高光保住雪山细节，适度提阴影让山谷有层次。增强橙色天空饱和度但别过火，给远山加一点去朦胧和清晰度，湖面可降低纹理保持柔和。
+
+
+## #4 风光/自然
+
+**摄影师**: [MeSSrro](https://unsplash.com/@messrro)
+ | **来源**: [Unsplash](https://unsplash.com/photos/the-sun-is-shining-brightly-over-the-water-g7pr3T0XM9o)
+
+![SHINE](https://images.unsplash.com/photo-1729707771991-3f4fb03885ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMTl8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera NIKON CORPORATION NIKON D7100 | f/10.0 | 1/125s | 140.0mm | ISO 250
+
+
+## 直觉
+金色反光像在海面上燃烧，最动人的是“光点”和“波形”叠在一起，既温暖又有流动感。画面没有具体主体，却靠光线节奏撑住了情绪。
+
+## 技法拆解
+- 140mm 长焦压缩了海浪层次，让水面纹理显得更密、更有起伏。
+- f/10 保证一定景深，前后波纹都有可读性，但局部高光已经接近溢出。
+- 1/125s 没有完全凝固水面，保留轻微流动感，适合这种柔和闪光。
+- 逆光拍摄是关键，太阳低角度掠过水面，才会形成大片金色高光。
+- 构图上把亮线斜向铺开，比居中拍一片水更有方向感。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**：这种场景核心是控制景深和高光质感，让相机自动匹配快门更高效。推荐 **f/8-f/11、ISO 100-400、快门尽量不低于 1/250s**；若快门太慢可升 ISO。测光用 **评价测光**，必要时曝光补偿 **-0.3 到 -1EV** 保住高光；对焦用 **单次 AF，单点/小区域 AF**，对在有反光边缘的浪脊上。镜头建议 **RF-S 55-210mm** 或 **RF 100-400mm**，在 R10 上用 150-250mm 等效视角更容易压缩波浪。现场低机位贴近水面，选择日出/日落逆光角度，等一排浪峰同时亮起来时连拍，挑光点最连贯的一张。
+
+## 后期思路
+后期重点是保住金色氛围，同时避免高光死白。可降低高光、略提阴影和纹理，白平衡稍偏暖；用曲线增强中间调对比，让水面层次更立体。局部可压暗边缘，突出中央闪光路径。
+
+
+## #5 风光/自然
+
+**摄影师**: [laurie jensen](https://unsplash.com/@paljen94)
+ | **来源**: [Unsplash](https://unsplash.com/photos/antelope-canyon-utah-wmYcY_LyXmU)
+
+![Antelope canyon in the afternoon.](https://images.unsplash.com/photo-1539920865002-30d48031a375?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMTl8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera samsung SM-G950U | f/1.7 | 1/134s | 4.2mm | ISO 50
+
+
+## 直觉
+这张最吸引人的是峡谷岩壁像丝绸一样流动，线条把视线自然带向顶部天光。暖红色岩层很有包围感，现场的神秘气氛被保留住了。
+
+## 技法拆解
+- 构图采用仰拍，让峡谷开口形成天然留白，强化了空间纵深。
+- 岩壁纹理清晰，侧向反射光很好地勾出了砂岩的层次。
+- 顶部天空明显过曝，但在这种高反差环境中可以接受，甚至形成视觉出口。
+- EXIF 为手机 f/1.7、ISO 50、1/134s，说明光线不暗，但动态范围压力很大，重点应保护岩壁细节。
+- 色彩以橙红为主，统一且有风光辨识度，适合走温暖、厚重的自然风格。
+
+## 实拍操作（佳能 R10）
+模式拨盘建议用 **Av 光圈优先**，方便控制景深，同时让相机应对峡谷内变化的光线。推荐参数：光圈 f/5.6-f/8，快门不低于 1/60s，ISO 100-800 自动，评价测光或高光优先测光，单次 AF，使用小区域对焦岩壁纹理。镜头可用 **RF-S 10-18mm** 或 **RF-S 18-45mm 的广角端**，想拍更夸张空间感选 10-18mm。现场先贴近一侧岩壁低机位仰拍，避开游客；等待顶部光线变柔、岩壁反光最均匀时拍；按快门前可减曝光补偿 -0.7EV，尽量保住亮部边缘。
+
+## 后期思路
+后期重点压高光、提阴影，保留天空出口但不要让白色太刺眼。适当增加纹理、清晰度和去朦胧，让砂岩层理更立体；色温保持偏暖，但橙色饱和度别过高，避免岩壁变“塑料感”。
+
+
+## #6 风光/自然
+
+**摄影师**: [Олег Мороз](https://unsplash.com/@tengyart)
+ | **来源**: [Unsplash](https://unsplash.com/photos/brown-grass-field-under-blue-sky-during-daytime-27OsVBj25fk)
+
+![Gloomy winter background with star tracks (star trails) over a lonely low mountain in Russia (a peak photographed close-up)](https://images.unsplash.com/photo-1615378023416-0c0644efa659?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMTl8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera Canon Canon EOS 5D Mark IV | f/3.2 | 330s | 135.0mm | ISO 800
+
+
+## 直觉
+这张照片最有力量的是“静止山脊”和“流动星轨”的对比，冬季荒坡的冷清感很到位。棕色山体被夜色压住，带出一种孤独、阴郁的北方气质。
+
+## 技法拆解
+- 135mm 长焦拍星轨很特别，星线被放大，速度感比广角更强。
+- EXIF 为 f/3.2、330s、ISO 800，曝光时间足够拉出明显星轨，但单张长曝会带来热噪点风险。
+- 构图上山脊线横向切开画面，下方暖棕与上方冷灰形成清晰分层。
+- 前景山体略亮，像是月光或环境光补亮，避免了纯黑剪影。
+- 星轨方向统一，增强了画面的风和时间流动感。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **M 档**，因为星轨需要固定光圈、快门和 ISO，避免相机自动改变曝光。推荐用 **RF-S 18-150mm** 拉到 100-150mm，或 **RF 85mm F2** 拍类似压缩感；R10 上等效焦距更长，星轨会更明显。参数建议：光圈 f/3.5-f/5.6，快门 30s 连拍多张后堆栈，ISO 800-1600，评价测光，手动对焦放大对到亮星或远山边缘。现场先找低山脊作横向前景，三脚架固定；等月光或远处弱光轻轻照亮山体；用间隔拍摄连续拍 30-60 分钟，后期合成星轨。
+
+## 后期思路
+后期重点是压暗天空、保留星轨亮度，同时让山体保持暖棕质感。可降低高光、提升对比和清晰度，适当降噪；白平衡略偏冷，让天空阴郁，山体用局部蒙版稍微提亮。
+
+
+## #7 风光/自然
+
+**摄影师**: [Meina Yin](https://unsplash.com/@meinayin)
+ | **来源**: [Unsplash](https://unsplash.com/photos/the-sun-is-setting-over-the-sand-dunes-edwB2eeyfyc)
+
+![The sun is setting over the sand dunes](https://images.unsplash.com/photo-1740004731264-3cde5c198cc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMjF8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera SONY ILCE-6400 | f/6.3 | 1/200s | 35.0mm | ISO 100
+
+
+## 直觉
+这张沙丘最动人的是“线条感”和夕阳的金色渐变：沙脊像一道柔软的波峰，把视线自然带向画面中心。大面积天空留白也让画面有安静、辽阔的呼吸感。
+
+## 技法拆解
+- 低角度侧逆光很好地刻画了沙丘纹理，明暗交界让形体更立体。
+- 构图上把主沙丘放在中下部，天空占比大，营造出荒漠的空旷感。
+- EXIF：f/6.3、1/200s、ISO100很稳，既保证画质，也能手持拍清沙丘轮廓。
+- 35mm在APS-C上约等效52mm，压缩感适中，让沙丘层次显得更紧凑。
+- 画面暗部较重，是氛围所在，但前景细节可稍微保留一点。
+
+## 实拍操作（佳能 R10）
+模式拨盘建议用 **Av光圈优先**，因为风光沙丘重点是控制景深和画质，快门由相机自动匹配即可。推荐参数：光圈 f/7.1-f/8，快门尽量不低于1/160s，ISO 100，评价测光，曝光补偿 -0.3EV 到 -0.7EV 防止天空过曝；对焦用单次AF，区域选单点AF，对在沙丘亮暗交界的脊线上。镜头可用 RF-S 18-150mm 的 35-50mm 段，或 RF 35mm F1.8。现场先绕到侧逆光位置，让太阳从侧后方扫过沙面；蹲低一点，让前景沙纹进入画面；等光线刚好擦亮沙丘顶部时连拍几张，选择线条最干净的一张。
+
+## 后期思路
+后期方向是保留暖调和低反差的黄昏感，不要把暗部拉得太亮。可微调白平衡偏暖，降低高光、适度提阴影，用曲线加强中间调层次；局部加清晰度或纹理，只作用在沙纹和沙脊上。
+
+
+## #8 风光/自然
+
+**摄影师**: [Bernardo Lorena Ponte](https://unsplash.com/@pontebernardo)
+ | **来源**: [Unsplash](https://unsplash.com/photos/white-concrete-building-near-trees-during-daytime-4GLgXBWm6TA)
+
+![Chateau Malou](https://images.unsplash.com/photo-1612962030417-a76214fc1126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMjF8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera NIKON CORPORATION NIKON Z 7 | f/6.3 | 1/160s | 32.0mm | ISO 400
+
+
+## 直觉
+这张最迷人的是暮色紫粉天空与雪地古堡的冷暖对比，安静又带一点童话感。斜穿天空的航迹云很好地打破了对称构图，让画面有了方向和张力。
+
+## 技法拆解
+- 构图以古堡居中、树林夹景，稳定庄重，前景冰面增加纵深。
+- 航迹云从左下指向右上，形成强引导线，避免画面过于静态。
+- EXIF 为 f/6.3、1/160s、ISO400，兼顾景深与手持安全，适合黄昏弱光。
+- 天空曝光控制不错，建筑窗光保留了暖色亮点，是画面的视觉核心。
+- 冰面偏暗，压住下半部情绪，但可稍微提一点细节。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**，因为这类风光建筑更需要稳定控制景深，相机会自动给出快门。推荐 **f/7.1-f/8、ISO 400-800、评价测光、单次 AF、单点或小区域对焦**，对焦在古堡正面。镜头可用 **RF-S 18-150mm 的 24-35mm 段**，或 **RF-S 18-45mm 的广角端到中段**；R10 有 1.6 倍裁切，24mm 约等效 38mm，透视会更自然。现场先站在水面对岸正中，保持建筑水平；等天空进入蓝调时刻、窗灯亮起；看到航迹云或漂亮云线进入画面时再按快门，必要时连拍几张防抖动。
+
+## 后期思路
+整体往“冷静冬日童话”方向处理：天空保留紫粉色，雪地和树林略降饱和、提冷调。重点用高光压住天空，阴影拉回古堡和冰面细节，再用局部蒙版加强窗户暖光与建筑清晰度。
+
+
+---
+
+# 人像/质感
+
+
+## #9 人像/质感
+
+**摄影师**: [Ekaterina Shakharova](https://unsplash.com/@minigirl)
+ | **来源**: [Unsplash](https://unsplash.com/photos/elderly-woman-hugging-young-child-L4nwL3195U0)
+
+![Best friends](https://images.unsplash.com/photo-1593100126453-19b562a800c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMjl8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera NIKON CORPORATION NIKON D40X | f/6.3 | 1/1250s | 55.0mm | ISO 800
+
+
+## 直觉
+这张最动人的是祖孙贴脸拥抱的真实情绪，笑容比姿势更有力量。暖色阳光从侧面打进来，让“Best friends”的亲密感有了很强的时间感和温度。
+
+## 技法拆解
+- 侧逆光/侧光很好地勾出头发和脸部轮廓，背景压暗后人物情绪更集中。
+- f/6.3 保证两张脸都有较好清晰度，适合这种双人近距离拥抱。
+- 1/1250s 对静态人像偏快，但能冻结孩子的动作；ISO 800 在强光下略高，可能带来暗部噪点。
+- 构图上人物填满画面，拥抱的手臂形成环抱线条，增强亲密感。
+- 高光略硬，脸部局部接近过曝，但这种暖阳质感也强化了生活瞬间。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**，因为这类人像核心是控制景深，同时让相机快速应对孩子的动作。推荐 **f/5.6-f/7.1、1/500s 以上、ISO 自动上限 1600、评价测光、人眼识别 AF，伺服 AF，区域选全区域或灵活区域**。镜头可用 **RF-S 18-150mm 在 50-80mm 段**，或 **RF 50mm F1.8 STM** 收到 f/4-f/5.6 使用。现场让人物站在树荫边缘，等一束低角度阳光斜打脸和头发；你站在光线侧前方，略微靠近，拍半身特写；孩子笑起来或抱紧的一瞬间连拍，优先抓表情。
+
+## 后期思路
+后期保留暖调，但要压一点高光，避免脸部发白；可降低高光、提升阴影少许，让老人眼神更清楚。色彩上增加暖色温和少量对比，背景用暗角或局部压暗，让视线更集中在两张脸和拥抱动作上。
+
+
+## #10 人像/质感
+
+**摄影师**: [Anthony Notes](https://unsplash.com/@model4notes)
+ | **来源**: [Unsplash](https://unsplash.com/photos/woman-sitting-on-brown-wooden-armchair-outdoor-5RntjX5InzQ)
+
+![woman sitting on brown wooden armchair outdoor](https://images.unsplash.com/photo-1507066493134-361dde2bf04a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMzF8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera Canon Canon EOS 7D Mark II | f/9.0 | 1/400s | 50.0mm | ISO 160
+
+
+## 直觉
+这张人像最吸引人的是“阳光、木屋、橙色阔腿裤”形成的质感冲突：粗粝背景衬托出人物的柔和与松弛。姿态很有力量，带一点时装大片感。
+
+## 技法拆解
+- f/9 保留了木墙纹理和人物服装细节，适合这种强调环境质感的人像。
+- 1/400s 在强日光下能稳住画面，也避免人物轻微动作造成模糊。
+- 50mm 视角自然，人物比例不夸张，同时能交代环境。
+- 光线偏硬，形成强烈阴影，强化了户外直射阳光的“干燥感”。
+- 构图上人物居中偏下，腿部打开形成稳定三角形，姿态张力很好。
+
+## 实拍操作（佳能 R10）
+模式拨盘建议选 **Av 光圈优先**，因为这类环境人像重点是控制景深和质感，快门交给相机即可。推荐参数：光圈 **f/8-f/9**，快门保持 **1/250s 以上**，ISO **100-200**，测光用 **评价测光**，对焦用 **伺服 AF + 人眼检测**，区域选全区域或人物追踪。镜头可用 **RF 50mm F1.8 STM**，在 R10 上等效约 80mm，适合半身到全身人像；若空间窄，可用 **RF-S 18-150mm** 的 35-50mm 段。现场先让模特靠近有纹理的木墙坐下，摄影师略微蹲低，保持人物腿部线条舒展；等待阳光从侧前方打到脸和衣服上，避免眼窝过黑；按快门时引导模特下巴微抬、眼神放松，连拍几张抓最自然的一瞬。
+
+## 后期思路
+后期方向可走“暖阳质感大片”：适度提高对比和清晰度，强化木头纹理与橙色裤子的色彩。注意压低高光、拉回皮肤亮部，阴影稍微抬一点，避免硬光下脸部显脏；肤色保持干净，不要过度磨皮。
+
+
+## #11 人像/质感
+
+**摄影师**: [Raul Guilherme](https://unsplash.com/@raulguilhermeph)
+ | **来源**: [Unsplash](https://unsplash.com/photos/a-close-up-of-a-person-with-a-cell-phone-ANypK93WdEY)
+
+![Ana Karla by me
+@raulguilhermeph on instagram.
+](https://images.unsplash.com/photo-1631743363713-7ffc5d87e248?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMzF8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera FUJIFILM FinePix S8200 | f/4.9 | 1/250s | 14.7mm | ISO 100
+
+
+## 直觉
+这张人像最有力量的是“贴近”：皮肤纹理、睫毛、眉毛都被阳光放大，带出很直接的生命感。硬光阴影切在脸上，让画面有时装大片的紧张感。
+
+## 技法拆解
+- 构图大胆裁切，只保留半张脸，把注意力压到眼睛和皮肤质感上。
+- EXIF 为 f/4.9、1/250s、ISO100，低 ISO 保住了细节，快门也足够稳。
+- 直射阳光形成高反差，鼻梁、额头高光很亮，需小心过曝。
+- 暖色调强化了夏日、胶片、人像质感。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**，方便控制景深，同时让相机快速应对强光变化。建议参数：光圈 **f/4-f/5.6**，ISO **100**，快门让相机维持在 **1/250s 以上**；测光用 **评价测光**，曝光补偿 **-0.3 到 -0.7EV** 保护高光；对焦用 **伺服 AF + 人眼识别**，区域选全区域或小区域人眼。镜头可用 **RF 50mm F1.8**，或 **RF-S 18-150mm** 拉到 50-70mm。现场让模特侧对阳光，脸靠近画面边缘，等眼睛被光扫到、阴影形状干净时连拍。
+
+## 后期思路
+后期重点是保留皮肤质感，不要磨皮过度。降低高光、轻压白色色阶，提升一点暖色温和橙黄色饱和度；可加少量颗粒和对比，让画面更接近胶片质感。
+
+
+## #12 人像/质感
+
+**摄影师**: [Harper Sunday](https://unsplash.com/@harpersunday)
+ | **来源**: [Unsplash](https://unsplash.com/photos/baies-jar-SzpzAJ88YvI)
+
+![Baies jar](https://images.unsplash.com/photo-1570431309787-5874f7dd7593?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMzF8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera NIKON CORPORATION NIKON D3400 | f/4.5 | 1/50s | 34.0mm | ISO 640
+
+
+## 直觉
+这张静物最吸引人的是柔和粉白色调和“生活方式杂志感”，香薰、书本、护肤瓶之间有很好的精致氛围。画面不靠强对比取胜，而是靠材质、文字和层次建立质感。
+
+## 技法拆解
+- f/4.5 让主体基本清晰，同时背景略有柔化，适合这种桌面陈列。
+- 1/50s 快门偏慢，静物可接受，但手持容易轻微虚，最好提高到 1/100s 以上。
+- ISO 640 在室内自然光下合理，保住了画面亮度，但暗部会有少量噪点。
+- 构图采用近距离竖幅，文字标签和书脊形成视觉线索，强化“精致生活”主题。
+- 色彩以粉、白、米色为主，统一度高，是这张照片高级感的关键。
+
+## 实拍操作（佳能 R10）
+模式拨盘建议用 **Av 光圈优先**，因为这类质感静物最需要控制景深和虚化。参数可设 **f/4-f/5.6、快门不低于 1/100s、ISO Auto 上限 1600、评价测光、单次 AF，单点或小区域对焦**，对焦在 Baies 标签或中间小瓶文字上。镜头可用 **RF-S 18-45mm 的 35-45mm 端**，或 **RF 35mm F1.8 Macro** 拍细节更舒服。现场先靠近窗边布置，用白纸或白墙补光；相机略高于桌面向下拍；等云层柔光或拉薄窗帘后，再微调物品重叠关系按快门。
+
+## 后期思路
+后期保持低对比、明亮、干净的粉白调，适当提升曝光和阴影，压低高光避免白色物体过曝。HSL 中降低橙色饱和、微提粉色明度，增加少量纹理和清晰度，让玻璃、纸张、蜡烛标签更有质感。
+
+
+## #13 人像/质感
+
+**摄影师**: [Dominik Lange](https://unsplash.com/@the_real_napster)
+ | **来源**: [Unsplash](https://unsplash.com/photos/woman-standing-next-to-woman-riding-wheelchair-VUOiQW4OeLI)
+
+![I took this photo of my wife with her grandma, as part of a project she had to do for Occupational therapy school. Her grandma is over 90 and has severe Dementia and has lived with my wife and her parents for the last 5+ years.](https://images.unsplash.com/photo-1543333995-a78aea2eee50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMjl8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera SONY ILCE-6000 | f/1.4 | 1/4000s | 35mm | ISO 100
+
+
+## 直觉
+这张最动人的是“陪伴感”：人物被放在辽阔草地和夕阳里，没有刻意煽情，却很温柔。逆光把两人的轮廓勾出来，记忆感很强。
+
+## 技法拆解
+- 35mm 视角适合环境人像，既交代空间，也保留人物关系。
+- f/1.4、1/4000s、ISO100 说明现场光很强，大光圈带来柔化和轻微梦幻感。
+- 逆光让人物成为半剪影，情绪胜过面部细节。
+- 构图把人物放左侧，右侧留给阳光和草地，形成“走向光”的叙事。
+- 高光略溢出但可接受，反而强化了胶片质感。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**：这类照片核心是控制景深和逆光氛围，让相机自动匹配快门更高效。推荐 **f/1.8-f/2.8，1/1000s 以上，ISO100，评价测光，伺服 AF，人物/眼睛检测或单点对焦人物轮廓**；若太阳太亮，曝光补偿可设 **-0.3 到 -1EV** 保住高光。镜头可用 **RF 35mm F1.8 Macro IS STM**，在 R10 上约等效 56mm；若想更宽环境，用 **RF-S 18-45mm 的 18-24mm**。现场先让人物站在画面左侧、太阳在右前方树后；等太阳被树叶半遮住再拍；连拍几张，抓推行和停顿的自然瞬间。
+
+## 后期思路
+后期往温暖、低对比、胶片颗粒方向走。压高光、略提阴影但不要完全拉亮人物，保留剪影情绪；色温偏暖，绿色降低饱和和亮度，增加少量颗粒与暗角，强化怀旧质感。
+
+
+## #14 人像/质感
+
+**摄影师**: [Huha Inc.](https://unsplash.com/@wearhuha)
+ | **来源**: [Unsplash](https://unsplash.com/photos/woman-in-black-v-neck-t-shirt-and-gray-panty-q9LMNjSby5U)
+
+![@wearhuha healthy undies](https://images.unsplash.com/photo-1573580711445-fb48e7af4528?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMzF8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera Canon Canon EOS 5D Mark IV | f/3.5 | 1/320s | 35.0mm | ISO 400
+
+
+## 直觉
+这张最动人的是松弛感：仰头大笑、身体舒展，配合暖米色背景，很有健康、自然的质感人像气息。
+
+## 技法拆解
+- 35mm 视角贴近现场，身体线条有延展感，但边缘肢体容易被裁切变形。
+- f/3.5 让人物清晰、背景柔化适中，适合这种棚拍生活感。
+- 1/320s 抓住笑容和头发动作，ISO 400 保证了干净画质。
+- 大面积留白让情绪更“呼吸”，但右手和左腿裁切略紧，可再多留一点边。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av**，因为这类人像核心是控制景深和人物质感，让相机自动匹配快门更高效。推荐 **f/3.5-f/4.5，快门不低于 1/250s，ISO Auto 上限 1600，评价测光，伺服 AF + 人眼识别，区域用全域或灵活区域**。镜头可用 **RF-S 18-45mm 的 22-24mm**，接近全画幅 35mm 视角；若想更虚化可用 **RF 24mm F1.8**。现场让模特坐在暖色背景前，你略低机位、斜侧拍；引导她后仰大笑，等肩颈线条打开、头发自然下垂时连拍。
+
+## 后期思路
+整体往温暖、干净、健康肤色走，适当提升曝光和暖色温，压一点高光避免皮肤过亮。用曲线增加柔和对比，轻微修皮但保留肌理，背景可降低纹理和杂色，让人物更突出。
+
+
+## #15 人像/质感
+
+**摄影师**: [ikidhimase](https://unsplash.com/@ikidhimase)
+ | **来源**: [Unsplash](https://unsplash.com/photos/woman-in-white-hijab-and-white-dress-Kj4KvT6lf0Y)
+
+![Don't forget to follow @northbay.picture](https://images.unsplash.com/photo-1606099053079-7a68f9ef517d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMzF8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera SONY ILCE-6000 | f/5.6 | 1/200s | 39.0mm | ISO 200
+
+
+## 直觉
+这张人像最迷人的是“洞穴暗部 + 一束硬光”形成的舞台感，人物白衣和面部被光托出，质感很强。整体有安静、神秘、带一点宗教感的氛围。
+
+## 技法拆解
+- EXIF 为 f/5.6、1/200s、ISO 200，曝光偏稳，保住了暗部氛围，但白衣高光略有溢出风险。
+- 构图把人物放在下方偏中位置，上方大面积岩壁留白，强化压迫感和环境叙事。
+- 光线是关键：硬质侧上方自然光打在脸和衣服上，形成强明暗反差。
+- 白色服装与深色岩壁形成高对比，人物主体非常突出。
+- 眼神朝向光源方向，姿态自然，增强了“被光召唤”的情绪。
+
+## 实拍操作（佳能 R10）
+模式拨盘建议用 **Av 光圈优先**，因为这类人像要先控制景深和画面质感，再让相机配合快门。推荐参数：光圈 f/4-f/5.6，快门不低于 1/200s，ISO 100-400，评价测光或高光重点测光，伺服 AF，人物眼睛检测，对焦区域用全区域或灵活区域。镜头可用 **RF-S 18-150mm** 的 35-50mm 段，或 **RF 50mm F1.8** 收到 f/4 拍摄。现场先让模特站在洞口光斑边缘，不要完全进入强光；再观察脸部是否有漂亮眼神光；最后等她抬头看向光源、手部动作稳定时连拍 2-3 张。
+
+## 后期思路
+后期方向应保留暗调质感，不要把阴影全部拉亮。重点压高光、微提脸部曝光，增强岩壁纹理与对比。色彩可往暖棕、低饱和方向走，用局部蒙版单独提亮面部和眼神光。
+
+
+## #16 人像/质感
+
+**摄影师**: [Nina Hill](https://unsplash.com/@ninanaction)
+ | **来源**: [Unsplash](https://unsplash.com/photos/person-wearing-white-nike-sneakers-7iDD7tXudGg)
+
+![person wearing white nike sneakers](https://images.unsplash.com/photo-1621277127139-5c6ee83f6083?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMzF8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera NIKON CORPORATION NIKON D750 | f/2.0 | 1/800s | 35.0mm | ISO 160
+
+
+## 直觉
+这张最吸引人的是“白鞋 + 镜面球 + 黑纱”的质感反差，干净又带一点潮流杂志感。低机位让鞋成为主角，人物只保留局部，画面很有态度。
+
+## 技法拆解
+- EXIF 用 f/2.0、1/800s、ISO160，浅景深让背景和黑纱柔化，鞋面细节仍然清楚。
+- 35mm 视角贴近拍摄，带来轻微透视感，强化了前景鞋子的存在感。
+- 构图把主体压在下半部，上方留出大量灰白空间，形成简洁的时尚海报感。
+- 镜面球提供高光碎片，与白鞋的哑光皮革形成材质对比。
+- 整体低饱和、偏冷灰，削弱杂色，让“白、银、黑”成为主视觉。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**，因为这类人像/质感片最重要的是控制景深和背景虚化。推荐参数：光圈 **f/2-f/2.8**，快门保持 **1/500s 以上**，ISO Auto 限制在 **100-800**，评价测光，单次 AF，单点或小区域对焦对准前景鞋面。镜头可用 **RF 24mm F1.8 Macro IS STM**，在 R10 上接近 38mm 等效；若用 RF-S 18-45mm，可设在 22-24mm 但虚化会弱些。现场低机位贴近地面，让鞋和镜面球占据下半部；让人物腿部自然交叉，黑纱铺开；等柔和窗光或阴天散射光，再在鞋面高光不过曝时按快门。
+
+## 后期思路
+后期保持低饱和冷灰调，重点压高光、提一点阴影，让白鞋有层次但不过曝。可增加少量颗粒和清晰度，强化胶片质感；用局部调整提亮鞋面、压暗黑纱边缘，让视线集中在鞋和镜面球上。
+
+
+---
+
+# 街头/人文
+
+
+## #17 街头/人文
+
+**摄影师**: [Rene Böhmer](https://unsplash.com/@qrenep)
+ | **来源**: [Unsplash](https://unsplash.com/photos/silhouette-of-man-kGQSE4rUakg)
+
+![Just a projection](https://images.unsplash.com/photo-1507484964334-b6f38e7d0921?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMzh8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera SONY ILCE-7 | f/2.8 | 1/100s | 35.0mm | ISO 3200
+
+
+## 直觉
+这张最迷人的是“真实的人”被投影成幽灵般的侧影，像一瞬间的记忆。黑白、高噪点和门框分割，让画面有很强的街头悬疑感。
+
+## 技法拆解
+- 35mm、f/2.8 给了足够现场感，人物轮廓没有被压扁。
+- 1/100s 基本能凝固行人，但仍保留一点虚实的不确定。
+- ISO 3200 的颗粒在这里不是缺点，反而强化了投影、夜晚和纪实质感。
+- 右侧门框形成强竖线，把人物压在狭窄空间里，情绪更紧。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**：街头瞬间变化快，先控制景深和进光量，让相机自动给快门。推荐 **f/2.8-f/4、1/100s 以上、ISO 自动上限 6400、评价测光、Servo AF、单点或小区域对焦**。镜头可用 **RF-S 18-45mm 的 18-24mm**，或 **RF 35mm F1.8**；R10 上约等效 56mm，更适合压缩投影和人物轮廓。现场先找有投影/玻璃/雾面反射的墙面，站在侧面等人物经过门框边缘；人物头部轮廓最清楚、未与黑边重叠时连拍 2-3 张。
+
+## 后期思路
+建议保持黑白方向，压低高光、加深阴影，让侧脸轮廓更明确。适度增加颗粒和对比，但不要把暗部拉死；可用局部加深右侧门框，强化“窥视感”。
+
+
+## #18 街头/人文
+
+**摄影师**: [Ryoji Iwata](https://unsplash.com/@ryoji__iwata)
+ | **来源**: [Unsplash](https://unsplash.com/photos/person-sitting-on-black-bench-reading-newspaper-a-qsFZimp1M)
+
+![worry about the status of  the world](https://images.unsplash.com/photo-1512799545738-0625ef92a288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMzh8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera NIKON CORPORATION NIKON D600 | f/4.5 | 1/200s | 135.0mm | ISO 500
+
+
+## 直觉
+高处俯拍把人物压缩成城市秩序中的一个小点，长椅、地砖线条和阴影形成强烈的孤独感。读报人的动作让“担忧世界”的主题有了很好的落点。
+
+## 技法拆解
+- 俯视角让画面图形化，长椅横向贯穿，稳定且有秩序。
+- 人物放在右下角，留出大面积空地，强化疏离与焦虑。
+- 135mm 视角压缩空间，使地面纹理、阴影和人物关系更紧。
+- f/4.5、1/200s、ISO500 合理，快门足够凝固人物动作，曝光偏冷增强都市感。
+- 明暗阴影是关键，若高光再保留一点，层次会更耐看。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**：街头人文里光线变化快，先控制景深和曝光补偿更稳。
+推荐参数：光圈 **f/5.6**，快门尽量不低于 **1/250s**，ISO 自动上限 1600；测光用 **评价测光**，曝光补偿 **-0.3 到 -0.7EV** 保住地面高光；对焦用 **单次 AF + 小区域/单点 AF**，对准人物头部或报纸。
+镜头建议：R10 可用 **RF-S 18-150mm** 拉到约 **80-100mm**，接近全画幅 135mm 压缩感；也可用 **RF 85mm F2**。
+现场先找二楼/天桥等高位，等待阳光斜射形成长阴影；构图时让长椅横向切过画面，人物放在右下；等读报动作展开、影子清晰时连拍 2-3 张。
+
+## 后期思路
+整体走冷调、低饱和的都市感，压一点高光、加深阴影，保留地砖纹理。可适度提高对比和清晰度，用局部工具轻微提亮人物与报纸，让视线最终落到主题上。
+
+
+## #19 街头/人文
+
+**摄影师**: [Mikhail Tyrsyna](https://unsplash.com/@tventos)
+ | **来源**: [Unsplash](https://unsplash.com/photos/person-in-black-coat-standing-beside-grey-wall-KmaXr7ezkko)
+
+![person in black coat standing beside grey wall](https://images.unsplash.com/photo-1604221055295-f7271d4cdcf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyNDF8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera Canon Canon EOS 77D | f/4 | 1/400s | 55.0mm | ISO 400
+
+
+## 直觉
+这张照片最有力量的是“巨大纹理墙面”和“小人物”的比例反差，带出很强的城市孤独感。黑衣人物刚好成为密集图案中的视觉锚点。
+
+## 技法拆解
+- 构图上大量留白给墙面，人物放在下方偏中位置，强化建筑压迫感与人的渺小。
+- 黑白灰为主的色彩非常统一，黑衣人与点状墙面呼应，又不会跳脱画面。
+- EXIF：55mm、f/4、1/400s、ISO400，快门足够凝固行走人物，焦段略压缩空间，让墙面更平面化。
+- 右侧建筑边缘提供了纵向结构，但略抢眼；若再向左取景一点，画面会更纯粹。
+- 地面占比适中，给人物脚下留出空间，避免画面过满。
+
+## 实拍操作（佳能 R10）
+模式拨盘建议用 **Av 光圈优先**：街头场景变化快，先控制景深，相机自动给快门更高效。参数可设 **f/4-f/5.6、ISO 400 或自动 ISO 上限1600、评价测光、Servo AF，区域用小区域/单点对焦**；若人物行走较快，确保快门不低于 **1/250s**。镜头可用 **RF-S 18-150mm** 在 50-70mm 段，或 **RF 50mm F1.8**，在 R10 上视角更紧凑，适合压缩墙面纹理。现场先站远一点，让墙面占满画面；预先对准人物会经过的位置半按/追焦；等人物走到纹理最干净、姿态完整的一瞬间连拍 2-3 张。
+
+## 后期思路
+后期重点保持冷静、克制的街头感：降低饱和度，微调白平衡偏冷。适当提升对比度与清晰度，让墙面点状纹理更明确；同时用局部加亮或暗角轻轻引导视线到黑衣人物。
+
+
+## #20 街头/人文
+
+**摄影师**: [Jakob Owens](https://unsplash.com/@jakobowens1)
+ | **来源**: [Unsplash](https://unsplash.com/photos/a-man-prepares-food-at-a-tsukiji-market-stall-EWNvDGtgLB4)
+
+![A man prepares food at a tsukiji market stall](https://images.unsplash.com/photo-1742268350468-345079a1081b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMzh8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera FUJIFILM GFX100S II | f/1.0 | 1/160s | ISO 800
+
+
+## 直觉
+这张最动人的是“忙碌中的安静”：摊主低头处理食物，周围招牌、海鲜和暗巷把筑地市场的烟火气一下带出来。画面有很强的现场感，不像摆拍。
+
+## 技法拆解
+- f/1.0 带来很浅景深，人物与前景招牌形成柔和分层，但焦点必须非常准。
+- 1/160s 对手部动作基本够用，保留了一点生活中的自然动态。
+- ISO 800 在昏暗店铺环境合理，暗部有颗粒感，反而贴合街头人文气质。
+- 构图上用前景菜单牌做“市场语境”，人物放在中间偏左，视线自然落到他的动作。
+- 光线是店铺内外混合光，暖色食物灯与暗背景形成对比，氛围感很好。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**：街头人文变化快，先控制景深，让相机帮你跟随光线变化。推荐 **f/2.8-f/4、1/160s 以上、ISO Auto 上限 3200、评价测光、Servo AF、人眼/人物检测或小区域对焦**。镜头可用 **RF-S 18-150mm** 的 35-70mm 段，或 **RF 50mm F1.8** 获得更强虚化。现场先站在摊位斜前方，不要正面压迫；等摊主低头操作、手上有动作时连拍 2-3 张；曝光补偿可 -0.3EV，保住招牌和灯光高光。
+
+## 后期思路
+整体往“暖、暗、胶片感”的市场纪实方向走。降低高光、微提阴影，保留暗部厚度；色温略暖，适当加颗粒和暗角。局部可轻微提亮人物脸和手，让观看重点更集中。
+
+
+## #21 街头/人文
+
+**摄影师**: [Chris Andrawes](https://unsplash.com/@candrawes)
+ | **来源**: [Unsplash](https://unsplash.com/photos/a-man-with-glasses-looking-off-into-the-distance-36tF0ho0xGk)
+
+![a man with glasses looking off into the distance](https://images.unsplash.com/photo-1635864134919-93d1a7789ba1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMzh8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera SONY ILCE-7RM4A | f/2.8 | 1/100s | 200.0mm | ISO 4000
+
+
+## 直觉
+暖光只擦亮脸和眼镜，老人望向画外，像被一段记忆点亮。黑背景把人声压低，情绪很集中。
+
+## 技法拆解
+- 200mm 长焦压缩空间，让人物从黑暗里“浮”出来。
+- f/2.8 浅景深突出眼镜、鼻梁和胡须质感。
+- 1/100s 配 200mm 偏慢，靠人物静止换取现场感。
+- ISO 4000 有颗粒，但符合街头人文的真实气息。
+- 暖脸与冷暗背景形成对比，戏剧性很强。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 Av，先控制光圈和虚化，适合抓现场光。镜头可用 RF 70-200mm F2.8，或 RF-S 55-210mm 长焦端；参数建议 f/2.8-5.6，快门下限 1/160s，ISO Auto 上限 6400，评价测光或点测脸，伺服 AF + 人眼检测/小区域。站在侧前方，让窗光或台灯斜打脸；曝光补偿 -0.3 到 -1EV 压住背景；等人物抬头、眼神离开镜头时连拍。
+
+## 后期思路
+保持低调，不要把阴影全拉亮。压黑色和背景曝光，脸部局部提暖、加纹理；眼镜反光降高光，少量颗粒和暗角增强人文感。
+
+
+## #22 街头/人文
+
+**摄影师**: [Derek Huang](https://unsplash.com/@derek831008)
+ | **来源**: [Unsplash](https://unsplash.com/photos/people-on-park-near-buildings-tXiFzl1GbRI)
+
+![Coral island in the old town](https://images.unsplash.com/photo-1518531386175-e97ff1edfebb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODczMzUyMzh8&ixlib=rb-4.1.0&q=80&w=1080)
+
+> EXIF: Camera MInolta RIVA 35 | 35mm | ISO 400
+
+
+## 直觉
+这张最迷人的是“城市日常被一层红橙色漏光打断”，像旧城区里突然出现的珊瑚岛。人物很小，却让画面有了真实的街头呼吸感。
+
+## 技法拆解
+- 35mm 视角适合街头：既能交代建筑环境，又不至于把人物拍得太远。
+- ISO 400 带来轻微颗粒感，配合漏光和偏色，强化了胶片、人文气质。
+- 俯拍让街道线条、树池和行人形成层次，画面不乱。
+- 高光处的红橙色溢出虽然不“准确”，但成为照片的情绪核心。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**，街头拍摄需要快速反应，用光圈控制景深，相机自动配快门。推荐 **f/8、ISO 400 或 Auto ISO、评价测光、伺服 AF、区域对焦**，快门尽量保持在 **1/250s 以上**。镜头可用 **RF-S 18-45mm 在 22mm 左右**，接近全画幅 35mm 视角；或用 **RF 24mm F1.8**。现场先找二楼、天桥或台阶等高位，等阳光斜射进街口；构图时保留建筑与空地，等行人走到画面下方或光斑附近再按快门。
+
+## 后期思路
+后期不要追求干净准确，而是往“旧胶片、晒褪、城市记忆”的方向走。可降低对比和清晰度，略抬黑位，加入颗粒；用渐变或径向工具在画面上方叠加红橙暖色，模拟漏光效果。
+
+
+## #23 街头/人文
+
+**摄影师**: [Nicholas Green](https://unsplash.com/@nickxshotz)
+ | **来源**: [Unsplash](https://unsplash.com/photos/grayscale-photography-of-person-walking-beside-building-5hGY5j4-57o)
+
+![chinatown shop and person](https://images.unsplash.com/photo-1501396358880-2d8f6ace3fc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHNlYXJjaHwxfHxzdHJlZXQlMjBwaG90b2dyYXBoeSUyMGRvY3VtZW50YXJ5fGVufDF8MHx8fDE3ODczMzUyMzR8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+## 直觉
+这张最有力量的是“光像舞台灯一样打在人身上”，路人刚好走进亮区，形成很典型的街头决定性瞬间。黑白处理强化了唐人街招牌、阶梯和人物之间的戏剧感。
+
+## 技法拆解
+- 高反差光线是核心：暗部大面积压黑，让视觉自然集中到人物和店门。
+- 构图上人物位于画面偏中下，前方留出行走空间，街头叙事感更强。
+- 店铺文字、台阶、扶手提供了环境信息，不只是拍人，也交代了地点。
+- 曝光应以高光为准，宁可让阴影死黑，也不要让人物和墙面过曝。
+
+## 实拍操作（佳能 R10）
+模式拨盘建议选 **M 手动模式**，因为这种强烈明暗反差下，相机自动曝光容易被大面积黑影误导。推荐参数：**f/5.6，1/500s，ISO 400-800，点测光或局部测光，对焦用 Servo AF + 区域自动/小区域对焦**。镜头可用 **RF-S 18-45mm** 的 24-35mm 段，或 **RF 28mm F2.8 STM**，适合街头抓拍。
+
+现场先站在阴影边缘，观察哪一块阳光最像“舞台”；把曝光对准亮处墙面或地面压低约 -0.7EV；等人物走进光斑、腿部形成迈步姿态时连拍 2-3 张。
+
+## 后期思路
+后期方向是强化黑白街头感：降低饱和转黑白，拉高对比，适当压暗阴影和黑色色阶。可用局部加亮人物面部、衣服和招牌，让主体从暗环境中跳出来；注意保留高光纹理，不要把白墙调成一片死白。
+
+
+---
+
+# 灏忕孩涔︼綔浜哄儚鍐欑湡
+
+
+## #24 灏忕孩涔︼綔浜哄儚鍐欑湡
+
+**摄影师**: [小仙女周周](https://www.xiaohongshu.com/user/profile/5b9de124f110cc0001ad3c94)
+ | **来源**: [小红书](https://www.xiaohongshu.com/explore/64ba91e5000000000800f849?xsec_token=ABbCLHT5s3qlM3EnEPlnWhUINrLLEnUQ51TY8T0KxqD2E%3D&xsec_source=pc_feed)
+
+原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。
+
+[在小红书查看原图](https://www.xiaohongshu.com/explore/64ba91e5000000000800f849?xsec_token=ABbCLHT5s3qlM3EnEPlnWhUINrLLEnUQ51TY8T0KxqD2E%3D&xsec_source=pc_feed)
+
+
+## 直觉
+观景台的木檐、灯笼和苗寨层叠屋顶形成了很强的“旅行写真感”，人物站在右侧，既有环境交代，也有小红书式打卡氛围。
+
+## 技法拆解
+- 构图上利用屋檐做上方框架，背景苗寨铺满画面，地点辨识度很高。
+- 人物略靠右是对的，但栏杆和柱子稍抢眼，身体下半部分被切得有些碎。
+- 背景雾气偏亮，人物面部容易显暗，拍摄时需要给人脸适当补曝光。
+- 灯笼是很好的前景元素，但位置可再靠左上，避免和人物视觉重心竞争。
+
+## 实拍操作（佳能 R10）
+模式拨盘选 **Av 光圈优先**，这类旅拍需要快速控制景深，让相机自动适配现场光。推荐 **f/4-f/5.6，1/250s 以上，ISO 400-800，评价测光，人眼检测 AF，伺服 AF，区域对焦**；若背景太亮，可曝光补偿 **+0.3 到 +0.7EV** 保住人脸。镜头建议 **RF-S 18-150mm** 用 35-50mm 段，或 **RF 50mm F1.8** 拍半身更干净。现场先让人物靠栏杆侧身，避开柱子压脸；等云雾柔光时拍；按快门时引导她微抬下巴、手扶栏杆或鼓，连拍抓自然表情。
+
+## 后期思路
+整体走“清透民族旅拍”方向：降低高光、提升阴影，让人脸和服饰更亮。背景可适度去雾、降饱和，人物用蒙版提亮肤色和眼神，保留苗寨木建筑的暖色质感。
