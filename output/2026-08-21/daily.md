@@ -652,10 +652,10 @@ https://www.instagram.com/planiels/](https://images.unsplash.com/photo-151437856
 
 ---
 
-# 灏忕孩涔︼綔浜哄儚鍐欑湡
+# 小红书｜人像写真
 
 
-## #25 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #25 小红书｜人像写真
 
 **摄影师**: [万万学姐](https://www.xiaohongshu.com/user/profile/5937ab955e87e72e7cc13830)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed)
@@ -683,7 +683,7 @@ https://www.instagram.com/planiels/](https://images.unsplash.com/photo-151437856
 后期保留 CCD 感：提高对比、压暗黑位，天空橙红可略加饱和。人物可适度提亮阴影和肤色，但不要磨得太干净；加一点颗粒、暗角和轻微偏青阴影，会更像小红书复古旅行写真。
 
 
-## #26 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #26 小红书｜人像写真
 
 **摄影师**: [万万学姐](https://www.xiaohongshu.com/user/profile/5937ab955e87e72e7cc13830)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed)
@@ -709,7 +709,7 @@ https://www.instagram.com/planiels/](https://images.unsplash.com/photo-151437856
 后期保留“CCD感”：降低清晰度一点，暗部继续压黑，突出橙红天空和皮衣高光。白平衡可偏暖，适当加颗粒、轻微暗角；人物肤色不要修得太干净，保留直闪的生硬感。
 
 
-## #27 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #27 小红书｜人像写真
 
 **摄影师**: [万万学姐](https://www.xiaohongshu.com/user/profile/5937ab955e87e72e7cc13830)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed)
@@ -735,7 +735,7 @@ https://www.instagram.com/planiels/](https://images.unsplash.com/photo-151437856
 后期不要修得太干净，保留直闪的硬高光和暗部颗粒。可降低清晰度、加一点噪点，色温往暖调推，橙色饱和略升，黑色保持压暗，做出“新疆十点半还没完全入夜”的松弛感。
 
 
-## #28 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #28 小红书｜人像写真
 
 **摄影师**: [万万学姐](https://www.xiaohongshu.com/user/profile/5937ab955e87e72e7cc13830)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed)
@@ -761,7 +761,7 @@ https://www.instagram.com/planiels/](https://images.unsplash.com/photo-151437856
 后期可以往“CCD 闪光旅行照”走：提高暖色饱和度和橙色明度，压暗黑色与阴影，让夜色更浓。人物皮肤注意降低高光，适当加颗粒、轻微褪色和暗角，保留随性、复古、像朋友随手拍的感觉。
 
 
-## #29 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #29 小红书｜人像写真
 
 **摄影师**: [万万学姐](https://www.xiaohongshu.com/user/profile/5937ab955e87e72e7cc13830)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64c52bd6000000000c0371e2?xsec_token=ABRH0_UusgNiDq6Fh2Atan5N52K1KYsHdZANmmJOa-eTY%3D&xsec_source=pc_feed)

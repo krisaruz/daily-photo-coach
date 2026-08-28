@@ -39,6 +39,44 @@ DEFAULT_STYLE = {
     "icon": "📕",
 }
 
+# 英文标识符 → 中文 label，避免在 CI 命令行里直接传中文（romañ 字符在
+# 某些 shell/locale 链路上会被误判为 GBK，写入 photos.json 后变成乱码）
+STYLE_KEYS: dict[str, str] = {
+    "xhs-portrait": DEFAULT_STYLE["label"],
+    "xhs_default": DEFAULT_STYLE["label"],
+    "xhs-portrait-natural": "小红书｜人像自然",
+}
+
+
+def _fix_mojibake(value: str | None) -> str | None:
+    """识别并还原被 GBK 错误解码过的 UTF-8 字符串。
+
+    GitHub Actions 某些链路会把 UTF-8 中文字节按 GBK 解码后传给 Python，
+    再被 Python 按 UTF-8 写入 JSON，最终 photos.json 里存的就是 mojibake。
+    本函数尝试把这种 mojibake 还原回原始中文。
+    """
+    if not value:
+        return value
+    try:
+        # mojibake 字符按 GBK 编码回字节，再按 UTF-8 解码
+        restored = value.encode("gbk", errors="strict").decode("utf-8", errors="strict")
+        # 还原成功且包含非 ASCII 字符 →认为是 mojibake
+        if restored != value and any(ord(c) > 127 for c in restored):
+            return restored
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        pass
+    return value
+
+
+def _resolve_style_label(raw: str | None, fallback: str) -> str:
+    """把 --style 或 --style-key 解析成最终的中文 label，带 mojibake 防护。"""
+    if not raw:
+        return fallback
+    if raw in STYLE_KEYS:
+        return STYLE_KEYS[raw]
+    fixed = _fix_mojibake(raw)
+    return fixed
+
 DEFAULT_XHS_SOURCES = [
     {
         "name": "万万学姐",
@@ -407,7 +445,9 @@ def run_for_date(
     xhs_config = _xhs_config(config)
     output_dir = str(PROJECT_ROOT / config["output"]["dir"])
     archive_path = Path(output_dir) / target_date / "photos.json"
-    style_label = args.style or xhs_config["style_label"]
+    style_label = _resolve_style_label(
+        args.style_key or args.style, xhs_config["style_label"]
+    )
     grouped_photos = _load_archive(archive_path)
     existing_by_id = {
         photo.get("id"): photo
@@ -512,7 +552,14 @@ def main() -> None:
     parser.add_argument("--backfill-days", type=int, default=1, help="从目标日期往前补多少天")
     parser.add_argument("--url", type=str, default=None, help="临时指定一个小红书公开链接")
     parser.add_argument("--source-name", type=str, default="", help="临时来源名")
-    parser.add_argument("--style", type=str, default=None, help="栏目名称")
+    parser.add_argument("--style", type=str, default=None, help="栏目名称（建议改用 --style-key 避免中文编码问题）")
+    parser.add_argument(
+        "--style-key",
+        type=str,
+        default=None,
+        choices=list(STYLE_KEYS.keys()),
+        help="栏目英文标识符，由 Python 端映射回中文 label（推荐 CI 使用）",
+    )
     parser.add_argument("--style-color", type=str, default=None, help="栏目颜色")
     parser.add_argument("--style-icon", type=str, default=None, help="栏目图标")
     parser.add_argument("--mode", choices=["photo", "note"], default="photo", help="按图片还是按整条笔记轮换")

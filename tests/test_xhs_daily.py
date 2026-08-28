@@ -155,5 +155,31 @@ class NoteSelectionTests(unittest.TestCase):
         self.assertEqual(selected[0]["note_id"], "643631310000000011011932")
 
 
+class MojibakeFixTests(unittest.TestCase):
+    def test_fix_mojibake_restores_utf8_label(self):
+        # "小红书｜人像写真" 的 UTF-8 字节按 GBK 解码后的 mojibake
+        mojibake = "灏忕孩涔︼綔浜哄儚鍐欑湡"
+        self.assertEqual(xhs_daily._fix_mojibake(mojibake), "小红书｜人像写真")
+
+    def test_fix_mojibake_leaves_normal_chinese_untouched(self):
+        self.assertEqual(xhs_daily._fix_mojibake("小红书｜人像写真"), "小红书｜人像写真")
+
+    def test_fix_mojibake_leaves_ascii_untouched(self):
+        self.assertEqual(xhs_daily._fix_mojibake("xhs-portrait"), "xhs-portrait")
+
+    def test_resolve_style_label_via_key(self):
+        self.assertEqual(
+            xhs_daily._resolve_style_label("xhs-portrait", "fallback"),
+            "小红书｜人像写真",
+        )
+
+    def test_resolve_style_label_fixes_mojibake_arg(self):
+        mojibake = "灏忕孩涔︼綔浜哄儚鍐欑湡"
+        self.assertEqual(
+            xhs_daily._resolve_style_label(mojibake, "fallback"),
+            "小红书｜人像写真",
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

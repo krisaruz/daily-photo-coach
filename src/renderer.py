@@ -3,6 +3,7 @@
 import html
 import json
 import logging
+import os
 import re
 from pathlib import Path
 from typing import Any
@@ -17,6 +18,24 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = PROJECT_ROOT / "templates"
 LOCAL_ASSET_KEYS = ("local_url_small", "local_url_regular", "local_url_full")
 XHS_PUBLIC_NOTICE = "原图在小红书。本站只保留学习笔记和原帖链接，不转载、不托管照片。"
+DEFAULT_SITE_URL = "https://krisaruz.github.io/daily-photo-coach"
+
+
+def _site_url() -> str:
+    """Public base URL of the deployed site, without trailing slash."""
+    value = (os.environ.get("SITE_URL") or DEFAULT_SITE_URL).strip()
+    return value.rstrip("/")
+
+
+def _abs_url(path: str) -> str:
+    """Join a relative path with the site URL to produce an absolute URL."""
+    if not path:
+        return _site_url()
+    if path.startswith(("http://", "https://")):
+        return path
+    if not path.startswith("/"):
+        path = "/" + path
+    return _site_url() + path
 
 
 def _markdown_to_html(md_text: str) -> str:
@@ -390,12 +409,32 @@ def render_web(
 
     total = sum(len(tab["photos"]) for tab in tabs)
     hero_photo = tabs[0]["photos"][0] if tabs and tabs[0]["photos"] else None
+    page_path = f"{date}/index.html"
+    cover_url = ""
+    if hero_photo:
+        cover_url = hero_photo.get("url_regular") or hero_photo.get("url_full") or ""
+    if cover_url and not cover_url.startswith(("http://", "https://")):
+        cover_url = _abs_url(cover_url)
+    og_title = f"每日摄影教练 · {date}"
+    og_description = ""
+    if tabs:
+        first_tab = tabs[0]
+        og_description = (
+            first_tab.get("summary")
+            or (first_tab["photos"][0].get("analysis_excerpt") if first_tab["photos"] else "")
+            or f"{first_tab['label']} 等共 {total} 张摄影教学点评"
+        )
     html = template.render(
         date=date,
         tabs=tabs,
         total_photos=total,
         total_styles=len(tabs),
         hero_photo=hero_photo,
+        og_title=og_title,
+        og_description=og_description,
+        og_url=_abs_url(page_path),
+        og_image=cover_url,
+        site_url=_site_url(),
     )
 
     day_dir = Path(output_dir) / date
@@ -559,11 +598,20 @@ def render_xhs_site(output_dir: str) -> Path:
             }
             detail_dir = xhs_root / day_dir.name
             detail_dir.mkdir(parents=True, exist_ok=True)
+            cover_image = rendered_photos[0].get("url_regular") or rendered_photos[0].get("url_full") or ""
+            if cover_image and not cover_image.startswith(("http://", "https://")):
+                cover_image = _abs_url(cover_image)
+            og_description = note.get("caption") or note.get("title") or "小红书摄影教学点评"
             detail_html = detail_template.render(
                 date=day_dir.name,
                 note=note,
                 photos=rendered_photos,
                 xhs_notice=XHS_PUBLIC_NOTICE,
+                og_title=f"{note['title']} · 小红书精选",
+                og_description=og_description,
+                og_url=_abs_url(f"xhs/{day_dir.name}/index.html"),
+                og_image=cover_image,
+                site_url=_site_url(),
             )
             (detail_dir / "index.html").write_text(
                 _strip_trailing_whitespace(detail_html),
@@ -572,7 +620,15 @@ def render_xhs_site(output_dir: str) -> Path:
             )
             notes.append(note)
 
-    index_html = index_template.render(notes=notes, xhs_notice=XHS_PUBLIC_NOTICE)
+    index_html = index_template.render(
+        notes=notes,
+        xhs_notice=XHS_PUBLIC_NOTICE,
+        og_title="小红书摄影精选 · Daily Photo Coach",
+        og_description="从小红书公开分享链接中精选人像写真作品，配合多模态 LLM 的摄影教学点评。",
+        og_url=_abs_url("xhs/index.html"),
+        og_image="",
+        site_url=_site_url(),
+    )
     out_path = xhs_root / "index.html"
     out_path.write_text(_strip_trailing_whitespace(index_html), encoding="utf-8", newline="\n")
     logger.info("Xiaohongshu site updated: %s (%d notes)", out_path, len(notes))
@@ -698,6 +754,17 @@ def update_index(output_dir: str) -> Path:
         autoescape=select_autoescape(["html", "xml"], default=True),
     )
     template = env.get_template("index.html")
+    home_cover = ""
+    if featured_day and featured_day.get("preview_images"):
+        home_cover = featured_day["preview_images"][0]
+    if home_cover and not home_cover.startswith(("http://", "https://")):
+        home_cover = _abs_url(home_cover)
+    home_description = "每日摄影教练：多风格摄影作品抓取 + 多模态 LLM 教学点评，生成可浏览的静态日报。"
+    if featured_day:
+        home_description = (
+            featured_day.get("summary")
+            or f"{featured_day['date']} · 共 {featured_day['photo_count']} 张摄影教学点评"
+        )
     html = template.render(
         days=days,
         featured_day=featured_day,
@@ -708,6 +775,11 @@ def update_index(output_dir: str) -> Path:
         xhs_index_url="xhs/index.html",
         xhs_notice=XHS_PUBLIC_NOTICE,
         total_photos=total_photos,
+        og_title="Daily Photo Coach · 摄影学习档案",
+        og_description=home_description,
+        og_url=_abs_url("index.html"),
+        og_image=home_cover,
+        site_url=_site_url(),
     )
 
     render_xhs_site(output_dir)

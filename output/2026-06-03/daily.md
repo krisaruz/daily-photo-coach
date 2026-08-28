@@ -11,7 +11,7 @@
 **摄影师**: [Bobbi Wu](https://unsplash.com/@bobbiwu)
  | **来源**: [Unsplash](https://unsplash.com/photos/aerial-photo-of-mountains-1bR35fL8mew)
 
-![莽山](https://images.unsplash.com/photo-1571656046493-9ca3aa6355c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA1MTk1MDh8&ixlib=rb-4.1.0&q=80&w=1080)
+![çɽ](https://images.unsplash.com/photo-1571656046493-9ca3aa6355c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDY2ODd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA1MTk1MDh8&ixlib=rb-4.1.0&q=80&w=1080)
 
 > EXIF: Camera FUJIFILM X-Pro2 | f/5.6 | 1/1000s | 23.0mm | ISO 800
 
