@@ -665,10 +665,10 @@
 
 ---
 
-# 灏忕孩涔︼綔浜哄儚鍐欑湡
+# 小红书｜人像写真
 
 
-## #25 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #25 小红书｜人像写真
 
 **摄影师**: [Yeeton](https://www.xiaohongshu.com/user/profile/5a450c704eacab1b35e76f42)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643a5d6900000000130363ba?xsec_token=ABwMlOi53Bwe0jUAImDKByPTtTgJa-beEud-VpuGweXr4%3D&xsec_source=pc_feed)
@@ -694,7 +694,7 @@
 后期走清透春日感：提高曝光和阴影，压一点高光，保持白衣细节。色彩上降低黄绿饱和度，提升粉色/洋红亮度，让杏花更柔；可用局部蒙版提亮人物脸部，并适当裁掉右侧干扰物。
 
 
-## #26 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #26 小红书｜人像写真
 
 **摄影师**: [Yeeton](https://www.xiaohongshu.com/user/profile/5a450c704eacab1b35e76f42)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643a5d6900000000130363ba?xsec_token=ABwMlOi53Bwe0jUAImDKByPTtTgJa-beEud-VpuGweXr4%3D&xsec_source=pc_feed)
@@ -720,7 +720,7 @@
 整体往“小红书春日清透感”走：提高曝光一点、压高光，保住花瓣层次。色彩上降低蓝青饱和度，轻提粉色/洋红明度，让杏花更柔；最后加少量锐化和轻微颗粒，保持自然校园纪实感。
 
 
-## #27 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #27 小红书｜人像写真
 
 **摄影师**: [Yeeton](https://www.xiaohongshu.com/user/profile/5a450c704eacab1b35e76f42)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643a5d6900000000130363ba?xsec_token=ABwMlOi53Bwe0jUAImDKByPTtTgJa-beEud-VpuGweXr4%3D&xsec_source=pc_feed)
@@ -746,7 +746,7 @@
 整体往清透春日感走：提高曝光和阴影，轻降高光，保住蓝天层次。粉色可在 HSL 中适度提高明度、降低一点饱和，避免俗艳；再加少量暖色温和柔化，让画面更贴近“小红书花事写真”的温柔氛围。
 
 
-## #28 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #28 小红书｜人像写真
 
 **摄影师**: [Yeeton](https://www.xiaohongshu.com/user/profile/5a450c704eacab1b35e76f42)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643a5d6900000000130363ba?xsec_token=ABwMlOi53Bwe0jUAImDKByPTtTgJa-beEud-VpuGweXr4%3D&xsec_source=pc_feed)
@@ -773,7 +773,7 @@
 整体走“清透春日校园”方向：提高曝光和阴影，适度降低高光，保住白衣细节。色彩上粉色花朵可轻微提高饱和和明度，绿色压一点黄绿，背景杂物可用裁切或修复工具弱化，让人物和杏花更突出。
 
 
-## #29 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #29 小红书｜人像写真
 
 **摄影师**: [Yeeton](https://www.xiaohongshu.com/user/profile/5a450c704eacab1b35e76f42)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643a5d6900000000130363ba?xsec_token=ABwMlOi53Bwe0jUAImDKByPTtTgJa-beEud-VpuGweXr4%3D&xsec_source=pc_feed)
@@ -799,7 +799,7 @@
 整体往清透、柔粉、校园春日方向调：提高曝光和阴影，压一点高光，避免花瓣过白。HSL 里降低红色/橙色饱和，提升粉色明度；用裁剪或修复工具弱化护栏、车牌和杂乱路人，让画面更像“杏花大道写真”。
 
 
-## #30 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #30 小红书｜人像写真
 
 **摄影师**: [Yeeton](https://www.xiaohongshu.com/user/profile/5a450c704eacab1b35e76f42)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643a5d6900000000130363ba?xsec_token=ABwMlOi53Bwe0jUAImDKByPTtTgJa-beEud-VpuGweXr4%3D&xsec_source=pc_feed)
@@ -825,7 +825,7 @@
 整体往“清透春日、低饱和粉白”方向走。降低红色栏杆饱和度和明度干扰，适当提升曝光、阴影和肤色亮度；花朵可加一点粉色饱和与柔和清晰度，保留空气感。
 
 
-## #31 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #31 小红书｜人像写真
 
 **摄影师**: [Yeeton](https://www.xiaohongshu.com/user/profile/5a450c704eacab1b35e76f42)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643a5d6900000000130363ba?xsec_token=ABwMlOi53Bwe0jUAImDKByPTtTgJa-beEud-VpuGweXr4%3D&xsec_source=pc_feed)
@@ -851,7 +851,7 @@
 整体往“清透春日、校园写真”走：提高曝光和阴影，轻压高光保住白花层次。白平衡略偏暖，粉色/洋红适度提亮但降低一点饱和，蓝天可用 HSL 轻微提亮，让画面更干净。
 
 
-## #32 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #32 小红书｜人像写真
 
 **摄影师**: [Yeeton](https://www.xiaohongshu.com/user/profile/5a450c704eacab1b35e76f42)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643a5d6900000000130363ba?xsec_token=ABwMlOi53Bwe0jUAImDKByPTtTgJa-beEud-VpuGweXr4%3D&xsec_source=pc_feed)
@@ -878,7 +878,7 @@
 后期建议保留高调清新感，但把高光压回一点，恢复白衣和花瓣细节。可适当提升曝光、降低对比度，微加粉色/洋红饱和度，绿色往浅黄绿偏移。局部用蒙版提亮人物脸部，弱化背景招牌和道路杂色，让画面更像“杏花大道写真”。
 
 
-## #33 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #33 小红书｜人像写真
 
 **摄影师**: [Yeeton](https://www.xiaohongshu.com/user/profile/5a450c704eacab1b35e76f42)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643a5d6900000000130363ba?xsec_token=ABwMlOi53Bwe0jUAImDKByPTtTgJa-beEud-VpuGweXr4%3D&xsec_source=pc_feed)

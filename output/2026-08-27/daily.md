@@ -678,10 +678,10 @@
 
 ---
 
-# 灏忕孩涔︼綔浜哄儚鍐欑湡
+# 小红书｜人像写真
 
 
-## #25 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #25 小红书｜人像写真
 
 **摄影师**: [黄小人](https://www.xiaohongshu.com/user/profile/60f992ea000000000101de56)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643631310000000011011932?xsec_token=AB6DeaQ6zZk4H1MBOXG_8A1JuIzflslThznKSGDFMJ2rM%3D&xsec_source=pc_feed)
@@ -707,7 +707,7 @@
 整体往“小红书古风写真”方向走：降低高光、拉回白色衣料细节，适度提阴影让脸和衣纹更柔。色彩可压低绿色饱和度，墙面加一点暖灰，人物皮肤和汉服保持干净通透。
 
 
-## #26 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #26 小红书｜人像写真
 
 **摄影师**: [黄小人](https://www.xiaohongshu.com/user/profile/60f992ea000000000101de56)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643631310000000011011932?xsec_token=AB6DeaQ6zZk4H1MBOXG_8A1JuIzflslThznKSGDFMJ2rM%3D&xsec_source=pc_feed)
@@ -733,7 +733,7 @@
 整体走小红书清透古风感：降低高光、拉回白衣细节，适度提阴影让脸和头发不闷。色彩上可把天空蓝压干净，墙面稍加暖，人物皮肤提亮但别磨得太假；用局部蒙版强化袖子和远处楼阁的层次。
 
 
-## #27 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #27 小红书｜人像写真
 
 **摄影师**: [黄小人](https://www.xiaohongshu.com/user/profile/60f992ea000000000101de56)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643631310000000011011932?xsec_token=AB6DeaQ6zZk4H1MBOXG_8A1JuIzflslThznKSGDFMJ2rM%3D&xsec_source=pc_feed)
@@ -759,7 +759,7 @@
 整体往“小红书汉服写真”的清透暖调走：降低高光、拉回白衣层次，适度提亮人物面部。背景可压暗一点、降低蓝灰饱和度，让主体更突出；用局部蒙版加强眼部、妆造和衣服刺绣细节。
 
 
-## #28 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #28 小红书｜人像写真
 
 **摄影师**: [黄小人](https://www.xiaohongshu.com/user/profile/60f992ea000000000101de56)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643631310000000011011932?xsec_token=AB6DeaQ6zZk4H1MBOXG_8A1JuIzflslThznKSGDFMJ2rM%3D&xsec_source=pc_feed)
@@ -785,7 +785,7 @@
 后期可走“小红书汉服打卡”的清透暖调：略提亮人物、降低红色楼梯的饱和度，避免背景抢戏。重点用曲线提一点柔和对比，HSL 中压红色亮度/饱和，局部增强衣服刺绣和发饰细节。
 
 
-## #29 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #29 小红书｜人像写真
 
 **摄影师**: [黄小人](https://www.xiaohongshu.com/user/profile/60f992ea000000000101de56)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643631310000000011011932?xsec_token=AB6DeaQ6zZk4H1MBOXG_8A1JuIzflslThznKSGDFMJ2rM%3D&xsec_source=pc_feed)
@@ -812,7 +812,7 @@
 整体走“小红书古风旅行写真”方向：提高暖色氛围，适当增强红色饱和和明度，让服装更抓眼。压高光、拉回白衣细节，墙面可降低清晰度与纹理，人物背影稍加亮，天空保持干净通透即可。
 
 
-## #30 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #30 小红书｜人像写真
 
 **摄影师**: [黄小人](https://www.xiaohongshu.com/user/profile/60f992ea000000000101de56)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643631310000000011011932?xsec_token=AB6DeaQ6zZk4H1MBOXG_8A1JuIzflslThznKSGDFMJ2rM%3D&xsec_source=pc_feed)
@@ -838,7 +838,7 @@
 整体往“小红书古风写真”方向走：提亮肤色、降低背景杂色存在感，让红色和金色刺绣更精致。可适当提高曝光和阴影，降低高光，微调红色饱和度，最后加一点暖色调和轻微锐化，让妆造与服饰细节更突出。
 
 
-## #31 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #31 小红书｜人像写真
 
 **摄影师**: [黄小人](https://www.xiaohongshu.com/user/profile/60f992ea000000000101de56)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/643631310000000011011932?xsec_token=AB6DeaQ6zZk4H1MBOXG_8A1JuIzflslThznKSGDFMJ2rM%3D&xsec_source=pc_feed)

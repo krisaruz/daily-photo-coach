@@ -664,10 +664,10 @@ Her genre is soulful and unafraid, upheld by her mellow and dynamic vocal abilit
 
 ---
 
-# 灏忕孩涔︼綔浜哄儚鍐欑湡
+# 小红书｜人像写真
 
 
-## #25 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #25 小红书｜人像写真
 
 **摄影师**: [鯊魚喬納森.](https://www.xiaohongshu.com/user/profile/5a52302fe8ac2b3d2b212a76)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
@@ -693,7 +693,7 @@ Her genre is soulful and unafraid, upheld by her mellow and dynamic vocal abilit
 整体往“小红书夏日清爽”走：提高亮度和阴影，压一点高光保护白 T。色彩可让绿色偏黄一点、肤色提亮，适度加暖色温和清晰度；用径向滤镜轻微提亮人物，背景略降饱和，突出少年感。
 
 
-## #26 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #26 小红书｜人像写真
 
 **摄影师**: [鯊魚喬納森.](https://www.xiaohongshu.com/user/profile/5a52302fe8ac2b3d2b212a76)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
@@ -719,7 +719,7 @@ Her genre is soulful and unafraid, upheld by her mellow and dynamic vocal abilit
 整体往“小红书夏日胶片感”走：提亮中间调，压一点高光，保留墙面和白T细节。色温可略偏暖，降低绿色饱和度，增加少量颗粒和柔和对比，让画面更像轻松的一日游记录。
 
 
-## #27 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #27 小红书｜人像写真
 
 **摄影师**: [鯊魚喬納森.](https://www.xiaohongshu.com/user/profile/5a52302fe8ac2b3d2b212a76)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
@@ -745,7 +745,7 @@ Her genre is soulful and unafraid, upheld by her mellow and dynamic vocal abilit
 整体往“清爽夏日胶片感”走：提高一点曝光和阴影，压住高光，绿色往黄绿微调但别过饱和。杯子可局部提亮、增加清晰度，背景降低纹理和清晰度，让主体更干净。
 
 
-## #28 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #28 小红书｜人像写真
 
 **摄影师**: [鯊魚喬納森.](https://www.xiaohongshu.com/user/profile/5a52302fe8ac2b3d2b212a76)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
@@ -772,7 +772,7 @@ Her genre is soulful and unafraid, upheld by her mellow and dynamic vocal abilit
 整体走“清爽夏日胶片感”：提升暖色和绿色明度，蓝天稍加饱和但避免过艳。压一点高光、拉回云层细节，阴影略提亮，让墙面纹理更柔和；可加轻微颗粒和暗角，增强日常记录感。
 
 
-## #29 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #29 小红书｜人像写真
 
 **摄影师**: [鯊魚喬納森.](https://www.xiaohongshu.com/user/profile/5a52302fe8ac2b3d2b212a76)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)
@@ -798,7 +798,7 @@ Her genre is soulful and unafraid, upheld by her mellow and dynamic vocal abilit
 后期往“清爽夏日胶片感”走：降低高光、提一点阴影，保住天空和暗部树叶。绿色不要一味加饱和，可微调 HSL，让绿偏黄一点、亮度提高，整体更像小红书里的松弛一日游记录。
 
 
-## #30 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #30 小红书｜人像写真
 
 **摄影师**: [鯊魚喬納森.](https://www.xiaohongshu.com/user/profile/5a52302fe8ac2b3d2b212a76)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/64bfc48e000000000a01aeb4?xsec_token=ABSnHLvO9lnVSMKpZb-K1CpsR_tawRcS33LiHfRp3otRU%3D&xsec_source=pc_feed)

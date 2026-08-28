@@ -672,10 +672,10 @@
 
 ---
 
-# 灏忕孩涔︼綔浜哄儚鍐欑湡
+# 小红书｜人像写真
 
 
-## #25 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #25 小红书｜人像写真
 
 **摄影师**: [-奶油](https://www.xiaohongshu.com/user/profile/5a882da24eacab1dd451afa0)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/644128a8000000001300bf69?xsec_token=ABlP6Vup-yAeNsm5GA_-MBKQjAtqezghDlgOx26677wCY%3D&xsec_source=pc_feed)
@@ -702,7 +702,7 @@
 整体往“阴天清透春日”走：提高曝光和阴影，轻压高光，粉色稍提亮但避免过饱和。绿色可降低一点饱和、偏青一点，让粉花更突出；最后加轻微颗粒或柔化，保持小红书的温柔氛围。
 
 
-## #26 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #26 小红书｜人像写真
 
 **摄影师**: [-奶油](https://www.xiaohongshu.com/user/profile/5a882da24eacab1dd451afa0)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/644128a8000000001300bf69?xsec_token=ABlP6Vup-yAeNsm5GA_-MBKQjAtqezghDlgOx26677wCY%3D&xsec_source=pc_feed)
@@ -731,7 +731,7 @@
 整体走“小红书春日清透”方向：提高曝光和阴影，轻压高光，保留花瓣细节。色彩上绿色降低饱和、略偏黄，粉色提升明度和一点饱和；可加轻微柔化或颗粒，让画面更温柔。
 
 
-## #27 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #27 小红书｜人像写真
 
 **摄影师**: [-奶油](https://www.xiaohongshu.com/user/profile/5a882da24eacab1dd451afa0)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/644128a8000000001300bf69?xsec_token=ABlP6Vup-yAeNsm5GA_-MBKQjAtqezghDlgOx26677wCY%3D&xsec_source=pc_feed)
@@ -751,7 +751,7 @@
 - 中央水印位置压在花簇上，发布成片建议
 
 
-## #28 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #28 小红书｜人像写真
 
 **摄影师**: [-奶油](https://www.xiaohongshu.com/user/profile/5a882da24eacab1dd451afa0)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/644128a8000000001300bf69?xsec_token=ABlP6Vup-yAeNsm5GA_-MBKQjAtqezghDlgOx26677wCY%3D&xsec_source=pc_feed)
@@ -777,7 +777,7 @@
 整体往“清透粉绿、春日柔光”方向走：提高曝光和阴影，轻降高光保护花瓣层次。HSL 中降低绿色饱和度、提高粉色/洋红明度，局部给花朵加一点纹理和清晰度，最后加轻微柔焦或颗粒即可。
 
 
-## #29 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #29 小红书｜人像写真
 
 **摄影师**: [-奶油](https://www.xiaohongshu.com/user/profile/5a882da24eacab1dd451afa0)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/644128a8000000001300bf69?xsec_token=ABlP6Vup-yAeNsm5GA_-MBKQjAtqezghDlgOx26677wCY%3D&xsec_source=pc_feed)
@@ -804,7 +804,7 @@
 整体往“小红书春日奶油感”走：提亮曝光和阴影，降低对比，适当提升粉色与绿色的明度。可用 HSL 微调粉花偏柔、绿叶偏清透，灰墙稍降饱和，最后加一点柔化或颗粒，让画面更轻盈。
 
 
-## #30 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #30 小红书｜人像写真
 
 **摄影师**: [-奶油](https://www.xiaohongshu.com/user/profile/5a882da24eacab1dd451afa0)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/644128a8000000001300bf69?xsec_token=ABlP6Vup-yAeNsm5GA_-MBKQjAtqezghDlgOx26677wCY%3D&xsec_source=pc_feed)
@@ -830,7 +830,7 @@
 整体往“小红书春日柔粉”走：提高曝光和阴影，降低高光，适当提升粉色/洋红明度。绿色可稍微降饱和、偏黄一点，避免叶子抢戏。最后加一点柔化或降低清晰度，让花瓣和肤色更轻盈。
 
 
-## #31 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #31 小红书｜人像写真
 
 **摄影师**: [-奶油](https://www.xiaohongshu.com/user/profile/5a882da24eacab1dd451afa0)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/644128a8000000001300bf69?xsec_token=ABlP6Vup-yAeNsm5GA_-MBKQjAtqezghDlgOx26677wCY%3D&xsec_source=pc_feed)
@@ -856,7 +856,7 @@
 整体往“阴天清甜、粉绿柔和”的方向走：稍提曝光和阴影，降低高光，保留花瓣层次。HSL里让粉色更明亮、绿色略降饱和，灰墙可用修复工具清掉污渍，最后加一点柔化或颗粒，形成小红书春日感。
 
 
-## #32 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #32 小红书｜人像写真
 
 **摄影师**: [-奶油](https://www.xiaohongshu.com/user/profile/5a882da24eacab1dd451afa0)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/644128a8000000001300bf69?xsec_token=ABlP6Vup-yAeNsm5GA_-MBKQjAtqezghDlgOx26677wCY%3D&xsec_source=pc_feed)
@@ -882,7 +882,7 @@
 整体往“小红书春日粉绿”走：提高曝光和阴影，略降高光，保护花瓣细节。粉色可轻微提亮、降低饱和避免荧光，绿色往浅一点、黄一点调，最后加少量柔化或颗粒，增强温柔氛围。
 
 
-## #33 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #33 小红书｜人像写真
 
 **摄影师**: [-奶油](https://www.xiaohongshu.com/user/profile/5a882da24eacab1dd451afa0)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/644128a8000000001300bf69?xsec_token=ABlP6Vup-yAeNsm5GA_-MBKQjAtqezghDlgOx26677wCY%3D&xsec_source=pc_feed)
@@ -908,7 +908,7 @@
 整体往“阴天清透、粉绿色春日感”走：稍提曝光和阴影，降低高光，保留花瓣层次。HSL里绿色降一点饱和、提高明度，粉色略提亮；最后加轻微锐化和暗角，让视线集中在人和花墙。
 
 
-## #34 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #34 小红书｜人像写真
 
 **摄影师**: [-奶油](https://www.xiaohongshu.com/user/profile/5a882da24eacab1dd451afa0)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/644128a8000000001300bf69?xsec_token=ABlP6Vup-yAeNsm5GA_-MBKQjAtqezghDlgOx26677wCY%3D&xsec_source=pc_feed)
@@ -934,7 +934,7 @@
 整体走“春日粉嫩、低对比、轻胶片”方向。适当提高曝光和阴影，降低高光，粉色/洋红稍加饱和，绿色往浅绿偏黄调，避免叶子太脏。可用局部蒙版提亮人物脸部和主花簇，弱化背景杂乱。
 
 
-## #35 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #35 小红书｜人像写真
 
 **摄影师**: [-奶油](https://www.xiaohongshu.com/user/profile/5a882da24eacab1dd451afa0)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/644128a8000000001300bf69?xsec_token=ABlP6Vup-yAeNsm5GA_-MBKQjAtqezghDlgOx26677wCY%3D&xsec_source=pc_feed)

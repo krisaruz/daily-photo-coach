@@ -647,10 +647,10 @@ Nicola Pavan©](https://images.unsplash.com/photo-1628087234845-254f15abd82a?cro
 
 ---
 
-# 灏忕孩涔︼綔浜哄儚鍐欑湡
+# 小红书｜人像写真
 
 
-## #25 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #25 小红书｜人像写真
 
 **摄影师**: [周姨](https://www.xiaohongshu.com/user/profile/5acbfeb311be104613311ab7)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&xsec_source=pc_feed)
@@ -676,7 +676,7 @@ Nicola Pavan©](https://images.unsplash.com/photo-1628087234845-254f15abd82a?cro
 整体往“柔和、明亮、电影春天”走：提高曝光和阴影，压一点高光，保留逆光闪烁感。色彩上增强紫色饱和与明度，绿色稍微降饱和、偏暖，最后加轻微柔焦或颗粒，让画面更像春日胶片。
 
 
-## #26 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #26 小红书｜人像写真
 
 **摄影师**: [周姨](https://www.xiaohongshu.com/user/profile/5acbfeb311be104613311ab7)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&xsec_source=pc_feed)
@@ -702,7 +702,7 @@ Nicola Pavan©](https://images.unsplash.com/photo-1628087234845-254f15abd82a?cro
 整体往“柔和、暖绿、胶片感”走：降低高光和对比，微提阴影，让阳光不刺眼。绿色可稍降饱和、偏黄一点，紫色花保留亮度；再加轻微柔焦/颗粒，让画面更像春日电影截图。
 
 
-## #27 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #27 小红书｜人像写真
 
 **摄影师**: [周姨](https://www.xiaohongshu.com/user/profile/5acbfeb311be104613311ab7)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&xsec_source=pc_feed)
@@ -729,7 +729,7 @@ Nicola Pavan©](https://images.unsplash.com/photo-1628087234845-254f15abd82a?cro
 整体往“法式复古、春日电影感”走：降低高光、微提阴影，让林间光更柔。紫色适当降饱和、偏一点洋红，绿色降低黄绿的刺眼感；最后加轻微颗粒和柔化，保留童话般的闪光。
 
 
-## #28 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #28 小红书｜人像写真
 
 **摄影师**: [周姨](https://www.xiaohongshu.com/user/profile/5acbfeb311be104613311ab7)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&xsec_source=pc_feed)
@@ -755,7 +755,7 @@ Nicola Pavan©](https://images.unsplash.com/photo-1628087234845-254f15abd82a?cro
 整体往“柔和春日电影感”走：降低对比和高光，适当提阴影，保留阳光的温暖。绿色可降一点饱和、偏黄，紫色花稍提亮提纯；加轻微暗角和颗粒，增强小红书式氛围感。
 
 
-## #29 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #29 小红书｜人像写真
 
 **摄影师**: [周姨](https://www.xiaohongshu.com/user/profile/5acbfeb311be104613311ab7)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&xsec_source=pc_feed)
@@ -782,7 +782,7 @@ Nicola Pavan©](https://images.unsplash.com/photo-1628087234845-254f15abd82a?cro
 整体往“电影般的春天”走：降低一点对比，提亮阴影，保留柔和高光。紫色花海可适度提高饱和和明度，绿色稍微往黄绿偏，草帽用暖色温突出复古感；最后加轻微颗粒或暗角，增强胶片氛围。
 
 
-## #30 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #30 小红书｜人像写真
 
 **摄影师**: [周姨](https://www.xiaohongshu.com/user/profile/5acbfeb311be104613311ab7)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&xsec_source=pc_feed)
@@ -809,7 +809,7 @@ Nicola Pavan©](https://images.unsplash.com/photo-1628087234845-254f15abd82a?cro
 整体往“春日电影感”走：适度提亮阴影、压一点高光，保留阳光闪烁。绿色降低饱和、偏黄一点，紫色稍提亮但别过艳；加轻微暖色调和柔化，可用径向滤镜强调中间光感。
 
 
-## #31 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #31 小红书｜人像写真
 
 **摄影师**: [周姨](https://www.xiaohongshu.com/user/profile/5acbfeb311be104613311ab7)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&xsec_source=pc_feed)
@@ -835,7 +835,7 @@ Nicola Pavan©](https://images.unsplash.com/photo-1628087234845-254f15abd82a?cro
 整体往“柔和电影春天”走：降低高光、提一点阴影，保留斑驳光感。绿色可稍降饱和、偏暖偏黄，紫色花提高一点明度和饱和；加轻微暗角、颗粒和暖色调，让画面更像胶片漫游。
 
 
-## #32 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #32 小红书｜人像写真
 
 **摄影师**: [周姨](https://www.xiaohongshu.com/user/profile/5acbfeb311be104613311ab7)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&xsec_source=pc_feed)
@@ -861,7 +861,7 @@ Nicola Pavan©](https://images.unsplash.com/photo-1628087234845-254f15abd82a?cro
 整体往“电影感春日”走：降低高光、提阴影，保留阳光穿林的通透感。绿色可稍微降饱和并偏黄，紫色提高明度和饱和；加一点柔化或颗粒，让画面更像复古写真。
 
 
-## #33 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #33 小红书｜人像写真
 
 **摄影师**: [周姨](https://www.xiaohongshu.com/user/profile/5acbfeb311be104613311ab7)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&xsec_source=pc_feed)
@@ -888,7 +888,7 @@ Nicola Pavan©](https://images.unsplash.com/photo-1628087234845-254f15abd82a?cro
 整体走清透、柔和、偏胶片的春日感：提高曝光和阴影，压一点高光，保留阳光闪烁。紫色不要拉得太艳，可降低饱和、提高明度；绿色稍微往黄绿偏，画面会更温柔。可加轻微颗粒和暗角，增强电影感。
 
 
-## #34 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #34 小红书｜人像写真
 
 **摄影师**: [周姨](https://www.xiaohongshu.com/user/profile/5acbfeb311be104613311ab7)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&xsec_source=pc_feed)
@@ -914,7 +914,7 @@ Nicola Pavan©](https://images.unsplash.com/photo-1628087234845-254f15abd82a?cro
 整体往“小红书电影春天”走：提高曝光和暖色温，适当降低高光、提阴影，让阳光柔和。紫色花可用 HSL 微调紫色亮度和饱和度，绿色降低一点饱和、偏黄绿，最后加轻微颗粒和柔化，保留胶片感。
 
 
-## #35 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #35 小红书｜人像写真
 
 **摄影师**: [周姨](https://www.xiaohongshu.com/user/profile/5acbfeb311be104613311ab7)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&xsec_source=pc_feed)
@@ -940,7 +940,7 @@ Nicola Pavan©](https://images.unsplash.com/photo-1628087234845-254f15abd82a?cro
 整体往柔和、微过曝、低对比的春日胶片感走。适当提高曝光和阴影，压一点高光，绿色往黄绿偏、紫色保持清透；可加轻微柔焦或降低清晰度，让画面更像童话森林。
 
 
-## #36 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #36 小红书｜人像写真
 
 **摄影师**: [周姨](https://www.xiaohongshu.com/user/profile/5acbfeb311be104613311ab7)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&xsec_source=pc_feed)
@@ -966,7 +966,7 @@ Nicola Pavan©](https://images.unsplash.com/photo-1628087234845-254f15abd82a?cro
 整体往“小红书春日电影感”走：提高暖色氛围，但保留紫花的清透。可降低高光、提阴影，适当加一点柔光；HSL里压低黄绿饱和，提高紫色明度，让花海更干净梦幻。
 
 
-## #37 灏忕孩涔︼綔浜哄儚鍐欑湡
+## #37 小红书｜人像写真
 
 **摄影师**: [周姨](https://www.xiaohongshu.com/user/profile/5acbfeb311be104613311ab7)
  | **来源**: [小红书](https://www.xiaohongshu.com/explore/6433d257000000000800e88f?xsec_token=ABX1pSMvxOobor452KawVYAqkLcWN45Lm6nKpMTh88SdM%3D&xsec_source=pc_feed)
