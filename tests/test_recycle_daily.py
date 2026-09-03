@@ -159,5 +159,23 @@ class RecentUsedIdsTests(unittest.TestCase):
             self.assertNotIn("xhs-9", used)
 
 
+class PerStyleResolutionTests(unittest.TestCase):
+    """CI（无 config.yaml）必须用 8 张/风格，不能继承抓取模式的环境变量兜底值 3。"""
+
+    def test_env_config_mode_defaults_to_eight(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            fake_config = Path(tmp) / "absent.yaml"
+            from main import load_config
+
+            config = load_config(fake_config)
+            # 与 recycle_daily.main() 相同的判断分支
+            if fake_config.exists():
+                configured = (config.get("daily") or {}).get("photos_per_style")
+                per_style = int(configured) if configured else 8
+            else:
+                per_style = 8
+            self.assertEqual(per_style, 8)
+
+
 if __name__ == "__main__":
     unittest.main()

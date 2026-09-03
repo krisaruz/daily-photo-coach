@@ -331,7 +331,13 @@ def main() -> None:
     config = load_config(Path(args.config))
     per_style = args.per_style
     if per_style is None:
-        per_style = int((config.get("daily") or {}).get("photos_per_style") or 8)
+        # 抓取模式的 CI 默认是 3（省 API 配额）；循环模式必须对齐现行版式 3×8=24 张。
+        # CI 环境变量模式（无 config.yaml）不采用该兜底值，直接用 8。
+        if Path(args.config).exists():
+            configured = (config.get("daily") or {}).get("photos_per_style")
+            per_style = int(configured) if configured else 8
+        else:
+            per_style = 8
 
     style_labels = args.styles or CURRENT_STYLE_ORDER
     target_date = args.date or shanghai_now().date().isoformat()
