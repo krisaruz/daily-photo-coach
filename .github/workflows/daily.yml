@@ -37,23 +37,16 @@ jobs:
           FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
         run: python src/analysis_schedule.py --output-dir output
 
-      - name: Fetch photos (skip LLM analysis - run locally)
+      - name: Recycle photos from archive (no fetch, no LLM)
         if: steps.gate.outputs.should_run == 'true'
         env:
-          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-          XHS_COOKIE: ${{ secrets.XHS_COOKIE }}
-          XHS_SEED_URLS: ${{ secrets.XHS_SEED_URLS }}
           PYTHONPATH: src
           TZ: Asia/Shanghai
         run: |
           TARGET_DATE="$(TZ=Asia/Shanghai date +%Y-%m-%d)"
           echo "target_date=$TARGET_DATE"
-          if [ -f "output/$TARGET_DATE/photos.json" ]; then
-            python src/main.py --date "$TARGET_DATE" --skip-fetch --skip-analysis
-          else
-            python src/main.py --date "$TARGET_DATE" --skip-analysis
-          fi
-          python src/xhs_daily.py --date "$TARGET_DATE" --style-key xhs-portrait --mode note --count 1 --skip-analysis
+          python src/recycle_daily.py --date "$TARGET_DATE"
+          python src/xhs_daily.py --date "$TARGET_DATE" --style-key xhs-portrait --mode note --count 1 --from-archive-only --skip-analysis
 
       - name: Commit output to repo
         if: steps.gate.outputs.should_run == 'true'
@@ -61,7 +54,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add output/ -f
-          git diff --cached --quiet || git commit -m "daily: fetch photos for $(TZ=Asia/Shanghai date +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "daily: recycle archive for $(TZ=Asia/Shanghai date +%Y-%m-%d)"
           git push origin HEAD:master
 
       - name: Ensure .nojekyll

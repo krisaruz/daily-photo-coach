@@ -107,11 +107,28 @@ python src/xhs_import.py --url "http://xhslink.com/o/6vj01FlQoGl" --skip-analysi
 
 产物输出到 `output/YYYY-MM-DD/`，浏览器打开 `index.html` 即可阅读。
 
+## 每日循环模式（当前运行方式）
+
+分析 API 额度用尽后，每日内容改为**循环历史归档**：`src/recycle_daily.py` 从全部历史 `photos.json` 中挑选"已有完整分析"的图片，按日期分块轮换（3 风格 × 8 张 + 小红书 1 条笔记），不抓新图、不调 LLM，页面结构与之前完全一致。
+
+```bash
+# 生成当天循环日报
+python src/recycle_daily.py
+
+# 指定日期 / 每风格张数 / 指定风格
+python src/recycle_daily.py --date 2026-09-04 --per-style 8 --styles 风光/自然 人像/质感 街头/人文
+
+# 小红书每日归档轮换（不访问小红书、不调 LLM）
+python src/xhs_daily.py --style-key xhs-portrait --mode note --count 1 --from-archive-only --skip-analysis
+```
+
+调度：GitHub Actions `daily.yml`（每小时 gate，当天随机整点执行）为主，本地 Windows 计划任务（09:00 + 开机）为备份；循环产出自带分析，gate 判定当日已完成即跳过重复生成。抓取与分析管线（`main.py` / `fetcher.py` / `analyzer.py`）代码保留，API 恢复后可直接切回。
+
 ## 小红书入口
 
 静态站首页和每日页都提供“导入小红书链接”按钮。首次使用需要在浏览器里输入一个 GitHub PAT（仅需 Actions write 权限），按钮会触发 `.github/workflows/xhs.yml`，由 GitHub Actions 抓取公开页面、调用 `gpt-5.5` 分析并重新部署 Pages。
 
-另外 `.github/workflows/daily.yml` 会在北京时间 09:20–22:20 每小时检查一次，并在当天 9–22 点中抽一个稳定随机整点生成 Unsplash 日报和小红书精选。公开搜索经常要求登录时，最稳定的方式是把你喜欢的摄影博主公开分享链接加入 `xhs.sources` 或 GitHub Secret `XHS_SEED_URLS`；直播笔记失效时，脚本会回退到已有分析文字的历史笔记。站点不保存小红书原图。`xhs-daily.yml` 仅保留手动回填。
+另外 `.github/workflows/daily.yml` 会在北京时间 09:20–22:20 每小时检查一次，并在当天 9–22 点中抽一个稳定随机整点以循环模式生成日报和小红书精选（不抓新图、不调 LLM）。公开搜索经常要求登录时，最稳定的方式是把你喜欢的摄影博主公开分享链接加入 `xhs.sources` 或 GitHub Secret `XHS_SEED_URLS`；直播笔记失效时，脚本会回退到已有分析文字的历史笔记。站点不保存小红书原图。`xhs-daily.yml` 仅保留手动回填。
 
 Actions 中建议配置：
 

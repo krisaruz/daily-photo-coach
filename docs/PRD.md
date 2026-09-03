@@ -1,8 +1,8 @@
 # Daily Photo Coach PRD
 
-版本：v2.2
-最近同步日期：2026-08-14
-最近同步实现提交：基于 `master` 分支全量代码审查
+版本：v2.3
+最近同步日期：2026-09-03
+最近同步实现提交：每日内容切换为循环模式（recycle_daily.py）
 线上站点：https://krisaruz.github.io/daily-photo-coach/
 
 ## 1. 文档维护规则
@@ -28,9 +28,13 @@ Daily Photo Coach 是一个每日摄影学习内容生成与发布系统。它�
 
 系统最终输出静态文件到 `output/`，由 GitHub Pages 发布。
 
+**自 2026-09-04 起系统运行在循环模式**：LLM 分析 API 不再可用，每日内容改为从历史归档中挑选"已有分析"的图片，按日期确定性轮换。不抓取新图、不调用 LLM，对访客保持每天正常更新的观感。抓取与分析管线代码保留，可随时恢复。详见 7.7 节。
+
 ## 3. 背景与问题
 
 用户希望每天看到可直接学习的摄影案例，而不是泛泛的图片推荐。早期 Unsplash 图片质量稳定，但内容与国内摄影表达、社交平台拍法和人像写真场景有距离。小红书上有大量摄影博主会直接分享拍摄机位、文案、氛围和拍法，因此系统需要支持从公开小红书笔记中获取多图素材并结合文案分析。
+
+2026-09 初，多模态分析 API（gpt-5.5）配额失效。历史归档中已积累 2400+ 张带完整分析的图片，足以支撑长期循环。因此每日生成切换为循环模式：日期继续前进，内容来自历史分析的确定性轮换，成本归零。
 
 小红书公开网页存在反爬、登录风控和分享链接跳转不稳定的问题。项目因此不做无限制搜索式爬取，而采用「可信公开笔记池 + 每日轮换 + 质量过滤 + 链出原文」的策略。公开站点不托管、不热链小红书原图。
 
@@ -183,7 +187,27 @@ Flickr 抓取能力：
 - 下方按「第 N / M 张」列出已有分析文字。
 - 注明本站不转载、不托管照片；原帖若可能已无法公开浏览，需提示。
 
-### 7.7 浏览器触发 GitHub Actions
+### 7.7 每日循环模式（当前默认）
+
+自 2026-09-04 起，每日内容由 `src/recycle_daily.py` 生成，替代 main.py 的抓取+分析管线。
+
+循环规则：
+
+- 扫描全部历史 `photos.json`，为每种现行风格构建"有分析"去重图片池（排除小红书、分析失败、无分析的图）。
+- 旧风格 `人像/肖像`（148 张已分析图）并入 `人像/质感` 池。
+- 现行版式：风光/自然、人像/质感、街头/人文 3 风格 × 8 张（`daily.photos_per_style`）。
+- 选图采用**日期分块轮换**：每风格池按 per_style 切块，每天取 `(天数偏移 % 块数)` 对应块；同一轮次周期内每天零重叠（结构性保证）。
+- 每个轮次周期开始时按日期种子确定性洗牌，周期之间分块组合不同。
+- 目标日期前 14 天内用过的图片优先避开；块内撞上近期图时从池中剩余图片按稳定顺序补位。
+- 同一天重复运行结果完全一致（确定性，幂等）。
+- 池容量（2026-09-03 时点）：风光 479、人像 481、街头 463，单风格循环周期约 57–60 天。
+- 小红书栏目同步切换：`xhs_daily.py --from-archive-only --skip-analysis`，纯历史归档轮换（7 条笔记 × 52 张图全部有分析缓存），不访问小红书页面。
+
+渲染复用现有 renderer（每日页、daily.md、photos.json、总索引、小红书站），页面结构与抓取模式完全一致。
+
+调度与防重复：沿用 `analysis_schedule.py` gate。循环产出的图片自带完整分析，`day_is_complete` 判定当日已完成 → 当天后续小时不再重复生成。GitHub Actions（daily.yml，每小时检查）为主，本地 Windows 计划任务（daily-run.ps1，每天 09:00 + 开机）为备份；两者输出一致，先完成者触发部署、后者因 gate 跳过。
+
+### 7.8 浏览器触发 GitHub Actions
 
 首页和每日页提供浏览器按钮，可直接触发 GitHub Actions 工作流，无需打开 GitHub：
 
@@ -670,7 +694,7 @@ python -c "from src.renderer import render_xhs_site; render_xhs_site('output')"
 
 | Workflow | 文件 | 触发 | 作用 | 内联部署 |
 | --- | --- | --- | --- | --- |
-| Daily Photo Coach | `daily.yml` | 北京时间 09:20–22:20 每小时一次；由 `analysis_schedule.py` 在当天 9–22 点中抽一个稳定随机整点执行，错过则补跑。手动 `workflow_dispatch` 强制执行 | 生成 Unsplash 每日内容 + 小红书精选并部署 | 是 |
+| Daily Photo Coach | `daily.yml` | 北京时间 09:20–22:20 每小时一次；由 `analysis_schedule.py` 在当天 9–22 点中抽一个稳定随机整点执行，错过则补跑。手动 `workflow_dispatch` 强制执行 | 循环模式：从历史归档挑选已分析图片生成每日内容 + 小红书归档轮换并部署（不抓新图、不调 LLM） | 是 |
 | Daily Xiaohongshu Pick | `xhs-daily.yml` | 仅手动（支持 backfill_days、date、skip_analysis 输入） | 补跑或回填小红书每日精选并部署 | 是 |
 | Import XHS | `xhs.yml` | 手动 | 导入指定小红书公开链接 | 是 |
 | Refresh Style | `refresh.yml` | 手动 | 刷新指定 Unsplash 风格（默认跳过分析） | 是 |
@@ -739,8 +763,9 @@ python -c "from src.renderer import render_xhs_site; render_xhs_site('output')"
 
 | 模块 | 文件 | 职责 |
 | --- | --- | --- |
-| 主入口 | `src/main.py` | Unsplash 每日生成流水线，支持 skip-fetch/skip-analysis/force-analysis/per-style/styles 参数 |
-| 抓取器 | `src/fetcher.py` | Unsplash + Flickr 多风格图片抓取，支持 Search 候选池、质量评分、摄影师去重、query/topics、orientation 轮换、ID 去重、限流等待 |
+| 主入口 | `src/main.py` | Unsplash 每日生成流水线，支持 skip-fetch/skip-analysis/force-analysis/per-style/styles 参数（循环模式下不再每日调用，代码保留可恢复） |
+| 循环选图 | `src/recycle_daily.py` | 每日循环模式入口：构建已分析图片池、日期分块轮换、确定性选图并渲染（不抓图、不调 LLM） |
+| 抓取器 | `src/fetcher.py` | Unsplash + Flickr 多风格图片抓取，支持 Search 候选池、质量评分、摄影师去重、query/topics、orientation 轮换、ID 去重、限流等待（循环模式下不再每日调用） |
 | 调度闸门 | `src/analysis_schedule.py` | 北京时间 9–22 点窗口内按日期哈希抽取执行小时；分析失败或小红书缺失时允许补跑 |
 | 分析器 | `src/analyzer.py` | 多模态 LLM 流式分析，指数退避重试 |
 | Prompt | `src/prompt.py` | 四段式教学 Prompt 模板 + user message 构建 |
@@ -778,6 +803,7 @@ python -c "from src.renderer import render_xhs_site; render_xhs_site('output')"
 
 | 日期 | 版本 | 变更内容 |
 | --- | --- | --- |
+| 2026-09-03 | v2.3 | 每日内容切换为循环模式：新增 `src/recycle_daily.py`（已分析图片池 + 日期分块轮换 + 14 天近期窗口 + 旧风格合并），daily.yml 与 daily-run.ps1 改为循环命令（不抓新图、不调 LLM），小红书每日切换为纯归档轮换（`--from-archive-only --skip-analysis`）；新增 7.7 循环模式章节（浏览器触发 Actions 顺延为 7.8）；抓取与分析管线代码保留可恢复 |
 | 2026-08-14 | v2.2 | 小红书精选改为链出原文：公开站不再托管/热链原图，历史页面重渲染为文字分析；CI 仍可临时用远程图 URL 做分析 |
 | 2026-06-14 | v2.0 | 全量代码审查同步：(1) 新增 LLM 分析教学框架章节（四段式），取代旧七维描述；(2) 新增 Flickr 备选数据源章节与功能需求；(3) 新增单风格刷新章节（refresh.py）与流程图；(4) 新增浏览器触发 GitHub Actions 章节与流程图；(5) 新增 Unsplash Topics/query 列表/featured 支持；(6) 完善配置项清单，新增 daily.source、unsplash.featured、flickr.api_key、AI Gateway 环境变量等；(7) 完善 GitHub Secrets 清单；(8) 新增 CI 环境变量章节；(9) 更新系统架构图，加入 Flickr 和 refresh.py；(10) 新增单风格刷新、浏览器触发 Actions 流程图；(11) 新增 LLM 分析输出、单风格刷新、浏览器触发 Actions 验收标准；(12) 完善数据模型，新增 local_url_full、flickr_url、EXIF 子结构章节；(13) 新增源码模块索引章节；(14) 更新路线图和已知实现边界 |
 | 2026-05-29 | v1.0 | 初始版本：覆盖 Unsplash 每日教练、小红书摄影精选两条产品线 |
