@@ -107,11 +107,13 @@
             display: grid;
             grid-template-columns: repeat(3, minmax(0, 1fr));
             gap: 12px;
-            margin-top: 28px;
+            /* 吸底：吸收 hero 左栏被右栏大图卡撑高后的剩余空间，避免统计卡下方大片留白 */
+            margin-top: auto;
+            padding-top: 28px;
         }
 
         .stat-card {
-            padding: 16px 18px;
+            padding: 22px 20px;
             border-radius: 20px;
             border: 1px solid rgba(55, 42, 32, 0.12);
             background: rgba(255, 255, 255, 0.48);
@@ -119,7 +121,7 @@
 
         .stat-card strong {
             display: block;
-            font-size: clamp(24px, 4vw, 34px);
+            font-size: clamp(28px, 5vw, 42px);
             font-weight: 800;
             color: var(--ink);
             line-height: 1;
@@ -127,8 +129,8 @@
 
         .stat-card span {
             display: block;
-            margin-top: 8px;
-            font-size: 12px;
+            margin-top: 10px;
+            font-size: 13px;
             color: var(--muted);
         }
 
@@ -144,6 +146,8 @@
             border-radius: 34px;
             position: relative;
             overflow: hidden;
+            display: flex;
+            flex-direction: column;
         }
 
         .hero-copy::before {
@@ -292,7 +296,8 @@
         }
 
         .mosaic--hero {
-            min-height: 280px;
+            /* 固定高度，防止图片自然高度把右栏撑高、左栏出现大片空隙 */
+            height: 340px;
         }
 
         .mosaic--card {

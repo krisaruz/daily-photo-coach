@@ -803,6 +803,7 @@ python -c "from src.renderer import render_xhs_site; render_xhs_site('output')"
 
 | 日期 | 版本 | 变更内容 |
 | --- | --- | --- |
+| 2026-09-15 | v2.3.1 | 首页 hero 区左栏改为 flex 纵向布局，统计卡吸底（`margin-top: auto`），消除右栏大图卡撑高导致的统计卡下方大片留白，两栏底部对齐 |
 | 2026-09-03 | v2.3 | 每日内容切换为循环模式：新增 `src/recycle_daily.py`（已分析图片池 + 日期分块轮换 + 14 天近期窗口 + 旧风格合并），daily.yml 与 daily-run.ps1 改为循环命令（不抓新图、不调 LLM），小红书每日切换为纯归档轮换（`--from-archive-only --skip-analysis`）；新增 7.7 循环模式章节（浏览器触发 Actions 顺延为 7.8）；抓取与分析管线代码保留可恢复 |
 | 2026-08-14 | v2.2 | 小红书精选改为链出原文：公开站不再托管/热链原图，历史页面重渲染为文字分析；CI 仍可临时用远程图 URL 做分析 |
 | 2026-06-14 | v2.0 | 全量代码审查同步：(1) 新增 LLM 分析教学框架章节（四段式），取代旧七维描述；(2) 新增 Flickr 备选数据源章节与功能需求；(3) 新增单风格刷新章节（refresh.py）与流程图；(4) 新增浏览器触发 GitHub Actions 章节与流程图；(5) 新增 Unsplash Topics/query 列表/featured 支持；(6) 完善配置项清单，新增 daily.source、unsplash.featured、flickr.api_key、AI Gateway 环境变量等；(7) 完善 GitHub Secrets 清单；(8) 新增 CI 环境变量章节；(9) 更新系统架构图，加入 Flickr 和 refresh.py；(10) 新增单风格刷新、浏览器触发 Actions 流程图；(11) 新增 LLM 分析输出、单风格刷新、浏览器触发 Actions 验收标准；(12) 完善数据模型，新增 local_url_full、flickr_url、EXIF 子结构章节；(13) 新增源码模块索引章节；(14) 更新路线图和已知实现边界 |
